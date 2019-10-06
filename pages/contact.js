@@ -9,28 +9,15 @@ import Layout from '../layouts/layout'
 import Button from '../elements/button'
 
 // Render component
-const Home = props => (
+const Contact = props => (
   <Layout>
     <Head>
-      <title>Home</title>
+      <title>Contact</title>
       <link rel='icon' href='/static/favicon.ico' importance='low' />
     </Head>
-    <h1>Home</h1>
+    <h1>Contact</h1>
     <Button />
-
-    {/*
-
-      - Hero + Video
-      - 3 Highlights
-      - 3 Projects
-      - 4 Expertise
-      - Logos
-      - 3 Articles
-
-      */}
-
-
   </Layout>
 )
 
-export default Home
+export default Contact
