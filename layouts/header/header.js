@@ -3,7 +3,9 @@ import React from "react"
 
 const Header = props => {
   return (
-    <div>Header</div>
+    <div>
+      <h1>Mark Riggan</h1>
+    </div>
   )
 }
 
