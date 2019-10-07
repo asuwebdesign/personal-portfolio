@@ -1,0 +1,9 @@
+$animation_speed_simple: 100ms;
+$animation_speed_complex: 200ms;
+$animation_speed_dramatic: 1s;
+
+$animation_easing_standard: cubic-bezier(.4, 0, .2, 1);
+$animation_easing_decelerate: cubic-bezier(0, 0, .2, 1);
+$animation_easing_accelerate: cubic-bezier(.4, 0, 1, 1);
+$animation_easing_bounce: cubic-bezier(.7, 0, .3, 1);
+$animation_easing_quart: cubic-bezier(.77, 0, .175, 1);

@@ -1,0 +1,49 @@
+@import '../../styles/1-settings/_animations.scss';
+
+input {
+  width: 100%;
+  padding: 16px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--color-black);
+
+  &[type="submit"] {
+    width: auto;
+    padding: 24px 32px;
+    background-color: var(--color-black);
+    box-shadow: 0 0 0 0 var(--color-black);
+    color: var(--color-white);
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow $animation_speed_complex $animation_easing_decelerate;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 2px var(--color-black);
+    }
+  }
+}
+
+textarea {
+  width: 100%;
+  padding: 16px;
+  background-color: var(--color-off-white);
+  border: 0;
+  border-bottom: 2px solid var(--color-black);
+  resize: vertical;
+}
+
+.form {
+
+  &__field {}
+
+  &__field + &__field {
+    margin-top: 64px;
+  }
+
+  &__actions {
+    margin-top: 64px;
+  }
+
+}

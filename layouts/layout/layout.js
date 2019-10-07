@@ -1,20 +1,20 @@
 // Import nodes
-import React from "react"
+import React, { Fragment } from "react"
 
 // Import layouts
 import Header from '../header'
 import Footer from '../footer'
 
 // Import styles
-// import './layout.scss'
+import './layout.scss'
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <Fragment>
       <Header />
       {children}
       <Footer />
-    </div>
+    </Fragment>
   )
 }
 

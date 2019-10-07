@@ -1,0 +1,19 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body { height: 100%; }
+
+body {
+  font: 19px/1.5 $metro-regular;
+  color: var(--color-black);
+  background-color: var(--color-off-white);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+}

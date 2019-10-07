@@ -6,7 +6,7 @@ import Head from 'next/head'
 import Layout from '../layouts/layout'
 
 // Render component
-const About = props => (
+const Services = props => (
   <Layout>
     <Head>
       <title>About</title>
@@ -15,7 +15,7 @@ const About = props => (
 
     <article>
       <header>
-        <h1>About</h1>
+        <h1>Services</h1>
         <div>We're a full service digital agency built to grow modern brands.</div>
       </header>
 
@@ -78,4 +78,4 @@ const About = props => (
   </Layout>
 )
 
-export default About
+export default Services
