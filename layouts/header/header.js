@@ -5,6 +5,7 @@ import Link from 'next/link'
 // Import styles
 // import './footer.scss'
 
+// Render component
 const Header = props => {
   return (
     <header>
@@ -22,6 +23,9 @@ const Header = props => {
           <li><Link href="/contact"><a>Contact</a></Link></li>
         </ul>
       </nav>
+
+      <p>Create progress people love.</p>
+      <p>{"We mean business. It's our middle name."}</p>
 
       <ul>
         <li><a href="#" target="_blank">Facebook</a></li>

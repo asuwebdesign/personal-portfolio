@@ -1,12 +1,12 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 .5em;
-  font-family: $metro-bold;
   line-height: 1.13;
-  color: var(--color-black);
-  letter-spacing: -2px;
+  color: var(--carbon-900);
 }
 
 h1 {
+  letter-spacing: -2px;
+  font-weight: 900;
   font-size: 48px;
 }
 

@@ -1,18 +1,16 @@
-@import '../../styles/1-settings/_animations.scss';
-
 input {
   width: 100%;
   padding: 16px;
   background-color: transparent;
   border: 0;
-  border-bottom: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--carbon-900);
 
   &[type="submit"] {
     width: auto;
     padding: 24px 32px;
-    background-color: var(--color-black);
-    box-shadow: 0 0 0 0 var(--color-black);
-    color: var(--color-white);
+    background-color: var(--carbon-900);
+    box-shadow: 0 0 0 0 var(--carbon-900);
+    color: var(--crystal-white);
     font-weight: 600;
     border: 0;
     cursor: pointer;
@@ -20,7 +18,7 @@ input {
 
     &:hover,
     &:focus {
-      box-shadow: 0 0 0 2px var(--color-black);
+      box-shadow: 0 0 0 2px var(--carbon-900);
     }
   }
 }
@@ -28,9 +26,9 @@ input {
 textarea {
   width: 100%;
   padding: 16px;
-  background-color: var(--color-off-white);
+  background-color: var(--dust);
   border: 0;
-  border-bottom: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--carbon-900);
   resize: vertical;
 }
 
