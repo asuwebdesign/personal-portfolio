@@ -1,21 +1,16 @@
 // Import nodes
 import React from "react"
-import Link from 'next/link'
 
 // Import styles
-// import './footer.scss'
+import './wrapper.scss'
 
-const Footer = props => {
+// Render component
+const Wrapper = ({ children }) => {
   return (
-    <footer>
-      <ul>
-        <li><Link href="/terms"><a>Terms &amp; Conditions</a></Link></li>
-        <li><Link href="/privacy"><a>Privacy Policy</a></Link></li>
-        <li><Link href="/accessibility"><a>Accessibility</a></Link></li>
-      </ul>
-      <div>&copy; Mark Riggan. All rights reserved.</div>
-    </footer>
+    <div className="wrapper">
+      {children}
+    </div>
   )
 }
 
-export default Footer
+export default Wrapper

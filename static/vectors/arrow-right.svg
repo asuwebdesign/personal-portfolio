@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="17px" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Utility-/-Book-Consult-/-Light" transform="translate(-353.000000, -20.000000)" fill="#1B1B1C" fill-rule="nonzero">
+            <g id="Button---Book-Consult">
+                <g transform="translate(203.000000, 0.000000)">
+                    <g id="Stacked-Group" transform="translate(24.000000, 16.000000)">
+                        <path d="M147.706753,11.7857737 L139.999841,4 L138.585857,5.42845258 L144.585789,11.4897789 L126.999989,11.4897789 C126.446995,11.4897789 126,11.942358 126,12.5 C126,13.057642 126.446995,13.5102211 126.999989,13.5102211 L144.585789,13.5102211 L138.585857,19.5715474 L139.999841,21 L147.706753,13.2142263 C148.097749,12.8192299 148.097749,12.1807701 147.706753,11.7857737 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
