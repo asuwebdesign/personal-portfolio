@@ -5,6 +5,8 @@ import Head from 'next/head'
 // Import layouts
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
+import Hero from '../layouts/hero'
+
 
 // Import elements
 import Button from '../elements/button'
@@ -16,17 +18,7 @@ const Home = props => (
       <title>Home</title>
     </Head>
     <article>
-      <header>
-        <Wrapper>
-          <h1>Connecting brands with people through Handcrafted Digital Experiences.</h1>
-          <h2>Human-centered design.</h2>
-          <p>Award-winning designs that are data-influenced and made for humans first.</p>
-          <h2>Top notch code.</h2>
-          <p>Architected and built with the latest technologies for scalability and longevity.</p>
-          <h2>Tailored to your business.</h2>
-          <p>Solutions that are tailored to the needs of your business. Nothing is cookie-cutter.</p>
-        </Wrapper>
-      </header>
+      <Hero />
 
       <section>
         <Wrapper>

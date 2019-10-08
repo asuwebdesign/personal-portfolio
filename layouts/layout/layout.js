@@ -6,6 +6,9 @@ import Head from 'next/head'
 import Header from '../header'
 import Footer from '../footer'
 
+// Import components
+import Cursor from '../../components/cursor'
+
 // Import styles
 import './layout.scss'
 
