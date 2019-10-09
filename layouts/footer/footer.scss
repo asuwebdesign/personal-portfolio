@@ -1,4 +1,49 @@
+@import '../layout/styles/settings/animations';
+
 .layout--footer {
+  padding: 64px 0;
   background-color: var(--carbon-900);
   color: var(--crystal-white);
+
+  // Primary layout
+  .layout__primary {}
+
+  // Secondary layout
+  .layout__secondary {
+    padding-top: 64px;
+    margin-top: 64px;
+    border-top: 1px solid var(--carbon-700);
+  }
+
+  // M-Logo
+  .m-logo path {
+    fill: var(--crystal-white);
+  }
+
+  // Legal menu
+  .menu--legal {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    a {
+      font-size: 14px;
+      color: var(--carbon-300);
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: color $animation_speed_simple $animation_easing_standard;
+
+      &:hover,
+      &:focus {
+        color: var(--crystal-white);
+      }
+    }
+  }
+
+  // Copyright statement
+  .copyright {
+    font-size: 14px;
+    color: var(--carbon-300);
+    text-transform: uppercase;
+  }
 }

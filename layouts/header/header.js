@@ -2,6 +2,9 @@
 import React from "react"
 import Link from 'next/link'
 
+// Import components
+import MLogo from '../../elements/m-logo'
+
 // Import vectors
 import LogoMarkRiggan from '../../static/vectors/logo-mark-riggan.svg'
 import IconMenu from '../../static/vectors/menu.svg'
@@ -16,7 +19,7 @@ import './header.scss'
 const Header = props => {
   return (
     <header className="layout layout--header">
-      <h1 className="monogram"><LogoMarkRiggan /></h1>
+      <MLogo primary />
 
       <button>Menu</button>
 

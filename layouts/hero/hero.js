@@ -21,10 +21,12 @@ const Hero = props => {
         <h2>Tailored to your business.</h2>
         <p>Solutions that are tailored to the needs of your business. Nothing is cookie-cutter.</p>
       </Wrapper>
-      <video autoPlay loop muted>
+      <video poster="/static/videos/dark-matter.jpg" autoPlay loop muted playsInline aria-hidden="true">
+        <source src="/static/videos/dark-matter.m4v" type="video/mp4" />
         <source src="/static/videos/dark-matter.webm" type="video/webm" />
-        <source src="/static/videos/dark-matter.mp4" type="video/mp4" />
-        Sorry, your browser doesn't support embedded videos.
+        <source src="/static/videos/dark-matter.ogv" type="video/ogg" />
+        <source src="/static/videos/dark-matter.mp4" />
+        <img src="/static/videos/dark-matter.jpg" alt="Dark matter" />
       </video>
     </header>
   )
