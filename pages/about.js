@@ -10,6 +10,9 @@ import Wrapper from '../layouts/wrapper'
 import Detour from '../components/detour'
 import Sidekick from '../components/sidekick'
 
+// Import elements
+import Image from '../elements/image'
+
 // Render component
 const About = props => (
   <Layout>
@@ -19,6 +22,8 @@ const About = props => (
 
     <article>
       <Sidekick meta="About Me" title="I'm a full service digital agency built to grow modern brands." />
+
+      <Image src="https://source.unsplash.com/collection/190727" />
 
       {/* copy of section in hp */}
       <section>

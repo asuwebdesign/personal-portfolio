@@ -5,6 +5,9 @@ import Link from 'next/link'
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
+// Import elements
+import Image from '../../elements/image'
+
 // Import styles
 import './work.scss'
 
@@ -19,7 +22,7 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <img src="https://source.unsplash.com/random/400x600" alt="" />
+                  <Image src="https://source.unsplash.com/collection/190727" />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -30,7 +33,7 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <img src="https://source.unsplash.com/random/400x600" alt="" />
+                  <Image src="https://source.unsplash.com/collection/190727" />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -41,7 +44,7 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <img src="https://source.unsplash.com/random/400x600" alt="" />
+                  <Image src="https://source.unsplash.com/collection/190727" />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
