@@ -10,10 +10,17 @@ import Wrapper from '../layouts/wrapper'
 import Hero from '../components/hero'
 import Clients from '../components/clients'
 import Detour from '../components/detour'
-
+import News from '../components/news'
 
 // Import elements
 import Button from '../elements/button'
+import MetaLabel from '../elements/meta-label'
+
+// Import vectors
+import IconSolutionB from '../public/vectors/solution-b.svg'
+import IconSolutionC from '../public/vectors/solution-c.svg'
+import IconSolutionR from '../public/vectors/solution-r.svg'
+import IconSolutionW from '../public/vectors/solution-w.svg'
 
 // Render component
 const Home = props => (
@@ -53,43 +60,26 @@ const Home = props => (
           <p>Building identities and experiences to elevate and empower organizations of all shapes and sizes.</p>
           <a href="#">Explore What I Do</a>
           <article>
+            <IconSolutionC />
             <h1>Creative &amp; Experience Design</h1>
           </article>
           <article>
+            <IconSolutionB />
             <h1>Branding Strategy &amp; Identity</h1>
           </article>
           <article>
+            <IconSolutionR />
             <h1>Research, Data &amp; Analytics</h1>
           </article>
           <article>
+            <IconSolutionW />
             <h1>Websites &amp; Digital Platforms</h1>
           </article>
         </Wrapper>
       </section>
 
       <Clients />
-
-      <section>
-        <Wrapper>
-          <div>News + Views</div>
-          <h1>Explore recent happenings, press, and perspectives.</h1>
-          <article>
-            <img src="https://source.unsplash.com/random/400x300" />
-            <div>Category</div>
-            <h1>Meet Gary Hustwit, Design Nerd Turned Filmaker.</h1>
-          </article>
-          <article>
-            <img src="https://source.unsplash.com/random/400x300" />
-            <div>Category</div>
-            <h1>Meet Gary Hustwit, Design Nerd Turned Filmaker.</h1>
-          </article>
-          <article>
-            <img src="https://source.unsplash.com/random/400x300" />
-            <div>Category</div>
-            <h1>Meet Gary Hustwit, Design Nerd Turned Filmaker.</h1>
-          </article>
-        </Wrapper>
-      </section>
+      <News />
     </article>
     <Detour meta="Meta" title="Title" link="/projects" />
   </Layout>

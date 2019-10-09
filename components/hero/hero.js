@@ -5,6 +5,9 @@ import Link from 'next/link'
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
+// Import vectors
+import Dots from '../../public/vectors/graphic-dots.svg'
+
 // Import styles
 import './hero.scss'
 
@@ -12,25 +15,28 @@ import './hero.scss'
 const Hero = props => {
   return (
     <header className="hero">
-      <Wrapper>
-        <h1 className="hero__title">Connecting brands with people through <span>Handcrafted Digital Experiences.</span></h1>
+      <h1 className="hero__title">Connecting brands with people through <span>Handcrafted Digital Experiences.</span></h1>
 
-        <div className="hero__highlights">
-          <div>
-            <h2>Human-centered design.</h2>
-            <p>Award-winning designs that are data-influenced and made for humans first.</p>
-          </div>
-          <div>
-            <h2>Top notch code.</h2>
-            <p>Architected and built with the latest technologies for scalability and longevity.</p>
-          </div>
-          <div>
-            <h2>Tailored to your business.</h2>
-            <p>Solutions that are tailored to the needs of your business. Nothing is cookie-cutter.</p>
-          </div>
+      <div className="hero__highlights">
+        <div>
+          <h2>Human-centered design.</h2>
+          <p>Award-winning designs that are data-influenced and made for humans first.</p>
         </div>
-      </Wrapper>
-      <video poster="/videos/dark-matter.jpg" autoPlay loop muted playsInline aria-hidden="true">
+        <div>
+          <h2>Top notch code.</h2>
+          <p>Architected and built with the latest technologies for scalability and longevity.</p>
+        </div>
+        <div>
+          <h2>Tailored to your business.</h2>
+          <p>Solutions that are tailored to the needs of your business. Nothing is cookie-cutter.</p>
+        </div>
+      </div>
+
+      <div className="hero__dots hero__dots--inverted">
+        <Dots />
+      </div>
+
+      <video className="hero__video" poster="/videos/dark-matter.jpg" autoPlay loop muted playsInline aria-hidden="true">
         <source src="/videos/dark-matter.m4v" type="video/mp4" />
         <source src="/videos/dark-matter.webm" type="video/webm" />
         <source src="/videos/dark-matter.ogv" type="video/ogg" />

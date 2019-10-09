@@ -1,8 +1,10 @@
 .hero {
+  position: relative;
   min-height: 100vh;
   padding: 128px 0;
   background-color: rgb(29, 29, 29);
   color: var(--crystal-white);
+  overflow: hidden;
 
   h1, h2, h3, h4, h5, h6 {
     color: var(--crystal-white);
@@ -17,6 +19,7 @@
     font-size: 32px;
     font-weight: 400;
     transform: translateY(-50%);
+    z-index: 2;
 
     span {
       display: inline-block;
@@ -35,6 +38,7 @@
     justify-content: space-between;
     width: 1248px;
     margin-left: -624px;
+    z-index: 2;
 
     div {
       width: percentage(400/1248);
@@ -50,10 +54,23 @@
     }
   }
 
-  video {
+  &__dots {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50%;
+    right: 64px;
+    transform: translateY(-50%);
+
+    &--inverted g {
+      fill: var(--crystal-white);
+    }
+  }
+
+  &__video {
+    position: absolute;
+    top: 50%;
+    right: -15%;
     mix-blend-mode: lighten;
+    transform: translateY(-50%);
+    z-index: 1;
   }
 }

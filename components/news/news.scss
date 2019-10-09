@@ -1,0 +1,60 @@
+@import '../../layouts/layout/styles/settings/breakpoints';
+@import '../../layouts/layout/styles/tools/media-queries';
+
+.news {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__story {
+    width: percentage(400/1248);
+
+    &-link {
+      text-decoration: none;
+    }
+
+    &-photo {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 32px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-category {
+      position: relative;
+      margin: 0 0 0 32px;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--slate);
+      text-transform: uppercase;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -32px;
+        display: block;
+        width: 16px;
+        height: 2px;
+        margin-top: -1px;
+        background-color: var(--slate);
+      }
+    }
+
+    &-title {
+      margin: 24px 0 0 32px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.25;
+      letter-spacing: -1px;
+    }
+  }
+
+}
