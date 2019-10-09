@@ -1,5 +1,48 @@
+@import '../../layouts/layout/styles/settings/animations';
+
 .button {
+  position: relative;
   display: inline-block;
-  background: black;
-  color: white;
+  width: auto;
+  padding: 24px 64px 24px 32px;
+  background-color: var(--carbon-900);
+  box-shadow: 0 0 0 0 var(--carbon-900);
+  color: var(--crystal-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: box-shadow $animation_speed_complex $animation_easing_decelerate;
+
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+  }
+  g { stroke: var(--crystal-white); }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 0 2px var(--carbon-900);
+
+    svg {
+      animation: animateArrow ($animation_speed_complex * 2) $animation_easing_decelerate;
+    }
+  }
+}
+
+@keyframes animateArrow {
+  0% {
+    right: 48px;
+    opacity: 0;
+  }
+  100% {
+    right: 32px;
+    opacity: 1;
+  }
 }

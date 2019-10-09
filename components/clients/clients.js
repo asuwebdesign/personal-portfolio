@@ -25,19 +25,19 @@ const Clients = props => {
   return (
     <section className="clients">
       <Wrapper>
-        <div>Select Clients</div>
-        <h1>These brands aren't trophies, they're friends that were met on the journey.</h1>
-        <ul>
-          <li><LogoBCBSNC /></li>
-          <li><LogoCampbell /></li>
-          <li><LogoDisney /></li>
-          <li><LogoDuke /></li>
-          <li><LogoHonda /></li>
-          <li><LogoLulu /></li>
-          <li><LogoNCGov /></li>
-          <li><LogoNCSU /></li>
-          <li><LogoOracle /></li>
-          <li><LogoRedHat /></li>
+        <div className="clients__meta">Select Clients</div>
+        <h1 className="clients__title">These brands aren't trophies, they're friends that were met on the journey.</h1>
+        <ul className="clients__list">
+          <li className="clients__brand"><LogoBCBSNC /></li>
+          <li className="clients__brand"><LogoCampbell /></li>
+          <li className="clients__brand"><LogoDisney /></li>
+          <li className="clients__brand"><LogoDuke /></li>
+          <li className="clients__brand"><LogoHonda /></li>
+          <li className="clients__brand"><LogoLulu /></li>
+          <li className="clients__brand"><LogoNCGov /></li>
+          <li className="clients__brand"><LogoNCSU /></li>
+          <li className="clients__brand"><LogoOracle /></li>
+          <li className="clients__brand"><LogoRedHat /></li>
         </ul>
       </Wrapper>
     </section>

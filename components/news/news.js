@@ -8,12 +8,12 @@ import Wrapper from '../../layouts/wrapper'
 import './news.scss'
 
 // Render component
-const Detour = props => {
+const News = props => {
   return (
     <section className="news">
       <Wrapper>
-        <div>News + Views</div>
-        <h1>Explore recent happenings, press, and perspectives.</h1>
+        <div className="news__meta">News + Views</div>
+        <h1 className="news__title">Explore recent happenings, press, and perspectives.</h1>
         <div className="news__list">
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/four-simple-words-thatll-drive-you-to-being-a-better-creative-person-82337b07ac57" target="_blank">
@@ -48,4 +48,4 @@ const Detour = props => {
   )
 }
 
-export default Detour
+export default News
