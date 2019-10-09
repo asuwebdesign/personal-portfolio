@@ -10,7 +10,8 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
-    "next": "^9.0.8-canary.4",
+    "framer-motion": "^1.6.10",
+    "next": "^9.1.1",
     "node-sass": "^4.12.0",
     "react": "16.10.2",
     "react-dom": "16.10.2"

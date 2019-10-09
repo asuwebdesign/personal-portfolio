@@ -5,7 +5,11 @@ import Head from 'next/head'
 // Import layouts
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
-import Hero from '../layouts/hero'
+
+// Import components
+import Hero from '../components/hero'
+import Clients from '../components/clients'
+import Detour from '../components/detour'
 
 
 // Import elements
@@ -63,20 +67,7 @@ const Home = props => (
         </Wrapper>
       </section>
 
-      <section>
-        <Wrapper>
-          <div>Select Clients</div>
-          <h1>These brands aren't trophies, they're friends that were met on the journey.</h1>
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-          <img src="https://source.unsplash.com/random/64x64" />
-        </Wrapper>
-      </section>
+      <Clients />
 
       <section>
         <Wrapper>
@@ -100,6 +91,7 @@ const Home = props => (
         </Wrapper>
       </section>
     </article>
+    <Detour meta="Meta" title="Title" link="/projects" />
   </Layout>
 )
 

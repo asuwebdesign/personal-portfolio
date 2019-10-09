@@ -3,7 +3,7 @@ import React from "react"
 import Link from 'next/link'
 
 // Import vectors
-import LogoMarkRiggan from '../../static/vectors/logo-mark-riggan.svg'
+import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
 
 // Import styles
 import './m-logo.scss'

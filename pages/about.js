@@ -6,6 +6,9 @@ import Head from 'next/head'
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
 
+// Import components
+import Detour from '../components/detour'
+
 // Render component
 const About = props => (
   <Layout>
@@ -82,6 +85,7 @@ const About = props => (
 
       <img src="https://source.unsplash.com/random/640x480" />
     </article>
+    <Detour meta="Meta" title="Title" link="/projects" />
   </Layout>
 )
 

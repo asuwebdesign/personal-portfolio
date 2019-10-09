@@ -6,11 +6,11 @@ import Link from 'next/link'
 import MLogo from '../../elements/m-logo'
 
 // Import vectors
-import LogoMarkRiggan from '../../static/vectors/logo-mark-riggan.svg'
-import IconMenu from '../../static/vectors/menu.svg'
-import IconDribbble from '../../static/vectors/social-dribbble.svg'
-import IconLinkedIn from '../../static/vectors/social-linkedin.svg'
-import IconTwitter from '../../static/vectors/social-twitter.svg'
+import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
+import IconMenu from '../../public/vectors/menu.svg'
+import IconDribbble from '../../public/vectors/social-dribbble.svg'
+import IconLinkedIn from '../../public/vectors/social-linkedin.svg'
+import IconTwitter from '../../public/vectors/social-twitter.svg'
 
 // Import styles
 import './header.scss'
@@ -21,11 +21,11 @@ const Header = props => {
     <header className="layout layout--header">
       <MLogo primary />
 
-      <button>Menu</button>
+      <button className="toggle toggle--menu"><IconMenu /></button>
 
-      <div className="panel">
+      <div className="panel panel--menu">
         <nav>
-          <h1><IconMenu /></h1>
+          <h1>Menu</h1>
           <ul>
             <li><Link href="/"><a>Home</a></Link></li>
             <li><a href="/projects">Projects</a></li>

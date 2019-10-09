@@ -6,6 +6,9 @@ import Head from 'next/head'
 import Layout from '../../layouts/layout'
 import Wrapper from '../../layouts/wrapper'
 
+// Import components
+import Detour from '../../components/detour'
+
 // Render component
 const Projects = props => (
   <Layout>
@@ -53,6 +56,7 @@ const Projects = props => (
         </article>
       </Wrapper>
     </article>
+    <Detour meta="Meta" title="Title" link="/projects" />
   </Layout>
 )
 

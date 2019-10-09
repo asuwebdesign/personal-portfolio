@@ -1,23 +1,26 @@
 // Layout Header
 // =============================================================================
-.layout--header {}
+.layout--header {
+  display: none;
 
+  .monogram {
+    position: fixed;
+    width: 48px;
+  }
 
-// Monogram
-// =============================================================================
-.monogram {
-  width: 48px;
-}
+  .toggle--menu {
+    position: fixed;
+    width: 48px;
+  }
 
+  .social-follow {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 
-// Social Follow
-// =============================================================================
-.social-follow {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  li {
-    width: 32px;
+    li {
+      width: 32px;
+    }
   }
 }
