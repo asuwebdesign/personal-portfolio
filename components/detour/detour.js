@@ -12,13 +12,15 @@ import './detour.scss'
 const Detour = props => {
   return (
     <aside className="detour">
-      <Link href={props.link}>
-        <a className="detour__link">
-          <h1 className="detour__meta">{props.meta}</h1>
-          <div className="detour__title">{props.title}</div>
-          <IconTailRight />
-        </a>
-      </Link>
+      <article>
+        <Link href={props.link}>
+          <a className="detour__link">
+            <h1 className="detour__meta">{props.meta}</h1>
+            <div className="detour__title">{props.title}</div>
+            <IconTailRight />
+          </a>
+        </Link>
+      </article>
     </aside>
   )
 }

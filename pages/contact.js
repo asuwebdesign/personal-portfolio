@@ -7,9 +7,6 @@ import Link from 'next/link'
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
 
-// Import components
-import Detour from '../components/detour'
-
 // Render component
 const Contact = props => (
   <Layout>
@@ -76,7 +73,6 @@ const Contact = props => (
         </Wrapper>
       </section>
     </article>
-    <Detour meta="Meta" title="Title" link="/projects" />
   </Layout>
 )
 

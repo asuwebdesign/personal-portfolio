@@ -8,6 +8,7 @@ import Wrapper from '../layouts/wrapper'
 
 // Import components
 import Detour from '../components/detour'
+import Sidekick from '../components/sidekick'
 
 // Render component
 const Services = props => (
@@ -17,13 +18,7 @@ const Services = props => (
     </Head>
 
     <article>
-      <header>
-        <Wrapper>
-          <h1>Services</h1>
-          <div>We're a full service digital agency built to grow modern brands.</div>
-          <img src="https://source.unsplash.com/random/1920x1080" />
-        </Wrapper>
-      </header>
+      <Sidekick meta="What I Do" title="I create progress by designing, developing, and securing digital experiences." />
 
       {/* copy of section in hp */}
       <section>
@@ -85,7 +80,7 @@ const Services = props => (
 
       <img src="https://source.unsplash.com/random/640x480" />
     </article>
-    <Detour meta="Meta" title="Title" link="/projects" />
+    <Detour meta="Up Next" title="Let's get up close and personal about me, myself, and I." link="/about" />
   </Layout>
 )
 

@@ -35,7 +35,7 @@ const Home = props => (
       <News />
 
     </article>
-    <Detour meta="Meta" title="Title" link="/projects" />
+    <Detour meta="Up Next" title="Explore my work." link="/projects" />
   </Layout>
 )
 

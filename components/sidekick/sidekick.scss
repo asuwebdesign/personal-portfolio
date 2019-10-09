@@ -1,0 +1,36 @@
+.sidekick {
+  position: relative;
+  min-height: 100vh;
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1248px;
+    margin-left: -624px;
+    transform: translateY(-50%);
+  }
+
+  &__meta {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: normal;
+  }
+
+  &__title {
+    margin: 16px 0 0;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 1.13;
+    letter-spacing: -2px;
+  }
+
+  &__dots {
+    position: absolute;
+    top: 50%;
+    right: 64px;
+    transform: translateY(-50%);
+  }
+}

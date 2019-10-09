@@ -6,6 +6,8 @@ import Head from 'next/head'
 import Layout from '../../layouts/layout'
 import Wrapper from '../../layouts/wrapper'
 
+import Detour from '../../components/detour'
+
 // Render component
 const ProjectSample = props => (
   <Layout>
@@ -49,6 +51,7 @@ const ProjectSample = props => (
         </Wrapper>
       </section>
     </article>
+    <Detour meta="Next Case Study" title="Content storytelling with real attitude across eCommerce with BB Dakota" link="/projects/sample" />
   </Layout>
 )
 

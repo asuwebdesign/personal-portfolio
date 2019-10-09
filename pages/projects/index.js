@@ -9,6 +9,7 @@ import Wrapper from '../../layouts/wrapper'
 // Import components
 import Detour from '../../components/detour'
 import Work from '../../components/work'
+import Sidekick from '../../components/sidekick'
 
 // Render component
 const Projects = props => (
@@ -18,15 +19,10 @@ const Projects = props => (
     </Head>
 
     <article>
-      <header>
-        <Wrapper>
-          <h1>Projects</h1>
-          <div>Works include complex interface systems for web, mobile, and more.</div>
-        </Wrapper>
-      </header>
+      <Sidekick meta="My Work" title="My work includes complex interface systems for web, mobile, and more." />
       <Work />
     </article>
-    <Detour meta="Meta" title="Title" link="/projects" />
+    <Detour meta="Up Next" title="Discover what I do." link="/services" />
   </Layout>
 )
 

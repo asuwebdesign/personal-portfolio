@@ -8,6 +8,7 @@ import Wrapper from '../layouts/wrapper'
 
 // Import components
 import Detour from '../components/detour'
+import Sidekick from '../components/sidekick'
 
 // Render component
 const About = props => (
@@ -17,13 +18,7 @@ const About = props => (
     </Head>
 
     <article>
-      <header>
-        <Wrapper>
-          <h1>About</h1>
-          <div>We're a full service digital agency built to grow modern brands.</div>
-          <img src="https://source.unsplash.com/random/1920x1080" />
-        </Wrapper>
-      </header>
+      <Sidekick meta="About Me" title="I'm a full service digital agency built to grow modern brands." />
 
       {/* copy of section in hp */}
       <section>
@@ -85,7 +80,7 @@ const About = props => (
 
       <img src="https://source.unsplash.com/random/640x480" />
     </article>
-    <Detour meta="Meta" title="Title" link="/projects" />
+    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
   </Layout>
 )
 

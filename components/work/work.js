@@ -13,7 +13,6 @@ const Projects = props => {
   return (
     <section className="work">
       <Wrapper>
-        <h1 className="work__title">Recent Work</h1>
         <div className="work__list">
           <article className="work__project">
             <Link href="/projects/sample">
