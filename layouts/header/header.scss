@@ -1,26 +1,159 @@
+@import '../../layouts/layout/styles/settings/animations';
+
 // Layout Header
 // =============================================================================
 .layout--header {
-  display: none;
 
-  .monogram {
+  .m-logo {
     position: fixed;
-    width: 48px;
+    top: 72px;
+    left: 74px;
+    width: 64px;
+    height: 64px;
+    z-index: 100;
+
+    a {
+      display: block;
+    }
+
+    svg {
+      width: auto;
+      height: 32px;
+    }
   }
 
-  .toggle--menu {
+  .breadcrumb {
     position: fixed;
-    width: 48px;
+    top: 0;
+    left: 300px;
+  }
+
+  .menu-toggle {
+    position: fixed;
+    top: 50%;
+    left: 66px;
+    width: 64px;
+    height: 64px;
+    margin-top: -32px;
+    background: transparent;
+    border: 0;
+    z-index: 1001;
+
+    svg {
+      width: 24px;
+    }
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 256px;
+    background-color: var(--carbon-900);
+    overflow: hidden;
+    z-index: 1000;
+
+    &__list {
+      position: relative;
+      width: 50%;
+      z-index: 1;
+
+      h1 {
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px 1px 1px 1px);
+        clip: rect(1px, 1px, 1px, 1px);
+        white-space: nowrap;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      li + li {
+        margin-top: 32px;
+      }
+      a {
+        display: inline-block;
+        color: var(--crystal-white);
+        text-decoration: none;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      a:hover, a:focus {
+        strong:before {
+          animation: strikeMenuItem $animation_speed_dramatic $animation_easing_standard;
+        }
+      }
+
+      a[aria-current="page"],
+      a[aria-current="page"]:hover,
+      a[aria-current="page"]:focus {
+        strong:before {
+          transform: translateX(0%);
+          animation: none;
+        }
+      }
+    }
+
+    &__promo {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 50%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 1;
+    }
+  }
+
+  @keyframes strikeMenuItem {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
   }
 
   .social-follow {
     position: fixed;
+    left: 86px;
+    bottom: 64px;
     padding: 0;
     margin: 0;
     list-style: none;
+    z-index: 100;
 
     li {
-      width: 32px;
+      width: 24px;
     }
+
+    li + li {
+      margin-top: 24px;
+    }
+  }
+
+  .actions {
+    position: fixed;
+    top: 55px;
+    right: 64px;
+    z-index: 100;
+  }
+
+  .scroll-indicator {
+    position: fixed;
+    right: 0;
+    bottom: 0;
   }
 }
