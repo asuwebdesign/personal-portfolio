@@ -7,6 +7,10 @@ import Link from 'next/link'
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
 
+// Import components
+import Sidekick from '../components/sidekick'
+import Follow from '../components/follow'
+
 // Render component
 const Contact = props => (
   <Layout>
@@ -15,25 +19,9 @@ const Contact = props => (
     </Head>
 
     <article>
-      <header>
-        <Wrapper>
-          <h1>Contact</h1>
-        </Wrapper>
-      </header>
+      <Sidekick meta="Contact" title="Hello, I was hoping you would end up here today. Let's talk." />
 
-      <section>
-        <Wrapper>
-          <div>Follow Me</div>
-          <h1>I'm social. Follow me and stay in the loop.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-          <ul>
-            <li><Link href="#"><a>Behance</a></Link></li>
-            <li><Link href="#"><a>Behance</a></Link></li>
-            <li><Link href="#"><a>Behance</a></Link></li>
-            <li><Link href="#"><a>Behance</a></Link></li>
-          </ul>
-        </Wrapper>
-      </section>
+      <Follow />
 
       <section>
         <Wrapper>

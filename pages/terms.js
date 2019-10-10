@@ -6,6 +6,9 @@ import Head from 'next/head'
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
 
+// Import components
+import Sidekick from '../components/sidekick'
+
 // Render component
 const TermsConditions = props => (
   <Layout>
@@ -14,12 +17,7 @@ const TermsConditions = props => (
     </Head>
 
     <article>
-      <header>
-        <Wrapper>
-          <h1>Terms and Conditions</h1>
-          <div>We're a full service digital agency built to grow modern brands.</div>
-        </Wrapper>
-      </header>
+      <Sidekick meta="Terms &amp; Conditions" title="Hello, I was hoping you would end up here today. Let's talk." />
       <section>
         <Wrapper>
           <p>Awwwards are given to the best CSS websites in the world from the top designers, agencies and bloggers working today. Winners receive recognition, prestige and media presence.</p>

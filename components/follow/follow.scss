@@ -1,0 +1,60 @@
+@import '../../layouts/layout/styles/settings/breakpoints';
+@import '../../layouts/layout/styles/tools/media-queries';
+
+.follow {
+
+  &__meta {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--slate);
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 16px 0 64px;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 128px;
+    background-color: var(--carbon-900);
+    color: var(--crystal-white);
+    text-align: center;
+    list-style: none;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    path {
+      fill: var(--crystal-white);
+    }
+  }
+
+  &__brand + &__brand {
+    margin-left: 24px;
+  }
+
+}
