@@ -120,9 +120,9 @@ const Header = props => {
 
       <Media query="(min-width: 1280px)" render={() => (
         <ul className="social-follow">
-          <li><a href="#" target="_blank"><IconDribbble /></a></li>
-          <li><a href="#" target="_blank"><IconLinkedIn /></a></li>
-          <li><a href="#" target="_blank"><IconTwitter /></a></li>
+          <li><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
+          <li><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
+          <li><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
         </ul>
       )} />
 
@@ -135,7 +135,7 @@ const Header = props => {
       <Media query="(min-width: 1280px)" render={() => (
         <div className="scroll-indicator">Scroll Down</div>
       )} />
-      
+
     </header>
   )
 }
