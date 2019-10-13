@@ -6,6 +6,8 @@ import Head from 'next/head'
 import Layout from '../../layouts/layout'
 import Wrapper from '../../layouts/wrapper'
 
+// Import components
+import Cover from '../../components/cover'
 import Detour from '../../components/detour'
 
 // Render component
@@ -16,6 +18,7 @@ const ProjectSample = props => (
     </Head>
 
     <article>
+      <Cover />
       <header>
         <Wrapper>
           <div>Ubisoft</div>
@@ -26,7 +29,6 @@ const ProjectSample = props => (
             <li>Creative &amp; Experience Design</li>
           </ul>
         </Wrapper>
-        <img src="https://source.unsplash.com/random/1920x1080" />
       </header>
       <section>
         <Wrapper>
