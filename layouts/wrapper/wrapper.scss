@@ -1,4 +1,12 @@
+@import '../../layouts/layout/styles/settings/breakpoints';
+@import '../../layouts/layout/styles/tools/media-queries';
+
 .wrapper {
-  max-width: 1248px;
-  margin: 0 auto;
+  padding: 0 18vw;
+
+  @include media('>=xx-large') {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
