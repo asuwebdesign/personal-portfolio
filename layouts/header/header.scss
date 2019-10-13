@@ -24,8 +24,42 @@
 
   .breadcrumb {
     position: fixed;
-    top: 0;
-    left: 300px;
+    top: 72px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: -624px;
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--carbon-900);
+    z-index: 100;
+
+    strong {
+      display: flex;
+      align-items: center;
+      font-weight: 900;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        margin: 0 16px;
+        background-color: var(--carbon-900);
+        border-radius: 50%;
+      }
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: calc(100% + 32px);
+      width: 108px;
+      height: 2px;
+      margin-top: -1px;
+      background-color: var(--carbon-900);
+    }
   }
 
   .menu-toggle {
@@ -37,6 +71,7 @@
     margin-top: -32px;
     background: transparent;
     border: 0;
+    cursor: pointer;
     z-index: 1001;
 
     svg {
@@ -110,10 +145,20 @@
       position: absolute;
       top: 0;
       left: 50%;
-      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      width: 45vw;
       height: 100%;
+      padding: 64px 64px 0 0;
+      color: var(--crystal-white);
       overflow: hidden;
       z-index: 1;
+
+      p {
+        position: absolute;
+      }
     }
   }
 
@@ -155,5 +200,12 @@
     position: fixed;
     right: 0;
     bottom: 0;
+  }
+
+  .artifacts {
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate3d(0, -50%, 0);
   }
 }

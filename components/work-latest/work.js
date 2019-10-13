@@ -16,7 +16,7 @@ const Projects = props => {
   return (
     <section className="work">
       <Wrapper>
-        <h1 className="work__title">Recent Work</h1>
+        <h1 className="work__title">Selected Work</h1>
         <div className="work__list">
           <article className="work__project">
             <Link href="/projects/sample">
@@ -52,8 +52,6 @@ const Projects = props => {
             </Link>
           </article>
         </div>
-
-        <a href="#">See More Work</a>
       </Wrapper>
     </section>
   )

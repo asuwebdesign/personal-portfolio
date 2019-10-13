@@ -29,6 +29,10 @@
   &__project {
     width: percentage(400/1248);
 
+    &:nth-child(n+4) {
+      margin-top: 64px;
+    }
+
     &-link {
       text-decoration: none;
 

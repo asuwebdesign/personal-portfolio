@@ -31,6 +31,15 @@
     color: var(--slate);
     letter-spacing: normal;
     text-transform: uppercase;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      margin: 16px 0 0;
+      background-color: var(--carbon-200);
+    }
   }
 
   &__title {

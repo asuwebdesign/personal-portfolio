@@ -23,7 +23,7 @@ const About = props => (
     </Head>
 
     <article>
-      <Sidekick meta="About Me" title="I'm a full service digital agency built to grow modern brands." />
+      <Sidekick meta="About" title="I'm a full service digital agency built to grow modern brands." />
 
       <Image src="https://source.unsplash.com/collection/190727" />
 

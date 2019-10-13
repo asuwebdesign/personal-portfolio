@@ -10,6 +10,12 @@ import Wrapper from '../layouts/wrapper'
 import Detour from '../components/detour'
 import Sidekick from '../components/sidekick'
 
+// Import vectors
+import IconSolutionB from '../public/vectors/solution-b.svg'
+import IconSolutionC from '../public/vectors/solution-c.svg'
+import IconSolutionR from '../public/vectors/solution-r.svg'
+import IconSolutionW from '../public/vectors/solution-w.svg'
+
 // Render component
 const Services = props => (
   <Layout>
@@ -18,67 +24,36 @@ const Services = props => (
     </Head>
 
     <article>
-      <Sidekick meta="What I Do" title="I create progress by designing, developing, and securing digital experiences." />
-
-      {/* copy of section in hp */}
-      <section>
-        <Wrapper>
-          <div>In a Nutshell</div>
-          <h1>Making the complex simple, then the simple delightful.</h1>
-          <p>Building identities and experiences to elevate and empower organizations of all shapes and sizes.</p>
-          <a href="#">Explore What I Do</a>
-          <article>
-            <h1>Creative &amp; Experience Design</h1>
-          </article>
-          <article>
-            <h1>Branding Strategy &amp; Identity</h1>
-          </article>
-          <article>
-            <h1>Research, Data &amp; Analytics</h1>
-          </article>
-          <article>
-            <h1>Websites &amp; Digital Platforms</h1>
-          </article>
-        </Wrapper>
-      </section>
+      <Sidekick meta="Services" title="I create progress by designing, developing, and securing digital experiences." />
 
       <section>
         <Wrapper>
-          <article>
-            <img src="https://source.unsplash.com/random/640x480" />
-            <div>How I Do It</div>
-            <h1>Our process empowers us to make amazing things.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-            <a href="#">Our Process</a>
-          </article>
-          <article>
-            <img src="https://source.unsplash.com/random/640x480" />
-            <div>How I Do It</div>
-            <h1>Our process empowers us to make amazing things.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-            <a href="#">Our Process</a>
-          </article>
+          <div>
+            <IconSolutionB />
+            <h2>Solution title</h2>
+            <div>We know how to create complex and intuitive interface systems that are enjoyable.</div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+          <div>
+            <IconSolutionC />
+            <h2>Solution title</h2>
+            <div>We know how to create complex and intuitive interface systems that are enjoyable.</div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+          <div>
+            <IconSolutionR />
+            <h2>Solution title</h2>
+            <div>We know how to create complex and intuitive interface systems that are enjoyable.</div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+          <div>
+            <IconSolutionW />
+            <h2>Solution title</h2>
+            <div>We know how to create complex and intuitive interface systems that are enjoyable.</div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
         </Wrapper>
       </section>
-
-      <section>
-        <Wrapper>
-          <div>Awards &amp; Recognitions</div>
-          <h1>Pushing the boundaries and settin the standard.</h1>
-          <ul>
-            <li>Logo</li>
-            <li>Logo</li>
-            <li>Logo</li>
-            <li>Logo</li>
-            <li>Logo</li>
-            <li>Logo</li>
-            <li>Logo</li>
-            <li>Logo</li>
-          </ul>
-        </Wrapper>
-      </section>
-
-      <img src="https://source.unsplash.com/random/640x480" />
     </article>
     <Detour meta="Up Next" title="Let's get up close and personal about me, myself, and I." link="/about" />
   </Layout>

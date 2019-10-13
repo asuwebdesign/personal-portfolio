@@ -18,6 +18,15 @@
     letter-spacing: normal;
     text-transform: uppercase;
     text-align: center;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      margin: 16px auto 0;
+      background-color: var(--carbon-200);
+    }
   }
 
   &__title {

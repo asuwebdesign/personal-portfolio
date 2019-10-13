@@ -33,4 +33,12 @@
     right: 64px;
     transform: translateY(-50%);
   }
+
+  &__bg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 1248px;
+    margin-left: -624px;
+  }
 }

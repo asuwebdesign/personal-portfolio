@@ -51,11 +51,11 @@ const Header = props => {
   const motionPromo = {
     visible: {
       opacity: 1,
-      width: "50%",
+      x: 64,
     },
     hidden: {
       opacity: 0,
-      width: 0,
+      x: 0,
     }
   }
 
@@ -63,7 +63,7 @@ const Header = props => {
     <header className="layout layout--header">
       <MLogo primary />
 
-      <div className="breadcrumb">Mark Riggan</div>
+      <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
 
       <button
         className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
@@ -93,6 +93,7 @@ const Header = props => {
         >
           <h1>Menu</h1>
           <ul>
+            <li><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></li>
             <li><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></li>
             <li><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Services.</a></Link></li>
             <li><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About.</a></Link></li>
@@ -108,6 +109,7 @@ const Header = props => {
         >
           <p>Create progress people love.</p>
           <p>{"We mean business. It's our middle name."}</p>
+          <img src="images/src/hoodie.png" />
         </motion.div>
         <div className="artifacts">
           <Circle />

@@ -19,7 +19,7 @@ const Projects = props => (
     </Head>
 
     <article>
-      <Sidekick meta="My Work" title="My work includes complex interface systems for web, mobile, and more." />
+      <Sidekick meta="Projects" title="My work includes complex interface systems for web, mobile, and more." />
       <Work />
     </article>
     <Detour meta="Up Next" title="Discover what I do." link="/services" />

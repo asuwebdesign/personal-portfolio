@@ -18,8 +18,6 @@ import Services from '../components/services'
 import Button from '../elements/button'
 import MetaLabel from '../elements/meta-label'
 
-
-
 // Render component
 const Home = props => (
   <Layout>

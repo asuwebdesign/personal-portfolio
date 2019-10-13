@@ -84,8 +84,6 @@ const Projects = props => {
             </Link>
           </article>
         </div>
-
-        <a href="#">See More Work</a>
       </Wrapper>
     </section>
   )
