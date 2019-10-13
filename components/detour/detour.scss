@@ -3,14 +3,18 @@
 
 .detour {
   background-color: var(--crystal-white);
-  margin: 128px 0 0;
+  margin: 64px 0 0;
   text-align: center;
+
+  @include media('>=large') {
+    margin: 128px 0 0;
+  }
 
   &__link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px;
+    padding: 64px 0;
     color: var(--carbon-900);
     text-decoration: none;
 
@@ -20,19 +24,29 @@
   }
 
   &__meta {
-    margin: 0 0 16px;
-    font-size: 16px;
+    margin: 0 0 8px;
+    font-size: 14px;
     font-weight: 700;
     color: var(--slate);
     text-transform: uppercase;
     letter-spacing: normal;
+
+    @include media('>=large') {
+      margin: 0 0 16px;
+      font-size: 16px;
+    }
   }
 
   &__title {
-    width: 30vw;
-    margin: 0 0 32px;
+    margin: 0 0 24px;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 19px;
     line-height: 1.25;
+
+    @include media('>=large') {
+      width: 30vw;
+      margin: 0 0 32px;
+      font-size: 32px;
+    }
   }
 }

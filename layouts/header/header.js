@@ -64,7 +64,9 @@ const Header = props => {
     <header className="layout layout--header">
       <MLogo primary />
 
-      <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
+      <Media query="(min-width: 1280px)" render={() => (
+        <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
+      )} />
 
       <button
         className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
@@ -101,28 +103,31 @@ const Header = props => {
             <li><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></li>
           </ul>
         </motion.nav>
-        <motion.div
-          className="menu__promo"
-          animate={menuActive ? "visible" : "hidden"}
-          initial="hidden"
-          variants={motionPromo}
-          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.4 }}
-        >
-          <p>Change the world <span>one pixel at a time&trade;</span></p>
-        </motion.div>
-        <div className="artifacts">
-          <Circle />
-        </div>
-        <div className="hero__dots hero__dots--inverted">
-          <Dots />
-        </div>
+
+        <Media query="(min-width: 1280px)" render={() => (
+          <motion.div
+            className="menu__promo"
+            animate={menuActive ? "visible" : "hidden"}
+            initial="hidden"
+            variants={motionPromo}
+            transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.4 }}
+          >
+            <p>Change the world <span>one pixel at a time&trade;</span></p>
+            <div className="artifacts">
+              <Circle />
+            </div>
+            <div className="hero__dots hero__dots--inverted">
+              <Dots />
+            </div>
+          </motion.div>
+        )} />
       </motion.div>
 
       <Media query="(min-width: 1280px)" render={() => (
-        <ul className="social-follow">
-          <li><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
-          <li><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
-          <li><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
+        <ul className="social">
+          <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
+          <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
+          <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
         </ul>
       )} />
 
