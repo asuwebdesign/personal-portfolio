@@ -1,18 +1,34 @@
-@import '../layout/styles/settings/animations';
+@import '../../layouts/layout/styles/settings/all';
+@import '../../layouts/layout/styles/tools/all';
 
-.layout--footer {
+.footer {
   padding: 64px 0;
   background-color: var(--carbon-900);
   color: var(--crystal-white);
 
-  // Primary layout
-  .layout__primary {}
+  // Primary section
+  &__primary {
+    @include media('>=large') {
+      font-size: 32px;
+      line-height: 1.25;
+    }
+  }
 
-  // Secondary layout
-  .layout__secondary {
+  // Secondary section
+  &__secondary {
     padding-top: 64px;
     margin-top: 64px;
     border-top: 1px solid var(--carbon-700);
+  }
+
+  // Tertiary section
+  &__tertiary {
+    @include media('>=large') {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 64px;
+    }
   }
 
   // M-Logo
@@ -26,10 +42,20 @@
     margin: 0;
     list-style: none;
 
+    @include media('>=large') {
+      display: flex;
+      order: 2;
+    }
+
+    li + li {
+      @include media('>=large') {
+        margin-left: 24px;
+      }
+    }
+
     a {
       font-size: 14px;
       color: var(--carbon-300);
-      text-transform: uppercase;
       text-decoration: none;
       transition: color $animation_speed_simple $animation_easing_standard;
 
@@ -44,6 +70,13 @@
   .copyright {
     font-size: 14px;
     color: var(--carbon-300);
-    text-transform: uppercase;
+
+    @include media('>=large') {
+      order: 1;
+    }
+
+    strong {
+      font-weight: 700;
+    }
   }
 }

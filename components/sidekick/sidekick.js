@@ -22,9 +22,6 @@ const Hero = props => {
       <div className="sidekick__dots">
         <Dots />
       </div>
-      <div className="sidekick__bg">
-        <img src="https://source.unsplash.com/user/erondu/1920x1080" alt="" />
-      </div>
     </header>
   )
 }

@@ -2,6 +2,7 @@
 import React, { useState } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
+import Media from 'react-media'
 
 // Import elements
 import MLogo from '../../elements/m-logo'
@@ -107,9 +108,7 @@ const Header = props => {
           variants={motionPromo}
           transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.4 }}
         >
-          <p>Create progress people love.</p>
-          <p>{"We mean business. It's our middle name."}</p>
-          <img src="images/src/hoodie.png" />
+          <p>Change the world <span>one pixel at a time&trade;</span></p>
         </motion.div>
         <div className="artifacts">
           <Circle />
@@ -119,17 +118,24 @@ const Header = props => {
         </div>
       </motion.div>
 
-      <ul className="social-follow">
-        <li><a href="#" target="_blank"><IconDribbble /></a></li>
-        <li><a href="#" target="_blank"><IconLinkedIn /></a></li>
-        <li><a href="#" target="_blank"><IconTwitter /></a></li>
-      </ul>
+      <Media query="(min-width: 1280px)" render={() => (
+        <ul className="social-follow">
+          <li><a href="#" target="_blank"><IconDribbble /></a></li>
+          <li><a href="#" target="_blank"><IconLinkedIn /></a></li>
+          <li><a href="#" target="_blank"><IconTwitter /></a></li>
+        </ul>
+      )} />
 
-      <div className="actions">
-        <Button href="/contact" label="Get in Touch" />
-      </div>
+      <Media query="(min-width: 1280px)" render={() => (
+        <div className="actions">
+          <Button href="/contact" label="Get in Touch" />
+        </div>
+      )} />
 
-      <div className="scroll-indicator">Scroll Down</div>
+      <Media query="(min-width: 1280px)" render={() => (
+        <div className="scroll-indicator">Scroll Down</div>
+      )} />
+      
     </header>
   )
 }

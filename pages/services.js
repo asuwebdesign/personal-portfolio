@@ -9,6 +9,7 @@ import Wrapper from '../layouts/wrapper'
 // Import components
 import Detour from '../components/detour'
 import Sidekick from '../components/sidekick'
+import Poster from '../components/poster'
 
 // Import vectors
 import IconSolutionB from '../public/vectors/solution-b.svg'
@@ -25,7 +26,7 @@ const Services = props => (
 
     <article>
       <Sidekick meta="Services" title="I create progress by designing, developing, and securing digital experiences." />
-
+      <Poster />
       <section>
         <Wrapper>
           <div>

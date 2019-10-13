@@ -11,6 +11,7 @@ import Detour from '../components/detour'
 import Sidekick from '../components/sidekick'
 import Services from '../components/services'
 import HowWhy from '../components/how-why'
+import Poster from '../components/poster'
 
 // Import elements
 import Image from '../elements/image'
@@ -25,8 +26,7 @@ const About = props => (
     <article>
       <Sidekick meta="About" title="I'm a full service digital agency built to grow modern brands." />
 
-      <Image src="https://source.unsplash.com/collection/190727" />
-
+      <Poster />
       <Services />
       <HowWhy />
 

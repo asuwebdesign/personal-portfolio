@@ -17,7 +17,7 @@ const Privacy = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Privacy Policy" title="Hello, I was hoping you would end up here today. Let's talk." />
+      <Sidekick meta="Privacy Policy" title="Basically I won't share your personal information to anyone. Like, ever." />
       <section>
         <Wrapper>
           <p>Awwwards are given to the best CSS websites in the world from the top designers, agencies and bloggers working today. Winners receive recognition, prestige and media presence.</p>
