@@ -13,7 +13,7 @@ import Sidekick from '../components/sidekick'
 const Accessibility = props => (
   <Layout>
     <Head>
-      <title>About</title>
+      <title>Accessibility | Mark Riggan</title>
     </Head>
 
     <article>

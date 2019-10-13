@@ -20,7 +20,7 @@ import IconSolutionW from '../public/vectors/solution-w.svg'
 const Services = props => (
   <Layout>
     <Head>
-      <title>About</title>
+      <title>Services | Mark Riggan</title>
     </Head>
 
     <article>

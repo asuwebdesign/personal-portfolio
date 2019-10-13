@@ -16,7 +16,7 @@ import Form from '../components/form'
 const Contact = props => (
   <Layout>
     <Head>
-      <title>Contact</title>
+      <title>Contact | Mark Riggan</title>
     </Head>
 
     <article>

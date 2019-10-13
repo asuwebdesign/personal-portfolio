@@ -15,7 +15,7 @@ import Sidekick from '../../components/sidekick'
 const Projects = props => (
   <Layout>
     <Head>
-      <title>Projects</title>
+      <title>Projects | Mark Riggan</title>
     </Head>
 
     <article>

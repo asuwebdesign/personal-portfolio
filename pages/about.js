@@ -19,7 +19,7 @@ import Image from '../elements/image'
 const About = props => (
   <Layout>
     <Head>
-      <title>About</title>
+      <title>About | Mark Riggan</title>
     </Head>
 
     <article>

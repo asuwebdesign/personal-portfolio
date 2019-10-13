@@ -13,7 +13,7 @@ import Sidekick from '../components/sidekick'
 const Privacy = props => (
   <Layout>
     <Head>
-      <title>About</title>
+      <title>Privacy Policy | Mark Riggan</title>
     </Head>
 
     <article>

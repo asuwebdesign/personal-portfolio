@@ -13,7 +13,7 @@ import Sidekick from '../components/sidekick'
 const TermsConditions = props => (
   <Layout>
     <Head>
-      <title>About</title>
+      <title>Terms &amp; Conditions | Mark Riggan</title>
     </Head>
 
     <article>

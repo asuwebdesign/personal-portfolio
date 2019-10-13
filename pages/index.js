@@ -22,7 +22,7 @@ import MetaLabel from '../elements/meta-label'
 const Home = props => (
   <Layout>
     <Head>
-      <title>Home</title>
+      <title>Mark Riggan | Creative Digital Designer &amp; Developer</title>
     </Head>
     <article>
 
