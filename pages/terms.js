@@ -10,7 +10,7 @@ import Wrapper from '../layouts/wrapper'
 import Sidekick from '../components/sidekick'
 
 // Render component
-const TermsConditions = props => (
+const PageTermsConditions = props => (
   <Layout>
     <Head>
       <title>Terms &amp; Conditions | Mark Riggan</title>
@@ -155,4 +155,4 @@ const TermsConditions = props => (
   </Layout>
 )
 
-export default TermsConditions
+export default PageTermsConditions

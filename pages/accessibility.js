@@ -10,7 +10,7 @@ import Wrapper from '../layouts/wrapper'
 import Sidekick from '../components/sidekick'
 
 // Render component
-const Accessibility = props => (
+const PageAccessibility = props => (
   <Layout>
     <Head>
       <title>Accessibility | Mark Riggan</title>
@@ -28,4 +28,4 @@ const Accessibility = props => (
   </Layout>
 )
 
-export default Accessibility
+export default PageAccessibility

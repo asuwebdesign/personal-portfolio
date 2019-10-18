@@ -12,7 +12,7 @@ import Work from '../../components/work'
 import Sidekick from '../../components/sidekick'
 
 // Render component
-const Projects = props => (
+const PageProjects = props => (
   <Layout>
     <Head>
       <title>Projects | Mark Riggan</title>
@@ -26,4 +26,4 @@ const Projects = props => (
   </Layout>
 )
 
-export default Projects
+export default PageProjects

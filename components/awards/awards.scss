@@ -1,7 +1,7 @@
 @import '../../layouts/layout/styles/settings/all';
 @import '../../layouts/layout/styles/tools/all';
 
-.follow {
+.awards {
   margin-top: 64px;
 
   @include media('>=large') {
@@ -17,49 +17,45 @@
     letter-spacing: normal;
     text-transform: uppercase;
     text-align: center;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      margin: 16px auto 0;
+      background-color: var(--carbon-200);
+    }
   }
 
   &__title {
     margin: 16px 0 64px;
     font-size: 32px;
-    font-weight: 900;
     text-align: center;
   }
 
   &__list {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 128px;
-    background-color: var(--carbon-900);
-    color: var(--crystal-white);
-    text-align: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
     list-style: none;
   }
 
   &__brand {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+    width: 20%;
+    padding: 32px;
+    overflow: hidden;
 
     svg {
-      width: 32px;
-      height: 32px;
+      max-width: 100%;
+      width: 100%;
+      max-height: 64px;
     }
 
-    path {
-      fill: var(--crystal-white);
+    &:nth-child(n+6) {
+      border-top: 1px solid var(--carbon-300);
     }
   }
-
-  &__brand + &__brand {
-    margin-left: 24px;
-  }
-
 }

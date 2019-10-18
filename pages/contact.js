@@ -14,7 +14,7 @@ import Form from '../components/form'
 import Poster from '../components/poster'
 
 // Render component
-const Contact = props => (
+const PageContact = props => (
   <Layout>
     <Head>
       <title>Contact | Mark Riggan</title>
@@ -30,4 +30,4 @@ const Contact = props => (
   </Layout>
 )
 
-export default Contact
+export default PageContact

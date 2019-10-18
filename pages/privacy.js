@@ -10,7 +10,7 @@ import Wrapper from '../layouts/wrapper'
 import Sidekick from '../components/sidekick'
 
 // Render component
-const Privacy = props => (
+const PagePrivacy = props => (
   <Layout>
     <Head>
       <title>Privacy Policy | Mark Riggan</title>
@@ -28,4 +28,4 @@ const Privacy = props => (
   </Layout>
 )
 
-export default Privacy
+export default PagePrivacy

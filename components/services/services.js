@@ -22,40 +22,50 @@ const Services = props => {
   return (
     <section className="services">
       <Wrapper>
-        <div className="services__primary">
-          <div className="services__meta">In a Nutshell</div>
-          <h1 className="services__title">Making the complex simple, then the simple delightful.</h1>
-          <p className="services__desc">Building identities and experiences to elevate and empower organizations of all shapes and sizes.</p>
-          <Button label="Explore What I Do" href="/services" />
-        </div>
-        <div className="services__secondary">
-          <div className="services__list">
-            <article className="services__type">
-              <div className="services__type-icon">
-                <IconSolutionC />
-              </div>
-              <h1 className="services__type-title">Creative &amp; Experience Design</h1>
-            </article>
-            <article className="services__type">
-              <div className="services__type-icon">
-                <IconSolutionB />
-              </div>
-              <h1 className="services__type-title">Branding Strategy &amp; Identity</h1>
-            </article>
-            <article className="services__type">
-              <div className="services__type-icon">
-                <IconSolutionR />
-              </div>
-              <h1 className="services__type-title">Research, Data &amp; Analytics</h1>
-            </article>
-            <article className="services__type">
-              <div className="services__type-icon">
-                <IconSolutionW />
-              </div>
-              <h1 className="services__type-title">Websites &amp; Digital Platforms</h1>
-            </article>
+        <article className="service">
+          <div className="service__primary">
+            <IconSolutionB />
+            <h2>Solution title</h2>
+            <Button href="#" label="Explore Services" />
           </div>
-        </div>
+          <div className="service__secondary">
+            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+        </article>
+        <article className="service">
+          <div className="service__primary">
+            <IconSolutionC />
+            <h2>Solution title</h2>
+            <Button href="#" label="Explore Services" />
+          </div>
+          <div className="service__secondary">
+            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+        </article>
+        <article className="service">
+          <div className="service__primary">
+            <IconSolutionR />
+            <h2>Solution title</h2>
+            <Button href="#" label="Explore Services" />
+          </div>
+          <div className="service__secondary">
+            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+        </article>
+        <article className="service">
+          <div className="service__primary">
+            <IconSolutionW />
+            <h2>Solution title</h2>
+            <Button href="#" label="Explore Services" />
+          </div>
+          <div className="service__secondary">
+            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+        </article>
       </Wrapper>
     </section>
   )

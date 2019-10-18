@@ -12,14 +12,14 @@ import Clients from '../components/clients'
 import Detour from '../components/detour'
 import News from '../components/news'
 import WorkLatest from '../components/work-latest'
-import Services from '../components/services'
+import Nutshell from '../components/nutshell'
 
 // Import elements
 import Button from '../elements/button'
 import MetaLabel from '../elements/meta-label'
 
 // Render component
-const Home = props => (
+const PageHome = props => (
   <Layout>
     <Head>
       <title>Mark Riggan | Creative Digital Designer &amp; Developer</title>
@@ -51,7 +51,7 @@ const Home = props => (
 
       <Hero />
       <WorkLatest />
-      <Services />
+      <Nutshell />
       <Clients />
       <News />
 
@@ -60,4 +60,4 @@ const Home = props => (
   </Layout>
 )
 
-export default Home
+export default PageHome
