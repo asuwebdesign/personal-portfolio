@@ -6,7 +6,7 @@ import './image.scss'
 
 // Render component
 const Image = props => {
-  const { src } = props
+  const { src, alt } = props
 
   // Sizes based off breakpoints
   const Img480 = src + '/480x1024'
@@ -30,6 +30,8 @@ const Image = props => {
         ${Img1600} 1600w,
         ${Img1920} 1920w
       `}
+      loading="lazy"
+      alt={alt}
     />
   )
 }
