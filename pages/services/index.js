@@ -3,13 +3,13 @@ import React from 'react'
 import Head from 'next/head'
 
 // Import layouts
-import Layout from '../layouts/layout'
+import Layout from '../../layouts/layout'
 
 // Import components
-import Detour from '../components/detour'
-import Sidekick from '../components/sidekick'
-import Poster from '../components/poster'
-import Services from '../components/services'
+import Detour from '../../components/detour'
+import Sidekick from '../../components/sidekick'
+import Poster from '../../components/poster'
+import Services from '../../components/services'
 
 // Render component
 const PageServices = props => (
