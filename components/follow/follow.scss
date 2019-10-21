@@ -3,6 +3,8 @@
 
 .follow {
   margin-top: 64px;
+  background-color: var(--carbon-900);
+  color: var(--crystal-white);
 
   @include media('>=large') {
     margin-top: 128px;
@@ -31,8 +33,7 @@
     align-items: center;
     justify-content: center;
     padding: 128px;
-    background-color: var(--carbon-900);
-    color: var(--crystal-white);
+
     text-align: center;
     list-style: none;
   }

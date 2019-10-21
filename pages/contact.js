@@ -11,7 +11,6 @@ import Wrapper from '../layouts/wrapper'
 import Sidekick from '../components/sidekick'
 import Follow from '../components/follow'
 import Form from '../components/form'
-import Poster from '../components/poster'
 
 // Render component
 const PageContact = props => (
@@ -22,9 +21,8 @@ const PageContact = props => (
 
     <article>
       <Sidekick meta="Contact" title="Hello, I was hoping you would end up here today. Let's talk." />
-      <Poster />
-      <Follow />
       <Form />
+      <Follow />
 
     </article>
   </Layout>
