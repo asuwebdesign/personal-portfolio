@@ -5,15 +5,20 @@ import Link from 'next/link'
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
+// Import vectors
+import IconDribbble from '../../public/vectors/social-dribbble.svg'
+import IconLinkedIn from '../../public/vectors/social-linkedin.svg'
+import IconTwitter from '../../public/vectors/social-twitter.svg'
+
 // Import styles
-import './form.scss'
+import './form-follow.scss'
 
 // Render component
-const Form = props => {
+const FormFollow = props => {
   return (
-    <section className="form">
+    <div className="form-follow">
       <Wrapper>
-        <div className="form__container">
+        <section className="form">
           <div className="form__meta">Form</div>
           <h1 className="form__title">Here's a form to tell me something.</h1>
           <p className="form__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
@@ -47,10 +52,19 @@ const Form = props => {
               <input type="submit" value="Get in touch" />
             </div>
           </form>
-        </div>
+        </section>
+        <section className="follow">
+          <h1 className="follow__meta">Follow Me</h1>
+          <div className="follow__title">I'm social. Follow me and stay in the loop.</div>
+          <ul className="follow__list">
+            <li className="follow__brand"><a href="#" target="_blank"><IconDribbble /></a></li>
+            <li className="follow__brand"><a href="#" target="_blank"><IconLinkedIn /></a></li>
+            <li className="follow__brand"><a href="#" target="_blank"><IconTwitter /></a></li>
+          </ul>
+        </section>
       </Wrapper>
-    </section>
+    </div>
   )
 }
 
-export default Form
+export default FormFollow

@@ -1,0 +1,59 @@
+@import '../../layouts/layout/styles/settings/all';
+@import '../../layouts/layout/styles/tools/all';
+
+.process {
+  margin-top: 128px;
+}
+
+.phase {
+  @include media('>=large') {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__primary {
+    @include media('>=large') {
+      display: flex;
+    }
+  }
+
+  &__secondary {
+    @include media('>=large') {
+      width: percentage(824/1248);
+    }
+  }
+
+  &__number {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--slate);
+    letter-spacing: normal;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.25;
+
+    @include media('>=large') {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  &__subtitle {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  &__desc {}
+
+  + .phase {
+    margin-top: 128px;
+  }
+}
