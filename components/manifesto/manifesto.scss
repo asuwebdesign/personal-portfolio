@@ -1,0 +1,52 @@
+@import '../../layouts/layout/styles/settings/all';
+@import '../../layouts/layout/styles/tools/all';
+
+.values {
+  @include media('>=large') {
+    margin-top: 128px;
+  }
+
+  .wrapper {
+    @include media('>=large') {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__primary {
+    @include media('>=large') {
+      display: flex;
+    }
+  }
+
+  &__secondary {
+    @include media('>=large') {
+      width: percentage(824/1248);
+    }
+  }
+}
+
+.philosophy {
+  @include media('>=large') {
+    margin-top: 128px;
+  }
+
+  .wrapper {
+    @include media('>=large') {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__primary {
+    @include media('>=large') {
+      display: flex;
+    }
+  }
+
+  &__secondary {
+    @include media('>=large') {
+      width: percentage(824/1248);
+    }
+  }
+}

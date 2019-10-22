@@ -57,9 +57,24 @@ const FormFollow = props => {
           <h1 className="follow__meta">Follow Me</h1>
           <div className="follow__title">I'm social. Follow me and stay in the loop.</div>
           <ul className="follow__list">
-            <li className="follow__brand"><a href="#" target="_blank"><IconDribbble /></a></li>
-            <li className="follow__brand"><a href="#" target="_blank"><IconLinkedIn /></a></li>
-            <li className="follow__brand"><a href="#" target="_blank"><IconTwitter /></a></li>
+            <li className="follow__brand">
+              <a href="https://dribbble.com/markr" target="_blank">
+                <IconDribbble />
+                <span>Dribbble</span>
+              </a>
+            </li>
+            <li className="follow__brand">
+              <a href="https://www.linkedin.com/in/markriggan" target="_blank">
+                <IconLinkedIn />
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li className="follow__brand">
+              <a href="https://twitter.com/asuwebdesign" target="_blank">
+                <IconTwitter />
+                <span>Twitter</span>
+              </a>
+            </li>
           </ul>
         </section>
       </Wrapper>

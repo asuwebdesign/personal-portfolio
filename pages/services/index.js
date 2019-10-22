@@ -8,7 +8,6 @@ import Layout from '../../layouts/layout'
 // Import components
 import Detour from '../../components/detour'
 import Sidekick from '../../components/sidekick'
-import Poster from '../../components/poster'
 import Services from '../../components/services'
 
 // Render component
@@ -20,7 +19,6 @@ const PageServices = props => (
 
     <article>
       <Sidekick meta="Services" title="I create progress by designing, developing, and securing digital experiences." />
-      <Poster />
       <Services />
     </article>
     <Detour meta="Up Next" title="Let's get up close and personal about me, myself, and I." link="/about" />
