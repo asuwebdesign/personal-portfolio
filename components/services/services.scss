@@ -9,9 +9,30 @@
 
 .service {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
-  &__primary {}
+  &__primary {
+    position: relative;
+    background-color: var(--crystal-white);
+    box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.08);
+
+    @include media('>=large') {
+      width: percentage(294/1248);
+      padding-top: percentage(294/1248);
+    }
+
+    > svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 60%;
+      height: 60%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+
+    .button { white-space: nowrap; }
+  }
 
   &__secondary {
     @include media('>=large') {
@@ -22,6 +43,32 @@
       font-size: 24px;
       font-weight: 700;
       line-height: 1.25;
+    }
+  }
+
+  &__header {
+    @include media('>=large') {
+      position: absolute;
+      top: 50%;
+      left: percentage(264/294);
+      width: 150%;
+      transform: translate3d(0, -50%, 0);
+    }
+  }
+
+  &__title {
+    margin: 0 0 32px;
+
+    @include media('>=large') {
+      font-size: 48px;
+      font-weight: 900;
+    }
+  }
+
+  // adjacent services
+  + .service {
+    @include media('>=large') {
+      margin-top: 128px;
     }
   }
 

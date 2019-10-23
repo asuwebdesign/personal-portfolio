@@ -20,13 +20,15 @@ import './services.scss'
 // Render component
 const Services = props => {
   return (
-    <section className="services">
+    <div className="services">
       <Wrapper>
         <article className="service">
           <div className="service__primary">
             <IconSolutionB />
-            <h2>Branding Strategy<br /> &amp; Identity</h2>
-            <Button href="/services/branding" label="Explore Services" />
+            <div className="service__header">
+              <h2 className="service__title">Branding Strategy<br /> &amp; Identity</h2>
+              <Button href="/services/branding" label="Explore Services" />
+            </div>
           </div>
           <div className="service__secondary">
             <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
@@ -36,8 +38,10 @@ const Services = props => {
         <article className="service">
           <div className="service__primary">
             <IconSolutionC />
-            <h2>Creative &amp;<br /> Experience Design</h2>
-            <Button href="/services/creative" label="Explore Services" />
+            <div className="service__header">
+              <h2 className="service__title">Creative &amp;<br /> Experience Design</h2>
+              <Button href="/services/creative" label="Explore Services" />
+            </div>
           </div>
           <div className="service__secondary">
             <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
@@ -47,8 +51,10 @@ const Services = props => {
         <article className="service">
           <div className="service__primary">
             <IconSolutionR />
-            <h2>Research, Data<br /> &amp; Analytics</h2>
-            <Button href="/services/research" label="Explore Services" />
+            <div className="service__header">
+              <h2 className="service__title">Research, Data<br /> &amp; Analytics</h2>
+              <Button href="/services/research" label="Explore Services" />
+            </div>
           </div>
           <div className="service__secondary">
             <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
@@ -58,8 +64,10 @@ const Services = props => {
         <article className="service">
           <div className="service__primary">
             <IconSolutionW />
-            <h2>Websites &amp;<br /> Digital Platforms</h2>
-            <Button href="/services/digital" label="Explore Services" />
+            <div className="service__header">
+              <h2 className="service__title">Websites &amp;<br /> Digital Platforms</h2>
+              <Button href="/services/digital" label="Explore Services" />
+            </div>
           </div>
           <div className="service__secondary">
             <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
@@ -67,7 +75,7 @@ const Services = props => {
           </div>
         </article>
       </Wrapper>
-    </section>
+    </div>
   )
 }
 
