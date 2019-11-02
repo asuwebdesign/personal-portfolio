@@ -1,5 +1,5 @@
 // Import nodes
-import React from "react"
+import React, { Fragment } from "react"
 
 // Import styles
 import './image.scss'
@@ -19,20 +19,23 @@ const Image = props => {
   const Img1920 = src + '/1920x1024'
 
   return (
-    <img
-      src={Img480}
-      srcSet={`
-        ${Img600} 600w,
-        ${Img840} 840w,
-        ${Img960} 960w,
-        ${Img1280} 1280w,
-        ${Img1440} 1440w,
-        ${Img1600} 1600w,
-        ${Img1920} 1920w
-      `}
-      loading="lazy"
-      alt={alt}
-    />
+    <Fragment>
+      <img src={require('../../public/images/sample.jpg')} />
+      <img
+        src={Img480}
+        srcSet={`
+          ${Img600} 600w,
+          ${Img840} 840w,
+          ${Img960} 960w,
+          ${Img1280} 1280w,
+          ${Img1440} 1440w,
+          ${Img1600} 1600w,
+          ${Img1920} 1920w
+        `}
+        loading="lazy"
+        alt={alt}
+      />
+    </Fragment>
   )
 }
 

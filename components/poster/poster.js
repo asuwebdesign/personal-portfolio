@@ -1,5 +1,6 @@
 // Import nodes
 import React from "react"
+import { motion } from "framer-motion"
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -12,12 +13,31 @@ import './poster.scss'
 
 // Render component
 const Poster = props => {
+
+  // declared animations
+  const motionPoster = {
+    visible: {
+      opacity: 1,
+      y: 0,
+    },
+    hidden: {
+      opacity: 0,
+      y: 50,
+    }
+  }
+
   return (
-    <div className="poster">
+    <motion.div
+      className="poster"
+      animate="visible"
+      initial="hidden"
+      variants={motionPoster}
+      transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+    >
       <Wrapper>
         <Image src="https://source.unsplash.com/collection/190727" alt="" />
       </Wrapper>
-    </div>
+    </motion.div>
   )
 }
 

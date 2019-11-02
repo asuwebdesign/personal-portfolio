@@ -1,19 +1,22 @@
-const withCSS = require("@zeit/next-css")
+const compose = require('next-compose')
 const withSass = require('@zeit/next-sass')
+const optimizedImages = require('next-optimized-images')
 
-module.exports = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    })
+module.exports = compose([
+  [withSass, {
+    /* config options */
+  }],
+  [optimizedImages, {
+    optimizeImagesInDev: true,
+  }],
+  {
+    webpack(config, { buildId, dev, isServer, defaultLoaders }) {
+      config.module.rules.push({
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+      })
 
-    return config
+      return config
+    }
   }
-}
-
-module.exports = withCSS(
-  withSass({
-    /* config options here */
-  })
-)
+])
