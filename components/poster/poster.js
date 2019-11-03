@@ -13,6 +13,7 @@ import './poster.scss'
 
 // Render component
 const Poster = props => {
+  const { src, alt } = props
 
   // declared animations
   const motionPoster = {
@@ -35,7 +36,7 @@ const Poster = props => {
       transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
     >
       <Wrapper>
-        <Image src="https://source.unsplash.com/collection/190727" alt="" />
+        <Image src={src} alt={alt} />
       </Wrapper>
     </motion.div>
   )
