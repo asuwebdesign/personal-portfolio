@@ -20,13 +20,13 @@
 	$src: null;
 
 	$extmods: (
-		eot: "?",
-		svg: "#" + str-replace($name, " ", "_")
+	eot: "?",
+	svg: "#" + str-replace($name, " ", "_")
 	);
 
 	$formats: (
-		otf: "opentype",
-		ttf: "truetype"
+	otf: "opentype",
+	ttf: "truetype"
 	);
 
 	@each $ext in $exts {
@@ -41,4 +41,14 @@
 		font-weight: $weight;
 		src: $src;
 	}
+}
+
+
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return #{$remSize}rem;
+}
+
+@mixin rem($property, $size) {
+  #{$property}: calculateRem($size);
 }
