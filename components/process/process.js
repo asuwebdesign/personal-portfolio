@@ -32,7 +32,7 @@ const Process = props => {
             <h2 className="phase__title">Plan</h2>
           </div>
           <div className="phase__secondary">
-            <p className="phase__subtitle">Understand your business, industry, and people.</p>
+            <p className="phase__subtitle">Shape the direction of your brand or product.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Process = props => {
             <h2 className="phase__title">Create</h2>
           </div>
           <div className="phase__secondary">
-            <p className="phase__subtitle">Understand your business, industry, and people.</p>
+            <p className="phase__subtitle">Ideate and prototype designs concepts.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Process = props => {
             <h2 className="phase__title">Build &amp; Deploy</h2>
           </div>
           <div className="phase__secondary">
-            <p className="phase__subtitle">Understand your business, industry, and people.</p>
+            <p className="phase__subtitle">Mesh design and technology into a brand or product.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Process = props => {
             <h2 className="phase__title">Measure &amp; Evolve</h2>
           </div>
           <div className="phase__secondary">
-            <p className="phase__subtitle">Understand your business, industry, and people.</p>
+            <p className="phase__subtitle">Observe behaviors and iterate to improve.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
           </div>
         </div>
