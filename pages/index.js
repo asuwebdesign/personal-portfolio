@@ -44,8 +44,6 @@ const PageHome = props => (
       <meta name="twitter:creator" property="twitter:creator" content="@hugeinc" />
       <meta name="twitter:title" property="twitter:title" content="Huge | Digital agency | Digital business | design, marketing, technology" />
       <meta name="twitter:description" property="twitter:description" content="Huge is a full service digital agency headquartered in Brooklyn with offices worldwide. We transform brands and build businesses." />
-
-      <meta name="google-site-verification" property="google-site-verification" content="T9bAkAJ3wneGw02nYwl8cK-db-qFdRRg1j0Wr75qGX8" />
     </Head>
     <article>
 
