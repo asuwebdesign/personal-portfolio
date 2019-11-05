@@ -15,7 +15,10 @@
   border: 0;
   cursor: pointer;
   text-decoration: none;
-  transition: box-shadow $animation_speed_complex $animation_easing_decelerate;
+  transition:
+    background-color $animation_speed_complex $animation_easing_decelerate,
+    box-shadow $animation_speed_complex $animation_easing_decelerate,
+    color $animation_speed_complex $animation_easing_decelerate;
 
   svg {
     position: absolute;

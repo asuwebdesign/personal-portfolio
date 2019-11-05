@@ -305,6 +305,18 @@
     top: 55px;
     right: 64px;
     z-index: 100;
+
+    &--inverted {
+      .button {
+        background-color: var(--crystal-white);
+        color: var(--carbon-900);
+      }
+      .button g { stroke: var(--carbon-900); }
+
+      .button:hover, .button:focus {
+        box-shadow: 0 0 0 2px var(--crystal-white);
+      }
+    }
   }
 
   .scroll-indicator {

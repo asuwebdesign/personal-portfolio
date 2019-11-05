@@ -14,7 +14,7 @@ import './hero.scss'
 // Render component
 const Hero = props => {
   return (
-    <header className="hero">
+    <header id="hero" className="hero">
       <h1 className="hero__title">Connecting brands with people through <span>Handcrafted Digital Experiences.</span></h1>
 
       <div className="hero__highlights">

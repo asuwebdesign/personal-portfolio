@@ -14,7 +14,7 @@ import './work.scss'
 // Render component
 const Projects = props => {
   return (
-    <section className="work">
+    <section id="work-latest" className="work">
       <Wrapper>
         <h1 className="work__title">Selected Work</h1>
         <div className="work__list">

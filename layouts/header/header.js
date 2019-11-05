@@ -1,11 +1,12 @@
 // Import nodes
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import Media from 'react-media'
+import { Controller, Scene } from 'react-scrollmagic'
 
 // Import elements
-import MLogo from '../../elements/m-logo'
+import MLogo from '../../elements/mlogo'
 import Button from '../../elements/button/'
 
 // Import vectors
@@ -25,6 +26,7 @@ const Header = props => {
 
   // initial states
   const [menuActive, setMenuState] = useState(false)
+  const [heroHeight, setHeroHeight] = useState(0)
 
   // declared animations
   const motionPanel = {
@@ -60,6 +62,11 @@ const Header = props => {
     }
   }
 
+  useEffect(() => {
+    const heroHeight = document.getElementById('hero').clientHeight
+    setHeroHeight(heroHeight)
+  })
+
   return (
     <header className="layout layout--header">
       <MLogo primary />
@@ -68,15 +75,19 @@ const Header = props => {
         <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
       )} />
 
-      <button
-        className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
-        onClick={() => setMenuState(!menuActive)}
-        aria-label="Toggle Menu"
-        aria-expanded={menuActive ? "true" : "false"}
-        aria-controls="menu"
-      >
-        <IconMenu />
-      </button>
+      <Controller>
+        <Scene duration={heroHeight} classToggle="menu-toggle--active" triggerHook="onCenter" triggerElement="#hero">
+          <button
+            className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
+            onClick={() => setMenuState(!menuActive)}
+            aria-label="Toggle Menu"
+            aria-expanded={menuActive ? "true" : "false"}
+            aria-controls="menu"
+          >
+            <IconMenu />
+          </button>
+        </Scene>
+      </Controller>
 
       <motion.div
         id="menu"
@@ -132,9 +143,13 @@ const Header = props => {
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
-        <div className="actions">
-          <Button href="/contact" label="Get in Touch" />
-        </div>
+        <Controller>
+          <Scene duration={heroHeight} classToggle="actions--inverted" triggerHook="onLeave" triggerElement="#hero">
+            <div className="actions">
+              <Button href="/contact" label="Get in Touch" />
+            </div>
+          </Scene>
+        </Controller>
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (

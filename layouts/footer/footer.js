@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer'
 import Wrapper from '../../layouts/wrapper'
 
 // Import components
-import MLogo from '../../elements/m-logo'
+import MLogo from '../../elements/mlogo'
 
 // Import styles
 import './footer.scss'

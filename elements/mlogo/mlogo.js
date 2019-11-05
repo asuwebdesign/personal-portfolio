@@ -6,7 +6,7 @@ import Link from 'next/link'
 import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
 
 // Import styles
-import './m-logo.scss'
+import './mlogo.scss'
 
 // Render component
 const MLogo = props => {

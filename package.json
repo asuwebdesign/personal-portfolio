@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@svgr/webpack": "^4.3.3",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "element-overlap": "^1.0.1",
@@ -24,6 +25,7 @@
     "react-dom": "^16.11.0",
     "react-intersection-observer": "^8.25.1",
     "react-media": "^1.10.0",
+    "react-scrollmagic": "^2.1.1",
     "responsive-loader": "^1.2.0",
     "sharp": "^0.23.2",
     "webp-loader": "^0.5.0"
