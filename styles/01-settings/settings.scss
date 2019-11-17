@@ -1,0 +1,55 @@
+// =============================================================================
+// Animations
+// =============================================================================
+$animation_speed_simple: 100ms;
+$animation_speed_complex: 200ms;
+$animation_speed_dramatic: 1s;
+
+$animation_easing_standard: cubic-bezier(.4, 0, .2, 1);
+$animation_easing_decelerate: cubic-bezier(0, 0, .2, 1);
+$animation_easing_accelerate: cubic-bezier(.4, 0, 1, 1);
+$animation_easing_bounce: cubic-bezier(.7, 0, .3, 1);
+$animation_easing_quart: cubic-bezier(.77, 0, .175, 1);
+
+
+// =============================================================================
+// Breakpoints
+// =============================================================================
+$breakpoints: (
+  'xx-small': 480px,
+  'x-small': 600px,
+  'small': 840px,
+  'medium': 960px,
+  'large': 1280px,
+  'x-large': 1440px,
+  'xx-large': 1600px,
+  'xxx-large': 1920px
+);
+
+
+// =============================================================================
+// Root
+// =============================================================================
+:root {
+  --carbon-900: #1b1b1c;
+  --carbon-800: #282728;
+  --carbon-700: #343436;
+  --carbon-600: #494949;
+  --carbon-500: #646569;
+  --carbon-400: #adadad;
+  --carbon-300: #dadfe1;
+  --carbon-200: #dddddd;
+  --carbon-100: #e5e5eb;
+  --dust-heavy: #f3f3f6;
+  --dust: #f7f7f7;
+  --dust-light: #f9f9f9;
+  --crystal-white: #ffffff;
+  --slate-heavy: #566971;
+  --slate: #5a6e77;
+  --slate-light: #6e8891;
+  --electric-blue: #1dcaff;
+  --electric-magenta: #ff007e;
+  --electric-purple: #5708d3;
+  --electric-shadow: #1f0645;
+  --error-red: #eb0000;
+}
