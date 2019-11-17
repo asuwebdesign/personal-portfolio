@@ -5,6 +5,9 @@
   width: 48px;
 
   a { display: block; }
+  path { fill: var(--carbon-900); }
 
-  // path { fill: var(--crystal-white); }
+  &--inverted {
+    path { fill: var(--crystal-white); }
+  }
 }

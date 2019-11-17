@@ -255,9 +255,7 @@
       height: 48px;
     }
 
-    &__brand + &__brand {
-      margin-top: 12px;
-    }
+    &__brand + &__brand { margin-top: 12px; }
 
     a {
       display: block;
@@ -276,27 +274,24 @@
       }
     }
 
-    path {
-      transition: fill $animation_speed_complex $animation_easing_standard;
-    }
+    path { transition: fill $animation_speed_complex $animation_easing_standard; }
 
     // Brand colors
     &__brand--dribbble:hover {
-      path {
-        fill: #ea4c89;
-      }
+      path { fill: #ea4c89; }
     }
 
     &__brand--linkedin:hover {
-      path {
-        fill: #2867B2;
-      }
+      path { fill: #2867B2; }
     }
 
     &__brand--twitter:hover {
-      path {
-        fill: #1DA1F2;
-      }
+      path { fill: #1DA1F2; }
+    }
+
+    // Inverted colors
+    &--inverted {
+      path { fill: var(--crystal-white); }
     }
   }
 

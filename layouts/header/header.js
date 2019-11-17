@@ -63,8 +63,14 @@ const Header = props => {
   }
 
   useEffect(() => {
-    const heroHeight = document.getElementById('hero').clientHeight
-    setHeroHeight(heroHeight)
+    const hero = document.getElementById('hero')
+
+    console.log(hero)
+
+    if (hero && hero > 0) {
+      const heroHeight = document.getElementById('hero').clientHeight
+      setHeroHeight(heroHeight)
+    }
   })
 
   return (
@@ -75,19 +81,32 @@ const Header = props => {
         <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
       )} />
 
-      <Controller>
-        <Scene duration={heroHeight} classToggle="menu-toggle--active" triggerHook="onCenter" triggerElement="#hero">
-          <button
-            className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
-            onClick={() => setMenuState(!menuActive)}
-            aria-label="Toggle Menu"
-            aria-expanded={menuActive ? "true" : "false"}
-            aria-controls="menu"
-          >
-            <IconMenu />
-          </button>
-        </Scene>
-      </Controller>
+      {heroHeight > 0 ? (
+        <Controller>
+          <Scene duration={heroHeight} classToggle="menu-toggle--active" triggerHook="onCenter" triggerElement="#hero">
+            <button
+              className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
+              onClick={() => setMenuState(!menuActive)}
+              aria-label="Toggle Menu"
+              aria-expanded={menuActive ? "true" : "false"}
+              aria-controls="menu"
+            >
+              <IconMenu />
+            </button>
+          </Scene>
+        </Controller>
+      ) : (
+        <button
+          className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
+          onClick={() => setMenuState(!menuActive)}
+          aria-label="Toggle Menu"
+          aria-expanded={menuActive ? "true" : "false"}
+          aria-controls="menu"
+        >
+          <IconMenu />
+        </button>
+      )}
+
 
       <motion.div
         id="menu"
@@ -135,21 +154,39 @@ const Header = props => {
       </motion.div>
 
       <Media query="(min-width: 1280px)" render={() => (
-        <ul className="social">
-          <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
-          <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
-          <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
-        </ul>
+        heroHeight > 0 ? (
+          <Controller>
+            <Scene duration={heroHeight} classToggle="social--inverted" triggerHook={0.8} triggerElement="#hero">
+              <ul className="social">
+                <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
+                <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
+                <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
+              </ul>
+            </Scene>
+          </Controller>
+        ) : (
+          <ul className="social">
+            <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
+            <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
+            <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
+          </ul>
+        )
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
-        <Controller>
-          <Scene duration={heroHeight} classToggle="actions--inverted" triggerHook="onLeave" triggerElement="#hero">
-            <div className="actions">
-              <Button href="/contact" label="Get in Touch" />
-            </div>
-          </Scene>
-        </Controller>
+        heroHeight > 0 ? (
+          <Controller>
+            <Scene duration={heroHeight} classToggle="actions--inverted" triggerHook="onLeave" triggerElement="#hero">
+              <div className="actions">
+                <Button href="/contact" label="Get in Touch" />
+              </div>
+            </Scene>
+          </Controller>
+        ) : (
+          <div className="actions">
+            <Button href="/contact" label="Get in Touch" />
+          </div>
+        )
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
