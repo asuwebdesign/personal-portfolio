@@ -1,5 +1,4 @@
 import React from "react"
-import './meta-label.scss'
 
 const MetaLabel = props => {
   return (

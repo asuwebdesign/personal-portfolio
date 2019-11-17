@@ -8,9 +8,6 @@ import Wrapper from '../../layouts/wrapper'
 // Import vectors
 import Dots from '../../public/vectors/graphic-dots.svg'
 
-// Import styles
-import './sidekick.scss'
-
 // Render component
 const Hero = props => {
   return (

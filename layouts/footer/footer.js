@@ -9,9 +9,6 @@ import Wrapper from '../../layouts/wrapper'
 // Import components
 import MLogo from '../../elements/mlogo'
 
-// Import styles
-import './footer.scss'
-
 // Render component
 const Footer = props => {
 

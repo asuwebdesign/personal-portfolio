@@ -5,9 +5,6 @@ import Link from 'next/link'
 // Import vectors
 import IconTailRight from "../../public/vectors/icon-tail-right.svg"
 
-// Import styles
-import './detour.scss'
-
 // Render component
 const Detour = props => {
   return (

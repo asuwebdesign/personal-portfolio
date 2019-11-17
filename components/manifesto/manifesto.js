@@ -4,9 +4,6 @@ import React, { Fragment } from "react"
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
-// Import styles
-import './manifesto.scss'
-
 // Render component
 const Manifesto = props => {
   return (

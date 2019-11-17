@@ -10,9 +10,6 @@ import IconDribbble from '../../public/vectors/social-dribbble.svg'
 import IconLinkedIn from '../../public/vectors/social-linkedin.svg'
 import IconTwitter from '../../public/vectors/social-twitter.svg'
 
-// Import styles
-import './form-follow.scss'
-
 // Render component
 const FormFollow = props => {
   return (

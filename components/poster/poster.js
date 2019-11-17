@@ -8,9 +8,6 @@ import Wrapper from '../../layouts/wrapper'
 // Import elements
 import Image from '../../elements/image'
 
-// Import styles
-import './poster.scss'
-
 // Render component
 const Poster = props => {
   const { src, alt } = props

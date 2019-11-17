@@ -1,9 +1,8 @@
 // Import nodes
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import Media from 'react-media'
-import { Controller, Scene } from 'react-scrollmagic'
 
 // Import elements
 import MLogo from '../../elements/mlogo'
@@ -18,15 +17,11 @@ import IconTwitter from '../../public/vectors/social-twitter.svg'
 import Dots from '../../public/vectors/graphic-dots.svg'
 import Circle from '../../public/vectors/circle.svg'
 
-// Import styles
-import './header.scss'
-
 // Render component
 const Header = props => {
 
   // initial states
   const [menuActive, setMenuState] = useState(false)
-  const [heroHeight, setHeroHeight] = useState(0)
 
   // declared animations
   const motionPanel = {
@@ -62,17 +57,6 @@ const Header = props => {
     }
   }
 
-  useEffect(() => {
-    const hero = document.getElementById('hero')
-
-    console.log(hero)
-
-    if (hero && hero > 0) {
-      const heroHeight = document.getElementById('hero').clientHeight
-      setHeroHeight(heroHeight)
-    }
-  })
-
   return (
     <header className="layout layout--header">
       <MLogo primary />
@@ -81,31 +65,15 @@ const Header = props => {
         <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
       )} />
 
-      {heroHeight > 0 ? (
-        <Controller>
-          <Scene duration={heroHeight} classToggle="menu-toggle--active" triggerHook="onCenter" triggerElement="#hero">
-            <button
-              className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
-              onClick={() => setMenuState(!menuActive)}
-              aria-label="Toggle Menu"
-              aria-expanded={menuActive ? "true" : "false"}
-              aria-controls="menu"
-            >
-              <IconMenu />
-            </button>
-          </Scene>
-        </Controller>
-      ) : (
-        <button
-          className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
-          onClick={() => setMenuState(!menuActive)}
-          aria-label="Toggle Menu"
-          aria-expanded={menuActive ? "true" : "false"}
-          aria-controls="menu"
-        >
-          <IconMenu />
-        </button>
-      )}
+      <button
+        className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
+        onClick={() => setMenuState(!menuActive)}
+        aria-label="Toggle Menu"
+        aria-expanded={menuActive ? "true" : "false"}
+        aria-controls="menu"
+      >
+        <IconMenu />
+      </button>
 
 
       <motion.div
@@ -154,39 +122,17 @@ const Header = props => {
       </motion.div>
 
       <Media query="(min-width: 1280px)" render={() => (
-        heroHeight > 0 ? (
-          <Controller>
-            <Scene duration={heroHeight} classToggle="social--inverted" triggerHook={0.8} triggerElement="#hero">
-              <ul className="social">
-                <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
-                <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
-                <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
-              </ul>
-            </Scene>
-          </Controller>
-        ) : (
-          <ul className="social">
-            <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
-            <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
-            <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
-          </ul>
-        )
+        <ul className="social">
+          <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
+          <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
+          <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
+        </ul>
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
-        heroHeight > 0 ? (
-          <Controller>
-            <Scene duration={heroHeight} classToggle="actions--inverted" triggerHook="onLeave" triggerElement="#hero">
-              <div className="actions">
-                <Button href="/contact" label="Get in Touch" />
-              </div>
-            </Scene>
-          </Controller>
-        ) : (
-          <div className="actions">
-            <Button href="/contact" label="Get in Touch" />
-          </div>
-        )
+        <div className="actions">
+          <Button href="/contact" label="Get in Touch" />
+        </div>
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (

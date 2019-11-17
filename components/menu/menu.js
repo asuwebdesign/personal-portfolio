@@ -2,7 +2,6 @@ import React, { Fragment, useState } from "react"
 import { Link } from "gatsby"
 import { motion } from "framer-motion"
 import IconMenu from "../../../graphics/icon-menu.svg"
-import './menu.scss'
 
 const Menu = props => {
   const [menuActive, setMenuState] = useState(false)

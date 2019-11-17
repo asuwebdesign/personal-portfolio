@@ -8,9 +8,6 @@ import Wrapper from '../../layouts/wrapper'
 // Import elements
 import Button from '../../elements/button'
 
-// Import styles
-import './how-why.scss'
-
 // Render component
 const HowWhy = props => {
   return (

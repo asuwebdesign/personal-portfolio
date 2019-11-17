@@ -7,9 +7,6 @@ import Wrapper from '../../layouts/wrapper'
 // Import elements
 import Image from '../../elements/image'
 
-// Import styles
-import './process.scss'
-
 // Render component
 const Process = props => {
   return (

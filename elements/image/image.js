@@ -1,9 +1,6 @@
 // Import nodes
 import React, { Fragment } from "react"
 
-// Import styles
-import './image.scss'
-
 // Render component
 const Image = props => {
   const { src, alt } = props

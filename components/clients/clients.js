@@ -17,9 +17,6 @@ import LogoNCSU from '../../public/vectors/logo-ncsu.svg'
 import LogoOracle from '../../public/vectors/logo-oracle.svg'
 import LogoRedHat from '../../public/vectors/logo-redhat.svg'
 
-// Import styles
-import './clients.scss'
-
 // Render component
 const Clients = props => {
   return (

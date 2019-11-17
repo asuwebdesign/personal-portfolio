@@ -1,31 +1,69 @@
 // =============================================================================
 // Settings
 // =============================================================================
-@import 'styles/settings/settings';
+@import '01-settings/settings';
 
 
 // =============================================================================
 // Tools
 // =============================================================================
-@import 'styles/tools/all';
+@import '02-tools/media-queries';
+@import '02-tools/mixins';
 
 
 // =============================================================================
 // Generic
 // =============================================================================
-@import 'styles/generic/box-sizing';
-@import 'styles/generic/normalize';
+@import '03-generic/box-sizing';
+@import '03-generic/normalize';
 
 
 // =============================================================================
 // Base
 // =============================================================================
-@import 'styles/base/global';
-@import 'styles/base/headings';
-@import 'styles/base/images';
-@import 'styles/base/inputs';
-@import 'styles/base/labels';
-@import 'styles/base/links';
-@import 'styles/base/quotes';
-@import 'styles/base/text';
-@import 'styles/base/videos';
+@import '04-base/global';
+@import '04-base/headings';
+@import '04-base/images';
+@import '04-base/inputs';
+@import '04-base/labels';
+@import '04-base/links';
+@import '04-base/quotes';
+@import '04-base/text';
+@import '04-base/videos';
+
+
+// =============================================================================
+// Elements
+// =============================================================================
+@import '05-elements/button';
+@import '05-elements/image';
+@import '05-elements/meta-label';
+@import '05-elements/mlogo';
+
+
+// =============================================================================
+// Objects
+// =============================================================================
+@import '06-objects/footer';
+@import '06-objects/header';
+@import '06-objects/wrapper';
+
+
+// =============================================================================
+// Components
+// =============================================================================
+@import '07-components/awards';
+@import '07-components/clients';
+@import '07-components/cover';
+@import '07-components/detour';
+@import '07-components/form-follow';
+@import '07-components/hero';
+@import '07-components/how-why';
+@import '07-components/manifesto';
+@import '07-components/news';
+@import '07-components/nutshell';
+@import '07-components/poster';
+@import '07-components/process';
+@import '07-components/services';
+@import '07-components/sidekick';
+@import '07-components/work';

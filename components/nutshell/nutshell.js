@@ -14,9 +14,6 @@ import IconSolutionC from '../../public/vectors/solution-c.svg'
 import IconSolutionR from '../../public/vectors/solution-r.svg'
 import IconSolutionW from '../../public/vectors/solution-w.svg'
 
-// Import styles
-import './nutshell.scss'
-
 // Render component
 const Nutshell = props => {
   return (

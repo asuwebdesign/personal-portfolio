@@ -8,9 +8,6 @@ import Wrapper from '../../layouts/wrapper'
 // Import elements
 import Image from '../../elements/image'
 
-// Import styles
-import './work.scss'
-
 // Render component
 const Projects = props => {
   return (

@@ -4,9 +4,6 @@ import React from "react"
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
-// Import styles
-import './news.scss'
-
 // Render component
 const News = props => {
   return (
