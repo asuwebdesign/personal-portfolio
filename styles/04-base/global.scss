@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url('fonts/Gilroy-Regular.eot');
+  src: url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Gilroy-Regular.woff') format('woff'),
+       url('fonts/Gilroy-Regular.ttf')  format('truetype'),
+}
+
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('fonts/Gilroy-Bold.eot');
+  src: url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Gilroy-Bold.woff') format('woff'),
+       url('fonts/Gilroy-Bold.ttf')  format('truetype'),
+}
+
+@font-face {
+  font-family: 'Gilroy Black';
+  src: url('fonts/Gilroy-Black.eot');
+  src: url('fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Gilroy-Black.woff') format('woff'),
+       url('fonts/Gilroy-Black.ttf')  format('truetype'),
+}
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body { height: 100%; }
+
+body {
+  //font: 400 19px/1.5 'Lato', Helvetica, Arial, sans-serif;
+  font: 400 19px/1.5 'Gilroy Regular', Helvetica, Arial, sans-serif;
+  color: var(--carbon-900);
+  background-color: var(--dust);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--electric-magenta);
+  color: var(--crystal-white);
+}
