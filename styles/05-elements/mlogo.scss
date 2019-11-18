@@ -2,9 +2,9 @@
   width: 48px;
 
   a { display: block; }
-  path { fill: var(--carbon-900); }
+  path { fill: var(--color-carbon-900); }
 
   &--inverted {
-    path { fill: var(--crystal-white); }
+    path { fill: var(--color-crystal-white); }
   }
 }

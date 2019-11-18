@@ -22,7 +22,7 @@
       margin: 0;
       font-size: 16px;
       font-weight: 700;
-      color: var(--slate);
+      color: var(--color-slate);
       letter-spacing: normal;
       text-transform: uppercase;
 
@@ -32,7 +32,7 @@
         width: 32px;
         height: 2px;
         margin: 16px 0 0;
-        background-color: var(--carbon-200);
+        background-color: var(--color-carbon-200);
       }
     }
 
@@ -45,7 +45,7 @@
 
     &__desc {
       margin: 0 0 64px;
-      color: var(--slate);
+      color: var(--color-slate);
     }
   }
 

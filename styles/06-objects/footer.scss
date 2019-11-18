@@ -1,7 +1,7 @@
 .footer {
   padding: 64px 0;
-  background-color: var(--carbon-900);
-  color: var(--crystal-white);
+  background-color: var(--color-carbon-900);
+  color: var(--color-crystal-white);
 
   // Primary section
   &__primary {
@@ -15,7 +15,7 @@
   &__secondary {
     padding-top: 64px;
     margin-top: 64px;
-    border-top: 1px solid var(--carbon-700);
+    border-top: 1px solid var(--color-carbon-700);
   }
 
   // Tertiary section
@@ -30,7 +30,7 @@
 
   // M-Logo
   .m-logo path {
-    fill: var(--crystal-white);
+    fill: var(--color-crystal-white);
   }
 
   // Legal menu
@@ -52,13 +52,13 @@
 
     a {
       font-size: 14px;
-      color: var(--carbon-300);
+      color: var(--color-carbon-300);
       text-decoration: none;
       transition: color $animation_speed_simple $animation_easing_standard;
 
       &:hover,
       &:focus {
-        color: var(--crystal-white);
+        color: var(--color-crystal-white);
       }
     }
   }
@@ -66,7 +66,7 @@
   // Copyright statement
   .copyright {
     font-size: 14px;
-    color: var(--carbon-300);
+    color: var(--color-carbon-300);
 
     @include media('>=large') {
       order: 1;

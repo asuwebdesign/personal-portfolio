@@ -13,17 +13,17 @@
 
   &__meta {
     margin: 0;
+    font-family: var(--font-stack-regular);
     font-size: 24px;
-    font-weight: 400;
     line-height: 1;
     letter-spacing: normal;
   }
 
   &__title {
     margin: 16px 0 0;
+    font-family: var(--font-stack-extrabold);
     font-size: 80px;
-    font-weight: 900;
-    line-height: 1.13;
+    line-height: 1;
     letter-spacing: -2px;
   }
 

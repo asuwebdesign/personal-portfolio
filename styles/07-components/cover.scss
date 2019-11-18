@@ -3,11 +3,11 @@
   min-height: 100vh;
   padding: 128px 0;
   background-color: rgb(29, 29, 29);
-  color: var(--crystal-white);
+  color: var(--color-crystal-white);
   overflow: hidden;
 
   h1, h2, h3, h4, h5, h6 {
-    color: var(--crystal-white);
+    color: var(--color-crystal-white);
   }
 
   &__title {
@@ -58,7 +58,7 @@
     z-index: 3;
 
     &--inverted g {
-      fill: var(--crystal-white);
+      fill: var(--color-crystal-white);
     }
   }
 

@@ -40,7 +40,7 @@
     margin-left: -624px;
     font-weight: 400;
     font-size: 21px;
-    color: var(--carbon-900);
+    color: var(--color-carbon-900);
     z-index: 100;
 
     strong {
@@ -54,7 +54,7 @@
         width: 4px;
         height: 4px;
         margin: 0 16px;
-        background-color: var(--carbon-900);
+        background-color: var(--color-carbon-900);
         border-radius: 50%;
       }
     }
@@ -67,7 +67,7 @@
       width: 108px;
       height: 2px;
       margin-top: -1px;
-      background-color: var(--carbon-900);
+      background-color: var(--color-carbon-900);
     }
   }
 
@@ -104,7 +104,7 @@
     // active state
     &--active {
       path {
-        fill: var(--crystal-white);
+        fill: var(--color-crystal-white);
       }
     }
   }
@@ -118,7 +118,7 @@
     width: 100vw;
     height: 100vh;
     padding: 0 32px;
-    background-color: var(--carbon-900);
+    background-color: var(--color-carbon-900);
     overflow: hidden;
     z-index: 1000;
 
@@ -160,11 +160,12 @@
       }
       a {
         display: inline-block;
-        color: var(--crystal-white);
+        color: var(--color-crystal-white);
         text-decoration: none;
+        font-family: var(--font-stack-extrabold);
         font-size: 28px;
-        font-weight: 900;
         line-height: 1;
+        text-transform: uppercase;
         transition:
           color $animation_speed_complex $animation_easing_decelerate,
           text-shadow $animation_speed_complex $animation_easing_decelerate;
@@ -175,12 +176,12 @@
       }
 
       a:hover, a:focus {
-        color: var(--carbon-900);
+        color: var(--color-carbon-900);
         text-shadow:
-		      -2px -2px 0 var(--crystal-white),
-		       2px -2px 0 var(--crystal-white),
-		      -2px  2px 0 var(--crystal-white),
-		       2px  2px 0 var(--crystal-white);
+		      -2px -2px 0 var(--color-crystal-white),
+		       2px -2px 0 var(--color-crystal-white),
+		      -2px  2px 0 var(--color-crystal-white),
+		       2px  2px 0 var(--color-crystal-white);
 
         strong:before {
           animation: strikeMenuItem $animation_speed_dramatic $animation_easing_standard;
@@ -208,7 +209,7 @@
       width: 45vw;
       height: 100%;
       padding: 64px 64px 0 0;
-      color: var(--crystal-white);
+      color: var(--color-crystal-white);
       overflow: hidden;
       z-index: 1;
 
@@ -288,7 +289,7 @@
 
     // Inverted colors
     &--inverted {
-      path { fill: var(--crystal-white); }
+      path { fill: var(--color-crystal-white); }
     }
   }
 
@@ -300,13 +301,13 @@
 
     &--inverted {
       .button {
-        background-color: var(--crystal-white);
-        color: var(--carbon-900);
+        background-color: var(--color-crystal-white);
+        color: var(--color-carbon-900);
       }
-      .button g { stroke: var(--carbon-900); }
+      .button g { stroke: var(--color-carbon-900); }
 
       .button:hover, .button:focus {
-        box-shadow: 0 0 0 2px var(--crystal-white);
+        box-shadow: 0 0 0 2px var(--color-crystal-white);
       }
     }
   }

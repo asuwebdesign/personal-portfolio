@@ -6,15 +6,14 @@
 html, body { height: 100%; }
 
 body {
-  //font: 400 19px/1.5 'Lato', Helvetica, Arial, sans-serif;
-  font: normal 19px/1.5 'Gilroy', Helvetica, Arial, sans-serif;
-  color: var(--carbon-900);
-  background-color: var(--dust);
+  font: normal 19px/1.5 var(--font-stack-regular);
+  color: var(--color-carbon-900);
+  background-color: var(--color-dust);
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background-color: var(--electric-magenta);
-  color: var(--crystal-white);
+  background-color: var(--color-electric-magenta);
+  color: var(--color-crystal-white);
 }

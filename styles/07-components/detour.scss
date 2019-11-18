@@ -1,5 +1,5 @@
 .detour {
-  background-color: var(--crystal-white);
+  background-color: var(--color-crystal-white);
   margin: 64px 0 0;
   text-align: center;
 
@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     padding: 64px 0;
-    color: var(--carbon-900);
+    color: var(--color-carbon-900);
     text-decoration: none;
 
     @include media(">=large") {
@@ -24,7 +24,7 @@
     margin: 0 0 8px;
     font-size: 14px;
     font-weight: 700;
-    color: var(--slate);
+    color: var(--color-slate);
     text-transform: uppercase;
     letter-spacing: normal;
 
