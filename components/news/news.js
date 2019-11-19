@@ -19,7 +19,7 @@ const News = props => {
             <a className="news__story-link" href="https://medium.com/swlh/four-simple-words-thatll-drive-you-to-being-a-better-creative-person-82337b07ac57" target="_blank">
               <div className="news__story-photo">
                 <img
-                  srcSet={require('../../public/images/articles/article-four-simple-words.jpeg?resize&sizes[]=300&sizes[]=600&sizes[]=1000').srcSet}
+                  srcSet={require('../../public/images/articles/article-four-simple-words.jpeg?resize').srcSet}
                   src={require('../../public/images/articles/article-four-simple-words.jpeg').src}
                   alt=""
                 />

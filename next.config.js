@@ -7,5 +7,10 @@ module.exports = compose([
   [optimizedImages, {
     defaultImageLoader: 'responsive-loader',
     optimizeImagesInDev: true,
+    responsive: {
+      sizes: [300, 600, 1200, 1920],
+      placeholder: true,
+      placeholderSize: 50
+    }
   }],
 ])
