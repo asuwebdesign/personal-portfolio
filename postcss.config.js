@@ -6,10 +6,18 @@ module.exports = {
         'font-size',
         'line-height',
         'letter-spacing',
+        'left',
+        'right',
+        'top',
+        'bottom',
         'width',
         'height',
         'padding',
-        'margin'
+        'padding-top', 'padding-right', 'padding-bottom', 'padding-left',
+        'margin',
+        'margin-top', 'margin-right', 'margin-bottom', 'margin-left',
+        'border',
+        'border-width',
       ],
     }
   }

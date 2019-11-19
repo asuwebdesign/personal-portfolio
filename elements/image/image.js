@@ -7,14 +7,14 @@ const Image = props => {
 
   // Sizes based off breakpoints
   const ImgBase = src + '?lqip'
-  const Img480 = src
-  const Img600 = src
-  const Img840 = src
-  const Img960 = src
-  const Img1280 = src
-  const Img1440 = src
-  const Img1600 = src
-  const Img1920 = src
+  const Img480 = src + '?resize&size=480'
+  const Img600 = src + '?resize&size=600'
+  const Img840 = src + '?resize&size=840'
+  const Img960 = src + '?resize&size=960'
+  const Img1280 = src + '?resize&size=1280'
+  const Img1440 = src + '?resize&size=1440'
+  const Img1600 = src + '?resize&size=1600'
+  const Img1920 = src + '?resize&size=1920'
 
   return (
     <Fragment>
