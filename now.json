@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "_next/static/images/(.*)",
-      "headers": { "Cache-Control": "s-maxage=604800" },
+      "headers": { "Cache-Control": "max-age=31536000" },
       "dest": "_next/static/images/$1"
     }
   ]
