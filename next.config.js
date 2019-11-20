@@ -18,7 +18,7 @@ module.exports = compose([
   [withOffline, {
     generateSw: false,
     workboxOpts: {
-      swSrc: path.join(__dirname, 'service-worker.js'),
+      swSrc: path.join(__dirname, 'public/service-worker.js'),
       importWorkboxFrom: 'local'
     }
   }],
