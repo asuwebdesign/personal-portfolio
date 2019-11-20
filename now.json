@@ -1,9 +1,12 @@
 {
   "routes": [
     {
-      "src": "_next/static/images/(.*)",
+      "src": ".(jpg|jpeg|png|gif|ico)$",
       "headers": { "Cache-Control": "max-age=31536000" },
-      "dest": "_next/static/images/$1"
+    },
+    {
+      "src": ".(css|js)$",
+      "headers": { "Cache-Control": "max-age=2628000" },
     }
   ]
 }
