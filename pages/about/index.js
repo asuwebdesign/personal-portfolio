@@ -14,9 +14,6 @@ import HowWhy from '../../components/how-why'
 import Poster from '../../components/poster'
 import Awards from '../../components/awards'
 
-// Import elements
-import Image from '../../elements/image'
-
 // Render component
 const PageAbout = props => (
   <Layout>

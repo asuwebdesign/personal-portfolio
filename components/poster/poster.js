@@ -5,9 +5,6 @@ import { motion } from "framer-motion"
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
-// Import elements
-import Image from '../../elements/image'
-
 // Render component
 const Poster = props => {
   const { src, alt } = props

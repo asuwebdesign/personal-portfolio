@@ -4,9 +4,6 @@ import React from "react"
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
-// Import elements
-import Image from '../../elements/image'
-
 // Render component
 const Process = props => {
   return (

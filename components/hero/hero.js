@@ -38,7 +38,11 @@ const Hero = props => {
         <source src="/videos/dark-matter.webm" type="video/webm" />
         <source src="/videos/dark-matter.ogv" type="video/ogg" />
         <source src="/videos/dark-matter.mp4" />
-        <img src="/videos/dark-matter.jpg" alt="Dark matter" />
+        <img
+          srcSet={require('../../public/videos/dark-matter.jpg?resize').srcSet}
+          src={require('../../public/videos/dark-matter.jpg?resize').src}
+          alt="Dark matter"
+        />
       </video>
     </header>
   )
