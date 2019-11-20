@@ -15,7 +15,11 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <Image src="https://source.unsplash.com/collection/190727" />
+                  <img
+                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    alt=""
+                  />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -26,7 +30,11 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <Image src="https://source.unsplash.com/collection/190727" />
+                  <img
+                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    alt=""
+                  />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -37,7 +45,11 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <Image src="https://source.unsplash.com/collection/190727" />
+                  <img
+                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    alt=""
+                  />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -48,7 +60,11 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <Image src="https://source.unsplash.com/collection/190727" />
+                  <img
+                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    alt=""
+                  />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -59,7 +75,11 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <Image src="https://source.unsplash.com/collection/190727" />
+                  <img
+                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    alt=""
+                  />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
@@ -70,7 +90,11 @@ const Projects = props => {
             <Link href="/projects/sample">
               <a className="work__project-link">
                 <div className="work__project-photo">
-                  <Image src="https://source.unsplash.com/collection/190727" />
+                  <img
+                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    alt=""
+                  />
                 </div>
                 <div className="work__project-client">Red Hat</div>
                 <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
