@@ -6,9 +6,9 @@ module.exports = compose([
   [withSass, {}],
   [optimizedImages, {
     defaultImageLoader: 'responsive-loader',
-    optimizeImagesInDev: true,
     responsive: {
-      sizes: [300, 600, 1200, 1920],
+      adapter: require('responsive-loader/sharp'),
+      sizes: [320, 480, 640, 960, 1280, 1440, 1680, 1920],
       placeholder: true,
       placeholderSize: 50
     }

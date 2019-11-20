@@ -20,7 +20,7 @@ const News = props => {
               <div className="news__story-photo">
                 <img
                   srcSet={require('../../public/images/articles/article-four-simple-words.jpeg?resize').srcSet}
-                  src={require('../../public/images/articles/article-four-simple-words.jpeg').src}
+                  src={require('../../public/images/articles/article-four-simple-words.jpeg?resize').src}
                   alt=""
                 />
               </div>
@@ -31,7 +31,11 @@ const News = props => {
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/reimagining-digital-strategy-and-how-we-document-data-architecture-9c40f94454d8" target="_blank">
               <div className="news__story-photo">
-                <img src="https://miro.medium.com/max/7680/1*gkCBdO6ek2q8j0-UHIsCSw.png" alt="" />
+                <img
+                  srcSet={require('../../public/images/articles/article-sapphire.png?resize').srcSet}
+                  src={require('../../public/images/articles/article-sapphire.png?resize').src}
+                  alt=""
+                />
               </div>
               <div className="news__story-category">Strategy</div>
               <h1 className="news__story-title">Reimagining digital strategy and how we document data architecture</h1>
@@ -40,7 +44,11 @@ const News = props => {
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/how-good-design-shows-your-brand-is-credible-22d497e5a7ac" target="_blank">
               <div className="news__story-photo">
-                <img src="https://miro.medium.com/max/2560/1*p6rsPUKIyxo0Z7NZx9ZvXw.jpeg" alt="" />
+                <img
+                  srcSet={require('../../public/images/articles/article-disney-world.jpeg?resize').srcSet}
+                  src={require('../../public/images/articles/article-disney-world.jpeg?resize').src}
+                  alt=""
+                />
               </div>
               <div className="news__story-category">Branding</div>
               <h1 className="news__story-title">How your brand’s credibility starts with great visual design</h1>
