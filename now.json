@@ -2,11 +2,11 @@
   "routes": [
     {
       "src": ".(jpg|jpeg|png|gif|ico)$",
-      "headers": { "Cache-Control": "max-age=31536000" },
+      "headers": { "Cache-Control": "max-age=31536000" }
     },
     {
       "src": ".(css|js)$",
-      "headers": { "Cache-Control": "max-age=2628000" },
+      "headers": { "Cache-Control": "max-age=2628000" }
     }
   ]
 }
