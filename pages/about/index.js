@@ -27,7 +27,7 @@ const PageAbout = props => (
     <article>
       <Sidekick meta="About" title="I'm a full service digital agency built to grow modern brands." />
 
-      <Poster src="/images/sample.jpg" alt="Sample text for the photo." />
+      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
       <Nutshell />
       <HowWhy />
       <Awards />

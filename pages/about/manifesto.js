@@ -21,7 +21,7 @@ const PageManifesto = props => (
 
     <article>
       <Sidekick meta="Manifesto" title="I'm a full service digital agency built to grow modern brands." />
-      <Poster src="/images/sample.jpg" alt="Sample text for the photo." />
+      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
       <Manifesto />
     </article>
     <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />

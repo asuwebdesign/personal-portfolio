@@ -33,7 +33,11 @@ const Poster = props => {
       transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
     >
       <Wrapper>
-        <Image src={src} alt={alt} />
+        <img
+          srcSet={src.srcSet}
+          src={src.src}
+          alt={alt}
+        />
       </Wrapper>
     </motion.div>
   )

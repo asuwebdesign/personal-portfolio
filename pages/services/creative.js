@@ -20,7 +20,7 @@ const PageServices = props => (
 
     <article>
       <Sidekick meta="Creative &amp; Experience Design" title="Branding is what emotionally connects a company with its community." />
-      <Poster src="/images/sample.jpg" alt="Sample text for the photo." />
+      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
         <section>
           <Wrapper>
             <div className="">
