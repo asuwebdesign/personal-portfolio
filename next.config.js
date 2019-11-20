@@ -1,9 +1,10 @@
+const path = require('path')
 const compose = require('next-compose')
 const withSass = require('@zeit/next-sass')
 const optimizedImages = require('next-optimized-images')
 const withOffline = require('next-offline')
 
-const nextConfig = compose([
+module.exports = compose([
   [withSass, {}],
   [optimizedImages, {
     defaultImageLoader: 'responsive-loader',
@@ -14,28 +15,11 @@ const nextConfig = compose([
       placeholderSize: 50
     }
   }],
-  {
+  [withOffline, {
+    generateSw: false,
     workboxOpts: {
-      swDest: 'static/service-worker.js',
-      runtimeCaching: [
-        {
-          urlPattern: /^https?.*/,
-          handler: 'NetworkFirst',
-          options: {
-            cacheName: 'https-calls',
-            networkTimeoutSeconds: 15,
-            expiration: {
-              maxEntries: 150,
-              maxAgeSeconds: 30 * 24 * 60 * 60, // 1 month
-            },
-            cacheableResponse: {
-              statuses: [0, 200],
-            },
-          },
-        },
-      ],
-    },
-  },
+      swSrc: path.join(__dirname, 'service-worker.js'),
+      importWorkboxFrom: 'local'
+    }
+  }],
 ])
-
-module.exports = withOffline(nextConfig)
