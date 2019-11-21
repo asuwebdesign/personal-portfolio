@@ -16,10 +16,10 @@ class MyApp extends App {
   // }
 
   render() {
-    const { Component, pageProps } = this.props
+    const { Component, pageProps, router } = this.props
     return (
       <Fragment>
-        <Component {...pageProps} />
+        <Component {...pageProps} router={router} />
         <NextNprogress color={`#ff007e`} startPosition={0.1} stopDelayMs={200} height={3} />
       </Fragment>
     )

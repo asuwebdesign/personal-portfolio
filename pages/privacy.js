@@ -11,7 +11,7 @@ import Sidekick from '../components/sidekick'
 
 // Render component
 const PagePrivacy = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Privacy Policy | Mark Riggan</title>
     </Head>

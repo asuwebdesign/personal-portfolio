@@ -13,7 +13,7 @@ import FormFollow from '../components/form-follow'
 
 // Render component
 const PageContact = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Contact | Mark Riggan</title>
     </Head>

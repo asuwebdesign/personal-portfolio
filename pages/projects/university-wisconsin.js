@@ -12,7 +12,7 @@ import Detour from '../../components/detour'
 
 // Render component
 const ProjectSample = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Projects</title>
     </Head>

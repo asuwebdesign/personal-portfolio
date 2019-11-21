@@ -11,7 +11,7 @@ import Sidekick from '../components/sidekick'
 
 // Render component
 const PageAccessibility = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Accessibility | Mark Riggan</title>
     </Head>

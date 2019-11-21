@@ -14,7 +14,7 @@ import Manifesto from '../../components/manifesto'
 
 // Render component
 const PageManifesto = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Manifesto | Mark Riggan</title>
     </Head>

@@ -12,7 +12,7 @@ import Services from '../../components/services'
 
 // Render component
 const PageServices = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Services | Mark Riggan</title>
     </Head>

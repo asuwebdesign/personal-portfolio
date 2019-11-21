@@ -11,7 +11,7 @@ import Sidekick from '../components/sidekick'
 
 // Render component
 const PageTermsConditions = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Terms &amp; Conditions | Mark Riggan</title>
     </Head>

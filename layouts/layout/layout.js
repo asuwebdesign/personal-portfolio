@@ -9,7 +9,7 @@ import Footer from '../footer'
 // Import styles
 import '../../styles/main.scss'
 
-const Layout = ({ children }) => {
+const Layout = props => {
   return (
     <Fragment>
       <Head>
@@ -25,8 +25,8 @@ const Layout = ({ children }) => {
         <meta name="google-site-verification" property="google-site-verification" content="T9bAkAJ3wneGw02nYwl8cK-db-qFdRRg1j0Wr75qGX8" />
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet" />
       </Head>
-      <Header />
-      {children}
+      <Header {...props} />
+      {props.children}
       <Footer />
     </Fragment>
   )

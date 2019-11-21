@@ -13,7 +13,7 @@ import Sidekick from '../../components/sidekick'
 
 // Render component
 const PageProjects = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Projects | Mark Riggan</title>
     </Head>

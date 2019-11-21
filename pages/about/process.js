@@ -14,7 +14,7 @@ import Process from '../../components/process'
 
 // Render component
 const PageProcess = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Process | Mark Riggan</title>
     </Head>

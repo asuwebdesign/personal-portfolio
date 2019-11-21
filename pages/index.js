@@ -20,7 +20,7 @@ import MetaLabel from '../elements/meta-label'
 
 // Render component
 const PageHome = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Mark Riggan | Creative Digital Designer &amp; Developer</title>
       <meta name="title" property="title" content="Mark Riggan | Creative Digital Designer &amp; Developer" />

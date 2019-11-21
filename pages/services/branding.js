@@ -14,7 +14,7 @@ import Poster from '../../components/poster'
 
 // Render component
 const PageServices = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>Branding Strategy &amp; Identity - Services | Mark Riggan</title>
     </Head>

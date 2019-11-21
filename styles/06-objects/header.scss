@@ -31,46 +31,6 @@
     }
   }
 
-  .breadcrumb {
-    position: fixed;
-    top: 72px;
-    left: 50%;
-    display: flex;
-    align-items: center;
-    margin-left: -624px;
-    font-weight: 400;
-    font-size: 21px;
-    color: var(--color-carbon-900);
-    z-index: 100;
-
-    strong {
-      display: flex;
-      align-items: center;
-      font-weight: 900;
-
-      &:after {
-        content: '';
-        display: inline-block;
-        width: 4px;
-        height: 4px;
-        margin: 0 16px;
-        background-color: var(--color-carbon-900);
-        border-radius: 50%;
-      }
-    }
-
-    &:before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      right: calc(100% + 32px);
-      width: 108px;
-      height: 2px;
-      margin-top: -1px;
-      background-color: var(--color-carbon-900);
-    }
-  }
-
   .menu-toggle {
     position: fixed;
     top: 32px;

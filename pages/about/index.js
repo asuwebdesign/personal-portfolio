@@ -16,7 +16,7 @@ import Awards from '../../components/awards'
 
 // Render component
 const PageAbout = props => (
-  <Layout>
+  <Layout {...props}>
     <Head>
       <title>About | Mark Riggan</title>
     </Head>

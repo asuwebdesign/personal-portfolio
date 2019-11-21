@@ -4,9 +4,12 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import Media from 'react-media'
 
+// Import components
+import Breadcrumb from '../../components/breadcrumb'
+
 // Import elements
 import MLogo from '../../elements/mlogo'
-import Button from '../../elements/button/'
+import Button from '../../elements/button'
 
 // Import vectors
 import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
@@ -62,7 +65,7 @@ const Header = props => {
       <MLogo primary />
 
       <Media query="(min-width: 1280px)" render={() => (
-        <div className="breadcrumb"><strong>Mark Riggan</strong> Designer &amp; Developer</div>
+        <Breadcrumb {...props} />
       )} />
 
       <button
