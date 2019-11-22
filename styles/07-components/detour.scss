@@ -41,8 +41,8 @@
     line-height: 1.25;
 
     @include media('>=large') {
-      width: 30vw;
       margin: 0 0 32px;
+      font-family: var(--font-stack-extrabold);
       font-size: 32px;
     }
   }

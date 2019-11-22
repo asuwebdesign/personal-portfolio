@@ -9,13 +9,13 @@ const Breadcrumb = props => {
   const { pathname } = props.router
 
   const renderBreadcrumbTrail = () => {
-    if (pathname === "/projects") {
+    if (pathname.startsWith("/projects")) {
       return <span>Projects</span>
-    } else if (pathname === "/services") {
+    } else if (pathname.startsWith("/services")) {
       return <span>Services</span>
-    } else if (pathname === "/about") {
+    } else if (pathname.startsWith("/about")) {
       return <span>About</span>
-    } else if (pathname === "/contact") {
+    } else if (pathname.startsWith("/contact")) {
       return <span>Contact</span>
     } else {
       return <span><strong>Mark Riggan</strong> Designer &amp; Developer</span>
