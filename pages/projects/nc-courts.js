@@ -11,7 +11,7 @@ import Cover from '../../components/cover'
 import Detour from '../../components/detour'
 
 // Render component
-const ProjectNCGov = props => (
+const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
       <title>Projects</title>
@@ -30,7 +30,7 @@ const ProjectNCGov = props => (
           </ul>
         </Wrapper>
       </header>
-      <section>
+      <section className="band">
         <Wrapper>
           <img src="https://source.unsplash.com/random/320x320" />
           <h1>About Ubisoft</h1>
@@ -44,7 +44,7 @@ const ProjectNCGov = props => (
           </ul>
         </Wrapper>
       </section>
-      <section>
+      <section className="band">
         <Wrapper>
           <h1>01 Highlights</h1>
           <h2>A partnership for the ages.</h2>
@@ -57,4 +57,4 @@ const ProjectNCGov = props => (
   </Layout>
 )
 
-export default ProjectNCGov
+export default ProjectDetail

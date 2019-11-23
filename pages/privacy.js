@@ -4,10 +4,11 @@ import Head from 'next/head'
 
 // Import layouts
 import Layout from '../layouts/layout'
-import Wrapper from '../layouts/wrapper'
+import Band from '../layouts/band'
 
 // Import components
 import Sidekick from '../components/sidekick'
+import Detour from '../components/detour'
 
 // Render component
 const PagePrivacy = props => (
@@ -18,13 +19,12 @@ const PagePrivacy = props => (
 
     <article>
       <Sidekick meta="Privacy Policy" title="Basically I won't share your personal information to anyone. Like, ever." />
-      <section>
-        <Wrapper>
-          <p>Awwwards are given to the best CSS websites in the world from the top designers, agencies and bloggers working today. Winners receive recognition, prestige and media presence.</p>
-          <p>By accessing our website and/or using our services, you agree to be bound by the following terms and conditions.</p>
-        </Wrapper>
-      </section>
+      <Band>
+        <p>Awwwards are given to the best CSS websites in the world from the top designers, agencies and bloggers working today. Winners receive recognition, prestige and media presence.</p>
+        <p>By accessing our website and/or using our services, you agree to be bound by the following terms and conditions.</p>
+      </Band>
     </article>
+    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
   </Layout>
 )
 

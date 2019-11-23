@@ -1,0 +1,7 @@
+.band {
+  margin-top: 64px;
+
+  @include media('>=large') {
+    margin-top: 128px;
+  }
+}

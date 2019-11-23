@@ -4,10 +4,11 @@ import Head from 'next/head'
 
 // Import layouts
 import Layout from '../layouts/layout'
-import Wrapper from '../layouts/wrapper'
+import Band from '../layouts/band'
 
 // Import components
 import Sidekick from '../components/sidekick'
+import Detour from '../components/detour'
 
 // Render component
 const PageTermsConditions = props => (
@@ -18,9 +19,7 @@ const PageTermsConditions = props => (
 
     <article>
       <Sidekick meta="Terms &amp; Conditions" title="Basically I won't share your personal information to anyone. Like, ever." />
-      <section>
-        <Wrapper>
-
+      <Band>
           <p>Last updated October 13, 2019</p>
           <h2>AGREEMENT TO TERMS</h2>
           <p>These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Mark Riggan, doing business as Mark Riggan ("Mark Riggan", “we”, “us”, or “our”), concerning your access to and use of the https://www.markriggan.com website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.</p>
@@ -148,10 +147,9 @@ const PageTermsConditions = props => (
           CONTACT US
 
           In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:
-
-        </Wrapper>
-      </section>
+      </Band>
     </article>
+    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
   </Layout>
 )
 

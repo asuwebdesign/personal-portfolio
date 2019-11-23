@@ -2,8 +2,6 @@
 import React from "react"
 import Link from 'next/link'
 
-// <strong>Mark Riggan</strong> Designer &amp; Developer
-
 // Render component
 const Breadcrumb = props => {
   const { pathname } = props.router
