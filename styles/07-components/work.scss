@@ -1,10 +1,6 @@
 .work {
   margin-top: 64px;
 
-  @include media('>=large') {
-    margin-top: -128px;
-  }
-
   &__title {
     position: relative;
     margin: 0 0 64px;
@@ -17,128 +13,21 @@
   }
 
   &__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include media('>=large') {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
 
   &__project {
-    width: percentage(400/1248);
+    @include media('>=large') {
+      width: percentage(400/1248);
+    }
 
     &:nth-child(n+4) {
       margin-top: 64px;
     }
-
-    &-link {
-      text-decoration: none;
-
-      &:hover {
-        .work__project-photo img {
-          transform: scale(1.05);
-        }
-        .work__project-photo:before {
-          box-shadow: inset 0 0 0 16px var(--color-dust);
-        }
-      }
-    }
-
-    &-photo {
-      position: relative;
-      width: 100%;
-      height: 600px;
-      margin-bottom: 32px;
-      overflow: hidden;
-
-      img {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform $animation_speed_dramatic $animation_easing_decelerate;
-        z-index: 1;
-      }
-
-      &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        width: 100%;
-        height: 100%;
-        box-shadow: inset 0 0 0 0 var(--color-dust);
-        transition: box-shadow $animation_speed_dramatic $animation_easing_decelerate;
-        z-index: 2;
-      }
-    }
-
-    &-client {
-      position: relative;
-      margin: 0 0 0 32px;
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--color-slate);
-      text-transform: uppercase;
-      letter-spacing: normal;
-
-      &:before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -32px;
-        display: block;
-        width: 16px;
-        height: 2px;
-        margin-top: -1px;
-        background-color: var(--color-slate);
-      }
-    }
-
-    &-title {
-      margin: 24px 0 0 32px;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 1.25;
-      letter-spacing: -1px;
-    }
-  }
-
-}
-
-.work {
-  margin-top: 64px;
-
-  @include media('>=large') {
-    margin-top: 128px;
-  }
-
-  &__title {
-    position: relative;
-    margin: 0 0 64px;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--color-slate);
-    letter-spacing: normal;
-    text-transform: uppercase;
-    text-align: center;
-
-    &:after {
-      content: '';
-      display: block;
-      width: 32px;
-      height: 2px;
-      margin: 16px auto 0;
-      background-color: var(--color-carbon-200);
-    }
-  }
-
-  &__list {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  &__project {
-    width: percentage(400/1248);
 
     &-link {
       text-decoration: none;

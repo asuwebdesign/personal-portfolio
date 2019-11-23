@@ -1,48 +1,63 @@
 .hero {
   position: relative;
   min-height: 100vh;
-  padding: 128px 0;
+  padding: 64px 0;
   background-color: rgb(29, 29, 29);
   color: var(--color-crystal-white);
   overflow: hidden;
+
+  @include media('>=large') {
+    padding: 128px 0;
+  }
 
   h1, h2, h3, h4, h5, h6 {
     color: var(--color-crystal-white);
   }
 
   &__title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 1248px;
-    margin-left: -624px;
     font-family: var(--font-stack-regular);
-    font-size: 32px;
     font-weight: normal;
-    transform: translateY(-50%);
     z-index: 2;
+
+    @include media('>=large') {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1248px;
+      margin-left: -624px;
+      font-size: 32px;
+      transform: translateY(-50%);
+    }
 
     span {
       display: inline-block;
       margin-top: 16px;
       font-family: var(--font-stack-extrabold);
-      font-size: 96px;
       line-height: 1;
+
+      @include media('>=large') {
+        font-size: 96px;
+      }
     }
   }
 
   &__highlights {
-    position: absolute;
-    bottom: 64px;
-    left: 50%;
-    display: flex;
-    justify-content: space-between;
-    width: 1248px;
-    margin-left: -624px;
     z-index: 2;
 
+    @include media('>=large') {
+      position: absolute;
+      bottom: 64px;
+      left: 50%;
+      display: flex;
+      justify-content: space-between;
+      width: 1248px;
+      margin-left: -624px;
+    }
+
     div {
-      width: percentage(400/1248);
+      @include media('>=large') {
+        width: percentage(400/1248);
+      }
     }
 
     h2 {
