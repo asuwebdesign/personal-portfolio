@@ -11,12 +11,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 0;
+    padding: 64px;
     color: var(--color-carbon-900);
     text-decoration: none;
 
     @include media(">=large") {
-      padding: 128px 0;
+      padding: 128px;
     }
   }
 

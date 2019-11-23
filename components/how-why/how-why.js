@@ -19,6 +19,7 @@ const HowWhy = props => {
               srcSet={require('../../public/images/cards/card-process.jpg?resize').srcSet}
               src={require('../../public/images/cards/card-process.jpg?resize').src}
               alt=""
+              loading="lazy"
             />
           </div>
           <h1 className="teaser__meta">How I Do It</h1>
@@ -32,6 +33,7 @@ const HowWhy = props => {
               srcSet={require('../../public/images/cards/card-process.jpg?resize').srcSet}
               src={require('../../public/images/cards/card-process.jpg?resize').src}
               alt=""
+              loading="lazy"
             />
           </div>
           <h1 className="teaser__meta">Why I Do It</h1>

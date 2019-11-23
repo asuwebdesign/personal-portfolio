@@ -34,6 +34,7 @@ const Poster = props => {
           srcSet={src.srcSet}
           src={src.src}
           alt={alt}
+          loading="lazy"
         />
       </Wrapper>
     </motion.div>

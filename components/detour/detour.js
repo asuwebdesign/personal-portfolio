@@ -9,15 +9,13 @@ import IconTailRight from "../../public/vectors/icon-tail-right.svg"
 const Detour = props => {
   return (
     <aside className="detour">
-      <article>
-        <Link href={props.link}>
-          <a className="detour__link">
-            <h1 className="detour__meta">{props.meta}</h1>
-            <div className="detour__title">{props.title}</div>
-            <IconTailRight />
-          </a>
-        </Link>
-      </article>
+      <Link href={props.link}>
+        <a className="detour__link">
+          <h1 className="detour__meta">{props.meta}</h1>
+          <div className="detour__title">{props.title}</div>
+          <IconTailRight />
+        </a>
+      </Link>
     </aside>
   )
 }
