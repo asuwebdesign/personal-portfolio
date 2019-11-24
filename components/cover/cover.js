@@ -2,9 +2,6 @@
 import React from "react"
 import Link from 'next/link'
 
-// Import layouts
-import Wrapper from '../../layouts/wrapper'
-
 // Import vectors
 import Dots from '../../public/vectors/graphic-dots.svg'
 import IconSolutionB from '../../public/vectors/solution-b.svg'
@@ -34,8 +31,8 @@ const Cover = props => {
 
       <div className="cover__photo">
         <img
-          srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
-          src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+          srcSet={require('../../public/images/cards/card-hwy55.jpg?resize').srcSet}
+          src={require('../../public/images/cards/card-hwy55.jpg?resize').src}
           alt=""
         />
       </div>

@@ -27,7 +27,7 @@ const Poster = props => {
       animate="visible"
       initial="hidden"
       variants={motionPoster}
-      transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+      transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.1 }}
     >
       <Wrapper>
         <img

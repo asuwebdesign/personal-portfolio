@@ -1,6 +1,7 @@
 // Import nodes
 import React from "react"
 import Link from 'next/link'
+import { motion } from "framer-motion"
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -10,12 +11,30 @@ import Dots from '../../public/vectors/graphic-dots.svg'
 
 // Render component
 const Hero = props => {
+
+  // declared animations
+  const motionSidekick = {
+    visible: {
+      opacity: 1,
+      y: '-50%',
+    },
+    hidden: {
+      opacity: 0,
+      y: '-35%',
+    }
+  }
+
   return (
     <header className="sidekick">
-      <div className="sidekick__content">
-        <h1 className="sidekick__meta">{props.meta}</h1>
-        <div className="sidekick__title">{props.title}</div>
-      </div>
+      <motion.div
+        className="sidekick__content"
+        animate="visible"
+        initial="hidden"
+        variants={motionSidekick}
+        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+      >
+        <h1 className="sidekick__title">{props.title}</h1>
+      </motion.div>
       <div className="sidekick__dots">
         <Dots />
       </div>
