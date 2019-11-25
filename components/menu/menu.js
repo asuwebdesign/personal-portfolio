@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react"
-import { Link } from "gatsby"
+import { Link } from "next/link"
 import { motion } from "framer-motion"
 import IconMenu from "../../../graphics/icon-menu.svg"
 
@@ -69,11 +69,11 @@ const Menu = props => {
         >
           <h1>Menu</h1>
           <ul>
-            <li><Link to="/" onClick={() => setMenuState(!menuActive)}><strong>Hello.</strong> <small>My name is Mark.</small></Link></li>
-            <li><Link to="/work" onClick={() => setMenuState(!menuActive)}><strong>Work.</strong> <small>What I've made.</small></Link></li>
-            <li><Link to="/expertise" onClick={() => setMenuState(!menuActive)}><strong>What I do.</strong> <small>Services and expertise.</small></Link></li>
-            <li><Link to="/about" onClick={() => setMenuState(!menuActive)}><strong>About.</strong> <small>Who I am.</small></Link></li>
-            <li><Link to="/contact" onClick={() => setMenuState(!menuActive)}><strong>Contact.</strong> <small>Get in touch.</small></Link></li>
+            <li><Link href="/" onClick={() => setMenuState(!menuActive)}><a><strong>Hello.</strong> <small>My name is Mark.</small></a></Link></li>
+            <li><Link href="/work" onClick={() => setMenuState(!menuActive)}><a><strong>Work.</strong> <small>What I've made.</small></a></Link></li>
+            <li><Link href="/expertise" onClick={() => setMenuState(!menuActive)}><a><strong>What I do.</strong> <small>Services and expertise.</small></a></Link></li>
+            <li><Link href="/about" onClick={() => setMenuState(!menuActive)}><a><strong>About.</strong> <small>Who I am.</small></a></Link></li>
+            <li><Link href="/contact" onClick={() => setMenuState(!menuActive)}><a><strong>Contact.</strong> <small>Get in touch.</small></a></Link></li>
           </ul>
         </motion.nav>
         <motion.div

@@ -8,7 +8,19 @@
   color: var(--color-carbon-900);
   z-index: 100;
 
-  span {
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -140px;
+    width: 108px;
+    height: 2px;
+    margin-top: -1px;
+    background-color: var(--color-carbon-900);
+    animation: animateBreadcrumbLine $animation_speed_complex $animation_easing_decelerate forwards;
+  }
+
+  div {
     display: flex;
     align-items: center;
   }
@@ -28,15 +40,13 @@
       border-radius: 50%;
     }
   }
+}
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: calc(100% + 32px);
+@keyframes animateBreadcrumbLine {
+  0% {
+    width: 0;
+  }
+  100% {
     width: 108px;
-    height: 2px;
-    margin-top: -1px;
-    background-color: var(--color-carbon-900);
   }
 }
