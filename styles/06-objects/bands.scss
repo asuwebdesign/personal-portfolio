@@ -4,4 +4,20 @@
   @include media('>=large') {
     margin-top: 128px;
   }
+
+  &--numbered {
+    .wrapper {
+      @include media('>=large') {
+        position: relative;
+        padding-left: 424px;
+      }
+    }
+    .band__title {
+      @include media('>=large') {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
 }

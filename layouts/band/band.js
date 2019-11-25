@@ -7,7 +7,7 @@ import Wrapper from '../wrapper'
 // Render component
 const Band = props => {
   return (
-    <section className="band">
+    <section className={`band ${props.className}`}>
       <Wrapper>
         {props.children}
       </Wrapper>
