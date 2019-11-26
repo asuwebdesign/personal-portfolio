@@ -60,6 +60,8 @@ const Header = props => {
     }
   }
 
+  const { pathname } = props.router
+
   return (
     <header className="layout layout--header">
       <MLogo primary />

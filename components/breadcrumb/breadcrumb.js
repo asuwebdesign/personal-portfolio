@@ -27,29 +27,41 @@ const Breadcrumb = props => {
     } else if (pathname === "/services/branding") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a>Services</a></Link></strong> <span>Branding Strategy &amp; Identity</span>
+          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Branding Strategy &amp; Identity</span>
         </Fragment>
       )
     } else if (pathname === "/services/creative") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a>Services</a></Link></strong> <span>Creative &amp; Experience Design</span>
+          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Creative &amp; Experience Design</span>
         </Fragment>
       )
     } else if (pathname === "/services/research") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a>Services</a></Link></strong> <span>Research, Data &amp; Analytics</span>
+          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Research, Data &amp; Analytics</span>
         </Fragment>
       )
     } else if (pathname === "/services/digital") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a>Services</a></Link></strong> <span>Websites &amp; Digital Platforms</span>
+          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Websites &amp; Digital Platforms</span>
         </Fragment>
       )
     } else if (pathname === "/about") {
       return "About"
+    } else if (pathname === "/about/manifesto") {
+      return (
+        <Fragment>
+          <strong><Link href="/about"><a><span>About</span></a></Link></strong> <span>Manifesto</span>
+        </Fragment>
+      )
+    } else if (pathname === "/about/process") {
+      return (
+        <Fragment>
+          <strong><Link href="/about"><a><span>About</span></a></Link></strong> <span>Process</span>
+        </Fragment>
+      )
     } else if (pathname === "/contact") {
       return "Contact"
     } else if (pathname === "/terms") {

@@ -19,33 +19,36 @@ const PageServices = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Creative &amp; Experience Design" title="Branding is what emotionally connects a company with its community." />
+      <Sidekick meta="Branding Strategy &amp; Identity" title="Branding is what emotionally connects a company with its community." />
       <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
       <Band className="band--numbered">
-        <div className="band__title">
-          <div>01</div>
-          <h2>About</h2>
+        <div className="band__title-block">
+          <div className="band__number">01</div>
+          <h1 className="band__title">About</h1>
         </div>
         <div className="band__content">
-          <p>Designing the future.</p>
+          <h2>Designing the future.</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
         </div>
       </Band>
       <Band className="band--numbered">
-        <div className="band__title">
-          <div>02</div>
-          <h2>Services</h2>
+        <div className="band__title-block">
+          <div className="band__number">02</div>
+          <h1 className="band__title">Services</h1>
         </div>
         <div className="band__content">
-          <p>Designing the future.</p>
+          <h2>Designing the future.</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-          <ul>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
+          <ul className="meta-list">
+            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Something</li>
           </ul>
         </div>
       </Band>

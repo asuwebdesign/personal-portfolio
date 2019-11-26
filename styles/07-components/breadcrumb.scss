@@ -1,5 +1,5 @@
 .breadcrumb {
-  position: fixed;
+  position: absolute;
   top: 72px;
   left: 50%;
   margin-left: -624px;
@@ -23,6 +23,40 @@
   div {
     display: flex;
     align-items: center;
+  }
+
+  a {
+    position: relative;
+    display: inline-block;
+    color: var(--color-carbon-900);
+    text-decoration: none;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 5%;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 25%;
+      background-color: var(--color-carbon-100);
+      transition:
+        bottom $animation_speed_complex $animation_easing_decelerate,
+        height $animation_speed_complex $animation_easing_decelerate;
+      z-index: 1;
+    }
+
+    span {
+      position: relative;
+      z-index: 2;
+    }
+
+    &:hover, &:focus {
+      &:before {
+        bottom: 0;
+        height: 100%;
+      }
+    }
   }
 
   strong {

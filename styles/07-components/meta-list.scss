@@ -1,0 +1,26 @@
+.meta-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 32px 0;
+  list-style: none;
+
+  &__item {
+    @include media('>=large') {
+      width: percentage(400/824);
+      padding: 8px 0;
+    }
+
+    &:nth-child(even) {
+      @include media('>=large') {
+        margin-left: percentage(24/824);
+      }
+    }
+
+    &:nth-child(n+3) {
+      @include media('>=large') {
+        border-top: 1px solid var(--color-carbon-100);
+      }
+    }
+  }
+}
