@@ -21,16 +21,11 @@ const ProjectDetail = props => (
     </Head>
 
     <article>
-      <Cover image={ProjectCover} />
-      <header>
-        <div>Ubisoft</div>
-        <h1>Engaging worldwide gamers through branding and marketing.</h1>
-        <ul>
-          <li>Creative &amp; Experience Design</li>
-          <li>Creative &amp; Experience Design</li>
-          <li>Creative &amp; Experience Design</li>
-        </ul>
-      </header>
+      <Cover
+        client="Atlantic BT"
+        headline="Building the Beats brand through design and eCommerce."
+        image={ProjectCover}
+      />
       <Band>
         <img src="https://source.unsplash.com/random/320x320" />
         <h1>About Ubisoft</h1>
@@ -64,6 +59,9 @@ const ProjectDetail = props => (
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
         </div>
+      </Band>
+      <Band div>
+        <img src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" />
       </Band>
       <Band className="band--numbered">
         <div className="band__title-block">

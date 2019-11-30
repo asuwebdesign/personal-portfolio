@@ -21,16 +21,11 @@ const ProjectDetail = props => (
     </Head>
 
     <article>
-      <Cover image={ProjectCover} />
-      <header>
-        <div>Ubisoft</div>
-        <h1>Engaging worldwide gamers through branding and marketing.</h1>
-        <ul>
-          <li>Creative &amp; Experience Design</li>
-          <li>Creative &amp; Experience Design</li>
-          <li>Creative &amp; Experience Design</li>
-        </ul>
-      </header>
+      <Cover
+        client="Hwy 55"
+        headline="Building the Beats brand through design and eCommerce."
+        image={ProjectCover}
+      />
       <Band>
         <img src="https://source.unsplash.com/random/320x320" />
         <h1>About Ubisoft</h1>
