@@ -5,10 +5,14 @@ import Head from 'next/head'
 // Import layouts
 import Layout from '../../layouts/layout'
 import Wrapper from '../../layouts/wrapper'
+import Band from '../../layouts/band'
 
 // Import components
 import Cover from '../../components/cover'
 import Detour from '../../components/detour'
+
+// Import images
+import ProjectCover from '../../public/images/covers/cover-atlanticbt.jpg'
 
 // Render component
 const ProjectDetail = props => (
@@ -18,7 +22,7 @@ const ProjectDetail = props => (
     </Head>
 
     <article>
-      <Cover />
+      <Cover image={ProjectCover} />
       <header>
         <Wrapper>
           <div>State of North Carolina</div>
@@ -44,14 +48,39 @@ const ProjectDetail = props => (
           </ul>
         </Wrapper>
       </section>
-      <section className="band">
-        <Wrapper>
-          <h1>01 Highlights</h1>
-          <h2>A partnership for the ages.</h2>
+      <Band className="band--numbered">
+        <div className="band__title-block">
+          <div className="band__number">01</div>
+          <h1 className="band__title">Highlights</h1>
+        </div>
+        <div className="band__content">
+          <h2>Designing the future.</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-        </Wrapper>
-      </section>
+        </div>
+      </Band>
+      <Band className="band--numbered">
+        <div className="band__title-block">
+          <div className="band__number">02</div>
+          <h1 className="band__title">Research</h1>
+        </div>
+        <div className="band__content">
+          <h2>Designing the future.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+        </div>
+      </Band>
+      <Band className="band--numbered">
+        <div className="band__title-block">
+          <div className="band__number">03</div>
+          <h1 className="band__title">Strategy</h1>
+        </div>
+        <div className="band__content">
+          <h2>Designing the future.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+        </div>
+      </Band>
     </article>
     <Detour meta="Next Case Study" title="Content storytelling with real attitude across eCommerce with BB Dakota" link="/projects/sample" />
   </Layout>

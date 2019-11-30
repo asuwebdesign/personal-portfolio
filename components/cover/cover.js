@@ -31,8 +31,8 @@ const Cover = props => {
 
       <div className="cover__photo">
         <img
-          srcSet={require('../../public/images/cards/card-hwy55.jpg?resize').srcSet}
-          src={require('../../public/images/cards/card-hwy55.jpg?resize').src}
+          srcSet={props.image.srcSet}
+          src={props.image.src}
           alt=""
         />
       </div>

@@ -74,6 +74,22 @@
       border-radius: 50%;
     }
   }
+
+  // Inverted theme
+  // ---------------------------------------------------------------------------
+  &--inverted {
+    color: var(--color-crystal-white);
+
+    &:before {
+      background-color: var(--color-crystal-white);
+    }
+
+    strong {
+      &:after {
+        background-color: var(--color-crystal-white);
+      }
+    }
+  }
 }
 
 @keyframes animateBreadcrumbLine {

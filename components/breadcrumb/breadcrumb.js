@@ -80,7 +80,7 @@ const Breadcrumb = props => {
   }
 
   return (
-    <div className="breadcrumb">
+    <div className={pathname === "/" ? "breadcrumb breadcrumb--inverted" : "breadcrumb"}>
       <motion.div
         animate="visible"
         initial="hidden"
