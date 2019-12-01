@@ -1,9 +1,21 @@
 .wrapper {
-  padding: 0 18vw;
+  padding: 0 32px;
+
+  @include media('>=small') {
+    padding: 0 64px;
+  }
+
+  @include media('>=large') {
+    padding: 0 128px;
+  }
+
+  @include media('>=x-large') {
+    padding: 0 256px;
+  }
 
   @include media('>=xx-large') {
     max-width: 1248px;
-    margin: 0 auto;
     padding: 0;
+    margin: 0 auto;
   }
 }
