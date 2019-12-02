@@ -49,4 +49,29 @@
       margin-top: 64px;
     }
   }
+
+  &--client {
+    .wrapper {
+      @include media('>=large') {
+        position: relative;
+        padding-left: 424px;
+      }
+    }
+    .band__title-block {
+      @include media('>=large') {
+        position: absolute;
+        top: 8px;
+        left: 0;
+      }
+    }
+
+    .band__title {
+      margin: 0;
+      font-size: 19px;
+
+      &:after {
+        content: '.';
+      }
+    }
+  }
 }

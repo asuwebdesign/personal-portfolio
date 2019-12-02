@@ -12,6 +12,7 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-atlanticbt.jpg'
+import ProjectLogo from '../../public/vectors/logo-redhat.svg'
 
 // Render component
 const ProjectDetail = props => (
@@ -26,17 +27,21 @@ const ProjectDetail = props => (
         headline="Building the Beats brand through design and eCommerce."
         image={ProjectCover}
       />
-      <Band>
-        <img src="https://source.unsplash.com/random/320x320" />
-        <h1>About Ubisoft</h1>
-        <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
-        <h2>What we did</h2>
-        <ul>
-          <li>Branding</li>
-          <li>Branding</li>
-          <li>Branding</li>
-          <li>Branding</li>
-        </ul>
+      <Band className="band--client">
+        <div className="band__title-block">
+          <ProjectLogo />
+          <h1>About Ubisoft</h1>
+        </div>
+        <div className="band__content">
+          <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+          <h2>What we did</h2>
+          <ul className="tags">
+            <li className="tag">Branding</li>
+            <li className="tag">Branding</li>
+            <li className="tag">Branding</li>
+            <li className="tag">Branding</li>
+          </ul>
+        </div>
       </Band>
       <Band className="band--numbered">
         <div className="band__title-block">
