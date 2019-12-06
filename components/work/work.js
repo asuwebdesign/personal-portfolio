@@ -8,7 +8,7 @@ import Wrapper from '../../layouts/wrapper'
 // Render component
 const Projects = props => {
   return (
-    <section className="work">
+    <div className="work">
       <Wrapper>
         <div className="work__list">
           <article className="work__project">
@@ -109,7 +109,7 @@ const Projects = props => {
           </article>
         </div>
       </Wrapper>
-    </section>
+    </div>
   )
 }
 

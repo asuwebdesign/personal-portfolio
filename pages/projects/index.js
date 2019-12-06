@@ -5,6 +5,7 @@ import Head from 'next/head'
 // Import layouts
 import Layout from '../../layouts/layout'
 import Wrapper from '../../layouts/wrapper'
+import Band from '../../layouts/band'
 
 // Import components
 import Detour from '../../components/detour'
@@ -21,6 +22,10 @@ const PageProjects = props => (
     <article>
       <Sidekick meta="Projects" title="My work includes complex interface systems for web, mobile, and more." />
       <Work />
+      <Band>
+        <h1>Behind the scenes</h1>
+        <p>Something about my other shots on Dribbble.</p>
+      </Band>
     </article>
     <Detour meta="Up Next" title="Discover what I do." link="/services" />
   </Layout>

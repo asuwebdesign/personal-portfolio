@@ -1,9 +1,13 @@
 input {
   width: 100%;
-  padding: 16px;
+  padding: 16px 0;
   background-color: transparent;
   border: 0;
   border-bottom: 2px solid var(--color-carbon-900);
+
+  &:focus {
+    outline: 0;
+  }
 
   &[type="submit"] {
     width: auto;
@@ -30,6 +34,10 @@ textarea {
   border: 0;
   border-bottom: 2px solid var(--color-carbon-900);
   resize: vertical;
+
+  &:focus {
+    outline: 0;
+  }
 }
 
 .form {

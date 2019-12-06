@@ -54,7 +54,7 @@ const Process = props => {
         <Wrapper>
           <div className="phase__primary">
             <div className="phase__number" aria-hidden="true">04</div>
-            <h1 className="phase__title">Build &amp; Deploy</h1>
+            <h1 className="phase__title">Build &amp; Release</h1>
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Mesh design and technology into a brand or product.</p>
