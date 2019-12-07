@@ -1,6 +1,5 @@
 // Import nodes
 import React from "react"
-import Link from 'next/link'
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'

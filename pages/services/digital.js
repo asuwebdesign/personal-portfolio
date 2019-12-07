@@ -20,7 +20,7 @@ const PageServices = props => (
 
     <article>
       <Sidekick meta="Branding Strategy &amp; Identity" title="Branding is what emotionally connects a company with its community." />
-      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+      <Poster src={require('../../public/images/banners/banner-digital.jpg?resize')} alt="Sample text for the photo." />
       <Band className="band--numbered">
         <div className="band__title-block">
           <div className="band__number">01</div>
@@ -30,7 +30,12 @@ const PageServices = props => (
           <h2>Designing the future.</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-          <img src="https://skywell.software/wp-content/uploads/2018/12/web-development-1024x605.jpg" />
+          <img
+            srcSet={require('../../public/images/pictures/picture-digital.jpg?resize').srcSet}
+            src={require('../../public/images/pictures/picture-digital.jpg?resize').src}
+            alt={""}
+            loading="lazy"
+          />
         </div>
       </Band>
       <Band className="band--numbered">

@@ -21,7 +21,7 @@ const PageServices = props => (
 
     <article>
       <Sidekick meta="Branding Strategy &amp; Identity" title="Branding is what emotionally connects a company with its community." />
-      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+      <Poster src={require('../../public/images/banners/banner-branding.jpg?resize')} alt="Sample text for the photo." />
       <Band className="band--numbered">
         <div className="band__title-block">
           <div className="band__number">01</div>
@@ -31,7 +31,12 @@ const PageServices = props => (
           <h2>Designing the future.</h2>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-          <img src="https://uplinkspyder.com/wp-content/uploads/2018/02/uplinkspyder-branding-mobile-pg-banner.jpg" />
+          <img
+            srcSet={require('../../public/images/pictures/picture-branding.jpg?resize').srcSet}
+            src={require('../../public/images/pictures/picture-branding.jpg?resize').src}
+            alt={""}
+            loading="lazy"
+          />
         </div>
       </Band>
       <Band className="band--numbered">

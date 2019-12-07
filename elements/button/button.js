@@ -7,11 +7,17 @@ import IconTailRight from '../../public/vectors/icon-tail-right.svg'
 
 // Render component
 const Button = props => {
-  return (
-    <Link href={props.href}>
-      <a className="button">{props.label} <IconTailRight /></a>
-    </Link>
-  )
+  if (props.external) {
+    return (
+      <a className="button" href={props.href} target="_blank">{props.label} <IconTailRight /></a>
+    )
+  } else {
+    return (
+      <Link href={props.href}>
+        <a className="button">{props.label} <IconTailRight /></a>
+      </Link>
+    )
+  }
 }
 
 export default Button

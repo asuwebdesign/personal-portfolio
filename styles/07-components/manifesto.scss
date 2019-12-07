@@ -58,6 +58,7 @@
   &__listitem {
     padding: 32px;
     background-color: var(--color-crystal-white);
+    border-radius: 5px;
 
     @include media('>=large') {
       width: percentage(400/824);
@@ -140,6 +141,7 @@
     padding: 32px;
     margin: 64px 0 0;
     background-color: var(--color-crystal-white);
+    border-radius: 5px;
     list-style: none;
     counter-reset: philosophy-counter;
   }
