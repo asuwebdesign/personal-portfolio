@@ -9,7 +9,7 @@
     .wrapper {
       @include media('>=large') {
         position: relative;
-        padding-left: 424px;
+        padding-left: percentage(424/1248);
       }
     }
     .band__title-block {
@@ -54,7 +54,7 @@
     .wrapper {
       @include media('>=large') {
         position: relative;
-        padding-left: 424px;
+        padding-left: percentage(424/1248);
       }
     }
     .band__title-block {
