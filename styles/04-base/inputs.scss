@@ -13,9 +13,11 @@ input {
     width: auto;
     padding: 24px 32px;
     background-color: var(--color-carbon-900);
+    border-radius: 5px;
     box-shadow: 0 0 0 0 var(--color-carbon-900);
     color: var(--color-crystal-white);
-    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-stack-semibold);
     border: 0;
     cursor: pointer;
     transition: box-shadow $animation_speed_complex $animation_easing_decelerate;

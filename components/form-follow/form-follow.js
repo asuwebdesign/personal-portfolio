@@ -29,12 +29,12 @@ const FormFollow = props => {
               <label htmlFor="form__field--last-name">Last name</label>
               <input id="form__field--last-name" type="text" name="Last name" required />
             </div>
-            <div className="form__field">
-              <label htmlFor="form__field--job-title">Job title</label>
+            <div className="form__field form__field--optional">
+              <label htmlFor="form__field--job-title">Job title <span>Optional</span></label>
               <input id="form__field--job-title" type="text" name="Job title" />
             </div>
-            <div className="form__field">
-              <label htmlFor="form__field--company">Company</label>
+            <div className="form__field form__field--optional">
+              <label htmlFor="form__field--company">Company <span>Optional</span></label>
               <input id="form__field--company" type="text" name="Company" />
             </div>
             <div className="form__field">
@@ -42,11 +42,11 @@ const FormFollow = props => {
               <input id="form__field--email" type="email" name="Email" required />
             </div>
             <div className="form__field">
-              <label htmlFor="form__field--message">How can I help you?</label>
-              <textarea id="form__field--message" name="Message"></textarea>
+              <label htmlFor="form__field--message">What's on your mind?</label>
+              <textarea id="form__field--message" name="Message" required></textarea>
             </div>
             <div className="form__actions">
-              <input type="submit" value="Get in touch" />
+              <input type="submit" value="Send Message" />
             </div>
           </form>
         </section>

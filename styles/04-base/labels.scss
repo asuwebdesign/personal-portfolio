@@ -4,3 +4,16 @@ label {
   font-size: 21px;
   line-height: 1.13;
 }
+
+.form__field--optional {
+  label {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    span {
+      font-size: 16px;
+      color: var(--color-slate);
+    }
+  }
+}
