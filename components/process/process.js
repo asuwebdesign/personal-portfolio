@@ -4,6 +4,13 @@ import React from "react"
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
+// Import vectors
+import GraphicDiscover from '../../public/vectors/process-learning.svg'
+import GraphicPlan from '../../public/vectors/process-strategy.svg'
+import GraphicCreate from '../../public/vectors/process-designing.svg'
+import GraphicBuild from '../../public/vectors/process-coding.svg'
+import GraphicMeasure from '../../public/vectors/process-metrics.svg'
+
 // Render component
 const Process = props => {
   return (
@@ -17,7 +24,7 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Understand your business, industry, and people.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <img src="https://assets.website-files.com/5d6576034959930c066df612/5d65760349599313b56df8ff_59de92884edc3800017fd9c0_Listen.png" />
+            <GraphicDiscover />
           </div>
         </Wrapper>
       </div>
@@ -31,7 +38,7 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Shape the direction of your brand or product.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <img src="https://www.toolshero.com/wp-content/uploads/2018/12/action-plan-toolshero.jpg" />
+            <GraphicPlan />
           </div>
         </Wrapper>
       </div>
@@ -45,7 +52,7 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Ideate and prototype designs concepts.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <img src="https://ernestbarbaric.com/wp-content/uploads/2013/12/time-space-focus-meaningful-work1.jpg" />
+            <GraphicCreate />
           </div>
         </Wrapper>
       </div>
@@ -59,7 +66,7 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Mesh design and technology into a brand or product.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <img src="https://files.realpython.com/media/Build-a-Recommendation-Engine-With-Collaborative-Filtering_Watermarked.451abc4ecb9f.jpg" />
+            <GraphicBuild />
           </div>
         </Wrapper>
       </div>
@@ -73,7 +80,7 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Observe behaviors and iterate to improve.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <img src="https://aha3dayblinds.com/image/data/clever-1516084096.jpg" />
+            <GraphicMeasure />
           </div>
         </Wrapper>
       </div>
