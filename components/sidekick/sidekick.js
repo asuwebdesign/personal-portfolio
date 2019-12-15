@@ -25,7 +25,7 @@ const Hero = props => {
   }
 
   return (
-    <header className="sidekick">
+    <header className={props.subtitle ? "sidekick sidekick--bold" : "sidekick"}>
       <motion.div
         className="sidekick__content"
         animate="visible"
@@ -34,6 +34,9 @@ const Hero = props => {
         transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
       >
         <h1 className="sidekick__title">{props.title}</h1>
+        {props.subtitle && (
+          <p className="sidekick__subtitle">{props.subtitle}</p>
+        )}
       </motion.div>
       <div className="sidekick__dots">
         <Dots />

@@ -14,4 +14,8 @@ module.exports = compose([
       placeholderSize: 50
     }
   }],
+  {
+    test: /\.svg$/,
+    use: ['@svgr/webpack'],
+  }
 ])
