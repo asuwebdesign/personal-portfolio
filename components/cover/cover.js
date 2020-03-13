@@ -41,13 +41,6 @@ const Cover = props => {
         <span className="cover__title-headline">{props.headline}</span>
       </motion.h1>
 
-      <ul className="cover__services">
-        <li><IconSolutionB /> Creative something</li>
-        <li><IconSolutionB /> Creative something</li>
-        <li><IconSolutionB /> Creative something</li>
-        <li><IconSolutionB /> Creative something</li>
-      </ul>
-
       <div className="cover__dots cover__dots--inverted">
         <Dots />
       </div>

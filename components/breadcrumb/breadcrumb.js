@@ -1,11 +1,15 @@
 // Import nodes
-import React, { Fragment } from "react"
+import React, { useState, Fragment } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
 // Render component
 const Breadcrumb = props => {
   const { pathname } = props.router
+
+  // states
+  const [hideBreadcrumb, setHideBreadcrumb] = useState(false)
 
   // declared animations
   const motionLabel = {
@@ -79,8 +83,16 @@ const Breadcrumb = props => {
     }
   }
 
+  useScrollPosition(( { prevPos, currPos } ) => {
+    (currPos.y <= -64) ? setHideBreadcrumb('breadcrumb--hide') : setHideBreadcrumb(false)
+  }, [hideBreadcrumb])
+
   return (
-    <div className={pathname === "/" ? "breadcrumb breadcrumb--inverted" : "breadcrumb"}>
+    <div
+      className={
+        (pathname === "/" || pathname.startsWith('/projects/')) ? `breadcrumb breadcrumb--inverted ${hideBreadcrumb}` : `breadcrumb ${hideBreadcrumb}`
+      }
+    >
       <motion.div
         animate="visible"
         initial="hidden"

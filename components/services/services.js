@@ -28,8 +28,8 @@ const Services = props => {
             </div>
           </div>
           <div className="service__secondary">
-            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>I create identities and platforms that differentiate brands and position them to matter in culture.</p>
+            <p>Showing up is not enough to stand out for today's brands. The bottom line of what matters is value.</p>
           </div>
         </article>
         <article className="service">
@@ -41,8 +41,8 @@ const Services = props => {
             </div>
           </div>
           <div className="service__secondary">
-            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>I conceive and create experiences that immerse consumers in the brand through a combination of utility and creativity.</p>
+            <p>It's about crafting memorable experiences that transform perception, strengthen bonds, and drive change.</p>
           </div>
         </article>
         <article className="service">
@@ -54,7 +54,7 @@ const Services = props => {
             </div>
           </div>
           <div className="service__secondary">
-            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
+            <p>I drive superior brand experiences through data-informed design, testing and optimization.</p>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </article>
@@ -67,8 +67,8 @@ const Services = props => {
             </div>
           </div>
           <div className="service__secondary">
-            <p>We know how to create complex and intuitive interface systems that are enjoyable.</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>I identify and create digital products and services that create revenue channels and help brands thrive in the new economy.</p>
+            <p>It starts with clearly defining the consumer journey, business objectives, and what's happening in culture.</p>
           </div>
         </article>
       </Wrapper>

@@ -19,7 +19,10 @@ const PageServices = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Branding Strategy &amp; Identity" title="Branding is what emotionally connects a company with its community." />
+      <Sidekick
+        title="Websites &amp; Digital Platforms."
+        subtitle="Strengthen your position in the market and emotionally connect with your audience."
+      />
       <Poster src={require('../../public/images/banners/banner-digital.jpg?resize')} alt="Sample text for the photo." />
       <Band className="band--numbered">
         <div className="band__title-block">

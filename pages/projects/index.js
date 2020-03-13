@@ -24,7 +24,7 @@ const PageProjects = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Projects" title="My work includes complex interface systems for web, mobile, and more." />
+      <Sidekick meta="Projects" title="Selected brands &amp; digital products." section />
       <Work />
     </article>
     <Detour meta="Up Next" title="Discover what I do." link="/services" />

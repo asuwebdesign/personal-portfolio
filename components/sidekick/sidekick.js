@@ -25,7 +25,7 @@ const Hero = props => {
   }
 
   return (
-    <header className={props.subtitle ? "sidekick sidekick--bold" : "sidekick"}>
+    <header className={props.section ? "sidekick sidekick--section" : props.subtitle ? "sidekick sidekick--bold sidekick--section" : "sidekick"}>
       <motion.div
         className="sidekick__content"
         animate="visible"

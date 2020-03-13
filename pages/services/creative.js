@@ -20,7 +20,7 @@ const PageServices = props => (
 
     <article>
       <Sidekick
-        title="Create a difference"
+        title="Creative &amp; Experience Design."
         subtitle="Strengthen your position in the market and emotionally connect with your audience."
       />
       <Poster src={require('../../public/images/banners/banner-creative.jpg?resize')} alt="Sample text for the photo." />
@@ -62,7 +62,7 @@ const PageServices = props => (
         </div>
       </Band>
     </article>
-    <Detour meta="Up Next" title="Let's get up close and personal about me, myself, and I." link="/about" />
+    <Detour meta="Up Next" title="Research, Data &amp; Analytics." link="/services/research" />
   </Layout>
 )
 

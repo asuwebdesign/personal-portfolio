@@ -19,7 +19,10 @@ const PageServices = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Branding Strategy &amp; Identity" title="Branding is what emotionally connects a company with its community." />
+      <Sidekick
+        title="Research, Data &amp; Analytics."
+        subtitle="Strengthen your position in the market and emotionally connect with your audience."
+      />
       <Poster src={require('../../public/images/banners/banner-research.jpg?resize')} alt="Sample text for the photo." />
       <Band className="band--numbered">
         <div className="band__title-block">
@@ -59,7 +62,7 @@ const PageServices = props => (
         </div>
       </Band>
     </article>
-    <Detour meta="Up Next" title="Let's get up close and personal about me, myself, and I." link="/about" />
+    <Detour meta="Up Next" title="Websites &amp; Digital Platforms." link="/services/digital" />
   </Layout>
 )
 

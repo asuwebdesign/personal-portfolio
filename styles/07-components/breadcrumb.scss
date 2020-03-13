@@ -1,19 +1,23 @@
 .breadcrumb {
-  position: absolute;
+  position: fixed;
   top: 72px;
-  left: 50%;
-  margin-left: -624px;
+  left: 160px; // 108px
+  display: block;
+  height: 32px;
+  padding-left: 140px;
   font-weight: 400;
   font-size: 21px;
   color: var(--color-carbon-900);
+  transition: opacity $animation_speed_complex $animation_easing_decelerate;
   z-index: 100;
 
   &:before {
     content: '';
     position: absolute;
     top: 50%;
-    left: -140px;
-    width: 108px;
+    left: 0;
+    display: block;
+    width: 64px;
     height: 2px;
     margin-top: -1px;
     background-color: var(--color-carbon-900);
@@ -89,6 +93,12 @@
         background-color: var(--color-crystal-white);
       }
     }
+  }
+
+  // Hide
+  // ---------------------------------------------------------------------------
+  &--hide {
+    opacity: 0;
   }
 }
 

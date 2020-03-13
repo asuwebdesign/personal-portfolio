@@ -23,8 +23,8 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 1248px;
-      margin-left: -624px;
+      width: 1440px;
+      margin-left: -720px;
       font-size: 32px;
       transform: translateY(-50%);
     }
@@ -34,10 +34,11 @@
       margin-top: 16px;
       font-family: var(--font-stack-extrabold);
       line-height: 1;
-      text-transform: uppercase;
 
       @include media('>=large') {
-        font-size: 96px;
+        font-size: 160px;
+        line-height: 0.9;
+        letter-spacing: -8px;
       }
     }
   }
@@ -51,8 +52,8 @@
       left: 50%;
       display: flex;
       justify-content: space-between;
-      width: 1248px;
-      margin-left: -624px;
+      width: 1440px;
+      margin-left: -720px;
     }
 
     div {
@@ -86,6 +87,7 @@
     position: absolute;
     top: 50%;
     right: -15%;
+    max-width: 80%;
     mix-blend-mode: lighten;
     transform: translateY(-50%);
     z-index: 1;
