@@ -18,7 +18,7 @@ const PageTermsConditions = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Terms &amp; Conditions" title="Basically I won't share your personal information to anyone. Like, ever." />
+      <Sidekick meta="Terms &amp; Conditions" title="Terms &amp; Conditions." section />
       <Band>
           <p>Last updated October 13, 2019</p>
           <h2>AGREEMENT TO TERMS</h2>

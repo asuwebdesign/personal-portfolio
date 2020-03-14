@@ -19,7 +19,7 @@ const PageContact = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Contact" title="Let's team up together." section />
+      <Sidekick meta="Contact" title="Let's create something together." section />
       <FormFollow />
     </article>
   </Layout>

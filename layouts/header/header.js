@@ -115,7 +115,7 @@ const Header = props => {
             variants={motionPromo}
             transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.4 }}
           >
-            <p>Change the world <span>one pixel at a time&trade;</span></p>
+            <p className="tagline">For the love it&trade;</p>
             <div className="artifacts">
               <Circle />
             </div>

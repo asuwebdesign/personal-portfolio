@@ -1,6 +1,7 @@
 // Import nodes
-import React from "react"
+import React, { useState } from "react"
 import Link from 'next/link'
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -10,6 +11,14 @@ import Dots from '../../public/vectors/graphic-dots.svg'
 
 // Render component
 const Hero = props => {
+
+  // states
+  const [hideDots, setHideDots] = useState(false)
+
+  useScrollPosition(( { prevPos, currPos } ) => {
+    (currPos.y <= -256) ? setHideDots('hero__dots--hide') : setHideDots(false)
+  }, [hideDots])
+
   return (
     <header id="hero" className="hero">
       <h1 className="hero__title">Connecting brands with people through <span>Handcrafted Digital Experiences.</span></h1>
@@ -29,7 +38,7 @@ const Hero = props => {
         </div>
       </div>
 
-      <div className="hero__dots hero__dots--inverted">
+      <div className={`hero__dots hero__dots--inverted ${hideDots}`}>
         <Dots />
       </div>
 

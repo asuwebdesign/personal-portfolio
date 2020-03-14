@@ -11,7 +11,7 @@ import Cover from '../../components/cover'
 import Detour from '../../components/detour'
 
 // Import images
-import ProjectCover from '../../public/images/covers/cover-atlanticbt.jpg'
+import ProjectCover from '../../public/images/covers/cover-redhat.jpg'
 import ProjectLogo from '../../public/vectors/logo-redhat.svg'
 
 // Render component
