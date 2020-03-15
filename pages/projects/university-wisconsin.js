@@ -24,7 +24,7 @@ const ProjectDetail = props => (
     <article>
       <Cover
         client="University of Wisconsin"
-        headline="Building the Beats brand through design and eCommerce."
+        headline="Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin."
         image={ProjectCover}
       />
       <Band className="band--client">

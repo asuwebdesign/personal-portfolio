@@ -24,7 +24,7 @@ const Projects = props => {
                   />
                 </div>
                 <div className="work__project-client">Atlantic BT</div>
-                <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
+                <h1 className="work__project-title">Revitalizing a digital agency's brand with an upgraded digital experience.</h1>
               </a>
             </Link>
           </article>
@@ -40,7 +40,7 @@ const Projects = props => {
                   />
                 </div>
                 <div className="work__project-client">{'Hwy 55'}</div>
-                <h1 className="work__project-title">Engaging worldwide gamers through branding and marketing.</h1>
+                <h1 className="work__project-title">Honoring the vintage past of Hwy 55 to build and evolve a more modern brand.</h1>
               </a>
             </Link>
           </article>

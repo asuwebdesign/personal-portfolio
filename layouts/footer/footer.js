@@ -16,22 +16,22 @@ const Footer = props => {
     threshold: 0
   })
 
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="footer">
       <Wrapper>
         <div className="footer__primary">
+          <MLogo />
           <p>{"My passion is about collaborating with organizations to push their brands further and connecting with people. Let's create something together that people love."}</p>
         </div>
         <div className="footer__secondary">
-          <MLogo />
-        </div>
-        <div className="footer__tertiary">
           <ul className="menu menu--legal">
             <li><Link href="/terms"><a>Terms &amp; Conditions</a></Link></li>
             <li><Link href="/privacy"><a>Privacy Policy</a></Link></li>
             <li><Link href="/accessibility"><a>Accessibility</a></Link></li>
           </ul>
-          <div className="copyright"><strong>&copy; Mark Riggan.</strong> All rights reserved.</div>
+          <div className="copyright"><strong>&copy; {currentYear} Mark Riggan.</strong> All rights reserved.</div>
         </div>
       </Wrapper>
     </footer>

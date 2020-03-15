@@ -11,6 +11,9 @@ import Breadcrumb from '../../components/breadcrumb'
 import MLogo from '../../elements/mlogo'
 import Button from '../../elements/button'
 
+// Import images
+import Hoodie from '../../public/images/hoodie.png'
+
 // Import vectors
 import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
 import IconMenu from '../../public/vectors/menu.svg'
@@ -52,11 +55,11 @@ const Header = props => {
   const motionPromo = {
     visible: {
       opacity: 1,
-      x: 64,
+      // y: 0,
     },
     hidden: {
       opacity: 0,
-      x: 0,
+      // y: 32,
     }
   }
 
@@ -98,13 +101,13 @@ const Header = props => {
           transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.2 }}
         >
           <h1>Menu</h1>
-          <ul>
+          <ol>
             <li><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></li>
             <li><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></li>
             <li><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Services.</a></Link></li>
             <li><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About.</a></Link></li>
             <li><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></li>
-          </ul>
+          </ol>
         </motion.nav>
 
         <Media query="(min-width: 1280px)" render={() => (
@@ -119,6 +122,12 @@ const Header = props => {
             <div className="artifacts">
               <Circle />
             </div>
+            <img
+              srcSet={Hoodie.srcSet}
+              src={Hoodie.src}
+              alt=""
+              loading="lazy"
+            />
             <div className="hero__dots hero__dots--inverted">
               <Dots />
             </div>

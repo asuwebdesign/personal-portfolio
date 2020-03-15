@@ -111,18 +111,33 @@
         clip: rect(1px, 1px, 1px, 1px);
         white-space: nowrap;
       }
-      ul {
+      ol {
         display: flex;
         flex-direction: column;
         padding: 0;
         margin: 0;
         list-style: none;
+        counter-reset: menu-counter;
       }
-      li + li {
-        margin-top: 24px;
+      li {
+        position: relative;
+        counter-increment: menu-counter;
 
-        @include media('>=large') {
-          margin-top: 32px;
+        &:before {
+          content: "0" counter(menu-counter);
+          position: absolute;
+          top: 16px;
+          left: -32px;
+          display: block;
+          color: var(--color-slate-light);
+        }
+
+        + li {
+          margin-top: 24px;
+
+          @include media('>=large') {
+            margin-top: 32px;
+          }
         }
       }
       a {
@@ -133,10 +148,9 @@
         font-size: 28px;
         line-height: 1;
         text-transform: uppercase;
-        // font-style: italic;
         transition:
           color $animation_speed_complex $animation_easing_decelerate,
-          text-shadow $animation_speed_complex $animation_easing_decelerate;
+          text-stroke $animation_speed_complex $animation_easing_decelerate;
 
         @include media('>=large') {
           font-size: 160px;
@@ -146,13 +160,8 @@
 
       a:hover, a:focus {
         color: var(--color-carbon-900);
-        -webkit-text-stroke: 2px var(--color-crystal-white);
-        text-stroke: 2px var(--color-crystal-white);
-        // text-shadow:
-		    //   -2px -2px 0 var(--color-crystal-white),
-		    //    2px -2px 0 var(--color-crystal-white),
-		    //   -2px  2px 0 var(--color-crystal-white),
-		    //    2px  2px 0 var(--color-crystal-white);
+        -webkit-text-stroke: 4px var(--color-crystal-white);
+        text-stroke: 4px var(--color-crystal-white);
 
         strong:before {
           animation: strikeMenuItem $animation_speed_dramatic $animation_easing_standard;
@@ -183,6 +192,11 @@
       color: var(--color-crystal-white);
       overflow: hidden;
       z-index: 1;
+
+      img {
+        opacity: .5;
+        mix-blend-mode: luminosity;
+      }
     }
   }
 

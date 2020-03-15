@@ -26,6 +26,42 @@ const Breadcrumb = props => {
   const renderBreadcrumbTrail = () => {
     if (pathname === "/projects") {
       return "Projects"
+    } else if (pathname === "/projects/atlantic-bt") {
+      return (
+        <Fragment>
+          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Atlantic BT</span>
+        </Fragment>
+      )
+    } else if (pathname === "/projects/hwy55") {
+      return (
+        <Fragment>
+          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Hwy 55</span>
+        </Fragment>
+      )
+    } else if (pathname === "/projects/university-wisconsin") {
+      return (
+        <Fragment>
+          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>University of Wisconsin</span>
+        </Fragment>
+      )
+    } else if (pathname === "/projects/nc-courts") {
+      return (
+        <Fragment>
+          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Judicial Branch of NC</span>
+        </Fragment>
+      )
+    } else if (pathname === "/projects/nc-gov") {
+      return (
+        <Fragment>
+          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>State of North Carolina</span>
+        </Fragment>
+      )
+    } else if (pathname === "/projects/redhat") {
+      return (
+        <Fragment>
+          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Red Hat</span>
+        </Fragment>
+      )
     } else if (pathname === "/services") {
       return "Services"
     } else if (pathname === "/services/branding") {
