@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import Media from 'react-media'
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
 // Import components
 import Breadcrumb from '../../components/breadcrumb'
@@ -28,6 +29,7 @@ const Header = props => {
 
   // initial states
   const [menuActive, setMenuState] = useState(false)
+  const [showScrollTop, setShowScrollTop] = useState(false)
 
   // declared animations
   const motionPanel = {
@@ -62,6 +64,21 @@ const Header = props => {
       // y: 32,
     }
   }
+
+  const motionScrollTop = {
+    visible: {
+      opacity: 1,
+      // y: 0,
+    },
+    hidden: {
+      opacity: 0,
+      // y: 32,
+    }
+  }
+
+  useScrollPosition(( { prevPos, currPos } ) => {
+    (currPos.y <= -128) ? setShowScrollTop(true) : setShowScrollTop (false)
+  }, [showScrollTop])
 
   const { pathname } = props.router
 
@@ -109,30 +126,6 @@ const Header = props => {
             <li><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></li>
           </ol>
         </motion.nav>
-
-        <Media query="(min-width: 1280px)" render={() => (
-          <motion.div
-            className="menu__promo"
-            animate={menuActive ? "visible" : "hidden"}
-            initial="hidden"
-            variants={motionPromo}
-            transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.4 }}
-          >
-            <p className="tagline">For the love it&trade;</p>
-            <div className="artifacts">
-              <Circle />
-            </div>
-            <img
-              srcSet={Hoodie.srcSet}
-              src={Hoodie.src}
-              alt=""
-              loading="lazy"
-            />
-            <div className="hero__dots hero__dots--inverted">
-              <Dots />
-            </div>
-          </motion.div>
-        )} />
       </motion.div>
 
       <Media query="(min-width: 1280px)" render={() => (
@@ -150,7 +143,15 @@ const Header = props => {
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
-        <div className="scroll-indicator">Scroll Down</div>
+        <motion.div
+          className="scroll-indicator"
+          animate={showScrollTop ? "visible" : "hidden"}
+          initial="hidden"
+          variants={motionScrollTop}
+          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+        >
+          <span>Scroll Down</span>
+        </motion.div>
       )} />
 
     </header>

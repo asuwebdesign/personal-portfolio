@@ -36,6 +36,10 @@
       animation: animateArrow ($animation_speed_complex * 2) $animation_easing_decelerate;
     }
   }
+
+  &--circle {
+    border-radius: 50%;
+  }
 }
 
 @keyframes animateArrow {

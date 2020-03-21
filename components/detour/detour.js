@@ -13,7 +13,6 @@ const Detour = props => {
         <a className="detour__link">
           <h1 className="detour__meta">{props.meta}</h1>
           <div className="detour__title">{props.title}</div>
-          <IconTailRight />
         </a>
       </Link>
     </aside>

@@ -20,7 +20,7 @@ const PageManifesto = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Manifesto" title="I'm a full service digital agency built to grow modern brands." />
+      <Sidekick meta="Manifesto" title="It's about pushing the status quo." section />
       <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
       <Manifesto />
     </article>

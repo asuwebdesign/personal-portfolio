@@ -20,7 +20,7 @@ const PageProcess = props => (
     </Head>
 
     <article>
-      <Sidekick meta="Process" title="We are not cookie-cutter, and honestly, neither should you." />
+      <Sidekick meta="Process" title="It always starts with listening to people." section />
       <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
       <Process />
     </article>

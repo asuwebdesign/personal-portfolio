@@ -54,7 +54,7 @@ const PageHome = props => (
       <News />
 
     </article>
-    <Detour meta="Up Next" title="Explore my work." link="/projects" />
+    <Detour meta="Up Next" title="Explore select brands I've helped connect with culture." link="/projects" />
   </Layout>
 )
 

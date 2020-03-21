@@ -85,7 +85,7 @@
     width: 100vw;
     height: 100vh;
     padding: 0 32px;
-    background-color: var(--color-carbon-900);
+    background: var(--color-carbon-900);
     overflow: hidden;
     z-index: 1000;
 
@@ -96,10 +96,10 @@
     &__list {
       position: relative;
       width: 100%;
-      z-index: 1;
+      z-index: 2;
 
       @include media('>=large') {
-        width: 50%;
+        width: 50vw;
       }
 
       h1 {
@@ -175,27 +175,6 @@
           transform: translateX(0%);
           animation: none;
         }
-      }
-    }
-
-    &__promo {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-      width: 45vw;
-      height: 100%;
-      padding: 64px 64px 0 0;
-      color: var(--color-crystal-white);
-      overflow: hidden;
-      z-index: 1;
-
-      img {
-        opacity: .5;
-        mix-blend-mode: luminosity;
       }
     }
   }

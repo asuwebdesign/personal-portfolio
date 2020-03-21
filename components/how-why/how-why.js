@@ -15,8 +15,7 @@ const HowWhy = props => {
         <article className="teaser">
           <div className="teaser__photo">
             <img
-              srcSet={require('../../public/images/cards/card-process.jpg?resize').srcSet}
-              src={require('../../public/images/cards/card-process.jpg?resize').src}
+              src={require('../../public/images/cards/card-process.svg')}
               alt=""
               loading="lazy"
             />
@@ -29,8 +28,7 @@ const HowWhy = props => {
         <article className="teaser">
           <div className="teaser__photo">
             <img
-              srcSet={require('../../public/images/cards/card-process.jpg?resize').srcSet}
-              src={require('../../public/images/cards/card-process.jpg?resize').src}
+              src={require('../../public/images/cards/card-process.svg')}
               alt=""
               loading="lazy"
             />

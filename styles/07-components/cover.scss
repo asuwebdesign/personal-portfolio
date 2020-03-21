@@ -57,14 +57,19 @@
   }
 
   &__dots {
-    position: absolute;
+    position: fixed;
     top: 50%;
     right: 64px;
     transform: translateY(-50%);
+    transition: opacity $animation_speed_complex $animation_easing_decelerate;
     z-index: 3;
 
     &--inverted g {
       fill: var(--color-crystal-white);
+    }
+
+    &--hide {
+      opacity: 0;
     }
   }
 

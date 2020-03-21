@@ -25,20 +25,16 @@
     }
   }
 
-  &__subtitle {
-    margin: 0;
-
-    @include media('>=large') {
-      margin-top: 32px;
-      font-size: 28px;
-    }
-  }
-
   &__dots {
-    position: absolute;
+    position: fixed;
     top: 50%;
     right: 64px;
     transform: translateY(-50%);
+    transition: opacity $animation_speed_complex $animation_easing_decelerate;
+
+    &--hide {
+      opacity: 0;
+    }
   }
 
   // Bold sidekick

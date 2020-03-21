@@ -1,7 +1,9 @@
 // Import nodes
-import React from "react"
+import React, { useState } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
+
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -11,6 +13,13 @@ import Dots from '../../public/vectors/graphic-dots.svg'
 
 // Render component
 const Hero = props => {
+
+  // states
+  const [hideDots, setHideDots] = useState(false)
+
+  useScrollPosition(( { prevPos, currPos } ) => {
+    (currPos.y <= -128) ? setHideDots('sidekick__dots--hide') : setHideDots(false)
+  }, [hideDots])
 
   // declared animations
   const motionSidekick = {
@@ -34,11 +43,8 @@ const Hero = props => {
         transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
       >
         <h1 className="sidekick__title">{props.title}</h1>
-        {props.subtitle && (
-          <p className="sidekick__subtitle">{props.subtitle}</p>
-        )}
       </motion.div>
-      <div className="sidekick__dots">
+      <div className={`sidekick__dots ${hideDots}`}>
         <Dots />
       </div>
     </header>

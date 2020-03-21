@@ -1,7 +1,8 @@
 // Import nodes
-import React from "react"
+import React, { useState } from "react"
 import Link from 'next/link'
 import { motion } from "framer-motion"
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -15,6 +16,13 @@ import IconSolutionW from '../../public/vectors/solution-w.svg'
 
 // Render component
 const Cover = props => {
+
+  // states
+  const [hideDots, setHideDots] = useState(false)
+
+  useScrollPosition(( { prevPos, currPos } ) => {
+    (currPos.y <= -128) ? setHideDots('cover__dots--hide') : setHideDots(false)
+  }, [hideDots])
 
   // declared animations
   const motionCover = {
@@ -41,7 +49,7 @@ const Cover = props => {
         <span className="cover__title-headline">{props.headline}</span>
       </motion.h1>
 
-      <div className="cover__dots cover__dots--inverted">
+      <div className={`cover__dots cover__dots--inverted ${hideDots}`}>
         <Dots />
       </div>
 

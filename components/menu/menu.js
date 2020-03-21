@@ -83,7 +83,6 @@ const Menu = props => {
           variants={motionPromo}
           transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.4 }}
         >
-
         </motion.div>
       </motion.div>
     </Fragment>
