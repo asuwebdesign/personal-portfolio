@@ -5,35 +5,20 @@ import IconMenu from "../../../graphics/icon-menu.svg"
 
 const Menu = props => {
   const [menuActive, setMenuState] = useState(false)
+
   const motionPanel = {
-    open: {
-      opacity: 1,
-      x: 0,
-    },
-    closed: {
-      opacity: 0,
-      x: "-100%",
-    }
+    open: { opacity: 1, x: 0, },
+    closed: { opacity: 0, x: "-100%", }
   }
+
   const motionNav = {
-    visible: {
-      opacity: 1,
-      x: 0,
-    },
-    hidden: {
-      opacity: 0,
-      x: "-100%",
-    }
+    visible: { opacity: 1, x: 0, },
+    hidden: { opacity: 0, x: "-100%", }
   }
+
   const motionPromo = {
-    visible: {
-      opacity: 1,
-      width: "50%",
-    },
-    hidden: {
-      opacity: 0,
-      width: 0,
-    }
+    visible: { opacity: 1, width: "50%", },
+    hidden: { opacity: 0, width: 0, }
   }
 
   return (

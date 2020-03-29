@@ -1,5 +1,6 @@
 .detour {
   background-color: var(--color-crystal-white);
+  background-color: var(--color-carbon-800);
   margin: 64px 0 0;
   text-align: center;
 
@@ -13,6 +14,7 @@
     align-items: center;
     padding: 64px;
     color: var(--color-carbon-900);
+    color: var(--color-crystal-white);
     text-decoration: none;
 
     @include media(">=large") {

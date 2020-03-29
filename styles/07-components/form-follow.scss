@@ -13,7 +13,8 @@
 }
 
 .form {
-  background-color: var(--color-crystal-white);
+  background-color: var(--color-carbon-800);
+  border-radius: 8px;
 
   @include media('>=large') {
     width: percentage(824/1248);

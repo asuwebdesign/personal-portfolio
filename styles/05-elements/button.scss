@@ -4,9 +4,12 @@
   width: auto;
   padding: 24px 64px 24px 32px;
   background-color: var(--color-carbon-900);
+  background-color: var(--color-crystal-white);
   border-radius: 5px;
   box-shadow: 0 0 0 0 var(--color-carbon-900);
+  box-shadow: 0 0 0 0 var(--color-crystal-white);
   color: var(--color-crystal-white);
+  color: var(--color-carbon-900);
   font-family: var(--font-stack-semibold);
   font-size: 16px;
   line-height: 1;
@@ -26,11 +29,12 @@
     height: 24px;
     margin-top: -12px;
   }
-  g { stroke: var(--color-crystal-white); }
+  g { stroke: var(--color-crystal-white); stroke: var(--color-carbon-900); }
 
   &:hover,
   &:focus {
     box-shadow: 0 0 0 2px var(--color-carbon-900);
+    box-shadow: 0 0 0 2px var(--color-crystal-white);
 
     svg {
       animation: animateArrow ($animation_speed_complex * 2) $animation_easing_decelerate;

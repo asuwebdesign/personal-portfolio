@@ -1,1 +1,7 @@
-a {}
+a {
+  color: var(--color-crystal-white);
+
+  &:visited {}
+  &:hover {}
+  &:focus {}
+}

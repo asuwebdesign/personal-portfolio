@@ -32,7 +32,7 @@ const Hero = props => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15
+        staggerChildren: 0.15,
       }
     },
     hidden: {
@@ -56,7 +56,7 @@ const Hero = props => {
   }, [hideDots])
 
   return (
-    <header id="hero" className="hero">
+    <header id="hero" className="hero" data-navigation="white">
       <motion.h1
         className="hero__title"
         animate="visible"
@@ -72,7 +72,7 @@ const Hero = props => {
         animate="visible"
         initial="hidden"
         variants={motionHeroHighlights}
-        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.5 }}
       >
         <motion.div variants={motionHeroHighlight}>
           <h2>Human-centered design.</h2>

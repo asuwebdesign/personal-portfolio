@@ -39,9 +39,10 @@
     height: 32px;
     padding: 0;
     background: transparent;
-    border: 0;
+    border: 2px solid rgba(255, 255, 255, .02);
     border-radius: 50%;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.08), -4px -4px 8px rgba(255,255,255,0.95);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.16), -4px -4px 8px rgba(255,255,255,0.08);
     cursor: pointer;
     z-index: 1001;
 
@@ -61,6 +62,8 @@
       height: 24px;
       margin: -12px 0 0 -12px;
     }
+
+    path { fill: var(--color-crystal-white); }
 
     // hover + focus state
     &:hover,
@@ -210,6 +213,7 @@
       height: 100%;
       padding: 12px;
       box-shadow: 4px 4px 8px rgba(0,0,0,0.08), -4px -4px 8px rgba(255,255,255,0.95);
+      box-shadow: 4px 4px 8px rgba(0,0,0,0.16), -4px -4px 8px rgba(255,255,255,0.08);
       border-radius: 50%;
       transition:
         background $animation_speed_complex $animation_easing_standard,
@@ -221,7 +225,10 @@
       }
     }
 
-    path { transition: fill $animation_speed_complex $animation_easing_standard; }
+    path {
+      fill: var(--color-crystal-white);
+      transition: fill $animation_speed_complex $animation_easing_standard;
+    }
 
     // Brand colors
     &__brand--dribbble:hover {
@@ -248,16 +255,18 @@
     right: 64px;
     z-index: 100;
 
-    &--inverted {
-      .button {
-        background-color: var(--color-crystal-white);
-        color: var(--color-carbon-900);
-      }
-      .button g { stroke: var(--color-carbon-900); }
+    .button {
+      // background-color: var(--color-crystal-white);
+      background-color: transparent;
+      border: 2px solid rgba(255, 255, 255, .02);
+      box-shadow: 4px 4px 8px rgba(0,0,0,0.16), -4px -4px 8px rgba(255,255,255,0.08);
+      color: var(--color-carbon-900);
+      color: var(--color-crystal-white);
+    }
+    .button g { stroke: var(--color-carbon-900); stroke: var(--color-crystal-white); }
 
-      .button:hover, .button:focus {
-        box-shadow: 0 0 0 2px var(--color-crystal-white);
-      }
+    .button:hover, .button:focus {
+      box-shadow: 0 0 0 2px var(--color-crystal-white);
     }
   }
 

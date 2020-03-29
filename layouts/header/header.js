@@ -121,7 +121,7 @@ const Header = props => {
           <ol>
             <li><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></li>
             <li><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></li>
-            <li><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Services.</a></Link></li>
+            <li><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Skills.</a></Link></li>
             <li><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About.</a></Link></li>
             <li><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></li>
           </ol>
