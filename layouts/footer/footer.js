@@ -23,7 +23,7 @@ const Footer = props => {
       <Wrapper>
         <div className="footer__primary">
           <MLogo />
-          <p>{"My passion is about collaborating with organizations to push their brands further and connecting with people. Let's create something together that people love."}</p>
+          <p>{"Fueled by connecting with people and collaborating with organizations to push their brands further. Let's create something together that people love."}</p>
         </div>
         <div className="footer__secondary">
           <ul className="menu menu--legal">

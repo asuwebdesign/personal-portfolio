@@ -48,16 +48,14 @@ const PageServices = props => (
         </div>
         <div className="band__content">
           <h2>Designing the future.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          <p>While research is a standalone offering, it is also fully integrated into my creative process. Design and creative is continually tested during the development and post-launch optimization of digital experiences.</p>
           <ul className="meta-list">
-            <li className="meta-list__item">Something</li>
-            <li className="meta-list__item">Something</li>
-            <li className="meta-list__item">Something</li>
-            <li className="meta-list__item">Something</li>
-            <li className="meta-list__item">Something</li>
-            <li className="meta-list__item">Something</li>
-            <li className="meta-list__item">Something</li>
+            <li className="meta-list__item">Contextual Research</li>
+            <li className="meta-list__item">Usability Testing</li>
+            <li className="meta-list__item">Quantitative Research</li>
+            <li className="meta-list__item">User Personas &amp; Scenarios</li>
+            <li className="meta-list__item">Data Modeling</li>
+            <li className="meta-list__item">Information Architecture</li>
           </ul>
         </div>
       </Band>

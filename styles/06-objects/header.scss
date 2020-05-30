@@ -39,10 +39,10 @@
     height: 32px;
     padding: 0;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, .02);
+    backdrop-filter: blur(64px);
+    border: 2px solid var(--color-crystal-white);
     border-radius: 50%;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.08), -4px -4px 8px rgba(255,255,255,0.95);
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.16), -4px -4px 8px rgba(255,255,255,0.08);
+    transition: border $animation_speed_complex $animation_easing_standard;
     cursor: pointer;
     z-index: 1001;
 
@@ -68,6 +68,7 @@
     // hover + focus state
     &:hover,
     &:focus {
+      border-color: rgba(255, 255, 255, .08);
       outline: 0;
     }
 
@@ -208,44 +209,27 @@
     .social__brand + .social__brand { margin-top: 12px; }
 
     a {
-      display: block;
+      display: flex;
       width: 100%;
       height: 100%;
       padding: 12px;
-      box-shadow: 4px 4px 8px rgba(0,0,0,0.08), -4px -4px 8px rgba(255,255,255,0.95);
-      box-shadow: 4px 4px 8px rgba(0,0,0,0.16), -4px -4px 8px rgba(255,255,255,0.08);
       border-radius: 50%;
-      transition:
-        background $animation_speed_complex $animation_easing_standard,
-        box-shadow $animation_speed_complex $animation_easing_standard;
+      transition: background $animation_speed_complex $animation_easing_standard;
 
       &:hover {
-        background-color: rgba(255,255,255,.25);
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        background-color: rgba(255,255,255,.04);
       }
+    }
+
+    svg {
+      display: block;
+      width: 24px;
+      height: 24px;
     }
 
     path {
       fill: var(--color-crystal-white);
       transition: fill $animation_speed_complex $animation_easing_standard;
-    }
-
-    // Brand colors
-    &__brand--dribbble:hover {
-      path { fill: #ea4c89; }
-    }
-
-    &__brand--linkedin:hover {
-      path { fill: #2867B2; }
-    }
-
-    &__brand--twitter:hover {
-      path { fill: #1DA1F2; }
-    }
-
-    // Inverted colors
-    &--inverted {
-      path { fill: var(--color-crystal-white); }
     }
   }
 
@@ -256,11 +240,9 @@
     z-index: 100;
 
     .button {
-      // background-color: var(--color-crystal-white);
       background-color: transparent;
-      border: 2px solid rgba(255, 255, 255, .02);
-      box-shadow: 4px 4px 8px rgba(0,0,0,0.16), -4px -4px 8px rgba(255,255,255,0.08);
-      color: var(--color-carbon-900);
+      backdrop-filter: blur(64px);
+      border: 2px solid var(--color-crystal-white);
       color: var(--color-crystal-white);
     }
     .button g { stroke: var(--color-carbon-900); stroke: var(--color-crystal-white); }
