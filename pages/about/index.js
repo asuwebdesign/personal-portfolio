@@ -23,8 +23,7 @@ const PageAbout = props => (
 
     <article>
       <Sidekick meta="About" title="Pixels, code &amp; tons of video games." section />
-
-      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+      <Poster src={require('../../public/images/banners/banner-deadmau5.jpg?resize')} alt="Sample text for the photo." />
       <Nutshell />
       <HowWhy />
       <Awards />

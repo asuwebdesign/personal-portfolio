@@ -55,7 +55,7 @@
     .sidekick__title {
       @include media('>=large') {
         font-size: 160px;
-        line-height: .85;
+        line-height: 1;
         letter-spacing: -8px;
       }
     }

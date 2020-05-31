@@ -17,8 +17,8 @@ const Projects = props => {
               <a className="work__project-link">
                 <div className="work__project-photo">
                   <img
-                    srcSet={require('../../public/images/cards/card-atlanticbt.jpg?resize').srcSet}
-                    src={require('../../public/images/cards/card-atlanticbt.jpg?resize').src}
+                    srcSet={require('../../public/images/cards/card-atlanticbt.png?resize').srcSet}
+                    src={require('../../public/images/cards/card-atlanticbt.png?resize').src}
                     alt=""
                     loading="lazy"
                   />

@@ -15,7 +15,7 @@ const HowWhy = props => {
         <article className="teaser">
           <div className="teaser__photo">
             <img
-              src={require('../../public/images/cards/card-process.svg')}
+              src={require('../../public/images/cards/card-process.png')}
               alt=""
               loading="lazy"
             />
