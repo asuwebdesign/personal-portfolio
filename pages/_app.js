@@ -2,6 +2,9 @@ import React, { Fragment } from 'react'
 import App from 'next/app'
 import NextNprogress from 'nextjs-progressbar'
 
+// Import styles
+import '../styles/main.scss'
+
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
   // every single page in your application. This disables the ability to

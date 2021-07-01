@@ -58,7 +58,7 @@
 
     div {
       @include media('>=large') {
-        width: percentage(400/1248);
+        width: math.percentage(math.div(400, 1248));
       }
     }
 

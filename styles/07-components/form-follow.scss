@@ -1,3 +1,5 @@
+
+
 .form-follow {
   margin: 64px 0;
 
@@ -17,7 +19,7 @@
   border-radius: 8px;
 
   @include media('>=large') {
-    width: percentage(824/1248);
+    width: math.percentage(math.div(824, 1248));
     padding: 64px;
   }
 
@@ -56,7 +58,7 @@
   color: var(--color-crystal-white);
 
   @include media('>=large') {
-    width: percentage(424/1248);
+    width: math.percentage(math.div(424, 1248));
     padding: 64px;
     margin-top: 128px;
   }

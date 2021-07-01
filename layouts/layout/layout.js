@@ -6,9 +6,6 @@ import Head from 'next/head'
 import Header from '../header'
 import Footer from '../footer'
 
-// Import styles
-import '../../styles/main.scss'
-
 const Layout = props => {
   return (
     <Fragment>

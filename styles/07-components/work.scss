@@ -22,7 +22,7 @@
 
   &__project {
     @include media('>=large') {
-      width: percentage(612/1248);
+      width: math.percentage(math.div(612, 1248));
     }
 
     &:nth-child(n+3) {

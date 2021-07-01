@@ -52,7 +52,7 @@ const FormFollow = props => {
         </section>
         <section className="follow">
           <h1 className="follow__meta">Follow Me</h1>
-          <div className="follow__title">I'm social. Follow me and stay in the loop.</div>
+          <div className="follow__title">When I'm not playing video games, I'm active on social. Follow me and stay in the loop.</div>
           <ul className="follow__list">
             <li className="follow__brand">
               <a href="https://dribbble.com/markr" target="_blank">

@@ -58,16 +58,16 @@
 
   &__listitem {
     padding: 32px;
-    background-color: var(--color-crystal-white);
+    background-color: var(--color-carbon-800);
     border-radius: 5px;
 
     @include media('>=large') {
-      width: percentage(400/824);
+      width: math.percentage(math.div(400, 824));
     }
 
     &:nth-child(even) {
       @include media('>=large') {
-        margin-left: percentage(24/824);
+        margin-left: math.percentage(math.div(24, 824));
       }
     }
 
@@ -84,7 +84,7 @@
 
     p {
       margin: 0;
-      color: var(--color-slate);
+      color: var(--color-slate-light);
     }
   }
 }
@@ -145,7 +145,7 @@
   &__list {
     padding: 32px;
     margin: 64px 0 0;
-    background-color: var(--color-crystal-white);
+    background-color: var(--color-carbon-800);
     border-radius: 5px;
     list-style: none;
     counter-reset: philosophy-counter;

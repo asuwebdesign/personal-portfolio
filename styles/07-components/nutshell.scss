@@ -15,11 +15,11 @@
   }
 
   &__primary {
-    width: percentage(506/1248);
+    width: math.percentage(math.div(506, 1248));
   }
 
   &__secondary {
-    width: percentage(612/1248);
+    width: math.percentage(math.div(612, 1248));
   }
 
   &__meta {
@@ -59,7 +59,7 @@
   }
 
   &__type {
-    width: percentage(294/612);
+    width: math.percentage(math.div(294, 612));
     padding: 48px 32px 32px;
     background-color: var(--color-crystal-white);
     background-color: var(--color-carbon-800);

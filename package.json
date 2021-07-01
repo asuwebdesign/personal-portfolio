@@ -8,33 +8,33 @@
     "start": "next start"
   },
   "dependencies": {
-    "@n8tb1t/use-scroll-position": "^1.0.43",
-    "@svgr/webpack": "^4.3.3",
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@svgr/webpack": "^5.5.0",
     "element-overlap": "^1.0.1",
-    "framer-motion": "^1.11.0",
+    "framer-motion": "^4.1.17",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
     "lqip-loader": "^2.2.0",
-    "next": "^9.4.4",
+    "next": "^10.2.2",
     "next-compose": "0.0.2",
-    "next-offline": "^4.0.6",
+    "next-offline": "^5.0.5",
     "next-optimized-images": "^2.6.0",
-    "nextjs-progressbar": "^0.0.4",
-    "node-sass": "^4.14.1",
-    "postcss-pxtorem": "^4.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-intersection-observer": "^8.26.2",
+    "nextjs-progressbar": "^0.0.9",
+    "postcss-pxtorem": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^8.32.0",
     "react-media": "^1.10.0",
-    "react-scrollmagic": "^2.2.0",
-    "responsive-loader": "^1.2.0",
-    "sharp": "^0.25.0",
-    "webp-loader": "^0.6.0"
+    "react-scrollmagic": "^2.3.0",
+    "responsive-loader": "^2.3.0",
+    "sass": "^1.34.0",
+    "sharp": "^0.28.2",
+    "webp-loader": "^0.6.0",
+    "webpack": "^4.39.0"
   },
   "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.1"
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "sass-loader": "^11.1.1"
   }
 }

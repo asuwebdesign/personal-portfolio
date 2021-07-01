@@ -17,8 +17,8 @@
     box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.08);
 
     @include media('>=large') {
-      width: percentage(294/1248);
-      padding-top: percentage(294/1248);
+      width: math.percentage(math.div(294, 1248));
+      padding-top: math.percentage(math.div(294, 1248));
     }
 
     > svg {
@@ -35,7 +35,7 @@
 
   &__secondary {
     @include media('>=large') {
-      width: percentage(506/1248);
+      width: math.percentage(math.div(506, 1248));
     }
 
     p:first-child {
@@ -49,7 +49,7 @@
     @include media('>=large') {
       position: absolute;
       top: 50%;
-      left: percentage(264/294);
+      left: math.percentage(math.div(264, 294));
       width: 150%;
       transform: translate3d(0, -50%, 0);
     }

@@ -7,13 +7,13 @@
 
   &__item {
     @include media('>=large') {
-      width: percentage(400/824);
+      width: math.percentage(math.div(400, 824));
       padding: 16px 0;
     }
 
     &:nth-child(even) {
       @include media('>=large') {
-        margin-left: percentage(24/824);
+        margin-left: math.percentage(math.div(24, 824));
       }
     }
 

@@ -3,12 +3,9 @@
   display: inline-block;
   width: auto;
   padding: 24px 64px 24px 32px;
-  background-color: var(--color-carbon-900);
   background-color: var(--color-crystal-white);
   border-radius: 5px;
-  box-shadow: 0 0 0 0 var(--color-carbon-900);
   box-shadow: 0 0 0 0 var(--color-crystal-white);
-  color: var(--color-crystal-white);
   color: var(--color-carbon-900);
   font-family: var(--font-stack-semibold);
   font-size: 16px;
@@ -33,7 +30,6 @@
 
   &:hover,
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-carbon-900);
     box-shadow: 0 0 0 2px var(--color-crystal-white);
 
     svg {

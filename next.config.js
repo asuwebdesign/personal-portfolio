@@ -1,10 +1,8 @@
 const path = require('path')
 const compose = require('next-compose')
-const withSass = require('@zeit/next-sass')
 const optimizedImages = require('next-optimized-images')
 
 module.exports = compose([
-  [withSass, {}],
   [optimizedImages, {
     defaultImageLoader: 'responsive-loader',
     responsive: {
@@ -15,7 +13,13 @@ module.exports = compose([
     }
   }],
   {
+    future: {
+      webpack5: true,
+    },
     test: /\.svg$/,
     use: ['@svgr/webpack'],
+    sassOptions: {
+      includePaths: [path.join(__dirname, 'styles')],
+    }
   }
 ])
