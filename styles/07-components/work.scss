@@ -22,10 +22,10 @@
 
   &__project {
     @include media('>=large') {
-      width: math.percentage(math.div(612, 1248));
+      width: math.percentage(math.div(400, 1248));
     }
 
-    &:nth-child(n+3) {
+    &:nth-child(n+4) {
       margin-top: 128px;
     }
 

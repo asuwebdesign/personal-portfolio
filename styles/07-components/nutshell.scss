@@ -60,12 +60,17 @@
 
   &__type {
     width: math.percentage(math.div(294, 612));
-    padding: 48px 32px 32px;
     background-color: var(--color-crystal-white);
     background-color: var(--color-carbon-800);
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.08);
     text-align: center;
+
+    &-link {
+      display: block;
+      padding: 48px 32px 32px;
+      text-decoration: none;
+    }
 
     &-icon {
       height: 96px;

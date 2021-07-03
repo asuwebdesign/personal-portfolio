@@ -28,28 +28,44 @@ const Nutshell = props => {
         <div className="nutshell__secondary">
           <div className="nutshell__list">
             <article className="nutshell__type">
-              <div className="nutshell__type-icon">
-                <IconSolutionB />
-              </div>
-              <h1 className="nutshell__type-title">Branding Strategy<br /> &amp; Identity</h1>
+              <Link href="/services/branding">
+                <a className="nutshell__type-link">
+                  <div className="nutshell__type-icon">
+                    <IconSolutionB />
+                  </div>
+                  <h1 className="nutshell__type-title">Branding Strategy<br /> &amp; Identity</h1>
+                </a>
+              </Link>
             </article>
             <article className="nutshell__type">
-              <div className="nutshell__type-icon">
-                <IconSolutionC />
-              </div>
-              <h1 className="nutshell__type-title">Creative &amp;<br /> Experience Design</h1>
+              <Link href="/services/creative">
+                <a className="nutshell__type-link">
+                  <div className="nutshell__type-icon">
+                    <IconSolutionC />
+                  </div>
+                  <h1 className="nutshell__type-title">Creative &amp;<br /> Experience Design</h1>
+                </a>
+              </Link>
             </article>
             <article className="nutshell__type">
-              <div className="nutshell__type-icon">
-                <IconSolutionR />
-              </div>
-              <h1 className="nutshell__type-title">Research, Data<br /> &amp; Analytics</h1>
+              <Link href="/services/research">
+                <a className="nutshell__type-link">
+                  <div className="nutshell__type-icon">
+                    <IconSolutionR />
+                  </div>
+                  <h1 className="nutshell__type-title">Research, Data<br /> &amp; Analytics</h1>
+                </a>
+              </Link>
             </article>
             <article className="nutshell__type">
-              <div className="nutshell__type-icon">
-                <IconSolutionW />
-              </div>
-              <h1 className="nutshell__type-title">Websites &amp;<br /> Digital Platforms</h1>
+              <Link href="/services/digital">
+                <a className="nutshell__type-link">
+                  <div className="nutshell__type-icon">
+                    <IconSolutionW />
+                  </div>
+                  <h1 className="nutshell__type-title">Websites &amp;<br /> Digital Platforms</h1>
+                </a>
+              </Link>
             </article>
           </div>
         </div>
