@@ -1,5 +1,6 @@
 // Import nodes
 import React from "react"
+import Link from 'next/link'
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -13,30 +14,38 @@ const HowWhy = props => {
     <div className="how-why">
       <Wrapper>
         <article className="teaser">
-          <div className="teaser__photo">
-            <img
-              src={require('../../public/images/cards/card-process.png')}
-              alt=""
-              loading="lazy"
-            />
-          </div>
-          <h1 className="teaser__meta">How I Do It</h1>
-          <div className="teaser__title">Our process empowers us to make amazing things.</div>
-          <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-          <Button href="/about/process" label="My Process" />
+          <Link href="/about/process">
+            <a className="teaser__link">
+              <div className="teaser__photo">
+                <img
+                  srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
+                  src={require('../../public/images/cards/card-process.jpg')}
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <h1 className="teaser__meta">How I Do It</h1>
+              <div className="teaser__title">Our process empowers us to make amazing things.</div>
+              <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </a>
+          </Link>
         </article>
         <article className="teaser">
-          <div className="teaser__photo">
-            <img
-              src={require('../../public/images/cards/card-process.svg')}
-              alt=""
-              loading="lazy"
-            />
-          </div>
-          <h1 className="teaser__meta">Why I Do It</h1>
-          <div className="teaser__title">We are passionate about providing quality experiences to people.</div>
-          <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-          <Button href="/about/manifesto" label="My Manifesto" />
+          <Link href="/about/manifesto">
+            <a className="teaser__link">
+              <div className="teaser__photo">
+                <img
+                  srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
+                  src={require('../../public/images/cards/card-process.jpg')}
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <h1 className="teaser__meta">Why I Do It</h1>
+              <div className="teaser__title">We are passionate about providing quality experiences to people.</div>
+              <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            </a>
+          </Link>
         </article>
       </Wrapper>
     </div>

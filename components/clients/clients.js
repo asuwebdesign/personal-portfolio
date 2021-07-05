@@ -23,7 +23,7 @@ const Clients = props => {
     <section className="clients">
       <Wrapper>
         <div className="clients__meta">Select Clients</div>
-        <h1 className="clients__title">These brands aren't trophies, they're friends that were met on the journey.</h1>
+        <h1 className="clients__title">These brands aren't trophies, they're friends that were met on the journey. </h1>
         <ul className="clients__list">
           <li className="clients__brand"><LogoBCBSNC /></li>
           <li className="clients__brand"><LogoCampbell /></li>

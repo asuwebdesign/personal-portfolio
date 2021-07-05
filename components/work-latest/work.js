@@ -44,6 +44,22 @@ const Projects = props => {
               </a>
             </Link>
           </article>
+          <article className="work__project">
+            <Link href="/projects/university-wisconsin">
+              <a className="work__project-link">
+                <div className="work__project-photo">
+                  <img
+                    srcSet={require('../../public/images/cards/card-wisconsin.jpg?resize').srcSet}
+                    src={require('../../public/images/cards/card-wisconsin.jpg?resize').src}
+                    alt=""
+                    loading="lazy"
+                  />
+                </div>
+                <div className="work__project-client">University of Wisconsin</div>
+                <h1 className="work__project-title">Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin.</h1>
+              </a>
+            </Link>
+          </article>
         </div>
       </Wrapper>
     </section>

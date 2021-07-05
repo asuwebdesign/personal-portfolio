@@ -5,6 +5,12 @@ import Link from 'next/link'
 // Import vectors
 import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
 
+
+// When document scrolls, if $element1.scrollTop == $element2.scrollTop
+// then make $element1 == inverted
+// else make $element1 == default
+
+
 // Render component
 const MLogo = props => {
   const renderLink = () => {

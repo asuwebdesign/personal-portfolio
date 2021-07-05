@@ -2,9 +2,13 @@
   position: relative;
   min-height: 100vh;
   padding: 64px 0;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(29, 29, 29); // blend with the video clip
   color: var(--color-crystal-white);
   overflow: hidden;
+
+  &:before {
+    content: '';
+  }
 
   @include media('>=large') {
     padding: 128px 0;
@@ -93,7 +97,7 @@
     top: 50%;
     right: -15%;
     max-width: 80%;
-    mix-blend-mode: lighten;
+    // mix-blend-mode: lighten; // not needed
     transform: translateY(-50%);
     z-index: 1;
   }

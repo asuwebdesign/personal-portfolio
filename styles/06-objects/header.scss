@@ -28,6 +28,8 @@
     svg {
       width: auto;
       height: 100%;
+
+      path { fill: var(--color-carbon-900); }
     }
   }
 
@@ -40,7 +42,7 @@
     padding: 0;
     background: transparent;
     backdrop-filter: blur(64px);
-    border: 2px solid var(--color-crystal-white);
+    border: 2px solid var(--color-carbon-900);
     border-radius: 50%;
     transition: border $animation_speed_complex $animation_easing_standard;
     cursor: pointer;
@@ -63,12 +65,12 @@
       margin: -12px 0 0 -12px;
     }
 
-    path { fill: var(--color-crystal-white); }
+    path { fill: var(--color-carbon-900); }
 
     // hover + focus state
     &:hover,
     &:focus {
-      border-color: rgba(255, 255, 255, .08);
+      border-color: var(--color-carbon-300);
       outline: 0;
     }
 
@@ -215,6 +217,7 @@
       padding: 12px;
       border-radius: 50%;
       transition: background $animation_speed_complex $animation_easing_standard;
+      mix-blend-mode: difference;
 
       &:hover {
         background-color: rgba(255,255,255,.04);
@@ -228,7 +231,7 @@
     }
 
     path {
-      fill: var(--color-crystal-white);
+      fill: var(--color-carbon-900);
       transition: fill $animation_speed_complex $animation_easing_standard;
     }
   }
@@ -242,13 +245,13 @@
     .button {
       background-color: transparent;
       backdrop-filter: blur(64px);
-      border: 2px solid var(--color-crystal-white);
-      color: var(--color-crystal-white);
+      border: 2px solid var(--color-carbon-900);
+      color: var(--color-carbon-900);
     }
-    .button g { stroke: var(--color-carbon-900); stroke: var(--color-crystal-white); }
+    .button g { stroke: var(--color-carbon-900); }
 
     .button:hover, .button:focus {
-      box-shadow: 0 0 0 2px var(--color-crystal-white);
+      box-shadow: 0 0 0 2px var(--color-carbon-900);
     }
   }
 

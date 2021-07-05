@@ -4,6 +4,11 @@
   margin: 64px 0 0;
   text-align: center;
 
+  background: transparent;
+  background-image: radial-gradient(var(--color-carbon-600) 1px, transparent 0);
+  background-size: 24px 24px;
+  background-position: 0 0;
+
   @include media('>=large') {
     margin: 128px 0 0;
   }
@@ -14,7 +19,6 @@
     align-items: center;
     padding: 64px;
     color: var(--color-carbon-900);
-    color: var(--color-crystal-white);
     text-decoration: none;
 
     @include media(">=large") {
@@ -23,7 +27,7 @@
   }
 
   &__meta {
-    margin: 0 0 8px;
+    margin: 0 0 32px;
     font-size: 14px;
     font-family: var(--font-stack-semibold);
     color: var(--color-slate);
@@ -32,6 +36,16 @@
 
     @include media('>=large') {
       font-size: 16px;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      margin: 16px auto 0;
+      background-color: var(--color-slate);
+      border-radius: var(--border-radius);
     }
   }
 

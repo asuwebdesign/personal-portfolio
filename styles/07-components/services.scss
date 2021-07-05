@@ -12,8 +12,7 @@
   &__primary {
     position: relative;
     background-color: var(--color-crystal-white);
-    background-color: var(--color-carbon-800);
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.08);
 
     @include media('>=large') {

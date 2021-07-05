@@ -20,7 +20,6 @@
     &:nth-child(n+3) {
       @include media('>=large') {
         border-top: 1px solid var(--color-carbon-100);
-        border-top: 1px solid var(--color-carbon-700);
       }
     }
   }

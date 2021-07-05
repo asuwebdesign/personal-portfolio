@@ -7,9 +7,9 @@
 
   &__meta {
     position: relative;
-    margin: 0;
+    margin: 0 0 32px;
     font-size: 16px;
-    font-weight: 700;
+    font-family: var(--font-stack-semibold);
     color: var(--color-slate);
     letter-spacing: normal;
     text-transform: uppercase;
@@ -21,12 +21,13 @@
       width: 32px;
       height: 2px;
       margin: 16px auto 0;
-      background-color: var(--color-carbon-200);
+      background-color: var(--color-slate);
+      border-radius: var(--border-radius);
     }
   }
 
   &__title {
-    margin: 16px 0 64px;
+    margin: 0 0 64px;
     font-size: 32px;
     text-align: center;
   }
@@ -52,7 +53,7 @@
     }
 
     &:nth-child(n+6) {
-      border-top: 1px solid var(--color-carbon-700);
+      border-top: 1px solid var(--color-carbon-100);
     }
   }
 }

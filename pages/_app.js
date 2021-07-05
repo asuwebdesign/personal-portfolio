@@ -23,7 +23,7 @@ class MyApp extends App {
     return (
       <Fragment>
         <Component {...pageProps} router={router} />
-        <NextNprogress color={`#ff007e`} startPosition={0.1} stopDelayMs={200} height={3} />
+        <NextNprogress color={`#ff007e`} startPosition={0.1} stopDelayMs={200} height={2} />
       </Fragment>
     )
   }
