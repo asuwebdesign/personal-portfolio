@@ -5,11 +5,11 @@ import React from "react"
 import Wrapper from '../../layouts/wrapper'
 
 // Import vectors
-import GraphicDiscover from '../../public/vectors/process-learning.svg'
-import GraphicPlan from '../../public/vectors/process-strategy.svg'
-import GraphicCreate from '../../public/vectors/process-designing.svg'
-import GraphicBuild from '../../public/vectors/process-coding.svg'
-import GraphicMeasure from '../../public/vectors/process-metrics.svg'
+// import GraphicDiscover from '../../public/vectors/process-learning.svg'
+// import GraphicPlan from '../../public/vectors/process-strategy.svg'
+// import GraphicCreate from '../../public/vectors/process-designing.svg'
+// import GraphicBuild from '../../public/vectors/process-coding.svg'
+// import GraphicMeasure from '../../public/vectors/process-metrics.svg'
 
 // Render component
 const Process = props => {
@@ -24,7 +24,6 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Understand your business, industry, and people.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <GraphicDiscover />
           </div>
         </Wrapper>
       </div>
@@ -38,7 +37,6 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Shape the direction of your brand or product.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <GraphicPlan />
           </div>
         </Wrapper>
       </div>
@@ -52,7 +50,6 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Ideate and prototype designs concepts.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <GraphicCreate />
           </div>
         </Wrapper>
       </div>
@@ -66,7 +63,6 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Mesh design and technology into a brand or product.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <GraphicBuild />
           </div>
         </Wrapper>
       </div>
@@ -80,7 +76,6 @@ const Process = props => {
           <div className="phase__secondary">
             <p className="phase__subtitle">Observe behaviors and iterate to improve.</p>
             <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-            <GraphicMeasure />
           </div>
         </Wrapper>
       </div>

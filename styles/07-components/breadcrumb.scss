@@ -79,6 +79,10 @@
     }
   }
 
+  span {
+    font-family: var(--font-stack-regular);
+  }
+
   // Inverted theme
   // ---------------------------------------------------------------------------
   &--inverted {

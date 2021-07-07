@@ -1,3 +1,22 @@
 .poster {
   margin-top: -128px;
+
+  &__photo {
+    position: relative;
+
+    &:before {
+      @include media('>=large') {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 148px;
+        height: 148px;
+        background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+        background-size: 32px 32px;
+        transform: translate3d(-50%, -50%, 0);
+        z-index: -1;
+      }
+    }
+  }
 }

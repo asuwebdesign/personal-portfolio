@@ -8,7 +8,7 @@ import Wrapper from '../../layouts/wrapper'
 // Render component
 const Projects = props => {
   return (
-    <section id="work-latest" className="work">
+    <section id="work-latest" className="work work--latest">
       <Wrapper>
         <h1 className="work__title">Selected Work</h1>
         <div className="work__list">

@@ -63,6 +63,16 @@ const PageServices = props => (
           </ul>
         </div>
       </Band>
+
+      {/* Repeat band for book consult */}
+      <div>
+        <div>Branding</div>
+        <h1>Anybody can make your brand look good. I can make your brand matter.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+        <a href="#">Book a consult</a>
+      </div>
+      {/* Repeat band for book consult */}
+
     </article>
     <Detour meta="Up Next" title="Creative &amp; Experience Design." link="/services/creative" />
   </Layout>

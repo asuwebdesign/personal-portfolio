@@ -42,6 +42,10 @@
       font-weight: 700;
       line-height: 1.25;
     }
+
+    p:nth-child(2) {
+      color: var(--color-slate);
+    }
   }
 
   &__header {
@@ -59,14 +63,18 @@
 
     @include media('>=large') {
       font-size: 48px;
-      font-weight: 900;
+      font-family: var(--font-stack-extrabold);
+      line-height: 1;
+      letter-spacing: -2px;
     }
   }
 
   // adjacent services
   + .service {
     @include media('>=large') {
-      margin-top: 128px;
+      padding-top: 64px;
+      margin-top: 64px;
+      border-top: 1px solid var(--color-carbon-100);
     }
   }
 

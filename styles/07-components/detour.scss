@@ -1,13 +1,7 @@
 .detour {
   background-color: var(--color-crystal-white);
-  background-color: var(--color-carbon-800);
   margin: 64px 0 0;
   text-align: center;
-
-  background: transparent;
-  background-image: radial-gradient(var(--color-carbon-600) 1px, transparent 0);
-  background-size: 24px 24px;
-  background-position: 0 0;
 
   @include media('>=large') {
     margin: 128px 0 0;

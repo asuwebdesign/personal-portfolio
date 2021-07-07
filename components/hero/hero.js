@@ -7,9 +7,6 @@ import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
-// Import vectors
-import Dots from '../../public/vectors/graphic-dots.svg'
-
 // Render component
 const Hero = props => {
 
@@ -88,9 +85,7 @@ const Hero = props => {
         </motion.div>
       </motion.div>
 
-      <div className={`hero__dots hero__dots--inverted ${hideDots}`}>
-        <Dots />
-      </div>
+      <div className={`hero__dots hero__dots--inverted ${hideDots}`}></div>
 
       <video className="hero__video" poster="/videos/dark-matter.jpg" autoPlay loop muted playsInline aria-hidden="true">
         <source src="/videos/dark-matter.m4v" type="video/mp4" />

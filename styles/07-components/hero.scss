@@ -61,16 +61,29 @@
     }
 
     div {
+      position: relative;
+
       @include media('>=large') {
         width: math.percentage(math.div(400, 1248));
+      }
+
+      &:before {
+        content: '';
+        display: block;
+        width: 64px;
+        height: 2px;
+        margin-bottom: 32px;
+        background-color: var(--color-crystal-white);
       }
     }
 
     h2 {
+      margin: 0 0 16px;
       font-size: 24px;
     }
 
     p {
+      margin: 0;
       color: var(--color-slate-light);
     }
   }
@@ -79,6 +92,10 @@
     position: fixed;
     top: 50%;
     right: 64px;
+    width: 320px;
+    height: 320px;
+    background-image: radial-gradient(var(--color-crystal-white) 1.5px, transparent 0);
+    background-size: 32px 32px;
     transform: translateY(-50%);
     transition: opacity $animation_speed_complex $animation_easing_decelerate;
     z-index: 3;
@@ -89,6 +106,7 @@
 
     &--hide {
       opacity: 0;
+      pointer-events: none;
     }
   }
 

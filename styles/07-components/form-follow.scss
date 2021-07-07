@@ -15,14 +15,29 @@
 }
 
 .form {
-  background-color: var(--color-carbon-800);
+  background-color: var(--color-crystal-white);
   border-radius: var(--border-radius);
 
   @include media('>=large') {
+    position: relative;
     width: math.percentage(math.div(824, 1248));
     padding: 64px;
   }
 
+  &:before {
+    @include media('>=large') {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 148px;
+      height: 148px;
+      background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+      background-size: 32px 32px;
+      transform: translate3d(-50%, -50%, 0);
+      z-index: -1;
+    }
+  }
 
   &__meta {
     margin: 0;

@@ -1,5 +1,5 @@
 .work {
-  margin-top: 64px;
+  margin-top: -128px;
 
   &__title {
     position: relative;
@@ -24,15 +24,33 @@
 
   &__list {
     @include media('>=large') {
+      position: relative;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+    }
+
+    &:before {
+      @include media('>=large') {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 148px;
+        height: 148px;
+        background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+        background-size: 32px 32px;
+        transform: translate3d(-50%, -50%, 0);
+        z-index: 0;
+      }
     }
   }
 
   &__project {
     @include media('>=large') {
+      position: relative;
       width: math.percentage(math.div(400, 1248));
+      z-index: 1;
     }
 
     &:nth-child(n+4) {
@@ -114,6 +132,10 @@
       line-height: 1.25;
       letter-spacing: -1px;
     }
+  }
+
+  &--latest {
+    margin-top: 128px;
   }
 
 }

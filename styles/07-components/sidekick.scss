@@ -29,11 +29,16 @@
     position: fixed;
     top: 50%;
     right: 64px;
+    width: 320px;
+    height: 320px;
+    background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+    background-size: 32px 32px;
     transform: translateY(-50%);
     transition: opacity $animation_speed_complex $animation_easing_decelerate;
 
     &--hide {
       opacity: 0;
+      pointer-events: none;
     }
   }
 

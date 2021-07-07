@@ -8,9 +8,6 @@ import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
 
-// Import vectors
-import Dots from '../../public/vectors/graphic-dots.svg'
-
 // Render component
 const Hero = props => {
 
@@ -44,9 +41,7 @@ const Hero = props => {
       >
         <h1 className="sidekick__title">{props.title}</h1>
       </motion.div>
-      <div className={`sidekick__dots ${hideDots}`}>
-        <Dots />
-      </div>
+      <div className={`sidekick__dots ${hideDots}`}></div>
     </header>
   )
 }
