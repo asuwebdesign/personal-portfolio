@@ -19,6 +19,7 @@ import Hoodie from '../../public/images/hoodie.png'
 import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
 import IconMenu from '../../public/vectors/menu.svg'
 import IconDribbble from '../../public/vectors/social-dribbble.svg'
+import IconMedium from '../../public/vectors/social-medium.svg'
 import IconLinkedIn from '../../public/vectors/social-linkedin.svg'
 import IconTwitter from '../../public/vectors/social-twitter.svg'
 import Dots from '../../public/vectors/graphic-dots.svg'
@@ -131,6 +132,7 @@ const Header = props => {
       <Media query="(min-width: 1280px)" render={() => (
         <ul className="social">
           <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
+          <li className="social__brand social__brand--medium"><a href="https://medium.com/@Asuwebdesign" target="_blank"><IconMedium /></a></li>
           <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
           <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
         </ul>

@@ -8,15 +8,15 @@
     @include media('>=large') {
       display: flex;
       align-items: center;
-      font-size: 32px;
+      font-size: 28px;
       line-height: 1.25;
     }
 
     // footer logo
     .m-logo {
       @include media('>=large') {
-        width: 128px;
-        margin-right: 64px;
+        width: 96px;
+        margin-right: 96px;
       }
 
       path {

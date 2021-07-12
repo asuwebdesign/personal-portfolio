@@ -6,6 +6,8 @@ import Head from 'next/head'
 import Layout from '../../layouts/layout'
 import Band from '../../layouts/band'
 
+// Import elements
+import Button from '../../elements/button'
 
 // Import components
 import Detour from '../../components/detour'
@@ -65,12 +67,12 @@ const PageServices = props => (
       </Band>
 
       {/* Repeat band for book consult */}
-      <div>
+      <Band>
         <div>Branding</div>
         <h1>Anybody can make your brand look good. I can make your brand matter.</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-        <a href="#">Book a consult</a>
-      </div>
+        <Button label="Get in Touch" href="/contact" />
+      </Band>
       {/* Repeat band for book consult */}
 
     </article>

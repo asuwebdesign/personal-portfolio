@@ -12,6 +12,7 @@ import Band from '../../layouts/band'
 import Detour from '../../components/detour'
 import Work from '../../components/work'
 import Sidekick from '../../components/sidekick'
+import DribbblePosts from '../../components/dribbble-posts'
 
 // Import elements
 import Button from '../../elements/button'
@@ -26,6 +27,7 @@ const PageProjects = props => (
     <article>
       <Sidekick meta="Projects" title="Selected brands &amp; digital products." section />
       <Work />
+      <DribbblePosts />
     </article>
     <Detour meta="Up Next" title="Discover what I do." link="/services" />
   </Layout>
