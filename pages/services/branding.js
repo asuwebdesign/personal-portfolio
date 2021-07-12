@@ -66,7 +66,7 @@ const PageServices = props => (
         </div>
       </Band>
 
-      {/* Repeat band for book consult */}
+      {/* Repeat band for book consult  */}
       <Band>
         <div>Branding</div>
         <h1>Anybody can make your brand look good. I can make your brand matter.</h1>
