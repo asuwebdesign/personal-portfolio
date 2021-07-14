@@ -34,9 +34,15 @@
   }
 
   &__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 64px 32px;
+    @include media('>=x-small') {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px 32px;
+    }
+
+    @include media('>=large') {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 
   &__footer {
