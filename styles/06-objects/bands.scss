@@ -126,4 +126,78 @@
       }
     }
   }
+
+  // Service Callout band
+  // ---------------------------------------------------------------------------
+  &--service-callout {
+    .wrapper {
+      @include media('>=large') {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 24px;
+        align-items: center;
+      }
+    }
+
+
+
+    .band__callout-icon {
+      @include media('>=large') {
+        position: relative;
+        grid-column: 1 / 4;
+        aspect-ratio: 1;
+        background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+        background-size: 32px 32px;
+      }
+
+      svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 50%;
+        max-height: 50%;
+        height: auto;
+        transform: translate3d(-50%, -50%, 0);
+      }
+    }
+
+    .band__callout-contents {
+      @include media('>=large') {
+        grid-column: 5 / 13;
+      }
+    }
+
+    .band__callout-meta {
+      margin: 0 0 32px;
+      font-size: 14px;
+      font-family: var(--font-stack-semibold);
+      color: var(--color-slate);
+      text-transform: uppercase;
+      letter-spacing: normal;
+
+      @include media('>=large') {
+        font-size: 16px;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 2px;
+        margin: 16px 0 0;
+        background-color: var(--color-slate);
+        border-radius: var(--border-radius);
+      }
+    }
+
+    .band__callout-title {
+      margin: 0 0 16px;
+      font-size: 40px;
+    }
+
+    .band__callout-description {
+      margin: 0 0 32px;
+    }
+
+  }
 }

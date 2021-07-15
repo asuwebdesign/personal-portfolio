@@ -14,6 +14,9 @@ import Detour from '../../components/detour'
 import Sidekick from '../../components/sidekick'
 import Poster from '../../components/poster'
 
+// Import vectors
+import IconSolutionW from '../../public/vectors/solution-w.svg'
+
 // Render component
 const PageServices = props => (
   <Layout {...props}>
@@ -66,11 +69,16 @@ const PageServices = props => (
       </Band>
 
       {/* Repeat band for book consult */}
-      <Band>
-        <div>Branding</div>
-        <h1>Anybody can make your brand look good. I can make your brand matter.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-        <Button label="Get in Touch" href="/contact" />
+      <Band className="band--service-callout">
+        <div className="band__callout-icon">
+          <IconSolutionW />
+        </div>
+        <div className="band__callout-contents">
+          <div className="band__callout-meta">Websites &amp; Digital Platforms</div>
+          <h1 className="band__callout-title">Don't just meet customer experience expectations. Anticipate and exceed them.</h1>
+          <p className="band__callout-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          <Button label="Get in Touch" href="/contact" />
+        </div>
       </Band>
       {/* Repeat band for book consult */}
     </article>
