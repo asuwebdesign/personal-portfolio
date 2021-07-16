@@ -9,6 +9,8 @@
     width: 32px;
     height: 32px;
     z-index: 100;
+    filter: invert(100%);
+    mix-blend-mode: difference;
 
     @include media('>=large') {
       top: 72px;
@@ -29,7 +31,9 @@
       width: auto;
       height: 100%;
 
-      path { fill: var(--color-carbon-900); }
+      path {
+        fill: var(--color-carbon-900);
+      }
     }
   }
 
@@ -41,10 +45,11 @@
     height: 32px;
     padding: 0;
     background: transparent;
-    backdrop-filter: blur(64px);
     border: 2px solid var(--color-carbon-900);
     border-radius: 50%;
     transition: border $animation_speed_complex $animation_easing_standard;
+    filter: invert(100%);
+    mix-blend-mode: difference;
     cursor: pointer;
     z-index: 1001;
 
@@ -200,8 +205,11 @@
     bottom: 64px;
     padding: 0;
     margin: 0;
+    border-radius: 48px;
     list-style: none;
     z-index: 100;
+    filter: invert(100%);
+    mix-blend-mode: difference;
 
     &__brand {
       width: 48px;
@@ -217,7 +225,6 @@
       padding: 12px;
       border-radius: 50%;
       transition: background $animation_speed_complex $animation_easing_standard;
-      mix-blend-mode: difference;
 
       &:hover {
         background-color: rgba(255,255,255,.04);
@@ -231,7 +238,7 @@
     }
 
     path {
-      fill: var(--color-carbon-900);
+      fill: #000;
       transition: fill $animation_speed_complex $animation_easing_standard;
     }
   }

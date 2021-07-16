@@ -1,11 +1,7 @@
 .detour {
   background-color: var(--color-crystal-white);
-  margin: 64px 0 0;
+  margin: 0;
   text-align: center;
-
-  @include media('>=large') {
-    margin: 128px 0 0;
-  }
 
   &__link {
     display: flex;
@@ -38,7 +34,7 @@
       width: 32px;
       height: 2px;
       margin: 16px auto 0;
-      background-color: var(--color-slate);
+      background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
       border-radius: var(--border-radius);
     }
   }

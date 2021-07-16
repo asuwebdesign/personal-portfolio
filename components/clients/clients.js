@@ -25,16 +25,16 @@ const Clients = props => {
         <div className="clients__meta">Select Clients</div>
         <h1 className="clients__title">These brands aren't trophies, they're friends that were met on the journey. </h1>
         <ul className="clients__list">
-          <li className="clients__brand"><LogoBCBSNC /></li>
-          <li className="clients__brand"><LogoCampbell /></li>
-          <li className="clients__brand"><LogoDisney /></li>
-          <li className="clients__brand"><LogoDuke /></li>
-          <li className="clients__brand"><LogoHonda /></li>
-          <li className="clients__brand"><LogoLulu /></li>
-          <li className="clients__brand"><LogoNCGov /></li>
-          <li className="clients__brand"><LogoNCSU /></li>
-          <li className="clients__brand"><LogoOracle /></li>
-          <li className="clients__brand"><LogoRedHat /></li>
+          <li className="clients__brand" data-client="bcbsnc"><LogoBCBSNC /></li>
+          <li className="clients__brand" data-client="campbell"><LogoCampbell /></li>
+          <li className="clients__brand" data-client="disney"><LogoDisney /></li>
+          <li className="clients__brand" data-client="duke"><LogoDuke /></li>
+          <li className="clients__brand" data-client="honda"><LogoHonda /></li>
+          <li className="clients__brand" data-client="lulu"><LogoLulu /></li>
+          <li className="clients__brand" data-client="ncgov"><LogoNCGov /></li>
+          <li className="clients__brand" data-client="ncsu"><LogoNCSU /></li>
+          <li className="clients__brand" data-client="oracle"><LogoOracle /></li>
+          <li className="clients__brand" data-client="redhat"><LogoRedHat /></li>
         </ul>
       </Wrapper>
     </section>

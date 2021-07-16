@@ -45,15 +45,15 @@ const PageHome = props => (
       <meta name="twitter:title" property="twitter:title" content="Huge | Digital agency | Digital business | design, marketing, technology" />
       <meta name="twitter:description" property="twitter:description" content="Huge is a full service digital agency headquartered in Brooklyn with offices worldwide. We transform brands and build businesses." />
     </Head>
-    <article>
-
-      <Hero />
-      <WorkLatest />
-      <Nutshell />
-      <Clients />
-      <News />
-
-    </article>
+    <main>
+      <article>
+        <Hero />
+        <WorkLatest />
+        <Nutshell />
+        <Clients />
+        <News />
+      </article>
+    </main>
     <Detour meta="Up Next" title="Explore select brands I've helped connect with culture." link="/projects" />
   </Layout>
 )

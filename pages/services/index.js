@@ -16,11 +16,12 @@ const PageServices = props => (
     <Head>
       <title>Services | Mark Riggan</title>
     </Head>
-
-    <article>
-      <Sidekick meta="Services" title="Go from being viable to valuable." section />
-      <Services />
-    </article>
+    <main>
+      <article>
+        <Sidekick meta="Services" title="Go from being viable to valuable." section />
+        <Services />
+      </article>
+    </main>
     <Detour meta="Up Next" title="Branding Strategy &amp; Identity." link="/services/branding" />
   </Layout>
 )

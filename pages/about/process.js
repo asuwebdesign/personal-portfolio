@@ -18,12 +18,13 @@ const PageProcess = props => (
     <Head>
       <title>Process | Mark Riggan</title>
     </Head>
-
-    <article>
-      <Sidekick meta="Process" title="It always starts with listening to people." section />
-      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
-      <Process />
-    </article>
+    <main>
+      <article>
+        <Sidekick meta="Process" title="It always starts with listening to people." section />
+        <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+        <Process />
+      </article>
+    </main>
     <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
   </Layout>
 )

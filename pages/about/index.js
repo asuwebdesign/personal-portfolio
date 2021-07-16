@@ -20,15 +20,15 @@ const PageAbout = props => (
     <Head>
       <title>About | Mark Riggan</title>
     </Head>
-
-    <article>
-      <Sidekick meta="About" title="Pixels, code &amp; tons of video games." section />
-      <Poster src={require('../../public/images/banners/banner-deadmau5.jpg?resize')} alt="Sample text for the photo." />
-      <Nutshell />
-      <HowWhy />
-      <Awards />
-
-    </article>
+    <main>
+      <article>
+        <Sidekick meta="About" title="Pixels, code &amp; tons of video games." section />
+        <Poster src={require('../../public/images/banners/banner-deadmau5.jpg?resize')} alt="Sample text for the photo." />
+        <Nutshell />
+        <HowWhy />
+        <Awards />
+      </article>
+    </main>
     <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
   </Layout>
 )

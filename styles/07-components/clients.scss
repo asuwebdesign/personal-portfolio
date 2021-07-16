@@ -21,7 +21,7 @@
       width: 32px;
       height: 2px;
       margin: 16px auto 0;
-      background-color: var(--color-slate);
+      background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
       border-radius: var(--border-radius);
     }
   }
@@ -42,6 +42,8 @@
 
   &__brand {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 20%;
     padding: 32px;
     overflow: hidden;
@@ -55,5 +57,25 @@
     &:nth-child(n+6) {
       border-top: 1px solid var(--color-carbon-100);
     }
+  }
+
+  [data-client="bcbsnc"] svg {
+    max-height: 48px;
+  }
+
+  [data-client="campbell"] svg {
+    max-height: 48px;
+  }
+
+  [data-client="lulu"] svg {
+    max-height: 48px;
+  }
+
+  [data-client="oracle"] svg {
+    max-height: 24px;
+  }
+
+  [data-client="redhat"] svg {
+    max-height: 40px;
   }
 }

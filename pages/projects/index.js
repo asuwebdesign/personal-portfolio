@@ -23,12 +23,13 @@ const PageProjects = props => (
     <Head>
       <title>Projects | Mark Riggan</title>
     </Head>
-
-    <article>
-      <Sidekick meta="Projects" title="Selected brands &amp; digital products." section />
-      <Work />
-      <DribbblePosts />
-    </article>
+    <main>
+      <article>
+        <Sidekick meta="Projects" title="Selected brands &amp; digital products." section />
+        <Work />
+        <DribbblePosts />
+      </article>
+    </main>
     <Detour meta="Up Next" title="Discover what I do." link="/services" />
   </Layout>
 )

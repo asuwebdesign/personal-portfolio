@@ -17,11 +17,12 @@ const PageContact = props => (
     <Head>
       <title>Contact | Mark Riggan</title>
     </Head>
-
-    <article>
-      <Sidekick meta="Contact" title="Let's create something together." section />
-      <FormFollow />
-    </article>
+    <main>
+      <article>
+        <Sidekick meta="Contact" title="Let's create something together." section />
+        <FormFollow />
+      </article>
+    </main>
   </Layout>
 )
 

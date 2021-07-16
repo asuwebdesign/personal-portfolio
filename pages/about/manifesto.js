@@ -18,12 +18,13 @@ const PageManifesto = props => (
     <Head>
       <title>Manifesto | Mark Riggan</title>
     </Head>
-
-    <article>
-      <Sidekick meta="Manifesto" title="Make something people love." section />
-      <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
-      <Manifesto />
-    </article>
+    <main>
+      <article>
+        <Sidekick meta="Manifesto" title="Make something people love." section />
+        <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+        <Manifesto />
+      </article>
+    </main>
     <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
   </Layout>
 )

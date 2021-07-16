@@ -142,11 +142,17 @@
 
 
     .band__callout-icon {
+      position: relative;
+      margin-bottom: 32px;
+      grid-column: 1 / 4;
+      aspect-ratio: 2;
+      background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+      background-size: 24px 24px;
+      background-position: 50% 50%;
+
       @include media('>=large') {
-        position: relative;
-        grid-column: 1 / 4;
+        margin: 0;
         aspect-ratio: 1;
-        background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
         background-size: 32px 32px;
       }
 
@@ -185,7 +191,7 @@
         width: 32px;
         height: 2px;
         margin: 16px 0 0;
-        background-color: var(--color-slate);
+        background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
         border-radius: var(--border-radius);
       }
     }
