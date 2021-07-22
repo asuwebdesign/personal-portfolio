@@ -1,6 +1,6 @@
 .services {
   @include media('>=large') {
-    margin-top: -128px;
+    margin: -128px 0 0;
   }
 }
 

@@ -9,6 +9,8 @@
   font-size: 21px;
   color: var(--color-carbon-900);
   transition: opacity $animation_speed_complex $animation_easing_decelerate;
+  filter: invert(100%);
+  mix-blend-mode: difference;
   z-index: 100;
 
   &:before {
@@ -83,21 +85,7 @@
     font-family: var(--font-stack-regular);
   }
 
-  // Inverted theme
-  // ---------------------------------------------------------------------------
-  &--inverted {
-    color: var(--color-crystal-white);
-
-    &:before {
-      background-color: var(--color-crystal-white);
-    }
-
-    strong {
-      &:after {
-        background-color: var(--color-crystal-white);
-      }
-    }
-  }
+  
 
   // Hide
   // ---------------------------------------------------------------------------

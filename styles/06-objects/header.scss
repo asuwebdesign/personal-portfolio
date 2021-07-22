@@ -75,16 +75,11 @@
     // hover + focus state
     &:hover,
     &:focus {
-      border-color: var(--color-carbon-300);
       outline: 0;
     }
 
     // active state
-    &--active {
-      path {
-        fill: var(--color-crystal-white);
-      }
-    }
+    &--active {}
   }
 
   .menu {
@@ -248,6 +243,8 @@
     top: 55px;
     right: 64px;
     z-index: 100;
+    filter: invert(100%);
+    mix-blend-mode: difference;
 
     .button {
       background-color: transparent;

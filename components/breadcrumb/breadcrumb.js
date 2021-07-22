@@ -126,7 +126,7 @@ const Breadcrumb = props => {
   return (
     <div
       className={
-        (pathname === "/" || pathname.startsWith('/projects/')) ? `breadcrumb breadcrumb--inverted ${hideBreadcrumb}` : `breadcrumb ${hideBreadcrumb}`
+        `breadcrumb ${hideBreadcrumb}`
       }
     >
       <motion.div
