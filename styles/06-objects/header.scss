@@ -45,9 +45,7 @@
     height: 32px;
     padding: 0;
     background: transparent;
-    border: 2px solid var(--color-carbon-900);
-    border-radius: 50%;
-    transition: border $animation_speed_complex $animation_easing_standard;
+    border: 0;
     filter: invert(100%);
     mix-blend-mode: difference;
     cursor: pointer;
@@ -59,6 +57,9 @@
       width: 64px;
       height: 64px;
       margin-top: -32px;
+      border: 2px solid var(--color-carbon-900);
+      border-radius: 50%;
+      transition: border $animation_speed_complex $animation_easing_standard;
     }
 
     svg {
@@ -130,12 +131,14 @@
         counter-increment: menu-counter;
 
         &:before {
-          content: "0" counter(menu-counter);
-          position: absolute;
-          top: 16px;
-          left: -32px;
-          display: block;
-          color: var(--color-slate-light);
+          @include media('>=large') {
+            content: "0" counter(menu-counter);
+            position: absolute;
+            top: 16px;
+            left: -32px;
+            display: block;
+            color: var(--color-slate-light);
+          }
         }
 
         + li {
@@ -151,7 +154,7 @@
         color: var(--color-crystal-white);
         text-decoration: none;
         font-family: var(--font-stack-extrabold);
-        font-size: 28px;
+        font-size: 48px;
         line-height: 1;
         text-transform: uppercase;
         transition:

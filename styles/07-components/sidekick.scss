@@ -1,15 +1,20 @@
 .sidekick {
   position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
   min-height: 100vh;
+  padding: 0 32px;
+
+  @include media('>=large') {
+    padding: 0;
+  }
 
   &__content {
     @include media('>=large') {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 1440px;
-      margin-left: -720px;
-      transform: translateY(-50%);
+      position: relative;
+      max-width: 1440px;
+      margin: 0 auto;
     }
   }
 
@@ -26,15 +31,20 @@
   }
 
   &__dots {
-    position: fixed;
-    top: 50%;
-    right: 64px;
-    width: 320px;
-    height: 320px;
-    background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
-    background-size: 32px 32px;
-    transform: translateY(-50%);
-    transition: opacity $animation_speed_complex $animation_easing_decelerate;
+    display: none;
+
+    @include media('>=large') {
+      position: fixed;
+      top: 50%;
+      right: 64px;
+      display: block;
+      width: 320px;
+      height: 320px;
+      background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+      background-size: 32px 32px;
+      transform: translateY(-50%);
+      transition: opacity $animation_speed_complex $animation_easing_decelerate;
+    }
 
     &--hide {
       opacity: 0;

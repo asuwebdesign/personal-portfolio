@@ -1,6 +1,7 @@
 // Import nodes
-import React, { useState } from "react"
+import React, { useState, Fragment } from "react"
 import Link from 'next/link'
+import Media from 'react-media'
 import { motion } from "framer-motion"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
@@ -22,11 +23,11 @@ const Hero = props => {
   const motionSidekick = {
     visible: {
       opacity: 1,
-      y: '-50%',
+      y: '0%',
     },
     hidden: {
       opacity: 0,
-      y: '-35%',
+      y: '10%',
     }
   }
 
