@@ -34,7 +34,7 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
-            <h2>What we did</h2>
+            <h2>Skills provided</h2>
             <ul className="tags">
               <li className="tag">Branding</li>
               <li className="tag">Branding</li>

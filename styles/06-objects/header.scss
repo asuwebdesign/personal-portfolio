@@ -58,8 +58,11 @@
       height: 64px;
       margin-top: -32px;
       border: 2px solid var(--color-carbon-900);
+      box-shadow: 0 0 0 0 rgba(27, 27, 28, .25);
       border-radius: 50%;
-      transition: border $animation_speed_complex $animation_easing_standard;
+      transition:
+        border $animation_speed_complex $animation_easing_standard,
+        box-shadow $animation_speed_complex $animation_easing_standard;
     }
 
     svg {
@@ -77,6 +80,10 @@
     &:hover,
     &:focus {
       outline: 0;
+
+      @include media('>=large') {
+        box-shadow: 0 0 0 4px rgba(27, 27, 28, .25);
+      }
     }
 
     // active state
@@ -263,9 +270,29 @@
   }
 
   .scroll-indicator {
-    position: fixed;
-    right: 0;
+    position: absolute;
+    right: 64px;
     bottom: 0;
+    font-family: var(--font-stack-semibold);
+    filter: invert(100%);
+    mix-blend-mode: difference;
+    z-index: 100;
+
+    span {
+      display: flex;
+      align-items: center;
+      transform: rotate(90deg) translateY(100%);
+      transform-origin: 100% 100%;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 64px;
+        height: 2px;
+        margin-left: 16px;
+        background-color: var(--color-carbon-900);
+      }
+    }
   }
 
   .artifacts {

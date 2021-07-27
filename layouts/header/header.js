@@ -66,17 +66,6 @@ const Header = props => {
     }
   }
 
-  const motionScrollTop = {
-    visible: {
-      opacity: 1,
-      // y: 0,
-    },
-    hidden: {
-      opacity: 0,
-      // y: 32,
-    }
-  }
-
   useScrollPosition(( { prevPos, currPos } ) => {
     (currPos.y <= -128) ? setShowScrollTop(true) : setShowScrollTop (false)
   }, [showScrollTop])
@@ -145,15 +134,9 @@ const Header = props => {
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
-        <motion.div
-          className="scroll-indicator"
-          animate={showScrollTop ? "visible" : "hidden"}
-          initial="hidden"
-          variants={motionScrollTop}
-          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
-        >
+        <div className="scroll-indicator">
           <span>Scroll Down</span>
-        </motion.div>
+        </div>
       )} />
 
     </header>
