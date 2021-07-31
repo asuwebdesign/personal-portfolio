@@ -17,8 +17,8 @@ const FormFollow = props => {
       <Wrapper>
         <section className="form">
           <div className="form__meta">Form</div>
-          <h1 className="form__title">Here's a form to tell me something.</h1>
-          <p className="form__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <h1 className="form__title">Let's connect. How can I help?</h1>
+          <p className="form__desc">Whether you're looking to price out a project or just want to say hello, please feel free to send a message. I'll reach back out as soon as possible. Stay awesome!</p>
 
           <form className="form__fields" action="https://formspree.io/maynpggy" method="POST">
             <div className="form__field">

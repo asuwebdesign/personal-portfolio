@@ -27,20 +27,24 @@ const ProjectDetail = props => (
           headline="Crafting a more unified digital platform for government agencies in North Carolina."
           image={ProjectCover}
         />
-        <Band className="band--client">
+        <Band className="band--client" div>
           <div className="band__title-block">
             <ProjectLogo />
-            <h1>About Ubisoft</h1>
           </div>
           <div className="band__content">
-            <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
-            <h2>What we did</h2>
-            <ul className="tags">
-              <li className="tag">Branding</li>
-              <li className="tag">Branding</li>
-              <li className="tag">Branding</li>
-              <li className="tag">Branding</li>
-            </ul>
+            <div className="band__about">
+              <h2>About Ubisoft</h2>
+              <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+            </div>
+            <div className="band__skills">
+              <h2>Skills provided</h2>
+              <ul className="tags">
+                <li className="tag">Branding</li>
+                <li className="tag">Branding</li>
+                <li className="tag">Branding</li>
+                <li className="tag">Branding</li>
+              </ul>
+            </div>
           </div>
         </Band>
         <Band className="band--numbered">

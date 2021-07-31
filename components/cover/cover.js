@@ -17,11 +17,11 @@ import IconSolutionW from '../../public/vectors/solution-w.svg'
 const Cover = props => {
 
   // states
-  const [hideDots, setHideDots] = useState(false)
+  const [showDots, setDots] = useState(true)
 
   useScrollPosition(( { prevPos, currPos } ) => {
-    (currPos.y <= -128) ? setHideDots('cover__dots--hide') : setHideDots(false)
-  }, [hideDots])
+    (currPos.y <= -128) ? setDots(false) : setDots(true)
+  }, [showDots])
 
   // declared animations
   const motionCover = {
@@ -32,6 +32,19 @@ const Cover = props => {
     hidden: {
       opacity: 0,
       y: '-25%',
+    }
+  }
+
+  const motionDots = {
+    visible: {
+      opacity: 1,
+      x: '0%',
+      y: '-50%'
+    },
+    hidden: {
+      opacity: 0,
+      x: '25%',
+      y: '-50%'
     }
   }
 
@@ -49,7 +62,13 @@ const Cover = props => {
         <span className="cover__title-headline">{props.headline}</span>
       </motion.h1>
 
-      <div className={`cover__dots cover__dots--inverted ${hideDots}`}></div>
+      <motion.div
+        className="cover__dots"
+        animate={showDots ? "visible" : "hidden"}
+        initial="hidden"
+        variants={motionDots}
+        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+      ></motion.div>
 
       <div className="cover__photo">
         <img

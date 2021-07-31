@@ -67,11 +67,12 @@
     }
     .band__title-block {
       @include media('>=large') {
-        grid-column: 1 / 4;
         display: flex;
+        grid-column: 1 / 4;
+        aspect-ratio: 1;
         justify-content: center;
         padding: 64px;
-        background-color: var(--color-carbon-800);
+        border: 1px solid var(--color-carbon-100);
         border-radius: var(--border-radius);
         text-align: center;
       }
@@ -80,8 +81,6 @@
         display: block;
         width: 100%;
       }
-
-      h1 { @extend .visually-hidden; }
     }
 
     .band__title {
@@ -97,6 +96,18 @@
       @include media('>=large') {
         grid-column: 5 / 13;
       }
+
+      h2 {
+        font-size: 16px;
+        color: var(--color-slate);
+        text-transform: uppercase;
+      }
+    }
+
+    .band__about {}
+
+    .band__skills {
+      margin-top: 64px;
     }
   }
 

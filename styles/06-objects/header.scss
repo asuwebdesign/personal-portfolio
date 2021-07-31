@@ -270,7 +270,7 @@
   }
 
   .scroll-indicator {
-    position: absolute;
+    position: fixed;
     right: 64px;
     bottom: 0;
     font-family: var(--font-stack-semibold);

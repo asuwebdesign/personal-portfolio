@@ -30,7 +30,7 @@ const Header = props => {
 
   // initial states
   const [menuActive, setMenuState] = useState(false)
-  const [showScrollTop, setShowScrollTop] = useState(false)
+  const [showScrollTop, setShowScrollTop] = useState(true)
 
   // declared animations
   const motionPanel = {
@@ -66,8 +66,19 @@ const Header = props => {
     }
   }
 
+  const motionScrollTop = {
+    visible: {
+      opacity: 1,
+      y: 0
+    },
+    hidden: {
+      opacity: 0,
+      y: "100%"
+    }
+  }
+
   useScrollPosition(( { prevPos, currPos } ) => {
-    (currPos.y <= -128) ? setShowScrollTop(true) : setShowScrollTop (false)
+    (currPos.y <= -128) ? setShowScrollTop(false) : setShowScrollTop(true)
   }, [showScrollTop])
 
   const { pathname } = props.router
@@ -134,9 +145,15 @@ const Header = props => {
       )} />
 
       <Media query="(min-width: 1280px)" render={() => (
-        <div className="scroll-indicator">
+        <motion.div
+          className="scroll-indicator"
+          animate={showScrollTop ? "visible" : "hidden"}
+          initial="visible"
+          variants={motionScrollTop}
+          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+        >
           <span>Scroll Down</span>
-        </div>
+        </motion.div>
       )} />
 
     </header>

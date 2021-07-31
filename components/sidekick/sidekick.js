@@ -13,11 +13,11 @@ import Wrapper from '../../layouts/wrapper'
 const Hero = props => {
 
   // states
-  const [hideDots, setHideDots] = useState(false)
+  const [showDots, setDots] = useState(true)
 
   useScrollPosition(( { prevPos, currPos } ) => {
-    (currPos.y <= -128) ? setHideDots('sidekick__dots--hide') : setHideDots(false)
-  }, [hideDots])
+    (currPos.y <= -128) ? setDots(false) : setDots(true)
+  }, [showDots])
 
   // declared animations
   const motionSidekick = {
@@ -28,6 +28,19 @@ const Hero = props => {
     hidden: {
       opacity: 0,
       y: '10%',
+    }
+  }
+
+  const motionDots = {
+    visible: {
+      opacity: 1,
+      x: '0%',
+      y: '-50%'
+    },
+    hidden: {
+      opacity: 0,
+      x: '25%',
+      y: '-50%'
     }
   }
 
@@ -42,7 +55,13 @@ const Hero = props => {
       >
         <h1 className="sidekick__title">{props.title}</h1>
       </motion.div>
-      <div className={`sidekick__dots ${hideDots}`}></div>
+      <motion.div
+        className="sidekick__dots"
+        animate={showDots ? "visible" : "hidden"}
+        initial="hidden"
+        variants={motionDots}
+        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+      ></motion.div>
     </header>
   )
 }

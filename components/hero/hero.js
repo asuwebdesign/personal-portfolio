@@ -11,7 +11,7 @@ import Wrapper from '../../layouts/wrapper'
 const Hero = props => {
 
   // states
-  const [hideDots, setHideDots] = useState(false)
+  const [showDots, setDots] = useState(true)
 
   // declared animations
   const motionHeroTitle = {
@@ -48,9 +48,22 @@ const Hero = props => {
     }
   }
 
+  const motionDots = {
+    visible: {
+      opacity: 1,
+      x: '0%',
+      y: '-50%'
+    },
+    hidden: {
+      opacity: 0,
+      x: '25%',
+      y: '-50%'
+    }
+  }
+
   useScrollPosition(( { prevPos, currPos } ) => {
-    (currPos.y <= -128) ? setHideDots('hero__dots--hide') : setHideDots(false)
-  }, [hideDots])
+    (currPos.y <= -128) ? setDots(false) : setDots(true)
+  }, [showDots])
 
   return (
     <header id="hero" className="hero" data-navigation="white">
@@ -85,7 +98,13 @@ const Hero = props => {
         </motion.div>
       </motion.div>
 
-      <div className={`hero__dots hero__dots--inverted ${hideDots}`}></div>
+      <motion.div
+        className="hero__dots"
+        animate={showDots ? "visible" : "hidden"}
+        initial="hidden"
+        variants={motionDots}
+        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+      ></motion.div>
 
       <video className="hero__video" poster="/videos/dark-matter.jpg" autoPlay loop muted playsInline aria-hidden="true">
         <source src="/videos/dark-matter.m4v" type="video/mp4" />
