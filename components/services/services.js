@@ -42,7 +42,7 @@ const Services = props => {
           </div>
           <div className="service__secondary">
             <p>Conceive and create experiences that immerse consumers in the brand through a combination of utility and creativity.</p>
-            <p>It's about crafting memorable experiences that transform perception, strengthen bonds, and drive change.</p>
+            <p>Let's craft memorable experiences that transform perception, strengthen bonds, and drive change.</p>
           </div>
         </article>
         <article className="service">
@@ -55,7 +55,7 @@ const Services = props => {
           </div>
           <div className="service__secondary">
             <p>Drive superior brand experiences through data-informed design, testing and optimization.</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>Learn about your audience and make more informed decisions on where to take your brand next.</p>
           </div>
         </article>
         <article className="service">

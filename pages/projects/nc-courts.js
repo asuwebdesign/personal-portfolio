@@ -13,7 +13,7 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-nccourts.jpg'
-import ProjectLogo from '../../public/vectors/logo-redhat.svg'
+import ProjectLogo from '../../public/vectors/logo-nccourts.svg'
 
 // Render component
 const ProjectDetail = props => (

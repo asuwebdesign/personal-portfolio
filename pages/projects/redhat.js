@@ -12,7 +12,7 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-redhat.jpg'
-import ProjectLogo from '../../public/vectors/logo-redhat.svg'
+import ProjectLogo from '../../public/vectors/logo-redhat-color.svg'
 
 // Render component
 const ProjectDetail = props => (
