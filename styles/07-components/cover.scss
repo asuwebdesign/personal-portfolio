@@ -26,26 +26,38 @@
     &-client {
       display: block;
       margin: 0 0 16px;
-      font-size: 128px;
+      font-size: 96px;
       line-height: 1;
       letter-spacing: -4px;
+
+      @include media('>xxx-large') {
+        font-size: 128px;
+        line-height: 0.9;
+        letter-spacing: -4px;
+      }
     }
 
     &-headline {
       display: block;
-      font-size: 96px;
-      font-size: 32px;
+      font-size: 24px;
       letter-spacing: normal;
       font-family: var(--font-stack-regular);
+
+      @include media('>xxx-large') {
+        font-size: 32px;
+      }
     }
   }
 
-  // Unique title bar branding
+  // Start: Unique title bar branding
+  // ---------------------------------------------------------------------------
   &__title--hwy55 { border-left-color: #aF1e23; }
   &__title--nccourts { border-left-color: #ae936c; }
+  &__title--ncgov { border-left-color: #a83338; }
   &__title--redhat { border-left-color: #ee0000; }
   &__title--uwpharmacy { border-left-color: #c5050c; }
-  // Unique title bar branding
+  // ---------------------------------------------------------------------------
+  // End: Unique title bar branding
 
   &__services {
     position: absolute;

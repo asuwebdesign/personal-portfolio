@@ -35,8 +35,8 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <div className="band__about">
-              <h2>About Ubisoft</h2>
-              <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+              <h2>About NC Judicial Branch</h2>
+              <p>Under the North Carolina Constitution, the Judicial Branch is established as an equal branch of state government with the Legislative and Executive branches. North Carolina’s court system, called the General Court of Justice, is a state-operated and state-funded unified court system.</p>
             </div>
             <div className="band__skills">
               <h2>Skills provided</h2>

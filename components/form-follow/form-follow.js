@@ -9,6 +9,7 @@ import Wrapper from '../../layouts/wrapper'
 import IconDribbble from '../../public/vectors/social-dribbble.svg'
 import IconLinkedIn from '../../public/vectors/social-linkedin.svg'
 import IconTwitter from '../../public/vectors/social-twitter.svg'
+import IconMedium from '../../public/vectors/social-medium.svg'
 
 // Render component
 const FormFollow = props => {
@@ -58,6 +59,12 @@ const FormFollow = props => {
               <a href="https://dribbble.com/markr" target="_blank">
                 <IconDribbble />
                 <span>Dribbble</span>
+              </a>
+            </li>
+            <li className="follow__brand">
+              <a href="https://medium.com/@Asuwebdesign" target="_blank">
+                <IconMedium />
+                <span>Medium</span>
               </a>
             </li>
             <li className="follow__brand">

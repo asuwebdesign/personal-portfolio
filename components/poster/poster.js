@@ -7,7 +7,7 @@ import Wrapper from '../../layouts/wrapper'
 
 // Render component
 const Poster = props => {
-  const { src, alt } = props
+  const { src, foreground, alt, className } = props
 
   // declared animations
   const motionPoster = {
@@ -23,7 +23,7 @@ const Poster = props => {
 
   return (
     <motion.div
-      className="poster"
+      className={(className) ? `poster ${className}` : "poster"}
       animate="visible"
       initial="hidden"
       variants={motionPoster}
@@ -31,6 +31,15 @@ const Poster = props => {
     >
       <Wrapper>
         <div className="poster__photo">
+        {(foreground) && (
+          <img
+            className="poster__foreground"
+            srcSet={foreground.srcSet}
+            src={foreground.src}
+            alt={alt}
+            loading="lazy"
+          />
+        )}
           <img
             srcSet={src.srcSet}
             src={src.src}

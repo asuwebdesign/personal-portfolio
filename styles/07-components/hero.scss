@@ -1,14 +1,10 @@
 .hero {
   position: relative;
   min-height: 100vh;
-  padding: 64px 0;
+  padding: 128px 32px 64px;
   background-color: rgb(29, 29, 29); // blend with the video clip
   color: var(--color-crystal-white);
   overflow: hidden;
-
-  &:before {
-    content: '';
-  }
 
   @include media('>=large') {
     padding: 128px 0;
@@ -40,6 +36,12 @@
       line-height: 1;
 
       @include media('>=large') {
+        font-size: 128px;
+        line-height: 0.9;
+        letter-spacing: -4px;
+      }
+
+      @include media('>xxx-large') {
         font-size: 160px;
         line-height: 0.9;
         letter-spacing: -8px;
@@ -48,6 +50,7 @@
   }
 
   &__highlights {
+    position: relative;
     z-index: 2;
 
     @include media('>=large') {
@@ -74,6 +77,8 @@
         height: 2px;
         margin-bottom: 32px;
         background-color: var(--color-crystal-white);
+        background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+        border-radius: var(--border-radius);
       }
     }
 
@@ -89,18 +94,23 @@
   }
 
   &__dots {
-    position: fixed;
-    top: 50%;
-    right: 64px;
-    width: 320px;
-    height: 320px;
-    background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
-    background-size: 32px 32px;
-    filter: invert(100%);
-    mix-blend-mode: difference;
-    transform: translateY(-50%);
-    transition: opacity $animation_speed_complex $animation_easing_decelerate;
-    z-index: 3;
+    display: none;
+
+    @include media('>=large') {
+      position: fixed;
+      top: 50%;
+      right: 64px;
+      display: block;
+      width: 320px;
+      height: 320px;
+      background-image: radial-gradient(var(--color-carbon-900) 1.5px, transparent 0);
+      background-size: 32px 32px;
+      filter: invert(100%);
+      mix-blend-mode: difference;
+      transform: translateY(-50%);
+      transition: opacity $animation_speed_complex $animation_easing_decelerate;
+      z-index: 3;
+    }
 
     &--hide {
       opacity: 0;
@@ -113,7 +123,7 @@
     top: 50%;
     right: -15%;
     max-width: 80%;
-    // mix-blend-mode: lighten; // not needed
+    mix-blend-mode: lighten;
     transform: translateY(-50%);
     z-index: 1;
   }

@@ -71,10 +71,15 @@
   &--section {
     .sidekick__title {
       @include media('>=large') {
-        font-size: 160px;
+        font-size: 128px;
         line-height: 1;
         letter-spacing: -8px;
       }
+      @include media('>xxx-large') {
+        font-size: 160px;
+        line-height: 1;
+      }
+
     }
   }
 }

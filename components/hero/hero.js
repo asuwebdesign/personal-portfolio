@@ -1,6 +1,7 @@
 // Import nodes
 import React, { useState } from "react"
 import Link from 'next/link'
+import Media from 'react-media'
 import { motion } from "framer-motion"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
@@ -67,6 +68,7 @@ const Hero = props => {
 
   return (
     <header id="hero" className="hero" data-navigation="white">
+
       <motion.h1
         className="hero__title"
         animate="visible"
@@ -75,7 +77,7 @@ const Hero = props => {
         transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
       >
         Connecting brands with people through <span>Handcrafted Digital Experiences.</span>
-    </motion.h1>
+      </motion.h1>
 
       <motion.div
         className="hero__highlights"

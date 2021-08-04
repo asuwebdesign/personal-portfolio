@@ -23,11 +23,17 @@
   }
 
   &__list {
-    @include media('>=large') {
-      position: relative;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    display: grid;
+    row-gap: 64px;
+
+    @include media('>=small') {
+      grid-template-columns: repeat(2, 1fr);
       column-gap: 32px;
+    }
+
+    @include media('>=large') {
+      grid-template-columns: repeat(3, 1fr);
       row-gap: 128px;
     }
 
@@ -70,8 +76,8 @@
     &-photo {
       position: relative;
       width: 100%;
-      height: 612px;
       margin-bottom: 32px;
+      aspect-ratio: 3/4;
       border-radius: var(--border-radius);
       overflow: hidden;
 

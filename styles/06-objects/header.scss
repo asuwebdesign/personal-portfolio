@@ -151,7 +151,7 @@
         + li {
           margin-top: 24px;
 
-          @include media('>=large') {
+          @include media('>xxx-large') {
             margin-top: 32px;
           }
         }
@@ -169,6 +169,11 @@
           text-stroke $animation_speed_complex $animation_easing_decelerate;
 
         @include media('>=large') {
+          font-size: 96px;
+          letter-spacing: -4px;
+        }
+
+        @include media('>xxx-large') {
           font-size: 160px;
           letter-spacing: -6px;
         }
@@ -176,8 +181,8 @@
 
       a:hover, a:focus {
         color: var(--color-carbon-900);
-        -webkit-text-stroke: 4px var(--color-crystal-white);
-        text-stroke: 4px var(--color-crystal-white);
+        -webkit-text-stroke: 0.025em var(--color-crystal-white);
+        text-stroke: 0.025em var(--color-crystal-white);
 
         strong:before {
           animation: strikeMenuItem $animation_speed_dramatic $animation_easing_standard;

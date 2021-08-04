@@ -34,8 +34,8 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <div className="band__about">
-              <h2>About Ubisoft</h2>
-              <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+              <h2>About RedHat</h2>
+              <p>Red Hat, Inc. is an American multinational software company that provides open source software products to enterprises.</p>
             </div>
             <div className="band__skills">
               <h2>Skills provided</h2>

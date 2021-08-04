@@ -34,8 +34,8 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <div className="band__about">
-              <h2>About Ubisoft</h2>
-              <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+              <h2>About Hwy55</h2>
+              <p>Hwy 55 Burgers Shakes & Fries is a fast casual restaurant chain that operates primarily on the East Coast of the United States.</p>
             </div>
             <div className="band__skills">
               <h2>Skills provided</h2>

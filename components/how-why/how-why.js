@@ -25,8 +25,8 @@ const HowWhy = props => {
                 />
               </div>
               <h1 className="teaser__meta">How I Do It</h1>
-              <div className="teaser__title">Our process empowers us to make amazing things.</div>
-              <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+              <div className="teaser__title">Innovation driven by a consistent creative thinking process fit for a unicorn.</div>
+              <p className="teaser__desc">Learn about the process that's been tested over time to achieve results regardless of the size or complexity of the project.</p>
             </a>
           </Link>
         </article>
@@ -42,7 +42,7 @@ const HowWhy = props => {
                 />
               </div>
               <h1 className="teaser__meta">Why I Do It</h1>
-              <div className="teaser__title">We are passionate about providing quality experiences to people.</div>
+              <div className="teaser__title">Philosophy based on selfless passion for providing quality experiences to all people.</div>
               <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
             </a>
           </Link>

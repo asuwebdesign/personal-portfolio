@@ -11,7 +11,7 @@ import Cover from '../../components/cover'
 import Detour from '../../components/detour'
 
 // Import images
-import ProjectCover from '../../public/images/covers/cover-atlanticbt.jpg'
+import ProjectCover from '../../public/images/covers/cover-ncgov.jpg'
 import ProjectLogo from '../../public/vectors/logo-ncseal.svg'
 
 // Render component
@@ -23,6 +23,7 @@ const ProjectDetail = props => (
     <main>
       <article>
         <Cover
+          class="cover__title--ncgov"
           client="State of North Carolina"
           headline="Crafting a more unified digital platform for government agencies in North Carolina."
           image={ProjectCover}
@@ -33,8 +34,8 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <div className="band__about">
-              <h2>About Ubisoft</h2>
-              <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+              <h2>About NC Government</h2>
+              <p>The government of North Carolina is divided into three branches: executive, legislative, and judicial. These consist of the Council of State (led by the Governor), the bicameral legislature (called the General Assembly), and the state court system (headed by the North Carolina Supreme Court). The Constitution of North Carolina delineates the structure and function of the state government.</p>
             </div>
             <div className="band__skills">
               <h2>Skills provided</h2>
