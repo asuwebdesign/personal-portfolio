@@ -15,14 +15,20 @@
 
     &__link {
       display: block;
-      padding: 32px;
+      padding: 64px;
       background-color: var(--color-crystal-white);
       border-radius: var(--border-radius);
+      box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.16);
       text-decoration: none;
+      transition: box-shadow $animation_speed_complex $animation_easing_decelerate;
+
+      &:hover, &:focus {
+        box-shadow: 0 14px 28px rgba(24, 24, 32, 0.08);
+      }
     }
 
     &__photo {
-      margin: 0 0 64px;
+      margin: 0;
       aspect-ratio: 16/9;
     }
 
@@ -30,7 +36,7 @@
       position: relative;
       margin: 0;
       font-size: 16px;
-      font-weight: 700;
+      font-family: var(--font-stack-semibold);
       color: var(--color-slate);
       letter-spacing: normal;
       text-transform: uppercase;
@@ -41,13 +47,14 @@
         width: 32px;
         height: 2px;
         margin: 16px 0 0;
-        background-color: var(--color-carbon-200);
+        background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+        border-radius: var(--border-radius);
       }
     }
 
     &__title {
       margin: 16px 0 32px;
-      font-size: 32px;
+      font-size: 40px;
       font-family: var(--font-stack-extrabold);
       line-height: 1.25;
       letter-spacing: -2px;

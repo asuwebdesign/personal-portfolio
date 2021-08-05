@@ -16,34 +16,36 @@ const HowWhy = props => {
         <article className="teaser">
           <Link href="/about/process">
             <a className="teaser__link">
+              <h1 className="teaser__meta">Creative Process</h1>
+              <div className="teaser__title">Listen to people.</div>
+              <p className="teaser__desc">Innovation driven by a consistent creative thinking process fit for a unicorn.</p>
               <div className="teaser__photo">
                 <img
-                  srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
-                  src={require('../../public/images/cards/card-process.jpg')}
+                  //srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
+                  //src={require('../../public/images/cards/card-process.jpg')}
+                  src="https://www.processmaker.com/wp-content/uploads/2020/04/ProcessMakerBAM-03-768x498.png"
                   alt=""
                   loading="lazy"
                 />
               </div>
-              <h1 className="teaser__meta">How I Do It</h1>
-              <div className="teaser__title">Innovation driven by a consistent creative thinking process fit for a unicorn.</div>
-              <p className="teaser__desc">Learn about the process that's been tested over time to achieve results regardless of the size or complexity of the project.</p>
             </a>
           </Link>
         </article>
         <article className="teaser">
           <Link href="/about/manifesto">
             <a className="teaser__link">
+              <h1 className="teaser__meta">Personal Manifesto</h1>
+              <div className="teaser__title">Make something people love.</div>
+              <p className="teaser__desc">Philosophy based on selfless passion for providing quality experiences to all people.</p>
               <div className="teaser__photo">
                 <img
-                  srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
-                  src={require('../../public/images/cards/card-process.jpg')}
+                  //srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
+                  //src={require('../../public/images/cards/card-process.jpg')}
+                  src="https://www.processmaker.com/wp-content/uploads/2020/04/ProcessMakerBAM-03-768x498.png"
                   alt=""
                   loading="lazy"
                 />
               </div>
-              <h1 className="teaser__meta">Why I Do It</h1>
-              <div className="teaser__title">Philosophy based on selfless passion for providing quality experiences to all people.</div>
-              <p className="teaser__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
             </a>
           </Link>
         </article>

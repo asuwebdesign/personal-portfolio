@@ -53,17 +53,19 @@ const PageServices = props => (
             <h1 className="band__title">Services</h1>
           </div>
           <div className="band__content">
-            <h2>Designing the future.</h2>
+            <h2>Fulfill brand promises with delight.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
             <ul className="meta-list">
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
+              <li className="meta-list__item">Experience Strategy</li>
+              <li className="meta-list__item">eCommerce &amp; Websites</li>
+              <li className="meta-list__item">Digital Product &amp; Services</li>
+              <li className="meta-list__item">Design System &amp; Style Guides</li>
+              <li className="meta-list__item">iOS &amp; Android Applications</li>
+              <li className="meta-list__item">Prototyping &amp; Optimization</li>
+              <li className="meta-list__item">Content Strategy</li>
+              <li className="meta-list__item">Art Direction</li>
+              <li className="meta-list__item">Motion Graphics</li>
             </ul>
           </div>
         </Band>

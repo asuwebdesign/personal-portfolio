@@ -53,17 +53,16 @@ const PageServices = props => (
             <h1 className="band__title">Services</h1>
           </div>
           <div className="band__content">
-            <h2>Designing the future.</h2>
+            <h2>Code is beautiful.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
             <ul className="meta-list">
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
-              <li className="meta-list__item">Something</li>
+              <li className="meta-list__item">Technical Discovery</li>
+              <li className="meta-list__item">Technical Architecture</li>
+              <li className="meta-list__item">Full-Stack Development</li>
+              <li className="meta-list__item">CMS Implementation</li>
+              <li className="meta-list__item">Quality Assurance</li>
+              <li className="meta-list__item">Interactive Prototyping</li>
             </ul>
           </div>
         </Band>

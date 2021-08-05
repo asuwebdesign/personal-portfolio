@@ -53,7 +53,7 @@ const PageServices = props => (
             <h1 className="band__title">Services</h1>
           </div>
           <div className="band__content">
-            <h2>Designing the future.</h2>
+            <h2>Experience what your customers experience.</h2>
             <p>While research is a standalone offering, it is also fully integrated into my creative process. Design and creative is continually tested during the development and post-launch optimization of digital experiences.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Contextual Research</li>

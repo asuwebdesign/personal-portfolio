@@ -52,9 +52,9 @@ const PageServices = props => (
             <h1 className="band__title">Services</h1>
           </div>
           <div className="band__content">
-            <h2>Designing the future.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <h2>Show customers what makes you...you.</h2>
+            <p>Branding is what gives you a reputation and, ultimately, a future. Because of the importance of branding, businesses and organizations should build a strong brand right from the start so they can consistently maintain it as they grow.</p>
+            <p>Who are you as a brand, exactly? If you don’t know, then neither will your audience. Build your identity by establishing brand-defining keywords and using these words to shape the company voice, tone and aesthetic.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Brand positioning</li>
               <li className="meta-list__item">Brand governance</li>
