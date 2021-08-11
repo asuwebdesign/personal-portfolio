@@ -2,17 +2,16 @@
   margin-top: 64px;
 
   @include media(">=large") {
-    margin-top: 128px;
+    margin-top: 24px;
   }
 
   .wrapper {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
   }
 
   .teaser {
-    width: math.percentage(math.div(612, 1248));
-
     &__link {
       display: block;
       padding: 64px;
@@ -28,7 +27,7 @@
     }
 
     &__photo {
-      margin: 0;
+      margin: 0 -64px -64px;
       aspect-ratio: 16/9;
     }
 
@@ -53,7 +52,7 @@
     }
 
     &__title {
-      margin: 16px 0 32px;
+      margin: 16px 0 8px;
       font-size: 40px;
       font-family: var(--font-stack-extrabold);
       line-height: 1.25;
@@ -61,7 +60,7 @@
     }
 
     &__desc {
-      margin: 0 0 64px;
+      margin: 0;
       color: var(--color-slate);
     }
   }

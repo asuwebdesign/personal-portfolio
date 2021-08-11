@@ -29,14 +29,16 @@
   &__title {
     margin: 16px 0 64px;
     font-size: 32px;
+    font-family: var(--font-stack-extrabold);
+    letter-spacing: -1px;
     text-align: center;
   }
 
   &__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -61,9 +63,41 @@
 }
 
 .award {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  background-color: var(--color-crystal-white);
+  border-radius: var(--border-radius);
+  text-align: center;
+
   &__title {
+    margin: 0 0 8px;
     font-family: var(--font-stack-semibold);
   }
 
-  &__meta {}
+  &__subtitle {
+    margin: -8px 0 0;
+    font-size: 16px;
+  }
+
+  &__meta {
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 1px solid var(--color-dust);
+  }
+
+  &__organization {
+    font-size: 16px;
+    color: var(--color-slate);
+  }
+
+  &__issued {
+    font-size: 16px;
+    font-family: var(--font-stack-regular);
+    color: var(--color-slate);
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }

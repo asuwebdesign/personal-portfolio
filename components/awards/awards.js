@@ -13,16 +13,19 @@ const Awards = props => {
   return (
     <section className="awards">
       <Wrapper>
-        <div className="awards__meta">Awards &amp; Recognitions</div>
-        <h1 className="awards__title">These brands aren't trophies, they're friends that were met on the journey.</h1>
+        <h1 className="awards__meta">Awards &amp; Recognitions</h1>
+        <div className="awards__title">Honored excellence in innovation, ingenuity, and technical achievement.</div>
         <ul className="awards__list">
           {awards.map((award, key) => {
             return (
               <li key={key} className="award">
-                <div className="award__title">{award.title}</div>
+                <div className="award__header">
+                  <div className="award__title">{award.title}</div>
+                  <div className="award__subtitle">{award.subtitle}</div>
+                </div>                
                 <div className="award__meta">
-                  <span className="award__issued">{award.date}</span>
-                  <span className="award__organization">{award.organization}</span>
+                  <div className="award__organization">{award.organization}</div>
+                  <div className="award__issued">{award.date}</div>
                 </div>
               </li>
             )

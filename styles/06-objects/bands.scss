@@ -141,6 +141,16 @@
     }
   }
 
+  // Numbered band
+  // ---------------------------------------------------------------------------
+  &--testimonial {
+    background-color: #f2f2f2;
+
+    @include media('>=large') {
+      padding: 128px 0;
+    }
+  }
+
   // Service Callout band
   // ---------------------------------------------------------------------------
   &--service-callout {

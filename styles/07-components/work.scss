@@ -104,6 +104,77 @@
       }
     }
 
+    &-poster {
+      position: relative;
+      aspect-ratio: 3/4;
+      width: 100%;
+      margin-bottom: 32px;
+      background-color: var(--color-carbon-900);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+
+      &--atlanticbt {}
+      &--hwy55 { background-color: #af1e23; }
+      &--wisconsin { background-color: #c5050c; }
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        box-shadow: inset 0 0 0 0 var(--color-dust);
+        transition: box-shadow $animation_speed_complex * 2 $animation_easing_decelerate;
+        z-index: 2;
+      }
+
+      // Symbols
+      &-symbol {
+        position: absolute;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        z-index: 2;
+        filter: invert(100%);
+        mix-blend-mode: difference;
+
+        &[position='top-left'] {
+          top: 0;
+          left: 0;
+        }
+        &[position='top-right'] {
+          top: 0;
+          right: 0;
+        }
+        &[position='bottom-left'] {
+          bottom: 0;
+          left: 0;
+        }
+        &[position='bottom-right'] {
+          bottom: 0;
+          right: 0;
+        }
+
+        svg {
+          width: 32px;
+          height: 32px;
+        }
+      }
+
+      img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform $animation_speed_complex * 2 $animation_easing_decelerate;
+        z-index: 1;
+      }
+    }
+
     &-client {
       position: relative;
       margin: 0 0 0 32px;

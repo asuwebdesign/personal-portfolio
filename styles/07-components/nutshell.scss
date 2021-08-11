@@ -85,9 +85,10 @@
     &-link {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
       aspect-ratio: 4/3;
-      padding: 48px 32px 32px;
+      padding: 32px;
       background-color: var(--color-crystal-white);
       box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.16);
       border-radius: var(--border-radius);
@@ -100,8 +101,7 @@
     }
 
     &-icon {
-      height: 96px;
-      height: 50%;
+      height: 40%;
 
       svg {
         height: 100%;
@@ -109,6 +109,7 @@
     }
 
     &-title {
+      margin: 32px 0 0;
       font-size: 24px;
       font-weight: 700;
       letter-spacing: -1px;

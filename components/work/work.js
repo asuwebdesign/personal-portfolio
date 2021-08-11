@@ -32,8 +32,9 @@ const Projects = props => {
               <a className="work__project-link">
                 <div className="work__project-photo">
                   <img
-                    srcSet={require('../../public/images/cards/card-hwy55.jpg?resize').srcSet}
-                    src={require('../../public/images/cards/card-hwy55.jpg?resize').src}
+                    //srcSet={require('../../public/images/cards/card-hwy55.jpg?resize').srcSet}
+                    //src={require('../../public/images/cards/card-hwy55.jpg?resize').src}
+                    src={require('../../public/vectors/card-hwy55.svg')}
                     alt=""
                     loading="lazy"
                   />
@@ -48,8 +49,8 @@ const Projects = props => {
               <a className="work__project-link">
                 <div className="work__project-photo">
                   <img
-                    srcSet={require('../../public/images/cards/card-wisconsin.jpg?resize').srcSet}
-                    src={require('../../public/images/cards/card-wisconsin.jpg?resize').src}
+                    srcSet={require('../../public/images/covers/cover-wisconsin.jpg?resize').srcSet}
+                    src={require('../../public/images/covers/cover-wisconsin.jpg?resize').src}
                     alt=""
                     loading="lazy"
                   />

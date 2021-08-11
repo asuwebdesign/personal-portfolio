@@ -17,13 +17,13 @@ const HowWhy = props => {
           <Link href="/about/process">
             <a className="teaser__link">
               <h1 className="teaser__meta">Creative Process</h1>
-              <div className="teaser__title">Listen to people.</div>
-              <p className="teaser__desc">Innovation driven by a consistent creative thinking process fit for a unicorn.</p>
+              <div className="teaser__title">Simple. Delightful.</div>
+              <p className="teaser__desc">Creating the future doesn't have to be complicated.</p>
               <div className="teaser__photo">
                 <img
                   //srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
                   //src={require('../../public/images/cards/card-process.jpg')}
-                  src="https://www.processmaker.com/wp-content/uploads/2020/04/ProcessMakerBAM-03-768x498.png"
+                  src={require('../../public/vectors/card-process.svg')}
                   alt=""
                   loading="lazy"
                 />
@@ -35,13 +35,13 @@ const HowWhy = props => {
           <Link href="/about/manifesto">
             <a className="teaser__link">
               <h1 className="teaser__meta">Personal Manifesto</h1>
-              <div className="teaser__title">Make something people love.</div>
-              <p className="teaser__desc">Philosophy based on selfless passion for providing quality experiences to all people.</p>
+              <div className="teaser__title">Design. Uncompromised.</div>
+              <p className="teaser__desc">Make something people will love every day.</p>
               <div className="teaser__photo">
                 <img
-                  //srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
-                  //src={require('../../public/images/cards/card-process.jpg')}
-                  src="https://www.processmaker.com/wp-content/uploads/2020/04/ProcessMakerBAM-03-768x498.png"
+                  srcSet={require('../../public/images/cards/card-manifesto.jpg').srcSet}
+                  src={require('../../public/images/cards/card-manifesto.jpg')}
+                  //src={require('../../public/vectors/card-manifesto.svg')}
                   alt=""
                   loading="lazy"
                 />
