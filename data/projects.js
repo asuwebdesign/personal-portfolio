@@ -15,11 +15,11 @@ export const projects = [
   },
   {
     href: "/projects/hwy55",
-    className: "",
+    className: "work__project--hwy55",
     src: "/images/cards/card-hwy55.png",
     alt: "",
     symbol: {
-      topLeft: "triangle-bottom-left",
+      topLeft: "",
       topRight: "circle",
       bottomLeft: "half-circle",
       bottomRight: "half-circle-bottom",
@@ -43,11 +43,11 @@ export const projects = [
   },
   {
     href: "/projects/nc-courts",
-    className: "",
+    className: "work__project--nccourts",
     src: "/images/covers/cover-nccourts.jpg",
     alt: "",
     symbol: {
-      topLeft: "square",
+      topLeft: "",
       topRight: "circle",
       bottomLeft: "half-circle",
       bottomRight: "half-circle-bottom",
@@ -57,11 +57,11 @@ export const projects = [
   },
   {
     href: "/projects/nc-gov",
-    className: "",
+    className: "work__project--ncgov",
     src: "/images/cards/card-nc-gov.jpg",
     alt: "",
     symbol: {
-      topLeft: "square",
+      topLeft: "",
       topRight: "circle",
       bottomLeft: "half-circle",
       bottomRight: "half-circle-bottom",
@@ -71,11 +71,11 @@ export const projects = [
   },
   {
     href: "/projects/redhat",
-    className: "",
+    className: "work__project--redhat",
     src: "/images/cards/card-redhat.jpg",
     alt: "",
     symbol: {
-      topLeft: "square",
+      topLeft: "",
       topRight: "circle",
       bottomLeft: "half-circle",
       bottomRight: "half-circle-bottom",

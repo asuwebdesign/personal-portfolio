@@ -74,10 +74,10 @@
         }
 
         .work__project-poster-symbol { opacity: 0; }
-        .work__project-poster-symbol[position='top-left'] { transform: translate3d(-25%, -25%, 0); }
-        .work__project-poster-symbol[position='top-right'] { transform: translate3d(25%, -25%, 0); }
-        .work__project-poster-symbol[position='bottom-left'] { transform: translate3d(-25%, 25%, 0); }
-        .work__project-poster-symbol[position='bottom-right'] { transform: translate3d(25%, 25%, 0); }
+        .work__project-poster-symbol[position='top-left'] { transform: translate3d(-5%, -5%, 0); }
+        .work__project-poster-symbol[position='top-right'] { transform: translate3d(5%, -5%, 0); }
+        .work__project-poster-symbol[position='bottom-left'] { transform: translate3d(-5%, 5%, 0); }
+        .work__project-poster-symbol[position='bottom-right'] { transform: translate3d(5%, 5%, 0); }
 
       }
     }
@@ -91,10 +91,6 @@
       border-radius: var(--border-radius);
       overflow: hidden;
       transition: box-shadow $animation_speed_complex $animation_easing_decelerate;
-
-      &--atlanticbt {}
-      &--hwy55 { background-color: #af1e23; }
-      &--wisconsin { background-color: #c5050c; }
 
       &:before {
         content: '';
@@ -122,6 +118,13 @@
           transform $animation_speed_complex * 2 $animation_easing_decelerate;
         z-index: 2;
 
+        svg {
+          width: 24px;
+          height: 24px;
+
+          path { fill: var(--color-crystal-white); }
+        }
+
         &[position='top-left'] {
           top: 0;
           left: 0;
@@ -133,19 +136,15 @@
         &[position='bottom-left'] {
           bottom: 0;
           left: 0;
+
+          path {}
         }
         &[position='bottom-right'] {
           bottom: 0;
           right: 0;
-        }
 
-        svg {
-          width: 32px;
-          height: 32px;
-        }
-
-        path {
-          fill: var(--color-crystal-white);
+          path { fill: none; }
+          g { stroke: var(--color-crystal-white); }
         }
       }
 
@@ -189,6 +188,33 @@
       line-height: 1.25;
       letter-spacing: -1px;
     }
+  }
+
+  // Custom Brands
+  &__project--hwy55 {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark-hwy55.svg') no-repeat 50% 50% / auto 32px;
+    }
+  }
+
+  &__project--redhat {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark-redhat.svg') no-repeat 50% 50% / auto 32px;
+    }
+  }
+
+  &__project--ncgov {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark-ncgov.svg') no-repeat 50% 50% / 32px 32px;
+    }
+  }
+
+  &__project--nccourts {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark-nccourts.svg') no-repeat 50% 50% / 32px 32px;
+    }
+    .work__project-poster-symbol[position='top-right'] svg path,
+    .work__project-poster-symbol[position='bottom-left'] svg path { fill: #ae936c; }
   }
 
   &--latest {
