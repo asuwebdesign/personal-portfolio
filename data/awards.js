@@ -48,14 +48,14 @@ export const awards = [
     organization: "International Marcom Awards",
   },
   {
-    title: "Best Military Website",
-    subtitle: "",
+    title: "Best Website",
+    subtitle: "Military",
     date: "2012",
     organization: "WebAwards",
   },
   {
-    title: "Education Standard of Excellence",
-    subtitle: "",
+    title: "Standard of Excellence",
+    subtitle: "Education",
     date: "2012",
     organization: "WebAwards",
   },
