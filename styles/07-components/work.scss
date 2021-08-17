@@ -220,5 +220,14 @@
   &--latest {
     margin-top: 128px;
   }
+}
 
+// @Supports fallbacks
+@supports not (aspect-ratio: 3/4) {
+  .work__project-poster {
+    padding-top: 133.33%;
+  }
+  .work__project-poster-symbol {
+    padding-top: 25%;
+  }
 }

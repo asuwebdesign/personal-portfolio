@@ -41,10 +41,9 @@ const ProjectDetail = props => (
             <div className="band__skills">
               <h2>Skills provided</h2>
               <ul className="tags">
-                <li className="tag">Branding</li>
-                <li className="tag">Branding</li>
-                <li className="tag">Branding</li>
-                <li className="tag">Branding</li>
+                <li className="tag">Creative &amp; Experience Design</li>
+                <li className="tag">Research, Data &amp; Analytics</li>
+                <li className="tag">Websites &amp; Digital Platforms</li>
               </ul>
             </div>
           </div>

@@ -25,7 +25,7 @@ const PageProcess = props => (
         <Process />
       </article>
     </main>
-    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
+    <Detour meta="Up Next – Manifesto" title="Make something people love." link="/about/manifesto" />
   </Layout>
 )
 

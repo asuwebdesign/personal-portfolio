@@ -9,7 +9,7 @@ module.exports = compose([
       adapter: require('responsive-loader/sharp'),
       sizes: [320, 480, 640, 960, 1280, 1440, 1680, 1920],
       placeholder: true,
-      placeholderSize: 50
+      placeholderSize: 10
     }
   }],
   {

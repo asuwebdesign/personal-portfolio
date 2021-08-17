@@ -21,11 +21,11 @@ const PageManifesto = props => (
     <main>
       <article>
         <Sidekick meta="Manifesto" title="Make something people love." section />
-        <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+        <Poster src={require('../../public/posters/poster-personal-manifesto.jpg?resize')} alt="Cool guy holding smartphone using web app casual wearing denim outfit isolated from violet background." />
         <Manifesto />
       </article>
     </main>
-    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
+    <Detour meta="Up Next – Contact" title="Let's create something together." link="/contact" />
   </Layout>
 )
 

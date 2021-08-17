@@ -22,8 +22,8 @@ const Process = props => {
             <h1 className="phase__title">Discover</h1>
           </div>
           <div className="phase__secondary">
-            <p className="phase__subtitle">Understand your business, industry, and people.</p>
-            <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <p className="phase__subtitle">Understand the business, it's industry, and their people.</p>
+            <p className="phase__desc">The best way to discover a problem is to interact with people in their natural environment, look at the world in a fresh way, notice new things and gather insights. This acts as a sample to understand how a larger population will react to what you have for them.</p>
           </div>
         </Wrapper>
       </div>
@@ -36,7 +36,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Shape the direction of your brand or product.</p>
-            <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <p className="phase__desc">Defining the direction and approach involves filtering through all the information gathered from discovery and elaborating on it. Identify bottlenecks or resource waste, see hidden opportunities or setting a list of constraints.</p>
           </div>
         </Wrapper>
       </div>
@@ -49,7 +49,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Ideate and prototype designs concepts.</p>
-            <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <p className="phase__desc">Conceptualize ideas...</p>
           </div>
         </Wrapper>
       </div>

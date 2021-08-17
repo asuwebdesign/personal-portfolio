@@ -29,7 +29,7 @@ const PageServices = props => (
           title="Creative &amp; Experience Design."
           subtitle="Strengthen your position in the market and emotionally connect with your audience."
         />
-        <Poster src={require('../../public/images/banners/banner-creative.jpg?resize')} alt="Sample text for the photo." />
+        <Poster src={require('../../public/posters/poster-creative-experience-design.png?resize')} alt="Sample text for the photo." />
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>

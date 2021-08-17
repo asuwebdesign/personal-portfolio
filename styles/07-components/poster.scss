@@ -3,6 +3,7 @@
 
   &__photo {
     position: relative;
+    aspect-ratio: 16/9;
 
     &:before {
       @include media('>=large') {
@@ -22,6 +23,9 @@
     img {
       @include media('>=large') {
         position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         z-index: 1;
       }
     }
@@ -36,6 +40,7 @@
       bottom: 0;
       left: 50%;
       width: 60%;
+      height: auto;
       transform: translateX(-50%);
       z-index: 2;
     }

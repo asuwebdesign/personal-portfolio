@@ -12,11 +12,11 @@ const Manifesto = props => {
         <Wrapper>
           <div className="values__primary">
             <div className="values__number" aria-hidden="true">01</div>
-            <h1 className="values__title">My core values</h1>
+            <h1 className="values__title">Core values</h1>
           </div>
           <div className="values__secondary">
-            <h2>Sharing is Caring. Work together.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <h2>Commitment to imagination.</h2>
+            <p>I believe a foundation for consistent performance in the creative industry is based upon six core values – creativity, empathy, integrity, passion, quality, and simplicity.</p>
             <ul className="values__list">
               <li className="values__listitem">
                 <h2>Creativity</h2>
@@ -51,11 +51,12 @@ const Manifesto = props => {
         <Wrapper>
           <div className="philosophy__primary">
             <div className="philosophy__number" aria-hidden="true">02</div>
-            <h1 className="philosophy__title">My philosophy</h1>
+            <h1 className="philosophy__title">Philosophy</h1>
           </div>
           <div className="philosophy__secondary">
-            <h2>Design makes everything possible</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <h2>Design makes everything possible.</h2>
+            <p>I believe that good design is not only what you see, but just as important, the feelings it provokes in us.</p>
+            <p>Good design is when you evoke passion and emotion into your ideas. The very best ideas come from those in which we empathize the people who express their pain.</p>
             <ol className="philosophy__list">
               <li className="philosophy__listitem">Simplicity wins.</li>
               <li className="philosophy__listitem">Authenticity is everything.</li>

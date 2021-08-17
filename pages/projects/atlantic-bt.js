@@ -11,7 +11,7 @@ import Cover from '../../components/cover'
 import Detour from '../../components/detour'
 
 // Import images
-import ProjectCover from '../../public/images/covers/cover-atlanticbt.jpg'
+import ProjectCover from '../../public/images/covers/cover-atlanticbt.png'
 import ProjectLogo from '../../public/vectors/logo-redhat.svg'
 
 // Render component
@@ -39,10 +39,10 @@ const ProjectDetail = props => (
             <div className="band__skills">
               <h2>Skills provided</h2>
               <ul className="tags">
-                <li className="tag">Branding</li>
-                <li className="tag">Branding</li>
-                <li className="tag">Branding</li>
-                <li className="tag">Branding</li>
+                <li className="tag">Branding Strategy &amp; Identity</li>
+                <li className="tag">Creative &amp; Experience Design</li>
+                <li className="tag">Research, Data &amp; Analytics</li>
+                <li className="tag">Websites &amp; Digital Platforms</li>
               </ul>
             </div>
           </div>

@@ -40,7 +40,7 @@ const PageAbout = props => (
         <Awards />
       </article>
     </main>
-    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
+    <Detour meta="Up Next – Process" title="It always starts with listening to people." link="/about/process" />
   </Layout>
 )
 

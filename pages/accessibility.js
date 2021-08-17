@@ -21,8 +21,8 @@ const PageAccessibility = props => (
       <article>
         <Sidekick meta="Accessibility" title="Accessibility." section />
         <Band>
-          <p>Awwwards are given to the best CSS websites in the world from the top designers, agencies and bloggers working today. Winners receive recognition, prestige and media presence.</p>
-          <p>By accessing our website and/or using our services, you agree to be bound by the following terms and conditions.</p>
+          <p>Digital accessibility is the practice of ensuring that websites, web applications, and digital content can be used by the community who have a diverse range of hearing, movement, sight or cognitive abilities.</p>
+          <p>We strive to adhere to the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG) 2.0, Level AA standards.</p>
         </Band>
       </article>
     </main>
