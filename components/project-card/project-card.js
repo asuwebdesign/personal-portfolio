@@ -44,7 +44,6 @@ const ProjectCard = props => {
               alt={props.project.alt}
               layout="fill"
               placeholder="blur"
-              priority
             />
             <span className="work__project-poster-symbol" position="top-left">{renderSymbol(props.project.symbol.topLeft)}</span>
             <span className="work__project-poster-symbol" position="top-right">{renderSymbol(props.project.symbol.topRight)}</span>

@@ -6,7 +6,7 @@
   }
 
   @include media('>=large') {
-    padding: 0 128px;
+    padding: 0 128px 0 192px; // offset menu @ 64px
   }
 
   @include media('>=x-large') {

@@ -43,7 +43,12 @@
   &__story {
 
     &-link {
+      display: flex;
       text-decoration: none;
+
+      @include media('>=large') {
+        display: block;
+      }
 
       &:hover {
         .news__story-photo img {
@@ -58,9 +63,12 @@
     &-photo {
       position: relative;
       width: 100%;
-      height: 300px;
       margin-bottom: 32px;
       overflow: hidden;
+
+      @include media('>=large') {
+        height: 300px;
+      }
 
       img {
         position: relative;
@@ -86,13 +94,17 @@
     }
 
     &-category {
-      position: relative;
-      margin: 0 0 0 32px;
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--color-slate);
-      text-transform: uppercase;
-      letter-spacing: normal;
+      display: none;
+
+      @include media('>=large') {
+        position: relative;
+        margin: 0 0 0 32px;
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--color-slate);
+        text-transform: uppercase;
+        letter-spacing: normal;
+      }
 
       &:before {
         content: '';

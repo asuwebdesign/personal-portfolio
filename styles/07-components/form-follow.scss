@@ -1,7 +1,7 @@
 
 
 .form-follow {
-  margin: 64px 0;
+  margin: 64px 0 0;
 
   @include media('>=large') {
     margin: -128px 0 128px;
@@ -15,13 +15,16 @@
 }
 
 .form {
+  padding: 32px;
+  margin: 0 -32px 0;
   background-color: var(--color-crystal-white);
-  border-radius: var(--border-radius);
 
   @include media('>=large') {
     position: relative;
     width: math.percentage(math.div(824, 1248));
     padding: 64px;
+    border-radius: var(--border-radius);
+    border-bottom-right-radius: 0;
   }
 
   &:before {
@@ -69,13 +72,17 @@
 }
 
 .follow {
+  padding: 32px;
+  margin: 0 -32px 0;
   background-color: var(--color-carbon-900);
   color: var(--color-crystal-white);
 
   @include media('>=large') {
     width: math.percentage(math.div(424, 1248));
     padding: 64px;
-    margin-top: 128px;
+    margin: 128px 0 0;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
   }
 
   &__meta {
@@ -97,7 +104,7 @@
 
   &__list {
     padding: 0;
-
+    margin: 0;
     text-align: center;
     list-style: none;
   }

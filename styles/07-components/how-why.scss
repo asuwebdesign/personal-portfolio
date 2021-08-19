@@ -7,13 +7,18 @@
 
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     column-gap: 24px;
+    row-gap: 24px;
+
+    @include media('>=large') {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   .teaser {
     &__link {
       display: block;
+      height: 100%;
       padding: 64px;
       background-color: var(--color-crystal-white);
       border-radius: var(--border-radius);

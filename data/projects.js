@@ -17,6 +17,7 @@ export const projects = [
     href: "/projects/hwy55",
     className: "work__project--hwy55",
     src: "/images/cards/card-hwy55.png",
+    srcSet: "/images/cards/card-hwy55.png",
     alt: "",
     symbol: {
       topLeft: "",
