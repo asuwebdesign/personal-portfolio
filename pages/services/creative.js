@@ -37,8 +37,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>Businesses need to fulfill brand promises by delighting users with simple and functional campaigns, products, and services. Through deep collaboration, I create beautiful digital and physical experiences that bring value to the lives of users.</p>
             <img
               srcSet={require('../../public/images/pictures/picture-creative.jpg?resize').srcSet}
               src={require('../../public/images/pictures/picture-creative.jpg?resize').src}
@@ -54,8 +53,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Fulfill brand promises with delight.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>The best digital experiences are ones that go beyond being merely functional and efficient. To draw interest with stunning visuals, provide interactive elements, and tell a compelling story is to create an experience worth revisiting.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Experience Strategy</li>
               <li className="meta-list__item">eCommerce &amp; Websites</li>

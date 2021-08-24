@@ -15,6 +15,9 @@ import HowWhy from '../../components/how-why'
 import Poster from '../../components/poster'
 import Awards from '../../components/awards'
 
+// Import vectors
+import Oval from '../../public/vectors/bg_circle.svg'
+
 // Render component
 const PageAbout = props => (
   <Layout {...props}>
@@ -36,6 +39,7 @@ const PageAbout = props => (
           <blockquote>
             <p>We couldn't have done it without you, Focus Lab. You have been such an incredible partner over the past 12 months. Thank you to all of the amazing team who worked with us!</p>
           </blockquote>
+          <Oval />
         </Band>
         <Awards />
       </article>

@@ -37,11 +37,10 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>Don’t let outdated and ineffective websites or mobile apps keep your brand from reaching its goals. Development is an investment, not a cost. Strong returns are earned by putting your users first. Today’s discerning customers expect engaging, friction-less solutions that work across devices and platforms.</p>
             <img
-              srcSet={require('../../public/images/pictures/picture-digital.jpg?resize').srcSet}
-              src={require('../../public/images/pictures/picture-digital.jpg?resize').src}
+              srcSet={require('../../public/images/pictures/picture-blog-branding.jpg?resize').srcSet}
+              src={require('../../public/images/pictures/picture-blog-branding.jpg?resize').src}
               alt={""}
               loading="lazy"
             />
@@ -54,8 +53,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Code is beautiful.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>With almost two decades of development experience, I’ve had the opportunity to create hundreds of websites, applications and digital experiences. Each custom solution is purposefully built to answer the unique challenges and business needs of our clients.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Technical Discovery</li>
               <li className="meta-list__item">Technical Architecture</li>

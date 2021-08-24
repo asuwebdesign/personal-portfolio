@@ -23,7 +23,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Understand the business, it's industry, and their people.</p>
-            <p className="phase__desc">The best way to discover a problem is to interact with people in their natural environment, look at the world in a fresh way, notice new things and gather insights. This acts as a sample to understand how a larger population will react to what you have for them.</p>
+            <p className="phase__desc">Great design starts with great research—to gain empathy and understanding, to inspire new ideas, and to test our intuition. We rely on observation, in-context interviews, analogous industries, and, when appropriate, a hybrid approach with qualitative research and quantitative analysis.</p>
           </div>
         </Wrapper>
       </div>
@@ -36,7 +36,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Shape the direction of your brand or product.</p>
-            <p className="phase__desc">Defining the direction and approach involves filtering through all the information gathered from discovery and elaborating on it. Identify bottlenecks or resource waste, see hidden opportunities or setting a list of constraints.</p>
+            <p className="phase__desc">By synthesizing our research, observations, and learnings in the field, we can spot themes and patterns, look for relationships, and discover insights. Once our teams have finished this process, they can explore any hunches through experimentation and rapid prototyping.</p>
           </div>
         </Wrapper>
       </div>
@@ -49,7 +49,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Ideate and prototype designs concepts.</p>
-            <p className="phase__desc">Conceptualize ideas...</p>
+            <p className="phase__desc">No matter what we're designing, prototyping is an essential stage of the design process. Building a prototype is a quick and risk-averse way to get ideas into the hands of the people we are designing for, and to iterate efficiently.</p>
           </div>
         </Wrapper>
       </div>
@@ -62,7 +62,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Mesh design and technology into a brand or product.</p>
-            <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <p className="phase__desc">In this phase, our solutions begin to really take shape. This is when we can truly define success for our clients and partners, pilot our ideas through live prototyping and roadmapping, and evolve our solutions to keep them relevant and sustainable.</p>
           </div>
         </Wrapper>
       </div>
@@ -75,7 +75,7 @@ const Process = props => {
           </div>
           <div className="phase__secondary">
             <p className="phase__subtitle">Observe behaviors and iterate to improve.</p>
-            <p className="phase__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <p className="phase__desc">Launching our ideas for people to use and experience gives us a great opportunity to continue learning. It sparks an evolution in the process as we generate new ideas and reveal insights that help redefine the problem.</p>
           </div>
         </Wrapper>
       </div>

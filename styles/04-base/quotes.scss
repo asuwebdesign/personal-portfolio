@@ -6,7 +6,7 @@ blockquote {
 
   @include media('>=large') {
     font-size: 32px;
-    font-family: var(--font-stack-light);
+    font-family: var(--font-stack-regular);
   }
 
   p {

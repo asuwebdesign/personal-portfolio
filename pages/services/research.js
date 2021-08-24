@@ -37,11 +37,10 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <p>By creating data systems that help businesses understand and predict patterns of consumer behavior, I enable organizations to reach users more effectively with optimized experiences and targeted content across the digital ecosystem.</p>
             <img
-              srcSet={require('../../public/images/pictures/picture-research.jpg?resize').srcSet}
-              src={require('../../public/images/pictures/picture-research.jpg?resize').src}
+              srcSet={require('../../public/images/pictures/picture-sticky-notes.jpg?resize').srcSet}
+              src={require('../../public/images/pictures/picture-sticky-notes.jpg?resize').src}
               alt={""}
               loading="lazy"
             />
@@ -54,7 +53,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Experience what your customers experience.</h2>
-            <p>While research is a standalone offering, it is also fully integrated into my creative process. Design and creative is continually tested during the development and post-launch optimization of digital experiences.</p>
+            <p>Making strategic, data-informed decisions helps improve the performance of sites, products, and marketing efforts. Through data collection and interpretation, I’ll show you how to better drive and convert visitors more efficiently with your marketing budget.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Contextual Research</li>
               <li className="meta-list__item">Usability Testing</li>

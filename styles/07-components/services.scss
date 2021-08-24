@@ -2,15 +2,27 @@
   @include media('>=large') {
     margin: -128px 0 0;
   }
+
+  .wrapper {
+    display: grid;
+    row-gap: 24px;
+
+    @include media('>=large') {
+      display: block;
+    }
+  }
 }
 
 .service {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include media('>=large') {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   &__primary {
     position: relative;
+    padding: 32px;
     background-color: var(--color-crystal-white);
     border-radius: var(--border-radius);
     box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.08);
@@ -22,15 +34,29 @@
     }
 
     > svg {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 60%;
-      height: 50%;
-      transform: translate3d(-50%, -50%, 0);
+      max-width: 64px;
+      max-height: 64px;
+
+      @include media('>=large') {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60%;
+        max-width: none;
+        height: 50%;
+        max-height: none;
+        transform: translate3d(-50%, -50%, 0);
+      }
     }
 
-    .button { white-space: nowrap; }
+    .button {
+      width: 100%;
+      white-space: nowrap;
+
+      @include media('>=xx-small') {
+        width: auto;
+      }
+    }
   }
 
   &__secondary {
@@ -50,21 +76,25 @@
   }
 
   &__header {
+    margin-top: 32px;
+
     @include media('>=large') {
       position: absolute;
       top: 50%;
       left: math.percentage(math.div(264, 294));
       width: 150%;
+      margin-top: 0;
       transform: translate3d(0, -50%, 0);
     }
   }
 
   &__title {
     margin: 0 0 32px;
+    font-family: var(--font-stack-extrabold);
+    letter-spacing: -1px;
 
     @include media('>=large') {
       font-size: 48px;
-      font-family: var(--font-stack-extrabold);
       line-height: 1;
       letter-spacing: -2px;
     }

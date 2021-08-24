@@ -144,10 +144,27 @@
   // Numbered band
   // ---------------------------------------------------------------------------
   &--testimonial {
+    position: relative;
     background-color: #f2f2f2;
+    overflow: hidden;
 
     @include media('>=large') {
       padding: 128px 0;
+    }
+
+    blockquote {
+      position: relative;
+      z-index: 2;
+    }
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 50vw;
+      transform: translate3d(-50%, -50%, 0);
+      opacity: .05;
+      z-index: 1;
     }
   }
 

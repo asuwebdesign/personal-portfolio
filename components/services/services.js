@@ -1,6 +1,7 @@
 // Import nodes
 import React from "react"
 import Link from 'next/link'
+import Media from 'react-media'
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -27,10 +28,12 @@ const Services = props => {
               <Button href="/services/branding" label="Explore Services" />
             </div>
           </div>
-          <div className="service__secondary">
-            <p>Create identities and platforms that differentiate brands and position them to matter in culture.</p>
-            <p>Showing up is not enough to stand out for today's brands. The bottom line of what matters is value.</p>
-          </div>
+          <Media query="(min-width: 1280px)" render={() => (
+            <div className="service__secondary">
+              <p>Create identities and platforms that differentiate brands and position them to matter in culture.</p>
+              <p>Showing up is not enough to stand out for today's brands. The bottom line of what matters is value.</p>
+            </div>
+          )} />
         </article>
         <article className="service">
           <div className="service__primary">
@@ -40,10 +43,12 @@ const Services = props => {
               <Button href="/services/creative" label="Explore Services" />
             </div>
           </div>
-          <div className="service__secondary">
-            <p>Conceive and create experiences that immerse consumers in the brand through a combination of utility and creativity.</p>
-            <p>Let's craft memorable experiences that transform perception, strengthen bonds, and drive change.</p>
-          </div>
+          <Media query="(min-width: 1280px)" render={() => (
+            <div className="service__secondary">
+              <p>Conceive and create experiences that immerse consumers in the brand through a combination of utility and creativity.</p>
+              <p>Let's craft memorable experiences that transform perception, strengthen bonds, and drive change.</p>
+            </div>
+          )} />
         </article>
         <article className="service">
           <div className="service__primary">
@@ -53,10 +58,12 @@ const Services = props => {
               <Button href="/services/research" label="Explore Services" />
             </div>
           </div>
-          <div className="service__secondary">
-            <p>Drive superior brand experiences through data-informed design, testing and optimization.</p>
-            <p>Learn about your audience and make more informed decisions on where to take your brand next.</p>
-          </div>
+          <Media query="(min-width: 1280px)" render={() => (
+            <div className="service__secondary">
+              <p>Drive superior brand experiences through data-informed design, testing and optimization.</p>
+              <p>Learn about your audience and make more informed decisions on where to take your brand next.</p>
+            </div>
+          )} />
         </article>
         <article className="service">
           <div className="service__primary">
@@ -66,10 +73,12 @@ const Services = props => {
               <Button href="/services/digital" label="Explore Services" />
             </div>
           </div>
-          <div className="service__secondary">
-            <p>Identify and create digital products and services that create revenue channels and help brands thrive in the new economy.</p>
-            <p>It starts with clearly defining the consumer journey, business objectives, and what's happening in culture.</p>
-          </div>
+          <Media query="(min-width: 1280px)" render={() => (
+            <div className="service__secondary">
+              <p>Identify and create digital products and services that create revenue channels and help brands thrive in the new economy.</p>
+              <p>It starts with clearly defining the consumer journey, business objectives, and what's happening in culture.</p>
+            </div>
+          )} />          
         </article>
       </Wrapper>
     </div>

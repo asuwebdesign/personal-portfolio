@@ -21,7 +21,7 @@ const PageProcess = props => (
     <main>
       <article>
         <Sidekick meta="Process" title="It always starts with listening to people." section />
-        <Poster src={require('../../public/images/banners/banner-dark-hoodie.jpg?resize')} alt="Sample text for the photo." />
+        <Poster src={require('../../public/posters/poster-creative-process.jpg?resize')} alt="laptop screen webcam view diverse people engaged in group videocall" />
         <Process />
       </article>
     </main>
