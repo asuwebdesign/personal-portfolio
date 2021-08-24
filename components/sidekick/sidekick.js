@@ -46,15 +46,18 @@ const Hero = props => {
 
   return (
     <header className={props.section ? "sidekick sidekick--section" : props.subtitle ? "sidekick sidekick--bold sidekick--section" : "sidekick"}>
-      <motion.div
-        className="sidekick__content"
-        animate="visible"
-        initial="hidden"
-        variants={motionSidekick}
-        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
-      >
-        <h1 className="sidekick__title">{props.title}</h1>
-      </motion.div>
+      <div className="wrapper">
+        <motion.div
+          className="sidekick__content"
+          animate="visible"
+          initial="hidden"
+          variants={motionSidekick}
+          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+        >
+          <h1 className="sidekick__title">{props.title}</h1>
+        </motion.div>
+      </div>
+
       <motion.div
         className="sidekick__dots"
         animate={showDots ? "visible" : "hidden"}

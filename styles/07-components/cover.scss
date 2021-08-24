@@ -10,18 +10,25 @@
     color: var(--color-crystal-white);
   }
 
+  .wrapper {}
+
   &__title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 1440px;
-    padding-left: 64px;
-    margin: 0 0 0 -720px;
-    border-left: 8px solid var(--color-crystal-white);
-    font-size: 32px;
-    font-weight: 400;
-    transform: translateY(-50%);
+    position: relative;
     z-index: 2;
+
+    @include media('>=large') {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1440px;
+      padding-left: 64px;
+      margin: 0 0 0 -720px;
+      border-left: 8px solid var(--color-crystal-white);
+      font-size: 32px;
+      font-weight: 400;
+      transform: translateY(-50%);
+    }
+
 
     &-client {
       display: block;

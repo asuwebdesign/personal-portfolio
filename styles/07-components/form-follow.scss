@@ -1,15 +1,12 @@
-
-
 .form-follow {
-  margin: 64px 0 0;
-
   @include media('>=large') {
     margin: -128px 0 128px;
   }
 
   .wrapper {
     @include media('>=large') {
-      display: flex;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
     }
   }
 }
@@ -21,8 +18,8 @@
 
   @include media('>=large') {
     position: relative;
-    width: math.percentage(math.div(824, 1248));
     padding: 64px;
+    margin: 0;
     border-radius: var(--border-radius);
     border-bottom-right-radius: 0;
   }
@@ -56,7 +53,8 @@
       width: 32px;
       height: 2px;
       margin: 16px 0 0;
-      background-color: var(--color-carbon-200);
+      background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+      border-radius: var(--border-radius);
     }
   }
 
@@ -78,7 +76,6 @@
   color: var(--color-crystal-white);
 
   @include media('>=large') {
-    width: math.percentage(math.div(424, 1248));
     padding: 64px;
     margin: 128px 0 0;
     border-top-right-radius: var(--border-radius);

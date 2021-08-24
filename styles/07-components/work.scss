@@ -1,5 +1,7 @@
 .work {
-  margin-top: -128px;
+  @include media('>=large') {
+    margin-top: -128px;
+  }  
 
   &__title {
     position: relative;

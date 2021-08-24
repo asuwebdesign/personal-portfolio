@@ -50,17 +50,19 @@ const Cover = props => {
 
   return (
     <header className="cover">
-      <motion.h1
-        className={`cover__title ${props.class}`}
-        data-client={props.client}
-        animate="visible"
-        initial="hidden"
-        variants={motionCover}
-        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.1 }}
-      >
-        <span className="cover__title-client">{props.client}</span>
-        <span className="cover__title-headline">{props.headline}</span>
-      </motion.h1>
+      <div className="wrapper">
+        <motion.h1
+          className={`cover__title ${props.class}`}
+          data-client={props.client}
+          animate="visible"
+          initial="hidden"
+          variants={motionCover}
+          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.1 }}
+        >
+          <span className="cover__title-client">{props.client}</span>
+          <span className="cover__title-headline">{props.headline}</span>
+        </motion.h1>
+      </div>      
 
       <motion.div
         className="cover__dots"
