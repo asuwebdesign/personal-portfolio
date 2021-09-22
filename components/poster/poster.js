@@ -1,5 +1,6 @@
 // Import nodes
-import React from "react"
+import React from 'react'
+import Image from 'next/image'
 import { motion } from "framer-motion"
 
 // Import layouts
@@ -34,17 +35,16 @@ const Poster = props => {
         {(foreground) && (
           <img
             className="poster__foreground"
-            srcSet={foreground.srcSet}
             src={foreground.src}
+            //width={1920}
+            //height={1024}
             alt={alt}
-            loading="lazy"
           />
         )}
-          <img
-            srcSet={src.srcSet}
+          <Image
             src={src.src}
             alt={alt}
-            loading="lazy"
+            layout="fill"
           />
         </div>
       </Wrapper>

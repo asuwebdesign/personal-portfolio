@@ -1,5 +1,6 @@
 // Import nodes
-import React from "react"
+import React from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 // Import layouts
@@ -7,6 +8,10 @@ import Wrapper from '../../layouts/wrapper'
 
 // Import elements
 import Button from '../../elements/button'
+
+// Import images
+import ProcessTeaser from '../../public/images/cards/card-process.png'
+import ManifestoTeaser from '../../public/images/cards/card-manifesto.jpg'
 
 // Render component
 const HowWhy = props => {
@@ -20,13 +25,7 @@ const HowWhy = props => {
               <div className="teaser__title">Simple. Delightful.</div>
               <p className="teaser__desc">Creating the future doesn't have to be complicated.</p>
               <div className="teaser__photo">
-                <img
-                  //srcSet={require('../../public/images/cards/card-process.jpg').srcSet}
-                  //src={require('../../public/images/cards/card-process.jpg')}
-                  src={require('../../public/vectors/card-process.svg')}
-                  alt=""
-                  loading="lazy"
-                />
+                <Image src={ProcessTeaser} alt="Illustration of creative process" layout="responsive" />
               </div>
             </a>
           </Link>
@@ -38,13 +37,7 @@ const HowWhy = props => {
               <div className="teaser__title">Design. Uncompromised.</div>
               <p className="teaser__desc">Make something people will love every day.</p>
               <div className="teaser__photo">
-                <img
-                  srcSet={require('../../public/images/cards/card-manifesto.jpg').srcSet}
-                  src={require('../../public/images/cards/card-manifesto.jpg')}
-                  //src={require('../../public/vectors/card-manifesto.svg')}
-                  alt=""
-                  loading="lazy"
-                />
+                <Image src={ManifestoTeaser} alt="Colorful sphere" layout="responsive" />
               </div>
             </a>
           </Link>

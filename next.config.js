@@ -3,7 +3,9 @@ const compose = require('next-compose')
 const optimizedImages = require('next-optimized-images')
 
 module.exports = {
-  
+  images: {
+    domains: ['cdn.dribbble.com', 'raw.githubusercontent.com']
+  }
 }
 
 // module.exports = compose([

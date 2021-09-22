@@ -1,5 +1,6 @@
 // Import nodes
 import React from 'react'
+import Image from 'next/image'
 import Head from 'next/head'
 
 // Import layouts
@@ -17,6 +18,9 @@ import Poster from '../../components/poster'
 // Import vectors
 import IconSolutionB from '../../public/vectors/solution-b.svg'
 
+// Import images
+import PosterSrc from '../../public/images/banners/banner-branding.jpg'
+
 // Render component
 const PageServices = props => (
   <Layout {...props}>
@@ -29,7 +33,7 @@ const PageServices = props => (
           title="Branding Strategy &amp; Identity."
           subtitle="Strengthen your position in the market and emotionally connect with your audience."
         />
-        <Poster src={require('../../public/images/banners/banner-branding.jpg?resize')} alt="Sample text for the photo." />
+        <Poster src={PosterSrc} alt="Sample text for the photo." />
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>

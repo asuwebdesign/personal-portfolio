@@ -1,5 +1,6 @@
 // Import nodes
-import React, { useState } from "react"
+import React, { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
@@ -62,7 +63,7 @@ const Cover = props => {
           <span className="cover__title-client">{props.client}</span>
           <span className="cover__title-headline">{props.headline}</span>
         </motion.h1>
-      </div>      
+      </div>
 
       <motion.div
         className="cover__dots"
@@ -73,11 +74,12 @@ const Cover = props => {
       ></motion.div>
 
       <div className="cover__photo">
-        <img
-          srcSet={props.image.srcSet}
+        <Image
           src={props.image.src}
           alt=""
-          loading="lazy"
+          layout="fill"
+          placeholder="blur"
+          blurDataURL={props.image.blurDataURL}
         />
       </div>
     </header>

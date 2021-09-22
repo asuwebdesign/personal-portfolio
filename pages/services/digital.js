@@ -1,5 +1,6 @@
 // Import nodes
 import React from 'react'
+import Image from 'next/image'
 import Head from 'next/head'
 
 // Import layouts
@@ -17,6 +18,9 @@ import Poster from '../../components/poster'
 // Import vectors
 import IconSolutionW from '../../public/vectors/solution-w.svg'
 
+// Import images
+import PosterSrc from '../../public/images/banners/banner-digital.jpg'
+
 // Render component
 const PageServices = props => (
   <Layout {...props}>
@@ -29,7 +33,7 @@ const PageServices = props => (
           title="Websites &amp; Digital Platforms."
           subtitle="Strengthen your position in the market and emotionally connect with your audience."
         />
-        <Poster src={require('../../public/images/banners/banner-digital.jpg?resize')} alt="Sample text for the photo." />
+        <Poster src={PosterSrc} alt="Sample text for the photo." />
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>

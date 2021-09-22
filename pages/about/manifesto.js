@@ -12,6 +12,9 @@ import Sidekick from '../../components/sidekick'
 import Poster from '../../components/poster'
 import Manifesto from '../../components/manifesto'
 
+// Import images
+import PosterSrc from '../../public/posters/poster-personal-manifesto.jpg'
+
 // Render component
 const PageManifesto = props => (
   <Layout {...props}>
@@ -21,7 +24,7 @@ const PageManifesto = props => (
     <main>
       <article>
         <Sidekick meta="Manifesto" title="Make something people love." section />
-        <Poster src={require('../../public/posters/poster-personal-manifesto.jpg?resize')} alt="Cool guy holding smartphone using web app casual wearing denim outfit isolated from violet background." />
+        <Poster src={PosterSrc} alt="Cool guy holding smartphone using web app casual wearing denim outfit isolated from violet background." />
         <Manifesto />
       </article>
     </main>

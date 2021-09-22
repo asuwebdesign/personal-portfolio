@@ -15,6 +15,10 @@ import HowWhy from '../../components/how-why'
 import Poster from '../../components/poster'
 import Awards from '../../components/awards'
 
+// Import images
+import PosterSrc from '../../public/images/pictures/picture-ninja-background.png'
+import PosterForeground from '../../public/images/pictures/picture-ninja.png'
+
 // Import vectors
 import Oval from '../../public/vectors/bg_circle.svg'
 
@@ -29,8 +33,8 @@ const PageAbout = props => (
         <Sidekick meta="About" title="Pixels, code &amp; tons of video games." section />
         <Poster
           className="poster--about"
-          src={require('../../public/images/pictures/picture-ninja-background.png?resize')}
-          foreground={require('../../public/images/pictures/picture-ninja.png?resize')}
+          src={PosterSrc}
+          foreground={PosterForeground}
           alt="Sample text for the photo."
         />
         <Skills />

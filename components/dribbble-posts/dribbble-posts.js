@@ -1,5 +1,6 @@
 // Import nodes
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
 const axios = require('axios')
 
 // Import elements
@@ -82,7 +83,12 @@ const DribbblePosts = props => {
           <article key={post.id} className="shot">
             <a className="shot__link" href={post.html_url} target="_blank">
               <figure className="shot__figure">
-                <img src={post.images.hidpi} alt="" />
+                <Image
+                  src={post.images.hidpi}
+                  alt={`screenshot of ${post.title}`}
+                  layout="fill"
+                  placeholder="blur"
+                  blurDataURL={post.images.teaser} />
               </figure>
               <div className="shot__overlay">
                 <h1 className="shot__title">{post.title}</h1>

@@ -11,6 +11,8 @@ import Sidekick from '../../components/sidekick'
 import Poster from '../../components/poster'
 import Process from '../../components/process'
 
+// Import images
+import PosterSrc from '../../public/posters/poster-creative-process.jpg'
 
 // Render component
 const PageProcess = props => (
@@ -21,7 +23,7 @@ const PageProcess = props => (
     <main>
       <article>
         <Sidekick meta="Process" title="It always starts with listening to people." section />
-        <Poster src={require('../../public/posters/poster-creative-process.jpg?resize')} alt="laptop screen webcam view diverse people engaged in group videocall" />
+        <Poster src={PosterSrc} alt="laptop screen webcam view diverse people engaged in group videocall" />
         <Process />
       </article>
     </main>
