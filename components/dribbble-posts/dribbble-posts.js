@@ -88,7 +88,9 @@ const DribbblePosts = props => {
                   alt={`screenshot of ${post.title}`}
                   layout="fill"
                   placeholder="blur"
-                  blurDataURL={post.images.teaser} />
+                  blurDataURL={post.images.teaser}
+                  priority="true"
+                />
               </figure>
               <div className="shot__overlay">
                 <h1 className="shot__title">{post.title}</h1>

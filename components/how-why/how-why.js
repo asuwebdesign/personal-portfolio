@@ -25,7 +25,7 @@ const HowWhy = props => {
               <div className="teaser__title">Simple. Delightful.</div>
               <p className="teaser__desc">Creating the future doesn't have to be complicated.</p>
               <div className="teaser__photo">
-                <Image src={ProcessTeaser} alt="Illustration of creative process" layout="responsive" />
+                <Image src={ProcessTeaser} alt="Illustration of creative process" layout="responsive" priority="true" />
               </div>
             </a>
           </Link>
@@ -37,7 +37,7 @@ const HowWhy = props => {
               <div className="teaser__title">Design. Uncompromised.</div>
               <p className="teaser__desc">Make something people will love every day.</p>
               <div className="teaser__photo">
-                <Image src={ManifestoTeaser} alt="Colorful sphere" layout="responsive" />
+                <Image src={ManifestoTeaser} alt="Colorful sphere" layout="responsive" priority="true" />
               </div>
             </a>
           </Link>

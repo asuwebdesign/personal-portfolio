@@ -36,8 +36,6 @@ const Poster = props => {
           <img
             className="poster__foreground"
             src={foreground.src}
-            //width={1920}
-            //height={1024}
             alt={alt}
           />
         )}
@@ -45,6 +43,7 @@ const Poster = props => {
             src={src.src}
             alt={alt}
             layout="fill"
+            priority="true"
           />
         </div>
       </Wrapper>
