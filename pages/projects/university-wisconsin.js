@@ -71,7 +71,6 @@ const ProjectDetail = props => (
           </div>
         </Band>
         <Band div>
-        // <Image />
           <img src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" />
         </Band>
         <Band className="band--split" div>

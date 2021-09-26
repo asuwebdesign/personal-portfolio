@@ -41,7 +41,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Why branding matters.</h2>
-            <p>In today's digitally-driven world, brands must recognize their customers as users, not just passive consumers of media. As a result, I extend the traditional brand framework of mission, vision and beliefs to include a brand's capability: what the brand must enable users to achieve and also the problem the brand solves for people.</p>
+            <p>{`In today's digitally-driven world, brands must recognize their customers as users, not just passive consumers of media. As a result, I extend the traditional brand framework of mission, vision and beliefs to include a brand's capability: what the brand must enable users to achieve and also the problem the brand solves for people.`}</p>
             <img
               srcSet={require('../../public/images/pictures/picture-branding.jpg?resize').srcSet}
               src={require('../../public/images/pictures/picture-branding.jpg?resize').src}

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
@@ -35,6 +36,8 @@
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
     "postcss": "^8.3.6",
     "sass-loader": "^12.1.0"
   }

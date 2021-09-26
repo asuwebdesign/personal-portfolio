@@ -41,7 +41,7 @@ const PageAbout = props => (
         <HowWhy />
         <Band className="band--testimonial" div>
           <blockquote>
-            <p>We couldn't have done it without you, Focus Lab. You have been such an incredible partner over the past 12 months. Thank you to all of the amazing team who worked with us!</p>
+            <p>{`We couldn't have done it without you, Focus Lab. You have been such an incredible partner over the past 12 months. Thank you to all of the amazing team who worked with us!`}</p>
           </blockquote>
           <Oval />
         </Band>

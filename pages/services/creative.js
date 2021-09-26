@@ -79,7 +79,7 @@ const PageServices = props => (
           </div>
           <div className="band__callout-contents">
             <div className="band__callout-meta">Creative &amp; Experience Design</div>
-            <h1 className="band__callout-title">Don't just meet customer experience expectations. Anticipate and exceed them.</h1>
+            <h1 className="band__callout-title">{`Don't just meet customer experience expectations. Anticipate and exceed them.`}</h1>
             <p className="band__callout-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
             <Button label="Get in Touch" href="/contact" />
           </div>

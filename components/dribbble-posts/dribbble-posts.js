@@ -81,7 +81,7 @@ const DribbblePosts = props => {
       <div className="shots__list">
         {!isLoading && dribbblePosts.map((post) => (
           <article key={post.id} className="shot">
-            <a className="shot__link" href={post.html_url} target="_blank">
+            <a className="shot__link" href={post.html_url} target="_blank" rel="noreferrer">
               <figure className="shot__figure">
                 <Image
                   src={post.images.hidpi}

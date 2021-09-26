@@ -56,25 +56,25 @@ const FormFollow = props => {
           <div className="follow__title">When I'm not playing video games, I'm active on social. Follow me and stay in the loop.</div>
           <ul className="follow__list">
             <li className="follow__brand">
-              <a href="https://dribbble.com/markr" target="_blank">
+              <a href="https://dribbble.com/markr" target="_blank" rel="noreferrer">
                 <IconDribbble />
                 <span>Dribbble</span>
               </a>
             </li>
             <li className="follow__brand">
-              <a href="https://medium.com/@Asuwebdesign" target="_blank">
+              <a href="https://medium.com/@Asuwebdesign" target="_blank" rel="noreferrer">
                 <IconMedium />
                 <span>Medium</span>
               </a>
             </li>
             <li className="follow__brand">
-              <a href="https://www.linkedin.com/in/markriggan" target="_blank">
+              <a href="https://www.linkedin.com/in/markriggan" target="_blank" rel="noreferrer">
                 <IconLinkedIn />
                 <span>LinkedIn</span>
               </a>
             </li>
             <li className="follow__brand">
-              <a href="https://twitter.com/asuwebdesign" target="_blank">
+              <a href="https://twitter.com/asuwebdesign" target="_blank" rel="noreferrer">
                 <IconTwitter />
                 <span>Twitter</span>
               </a>
