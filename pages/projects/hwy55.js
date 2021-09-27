@@ -69,11 +69,11 @@ const ProjectDetail = props => (
           </div>
         </Band>
         <Band div>
-          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" />
+          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
         </Band>
         <Band className="band--split" div>
-          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" />
-          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" />
+          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
+          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
         </Band>
         <Band className="band--numbered">
           <div className="band__title-block">

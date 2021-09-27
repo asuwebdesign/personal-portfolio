@@ -78,8 +78,6 @@ const Cover = props => {
           src={props.image.src}
           alt=""
           layout="fill"
-          placeholder="blur"
-          blurDataURL={props.image.blurDataURL}
           priority="true"
         />
       </div>

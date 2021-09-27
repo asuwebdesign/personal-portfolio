@@ -1,5 +1,6 @@
 // Import nodes
 import React, { useState } from "react"
+import Image from 'next/image'
 import Link from 'next/link'
 import Media from 'react-media'
 import { motion } from "framer-motion"
@@ -113,11 +114,7 @@ const Hero = props => {
         <source src="/videos/dark-matter.webm" type="video/webm" />
         <source src="/videos/dark-matter.ogv" type="video/ogg" />
         <source src="/videos/dark-matter.mp4" />
-        <img
-          srcSet={require('../../public/videos/dark-matter.jpg?resize').srcSet}
-          src={require('../../public/videos/dark-matter.jpg?resize').src}
-          alt="Dark matter"
-        />
+        <Image src="/videos/dark-matter.jpg" alt="Dark matter" width={1920} height={1080} layout="responsive" />
       </video>
     </header>
   )

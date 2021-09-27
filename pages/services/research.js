@@ -18,6 +18,9 @@ import Poster from '../../components/poster'
 // Import vectors
 import IconSolutionR from '../../public/vectors/solution-r.svg'
 
+// Import images
+import PosterSrc from '../../public/images/banners/banner-research.jpg'
+
 // Render component
 const PageServices = props => (
   <Layout {...props}>
@@ -30,7 +33,7 @@ const PageServices = props => (
           title="Research, Data &amp; Analytics."
           subtitle="Strengthen your position in the market and emotionally connect with your audience."
         />
-        <Poster src={require('../../public/images/banners/banner-research.jpg?resize')} alt="Sample text for the photo." />
+        <Poster src={PosterSrc} alt="Sample text for the photo." />
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>
@@ -39,12 +42,7 @@ const PageServices = props => (
           <div className="band__content">
             <h2>Designing the future.</h2>
             <p>By creating data systems that help businesses understand and predict patterns of consumer behavior, I enable organizations to reach users more effectively with optimized experiences and targeted content across the digital ecosystem.</p>
-            <img
-              srcSet={require('../../public/images/pictures/picture-sticky-notes.jpg?resize').srcSet}
-              src={require('../../public/images/pictures/picture-sticky-notes.jpg?resize').src}
-              alt={""}
-              loading="lazy"
-            />
+            <Image src="/images/pictures/picture-sticky-notes.jpg" alt="" width={1920} height={1080} layout="responsive" />
           </div>
         </Band>
         <Band className="band--numbered">

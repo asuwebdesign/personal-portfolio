@@ -1,7 +1,7 @@
 .work {
   @include media('>=large') {
     margin-top: -128px;
-  }  
+  }
 
   &__title {
     position: relative;
@@ -199,6 +199,18 @@
     }
   }
 
+  &__project--wisconsin {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark-wisconsin.svg') no-repeat 50% 50% / auto 40px;
+    }
+  }
+
+  &__project--atlanticbt {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark-atlanticbt.svg') no-repeat 50% 50% / 64px auto;
+    }
+  }
+
   &__project--redhat {
     .work__project-poster-symbol[position='top-left'] {
       background: url('/iconmarks/iconmark-redhat.svg') no-repeat 50% 50% / auto 32px;
@@ -207,13 +219,13 @@
 
   &__project--ncgov {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-ncgov.svg') no-repeat 50% 50% / 32px 32px;
+      background: url('/iconmarks/iconmark-ncgov.svg') no-repeat 50% 50% / auto 40px;
     }
   }
 
   &__project--nccourts {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-nccourts.svg') no-repeat 50% 50% / 32px 32px;
+      background: url('/iconmarks/iconmark-nccourts.svg') no-repeat 50% 50% / auto 40px;
     }
     .work__project-poster-symbol[position='top-right'] svg path,
     .work__project-poster-symbol[position='bottom-left'] svg path { fill: #ae936c; }

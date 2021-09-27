@@ -1,11 +1,11 @@
 export const projects = [
   {
     href: "/projects/atlantic-bt",
-    className: "",
+    className: "work__project--atlanticbt",
     src: "/images/cards/card-atlanticbt.png",
     alt: "",
     symbol: {
-      topLeft: "square",
+      topLeft: "",
       topRight: "circle",
       bottomLeft: "half-circle",
       bottomRight: "half-circle-bottom",
@@ -30,11 +30,11 @@ export const projects = [
   },
   {
     href: "/projects/university-wisconsin",
-    className: "",
+    className: "work__project--wisconsin",
     src: "/images/covers/cover-wisconsin.jpg",
     alt: "",
     symbol: {
-      topLeft: "square",
+      topLeft: "",
       topRight: "circle",
       bottomLeft: "half-circle",
       bottomRight: "half-circle-bottom",
