@@ -23,14 +23,13 @@
 
   &__type {
     border-radius: var(--border-radius);
-    text-align: center;
 
     &-link {
       display: flex;
-      flex-direction: column;
+
       align-items: center;
-      justify-content: center;
-      aspect-ratio: 1;
+
+
       padding: 32px;
       background-color: var(--color-crystal-white);
       box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.16);
@@ -38,13 +37,23 @@
       text-decoration: none;
       transition: box-shadow $animation_speed_complex $animation_easing_decelerate;
 
+      @include media('>=large') {
+        flex-direction: column;
+        aspect-ratio: 1;
+        justify-content: center;
+      }
+
       &:hover, &:focus {
         box-shadow: 0 14px 28px rgba(24, 24, 32, 0.08);
       }
     }
 
     &-icon {
-      height: 35%;
+      height: 48px;
+
+      @include media('>=large') {
+        height: 35%;
+      }
 
       svg {
         height: 100%;
@@ -52,10 +61,14 @@
     }
 
     &-title {
-      margin: 32px 0 0;
+      margin: 0 0 0 32px;
       font-size: 24px;
       font-weight: 700;
       letter-spacing: -1px;
+
+      @include media('>=large') {
+        margin: 32px 0 0;
+      }
     }
   }
 

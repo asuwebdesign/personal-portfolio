@@ -6,16 +6,16 @@
   }
 
   .wrapper {
-    display: grid;
-    column-gap: 24px;
-    row-gap: 24px;
-
     @include media('>=large') {
+      display: grid;
       grid-template-columns: repeat(2, 1fr);
+      column-gap: 24px;
+      row-gap: 24px;
     }
   }
 
   .teaser {
+
     &__link {
       display: block;
       height: 100%;
@@ -67,6 +67,15 @@
     &__desc {
       margin: 0;
       color: var(--color-slate);
+    }
+
+  }
+
+  .teaser + .teaser {
+    margin-top: 16px;
+
+    @include media('>=large') {
+      margin-top: 0;
     }
   }
 

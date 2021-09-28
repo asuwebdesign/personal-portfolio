@@ -13,7 +13,7 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-atlanticbt.png'
-import ProjectLogo from '../../public/vectors/logo-redhat.svg'
+import ProjectLogo from '../../public/logos/logo-atlanticbt.svg'
 
 // Render component
 const ProjectDetail = props => (
@@ -34,8 +34,8 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <div className="band__about">
-              <h2>About Ubisoft</h2>
-              <p>Ubisoft is a French video game company headquartered in Montreuil with several development studios across the world.</p>
+              <h2>About Atlantic BT</h2>
+              <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
             </div>
             <div className="band__skills">
               <h2>Skills provided</h2>
