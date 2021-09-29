@@ -89,7 +89,6 @@ const DribbblePosts = props => {
                   layout="fill"
                   placeholder="blur"
                   blurDataURL={post.images.teaser}
-                  priority="true"
                 />
               </figure>
               <div className="shot__overlay">
