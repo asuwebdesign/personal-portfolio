@@ -2,6 +2,7 @@
 import React from "react"
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from "framer-motion"
 
 // Import layouts
 import Wrapper from '../../layouts/wrapper'
@@ -34,17 +35,34 @@ const ProjectCard = props => {
     else { return null }
   }
 
+  const motionCard = {
+    visible: {
+      opacity: 1,
+      x: '0%',
+      y: '0%'
+    },
+    hidden: {
+      opacity: 0,
+      x: '0',
+      y: '5%'
+    }
+  }
+
   return (
-    <article className={`work__project ${props.project.className}`}>
+    <motion.article className={`work__project ${props.project.className}`} animate="visible"
+    initial="hidden"
+    variants={motionCard}
+    transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.5 }}>
       <Link href={props.project.href}>
         <a className="work__project-link">
           <div className="work__project-poster">
+
             <Image
               src={props.project.src}
               alt={props.project.alt}
               layout="fill"
-              priority="true"
             />
+
             <span className="work__project-poster-symbol" position="top-left">{renderSymbol(props.project.symbol.topLeft)}</span>
             <span className="work__project-poster-symbol" position="top-right">{renderSymbol(props.project.symbol.topRight)}</span>
             <span className="work__project-poster-symbol" position="bottom-left">{renderSymbol(props.project.symbol.bottomLeft)}</span>
@@ -54,7 +72,7 @@ const ProjectCard = props => {
           <h1 className="work__project-title">{props.project.title}</h1>
         </a>
       </Link>
-    </article>
+    </motion.article>
   )
 }
 
