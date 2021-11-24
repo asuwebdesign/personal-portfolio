@@ -11,17 +11,17 @@
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "@svgr/webpack": "^5.5.0",
-    "axios": "^0.21.1",
+    "axios": "^0.24.0",
     "element-overlap": "^1.0.1",
-    "framer-motion": "^4.1.17",
+    "framer-motion": "^5.3.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^10.0.0",
     "lqip-loader": "^2.2.0",
-    "next": "^11.1.2",
+    "next": "^12.0.4",
     "next-compose": "0.0.2",
     "next-optimized-images": "^2.6.0",
-    "nextjs-progressbar": "^0.0.11",
+    "nextjs-progressbar": "^0.0.13",
     "postcss-pxtorem": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -36,8 +36,8 @@
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^2.0.1",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "eslint": "^8.3.0",
+    "eslint-config-next": "^12.0.4",
     "postcss": "^8.3.6",
     "sass-loader": "^12.1.0"
   }
