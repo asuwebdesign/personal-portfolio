@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^6.1.2",
     "axios": "^0.24.0",
     "element-overlap": "^1.0.1",
     "framer-motion": "^5.3.3",
