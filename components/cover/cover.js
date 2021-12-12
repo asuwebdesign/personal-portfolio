@@ -76,9 +76,9 @@ const Cover = props => {
       <div className="cover__photo">
         <Image
           src={props.image.src}
-          alt=""
+          alt={props.alt}
           layout="fill"
-          priority="true"
+          priority
         />
       </div>
     </header>

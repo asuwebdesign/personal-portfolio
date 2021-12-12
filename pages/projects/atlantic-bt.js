@@ -27,6 +27,7 @@ const ProjectDetail = props => (
           client="Atlantic BT"
           headline="Revitalizing a digital agency's brand with an upgraded digital experience."
           image={ProjectCover}
+          alt={"Description of the cover"}
         />
         <Band className="band--client" div>
           <div className="band__title-block">
