@@ -4,6 +4,7 @@ const optimizedImages = require('next-optimized-images')
 
 module.exports = {
   images: {
+    minimumCacheTTL: 60,
     domains: ['cdn.dribbble.com', 'raw.githubusercontent.com']
   }
 }
