@@ -1,10 +1,13 @@
 .cover {
   position: relative;
-  height: 100vh;
   padding: 0;
   background-color: rgb(29, 29, 29);
   color: var(--color-crystal-white);
-  overflow: hidden;
+
+  @include media('>=large') {
+    height: 100vh;
+    overflow: hidden;
+  }
 
   h1, h2, h3, h4, h5, h6 {
     color: var(--color-crystal-white);
@@ -14,6 +17,8 @@
 
   &__title {
     position: relative;
+    padding: 32px 0;
+    margin: 0;
     z-index: 2;
 
     @include media('>=large') {
@@ -21,7 +26,7 @@
       top: 50%;
       left: 50%;
       width: 1440px;
-      padding-left: 64px;
+      padding: 0 0 0 64px;
       margin: 0 0 0 -720px;
       border-left: 8px solid var(--color-crystal-white);
       font-size: 32px;
@@ -33,7 +38,7 @@
     &-client {
       display: block;
       margin: 0 0 16px;
-      font-size: 96px;
+      font-size: 64px;
       line-height: 1;
       letter-spacing: -4px;
 
@@ -106,22 +111,29 @@
 
   &__photo {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     z-index: 1;
 
-    &:before {
-      content: '';
+    @include media('>=large') {
       position: absolute;
       top: 0;
       left: 0;
-      display: block;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
-      z-index: 2;
+      height: 100vh;
+    }
+
+    &:before {
+      @include media('>=large') {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+        z-index: 2;
+      }
     }
 
     img {

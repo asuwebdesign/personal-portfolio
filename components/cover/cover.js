@@ -1,7 +1,8 @@
 // Import nodes
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Media from 'react-media'
 import { motion } from "framer-motion"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
@@ -51,36 +52,68 @@ const Cover = props => {
 
   return (
     <header className="cover">
-      <div className="wrapper">
-        <motion.h1
-          className={`cover__title ${props.class}`}
-          data-client={props.client}
-          animate="visible"
-          initial="hidden"
-          variants={motionCover}
-          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.1 }}
-        >
-          <span className="cover__title-client">{props.client}</span>
-          <span className="cover__title-headline">{props.headline}</span>
-        </motion.h1>
-      </div>
 
-      <motion.div
-        className="cover__dots"
-        animate={showDots ? "visible" : "hidden"}
-        initial="hidden"
-        variants={motionDots}
-        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
-      ></motion.div>
+      <Media queries={{
+        mobile: "(max-width: 1279px)",
+        desktop: "(min-width: 1280px)"
+      }}>
+        {matches => (
+          <Fragment>
+            {matches.mobile && (
+              <Fragment>
+                <div className="cover__photo">
+                  <Image
+                    src={props.image.src}
+                    alt={props.alt}
+                    layout="fill"
+                    priority
+                  />
+                </div>
+                <div className="wrapper">
+                  <h1 className={`cover__title ${props.class}`} data-client={props.client}>
+                    <span className="cover__title-client">{props.client}</span>
+                    <span className="cover__title-headline">{props.headline}</span>
+                  </h1>
+                </div>
+              </Fragment>
+            )}
 
-      <div className="cover__photo">
-        <Image
-          src={props.image.src}
-          alt={props.alt}
-          layout="fill"
-          priority
-        />
-      </div>
+            {matches.desktop && (
+              <Fragment>
+                <div className="cover__photo">
+                  <Image
+                    src={props.image.src}
+                    alt={props.alt}
+                    layout="fill"
+                    priority
+                  />
+                </div>
+                <div className="wrapper">
+                  <motion.h1
+                    className={`cover__title ${props.class}`}
+                    data-client={props.client}
+                    animate="visible"
+                    initial="hidden"
+                    variants={motionCover}
+                    transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.1 }}
+                  >
+                    <span className="cover__title-client">{props.client}</span>
+                    <span className="cover__title-headline">{props.headline}</span>
+                  </motion.h1>
+                </div>
+                <motion.div
+                  className="cover__dots"
+                  animate={showDots ? "visible" : "hidden"}
+                  initial="hidden"
+                  variants={motionDots}
+                  transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+                ></motion.div>
+              </Fragment>
+            )}
+          </Fragment>
+        )}
+      </Media>
+
     </header>
   )
 }
