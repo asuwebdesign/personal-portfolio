@@ -14,7 +14,7 @@
     "axios": "^0.24.0",
     "element-overlap": "^1.0.1",
     "framer-motion": "^5.3.3",
-    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^10.0.0",
     "lqip-loader": "^2.2.0",
