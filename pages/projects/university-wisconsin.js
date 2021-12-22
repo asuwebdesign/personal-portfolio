@@ -13,7 +13,7 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-wisconsin.jpg'
-import ProjectLogo from '../../public/vectors/logo-uwpharmacy.svg'
+import ProjectLogo from '../../public/logos/logo-uwpharmacy.svg'
 
 // Render component
 const ProjectDetail = props => (
@@ -54,9 +54,10 @@ const ProjectDetail = props => (
             <h1 className="band__title">Highlights</h1>
           </div>
           <div className="band__content">
-            <h2>Designing the future.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <h2>Boosting student enrollment.</h2>
+            <p>Like most higher education projects, this goal of this redesign was to boost enrollment with a new digital presence. A new website design would need to be effective at engaging prospective students, thematically consistent with the existing university web and brand standards, 508 compliant, and using the existing CMS platform.</p>
+            <p>Additionally, there needed to be a scalable content strategy that catered to personas and enabled the staff to continue creating pages.</p>
+            <p>We achieved these goals with a persona-specific content strategy, an engaging and 508 compliant design, and a new system for making web updates. The new website included enhanced features and a scalable content system that supported growth.</p>
           </div>
         </Band>
         <Band className="band--numbered">

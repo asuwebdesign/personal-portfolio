@@ -1,12 +1,12 @@
 .hero {
   position: relative;
-  min-height: 100vh;
-  padding: 128px 32px 64px;
+  padding: 96px 0 32px;
   background-color: rgb(29, 29, 29); // blend with the video clip
   color: var(--color-crystal-white);
   overflow: hidden;
 
   @include media('>=large') {
+    min-height: 100vh;
     padding: 128px 0;
   }
 
@@ -15,6 +15,8 @@
   }
 
   &__title {
+    margin: 0;
+    font-size: 32px;
     font-family: var(--font-stack-regular);
     font-weight: normal;
     z-index: 2;
@@ -25,13 +27,13 @@
       left: 50%;
       width: 1440px;
       margin-left: -720px;
-      font-size: 32px;
       transform: translateY(-50%);
     }
 
     span {
       display: inline-block;
       margin-top: 16px;
+      font-size: 60px;
       font-family: var(--font-stack-extrabold);
       line-height: 1;
 
@@ -51,24 +53,28 @@
 
   &__highlights {
     position: relative;
+    display: grid;
+    row-gap: 32px;
+    margin: 64px 0 0;
+    font-size: 16px;
     z-index: 2;
+
+    @include media('>=small') {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 32px;
+    }
 
     @include media('>=large') {
       position: absolute;
       bottom: 64px;
       left: 50%;
-      display: flex;
-      justify-content: space-between;
       width: 1440px;
       margin-left: -720px;
+      font-size: 19px;
     }
 
     div {
       position: relative;
-
-      @include media('>=large') {
-        width: math.percentage(math.div(400, 1248));
-      }
 
       &:before {
         content: '';
@@ -84,7 +90,11 @@
 
     h2 {
       margin: 0 0 16px;
-      font-size: 24px;
+      font-size: 20px;
+
+      @include media('>=large') {
+        font-size: 24px;
+      }
     }
 
     p {
