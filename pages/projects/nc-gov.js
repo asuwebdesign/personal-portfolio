@@ -13,7 +13,9 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-ncgov.jpg'
-import ProjectLogo from '../../public/vectors/logo-ncseal.svg'
+
+// Import logos
+import ProjectLogo from '../../public/logos/logo-ncseal.svg'
 
 // Render component
 const ProjectDetail = props => (

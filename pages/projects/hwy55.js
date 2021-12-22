@@ -13,7 +13,9 @@ import Detour from '../../components/detour'
 
 // Import images
 import ProjectCover from '../../public/images/covers/cover-hwy55.jpg'
-import ProjectLogo from '../../public/vectors/logo-hwy55.svg'
+
+// Import logos
+import ProjectLogo from '../../public/logos/logo-hwy55.svg'
 
 // Render component
 const ProjectDetail = props => (
