@@ -12,8 +12,10 @@ import Breadcrumb from '../../components/breadcrumb'
 import MLogo from '../../elements/mlogo'
 import Button from '../../elements/button'
 
+// Import logos
+import LogoMarkRiggan from '../../public/logos/logo-mark-riggan.svg'
+
 // Import vectors
-import LogoMarkRiggan from '../../public/vectors/logo-mark-riggan.svg'
 import IconMenu from '../../public/vectors/menu.svg'
 import IconDribbble from '../../public/vectors/social-dribbble.svg'
 import IconMedium from '../../public/vectors/social-medium.svg'

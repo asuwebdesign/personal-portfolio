@@ -6,16 +6,16 @@ import Link from 'next/link'
 import Wrapper from '../../layouts/wrapper'
 
 // Import vectors
-import LogoBCBSNC from '../../public/vectors/logo-bcbsnc.svg'
-import LogoCampbell from '../../public/vectors/logo-campbell.svg'
-import LogoDisney from '../../public/vectors/logo-disney.svg'
-import LogoDuke from '../../public/vectors/logo-duke.svg'
-import LogoHonda from '../../public/vectors/logo-honda.svg'
-import LogoNCGov from '../../public/vectors/logo-ncgov.svg'
-import LogoNCSU from '../../public/vectors/logo-ncsu.svg'
-import LogoOracle from '../../public/vectors/logo-oracle.svg'
-import LogoRedHat from '../../public/vectors/logo-redhat.svg'
-import LogoLexisNexis from '../../public/vectors/logo-lexisnexis.svg'
+import LogoBCBSNC from '../../public/logos/logo-bcbsnc.svg'
+import LogoCampbell from '../../public/logos/logo-campbell.svg'
+import LogoDisney from '../../public/logos/logo-disney.svg'
+import LogoDuke from '../../public/logos/logo-duke.svg'
+import LogoHonda from '../../public/logos/logo-honda.svg'
+import LogoNCGov from '../../public/logos/logo-ncgov.svg'
+import LogoNCSU from '../../public/logos/logo-ncsu.svg'
+import LogoOracle from '../../public/logos/logo-oracle.svg'
+import LogoRedHat from '../../public/logos/logo-redhat.svg'
+import LogoLexisNexis from '../../public/logos/logo-lexisnexis.svg'
 
 // Render component
 const Clients = props => {
