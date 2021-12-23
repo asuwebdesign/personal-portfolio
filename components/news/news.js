@@ -23,8 +23,10 @@ const News = props => {
               <div className="news__story-photo">
                 <Image src={Story01Photo} alt="" layout="fill" placeholder="blur" />
               </div>
-              <div className="news__story-category">Inspiration</div>
-              <h1 className="news__story-title">Four simple words that’ll drive you to being a better creative person.</h1>
+              <div>
+                <div className="news__story-category">Inspiration</div>
+                <h1 className="news__story-title">Four simple words that’ll drive you to being a better creative person.</h1>
+              </div>
             </a>
           </article>
           <article className="news__story">
@@ -32,8 +34,10 @@ const News = props => {
               <div className="news__story-photo">
                 <Image src={Story02Photo} alt="" layout="fill" placeholder="blur" />
               </div>
-              <div className="news__story-category">Strategy</div>
-              <h1 className="news__story-title">Reimagining digital strategy and how we document data architecture</h1>
+              <div>
+                <div className="news__story-category">Strategy</div>
+                <h1 className="news__story-title">Reimagining digital strategy and how we document data architecture</h1>
+              </div>
             </a>
           </article>
           <article className="news__story">
@@ -41,8 +45,10 @@ const News = props => {
               <div className="news__story-photo">
                 <Image src={Story03Photo} alt="" layout="fill" placeholder="blur" />
               </div>
-              <div className="news__story-category">Branding</div>
-              <h1 className="news__story-title">How your brand’s credibility starts with great visual design</h1>
+              <div>
+                <div className="news__story-category">Branding</div>
+                <h1 className="news__story-title">How your brand’s credibility starts with great visual design</h1>
+              </div>
             </a>
           </article>
         </div>

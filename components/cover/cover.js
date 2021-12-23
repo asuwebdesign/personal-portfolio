@@ -75,6 +75,13 @@ const Cover = props => {
                     <span className="cover__title-headline">{props.headline}</span>
                   </h1>
                 </div>
+                <div
+                  className="cover__dots"
+                  animate={showDots ? "visible" : "hidden"}
+                  initial="hidden"
+                  variants={motionDots}
+                  transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+                ></div>
               </Fragment>
             )}
 

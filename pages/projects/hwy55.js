@@ -73,10 +73,12 @@ const ProjectDetail = props => (
         <Band div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
         </Band>
+        {/*
         <Band className="band--split" div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
         </Band>
+        */}
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">03</div>
@@ -90,7 +92,7 @@ const ProjectDetail = props => (
         </Band>
       </article>
     </main>
-    <Detour meta="Next Case Study" title="Content storytelling with real attitude across eCommerce with BB Dakota" link="/projects/sample" />
+    <Detour meta="Next Case Study" title="University of Wisconsin" link="/projects/university-wisconsin" />
   </Layout>
 )
 

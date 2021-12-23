@@ -33,8 +33,11 @@
   }
 
   &__list {
+    display: grid;
+    row-gap: 32px;
+
     @include media('>=large') {
-      display: grid;
+
       grid-template-columns: repeat(3, 1fr);
       column-gap: 32px;
     }
@@ -43,7 +46,10 @@
   &__story {
 
     &-link {
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      column-gap: 24px;
+      align-items: center;
       text-decoration: none;
 
       @include media('>=large') {
@@ -62,12 +68,13 @@
 
     &-photo {
       position: relative;
-      width: 100%;
-      margin-bottom: 32px;
+      aspect-ratio: 1;
       overflow: hidden;
 
       @include media('>=large') {
-        height: 300px;
+        width: 100%;
+        aspect-ratio: 4/3;
+        margin-bottom: 32px;
       }
 
       img {
@@ -94,37 +101,44 @@
     }
 
     &-category {
-      display: none;
+      position: relative;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-slate);
+      text-transform: uppercase;
+      letter-spacing: normal;
 
       @include media('>=large') {
-        position: relative;
         margin: 0 0 0 32px;
         font-size: 16px;
-        font-weight: 700;
-        color: var(--color-slate);
-        text-transform: uppercase;
-        letter-spacing: normal;
       }
 
       &:before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -32px;
-        display: block;
-        width: 16px;
-        height: 2px;
-        margin-top: -1px;
-        background-color: var(--color-slate);
+        @include media('>=large') {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: -32px;
+          display: block;
+          width: 16px;
+          height: 2px;
+          margin-top: -1px;
+          background-color: var(--color-slate);
+        }
       }
     }
 
     &-title {
-      margin: 24px 0 0 32px;
-      font-size: 24px;
+      margin: 0;
+      font-size: 20px;
       font-family: var(--font-stack-semibold);
       line-height: 1.25;
       letter-spacing: -1px;
+
+      @include media('>=large') {
+        margin: 24px 0 0 32px;
+        font-size: 24px;
+      }
     }
   }
 
