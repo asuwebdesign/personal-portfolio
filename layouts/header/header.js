@@ -46,11 +46,24 @@ const Header = props => {
   const motionNav = {
     visible: {
       opacity: 1,
-      x: 0,
+      transition: {
+        staggerChildren: 0.15,
+        delayChildren: 0.15
+      }
     },
     hidden: {
       opacity: 0,
-      x: "-100%",
+    }
+  }
+
+  const motionMenuItem = {
+    visible: {
+      opacity: 1,
+      x: '0%',
+    },
+    hidden: {
+      opacity: 0,
+      x: '-5%',
     }
   }
 
@@ -109,23 +122,25 @@ const Header = props => {
         variants={motionPanel}
         transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
       >
-        <motion.nav
+        <nav
           className="menu__list"
           role="navigation"
-          animate={menuActive ? "visible" : "hidden"}
-          initial="hidden"
-          variants={motionNav}
-          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.2 }}
+
         >
           <h1>Menu</h1>
-          <ol>
-            <li><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></li>
-            <li><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></li>
-            <li><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Skills.</a></Link></li>
-            <li><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About.</a></Link></li>
-            <li><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></li>
-          </ol>
-        </motion.nav>
+          <motion.ol
+            animate={menuActive ? "visible" : "hidden"}
+            initial="hidden"
+            variants={motionNav}
+            transition={{ type: "inertia", velocity: 50, delay: 2 }}
+          >
+            <motion.li variants={motionMenuItem}><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Skills.</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About.</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></motion.li>
+          </motion.ol>
+        </nav>
       </motion.div>
 
       <Media query="(min-width: 1280px)" render={() => (

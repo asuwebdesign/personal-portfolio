@@ -60,6 +60,7 @@ const ProjectDetail = props => (
             <p>We achieved these goals with a persona-specific content strategy, an engaging and 508 compliant design, and a new system for making web updates. The new website included enhanced features and a scalable content system that supported growth.</p>
           </div>
         </Band>
+        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -71,6 +72,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
         <Band div>
           <Image src="/assets/projects/wisconsin/university-wisconsin-pharmacy-home.png" alt="" width={1920} height={7887} layout="responsive" />
         </Band>
@@ -79,7 +81,7 @@ const ProjectDetail = props => (
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
         </Band>
-        */}
+
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">03</div>
@@ -91,6 +93,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
       </article>
     </main>
     <Detour meta="Next Case Study" title="Judicial Branch of NC" link="/projects/nc-courts" />

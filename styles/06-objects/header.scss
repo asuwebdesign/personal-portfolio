@@ -113,6 +113,7 @@
         linear-gradient(var(--color-carbon-900), var(--color-carbon-900)) padding-box,
         linear-gradient(to bottom right, var(--color-electric-magenta), var(--color-electric-purple)) border-box;
       border: 2px solid transparent;
+      box-shadow: 0 2px 64px 32px rgba(0,0,0, .5);
       border-radius: var(--border-radius);
     }
 

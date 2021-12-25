@@ -61,6 +61,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -72,6 +73,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
         <Band div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
         </Band>
@@ -80,7 +82,7 @@ const ProjectDetail = props => (
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
         </Band>
-        */}
+
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">03</div>
@@ -92,6 +94,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
       </article>
     </main>
     <Detour meta="Next Case Study" title="Go from being viable to valuable." link="/services" />

@@ -51,7 +51,7 @@ const ProjectDetail = props => (
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>
-            <h1 className="band__title">Highlights</h1>
+            <h1 className="band__title">Challenge</h1>
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
@@ -59,10 +59,11 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
-            <h1 className="band__title">Research</h1>
+            <h1 className="band__title">Solution</h1>
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
@@ -70,15 +71,19 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
         <Band div>
-          <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
+          <Image src="/assets/projects/hwy55/image_processing20200428-13266-irapda.png" width={1600} height={1200} layout="responsive" alt="" />
+        </Band>
+        <Band div>
+          <Image src="/assets/projects/hwy55/48d8e9810d556790acaaf06ed587b944.png" width={1600} height={1200} layout="responsive" alt="" />
         </Band>
         {/*
         <Band className="band--split" div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />
         </Band>
-        */}
+
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">03</div>
@@ -90,6 +95,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
       </article>
     </main>
     <Detour meta="Next Case Study" title="University of Wisconsin" link="/projects/university-wisconsin" />
