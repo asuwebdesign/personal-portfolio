@@ -113,7 +113,6 @@
         linear-gradient(var(--color-carbon-900), var(--color-carbon-900)) padding-box,
         linear-gradient(to bottom right, var(--color-electric-magenta), var(--color-electric-purple)) border-box;
       border: 2px solid transparent;
-      box-shadow: 0 2px 64px 32px rgba(0,0,0, .5);
       border-radius: var(--border-radius);
     }
 
@@ -166,7 +165,6 @@
         font-family: var(--font-stack-extrabold);
         font-size: 48px;
         line-height: 1;
-        text-transform: uppercase;
         transition:
           color $animation_speed_complex $animation_easing_decelerate,
           text-stroke $animation_speed_complex $animation_easing_decelerate;
@@ -177,10 +175,8 @@
         }
 
         @include media('>xxx-large') {
-          font-size: 160px;
-          font-size: 4vw;
+          font-size: 4.5vw;
           letter-spacing: -6px;
-          letter-spacing: -2px;
         }
       }
 

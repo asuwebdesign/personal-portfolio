@@ -36,10 +36,20 @@ const Header = props => {
     open: {
       opacity: 1,
       x: 0,
+      transition: {
+        type: "spring",
+        ease: "easeIn",
+        duration: 0.5
+      }
     },
     closed: {
       opacity: 0,
       x: "-100%",
+      transition: {
+        type: "tween",
+        ease: "easeOut",
+        duration: 0.25
+      }
     }
   }
 
@@ -47,8 +57,11 @@ const Header = props => {
     visible: {
       opacity: 1,
       transition: {
+        type: "spring",
+        velocity: 50,
+        duration: 0.25,
         staggerChildren: 0.15,
-        delayChildren: 0.15
+        delayChildren: 0.15,
       }
     },
     hidden: {
@@ -114,26 +127,10 @@ const Header = props => {
       </button>
 
 
-      <motion.div
-        id="menu"
-        className="menu"
-        animate={menuActive ? "open" : "closed"}
-        initial="closed"
-        variants={motionPanel}
-        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
-      >
-        <nav
-          className="menu__list"
-          role="navigation"
-
-        >
+      <motion.div id="menu" className="menu" animate={menuActive ? "open" : "closed"} initial="closed" variants={motionPanel}>
+        <nav className="menu__list" role="navigation">
           <h1>Menu</h1>
-          <motion.ol
-            animate={menuActive ? "visible" : "hidden"}
-            initial="hidden"
-            variants={motionNav}
-            transition={{ type: "inertia", velocity: 50, delay: 2 }}
-          >
+          <motion.ol animate={menuActive ? "visible" : "hidden"} initial="hidden" variants={motionNav}>
             <motion.li variants={motionMenuItem}><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></motion.li>
             <motion.li variants={motionMenuItem}><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></motion.li>
             <motion.li variants={motionMenuItem}><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Skills.</a></Link></motion.li>
