@@ -51,13 +51,24 @@ const ProjectDetail = props => (
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>
-            <h1 className="band__title">Highlights</h1>
+            <h1 className="band__title">Challenge</h1>
           </div>
           <div className="band__content">
             <h2>Boosting student enrollment.</h2>
             <p>Like most higher education projects, this goal of this redesign was to boost enrollment with a new digital presence. A new website design would need to be effective at engaging prospective students, thematically consistent with the existing university web and brand standards, 508 compliant, and using the existing CMS platform.</p>
             <p>Additionally, there needed to be a scalable content strategy that catered to personas and enabled the staff to continue creating pages.</p>
             <p>We achieved these goals with a persona-specific content strategy, an engaging and 508 compliant design, and a new system for making web updates. The new website included enhanced features and a scalable content system that supported growth.</p>
+          </div>
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">02</div>
+            <h1 className="band__title">Approach</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
         {/*

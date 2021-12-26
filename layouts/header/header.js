@@ -131,11 +131,11 @@ const Header = props => {
         <nav className="menu__list" role="navigation">
           <h1>Menu</h1>
           <motion.ol animate={menuActive ? "visible" : "hidden"} initial="hidden" variants={motionNav}>
-            <motion.li variants={motionMenuItem}><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello.</a></Link></motion.li>
-            <motion.li variants={motionMenuItem}><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects.</a></Link></motion.li>
-            <motion.li variants={motionMenuItem}><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Skills.</a></Link></motion.li>
-            <motion.li variants={motionMenuItem}><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About.</a></Link></motion.li>
-            <motion.li variants={motionMenuItem}><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact.</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/"><a onClick={() => setMenuState(!menuActive)}>Hello</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/projects"><a onClick={() => setMenuState(!menuActive)}>Projects</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/services"><a onClick={() => setMenuState(!menuActive)}>Skills</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/about"><a onClick={() => setMenuState(!menuActive)}>About</a></Link></motion.li>
+            <motion.li variants={motionMenuItem}><Link href="/contact"><a onClick={() => setMenuState(!menuActive)}>Contact</a></Link></motion.li>
           </motion.ol>
         </nav>
       </motion.div>

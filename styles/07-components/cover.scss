@@ -63,6 +63,7 @@
 
   // Start: Unique title bar branding
   // ---------------------------------------------------------------------------
+  &__title--atlanticbt { border-left-color: #ff007e; }
   &__title--hwy55 { border-left-color: #aF1e23; }
   &__title--nccourts { border-left-color: #ae936c; }
   &__title--ncgov { border-left-color: #a83338; }
@@ -101,6 +102,7 @@
       mix-blend-mode: difference;
       transform: translateY(-50%);
       transition: opacity $animation_speed_complex $animation_easing_decelerate;
+      pointer-events: none;
       z-index: 3;
     }
 

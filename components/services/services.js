@@ -25,7 +25,7 @@ const Services = props => {
             <IconSolutionB />
             <div className="service__header">
               <h2 className="service__title">Branding Strategy<br /> &amp; Identity</h2>
-              <Button href="/services/branding" label="Explore Services" />
+              <Button href="/skills/branding" label="Explore Services" />
             </div>
           </div>
           <Media query="(min-width: 1280px)" render={() => (
@@ -40,7 +40,7 @@ const Services = props => {
             <IconSolutionC />
             <div className="service__header">
               <h2 className="service__title">Creative &amp;<br /> Experience Design</h2>
-              <Button href="/services/creative" label="Explore Services" />
+              <Button href="/skills/creative" label="Explore Services" />
             </div>
           </div>
           <Media query="(min-width: 1280px)" render={() => (
@@ -55,7 +55,7 @@ const Services = props => {
             <IconSolutionR />
             <div className="service__header">
               <h2 className="service__title">Research, Data<br /> &amp; Analytics</h2>
-              <Button href="/services/research" label="Explore Services" />
+              <Button href="/skills/research" label="Explore Services" />
             </div>
           </div>
           <Media query="(min-width: 1280px)" render={() => (
@@ -70,7 +70,7 @@ const Services = props => {
             <IconSolutionW />
             <div className="service__header">
               <h2 className="service__title">Websites &amp;<br /> Digital Platforms</h2>
-              <Button href="/services/digital" label="Explore Services" />
+              <Button href="/skills/digital" label="Explore Services" />
             </div>
           </div>
           <Media query="(min-width: 1280px)" render={() => (
@@ -78,7 +78,7 @@ const Services = props => {
               <p>Identify and create digital products and services that create revenue channels and help brands thrive in the new economy.</p>
               <p>It starts with clearly defining the consumer journey, business objectives, and what's happening in culture.</p>
             </div>
-          )} />          
+          )} />
         </article>
       </Wrapper>
     </div>

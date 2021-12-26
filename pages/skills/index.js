@@ -14,7 +14,7 @@ import Services from '../../components/services'
 const PageServices = props => (
   <Layout {...props}>
     <Head>
-      <title>Services | Mark Riggan</title>
+      <title>Skills | Mark Riggan</title>
     </Head>
     <main>
       <article>

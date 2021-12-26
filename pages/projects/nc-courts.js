@@ -54,7 +54,18 @@ const ProjectDetail = props => (
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">01</div>
-            <h1 className="band__title">Highlights</h1>
+            <h1 className="band__title">Challenge</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+          </div>
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">02</div>
+            <h1 className="band__title">Approach</h1>
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>

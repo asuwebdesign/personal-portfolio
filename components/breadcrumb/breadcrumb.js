@@ -62,30 +62,30 @@ const Breadcrumb = props => {
           <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Red Hat</span>
         </Fragment>
       )
-    } else if (pathname === "/services") {
-      return "Services"
-    } else if (pathname === "/services/branding") {
+    } else if (pathname === "/skills") {
+      return "Skills"
+    } else if (pathname === "/skills/branding") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Branding Strategy &amp; Identity</span>
+          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Branding Strategy &amp; Identity</span>
         </Fragment>
       )
-    } else if (pathname === "/services/creative") {
+    } else if (pathname === "/skills/creative") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Creative &amp; Experience Design</span>
+          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Creative &amp; Experience Design</span>
         </Fragment>
       )
-    } else if (pathname === "/services/research") {
+    } else if (pathname === "/skills/research") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Research, Data &amp; Analytics</span>
+          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Research, Data &amp; Analytics</span>
         </Fragment>
       )
-    } else if (pathname === "/services/digital") {
+    } else if (pathname === "/skills/digital") {
       return (
         <Fragment>
-          <strong><Link href="/services"><a><span>Services</span></a></Link></strong> <span>Websites &amp; Digital Platforms</span>
+          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Websites &amp; Digital Platforms</span>
         </Fragment>
       )
     } else if (pathname === "/about") {
