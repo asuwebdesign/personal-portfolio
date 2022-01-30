@@ -84,7 +84,7 @@ const PageServices = props => (
 
       </article>
     </main>
-    <Detour meta="Up Next" title="Creative &amp; Experience Design." link="/services/creative" />
+    <Detour meta="Up Next" title="Creative &amp; Experience Design." link="/skills/creative" />
   </Layout>
 )
 

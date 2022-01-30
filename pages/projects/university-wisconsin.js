@@ -19,7 +19,7 @@ import ProjectLogo from '../../public/logos/logo-uwpharmacy.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>Projects</title>
+      <title>University of Wisconsin - School of Pharmacy | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>
@@ -60,6 +60,7 @@ const ProjectDetail = props => (
             <p>We achieved these goals with a persona-specific content strategy, an engaging and 508 compliant design, and a new system for making web updates. The new website included enhanced features and a scalable content system that supported growth.</p>
           </div>
         </Band>
+        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -71,6 +72,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
         {/*
         <Band className="band--numbered">
           <div className="band__title-block">

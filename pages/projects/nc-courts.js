@@ -22,7 +22,7 @@ import ProjectLogo from '../../public/logos/logo-nccourts.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>Projects</title>
+      <title>Judicial Branch of North Carolina | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>

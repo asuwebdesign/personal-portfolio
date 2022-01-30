@@ -21,7 +21,7 @@ import ProjectLogo from '../../public/logos/logo-hwy55.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>Projects</title>
+      <title>Hwy 55 | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>

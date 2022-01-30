@@ -21,7 +21,7 @@ const Skills = props => {
       <Wrapper>
         <div className="skills__list">
           <article className="skills__type">
-            <Link href="/services/branding">
+            <Link href="/skills/branding">
               <a className="skills__type-link">
                 <div className="skills__type-icon">
                   <IconSolutionB />
@@ -31,7 +31,7 @@ const Skills = props => {
             </Link>
           </article>
           <article className="skills__type">
-            <Link href="/services/creative">
+            <Link href="/skills/creative">
               <a className="skills__type-link">
                 <div className="skills__type-icon">
                   <IconSolutionC />
@@ -41,7 +41,7 @@ const Skills = props => {
             </Link>
           </article>
           <article className="skills__type">
-            <Link href="/services/research">
+            <Link href="/skills/research">
               <a className="skills__type-link">
                 <div className="skills__type-icon">
                   <IconSolutionR />
@@ -51,7 +51,7 @@ const Skills = props => {
             </Link>
           </article>
           <article className="skills__type">
-            <Link href="/services/digital">
+            <Link href="/skills/digital">
               <a className="skills__type-link">
                 <div className="skills__type-icon">
                   <IconSolutionW />

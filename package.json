@@ -11,9 +11,9 @@
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^2.0.3",
     "@svgr/webpack": "^6.1.2",
-    "axios": "^0.24.0",
+    "axios": "^0.25.0",
     "element-overlap": "^1.0.1",
-    "framer-motion": "^5.3.3",
+    "framer-motion": "^6.2.3",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^10.0.0",

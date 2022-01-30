@@ -119,12 +119,13 @@
       mix-blend-mode: difference;
       transform: translateY(-50%);
       transition: opacity $animation_speed_complex $animation_easing_decelerate;
+      pointer-events: none;
       z-index: 3;
     }
 
     &--hide {
       opacity: 0;
-      pointer-events: none;
+
     }
   }
 

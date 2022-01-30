@@ -19,14 +19,14 @@ const PageAccessibility = props => (
     </Head>
     <main>
       <article>
-        <Sidekick meta="Accessibility" title="Accessibility." section />
+        <Sidekick meta="Accessibility" title="Open commitment to accessibility." section />
         <Band>
           <p>Digital accessibility is the practice of ensuring that websites, web applications, and digital content can be used by the community who have a diverse range of hearing, movement, sight or cognitive abilities.</p>
           <p>We strive to adhere to the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG) 2.0, Level AA standards.</p>
         </Band>
       </article>
     </main>
-    <Detour meta="Up Next" title="Get in touch with me about your project, something random, or just to say hello." link="/contact" />
+    <Detour meta="Up Next" title="Let's create something together." link="/contact" />
   </Layout>
 )
 

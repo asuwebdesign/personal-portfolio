@@ -23,12 +23,12 @@ const Nutshell = props => {
           <div className="nutshell__meta">In a Nutshell</div>
           <h1 className="nutshell__title">Making the complex simple, then the simple delightful.</h1>
           <p className="nutshell__desc">Building identities and experiences to elevate and empower organizations of all shapes and sizes.</p>
-          <Button label="Explore What I Do" href="/services" />
+          <Button label="Explore What I Do" href="/skills" />
         </div>
         <div className="nutshell__secondary">
           <div className="nutshell__list">
             <article className="nutshell__type">
-              <Link href="/services/branding">
+              <Link href="/skills/branding">
                 <a className="nutshell__type-link">
                   <div className="nutshell__type-icon">
                     <IconSolutionB />
@@ -38,7 +38,7 @@ const Nutshell = props => {
               </Link>
             </article>
             <article className="nutshell__type">
-              <Link href="/services/creative">
+              <Link href="/skills/creative">
                 <a className="nutshell__type-link">
                   <div className="nutshell__type-icon">
                     <IconSolutionC />
@@ -48,7 +48,7 @@ const Nutshell = props => {
               </Link>
             </article>
             <article className="nutshell__type">
-              <Link href="/services/research">
+              <Link href="/skills/research">
                 <a className="nutshell__type-link">
                   <div className="nutshell__type-icon">
                     <IconSolutionR />
@@ -58,7 +58,7 @@ const Nutshell = props => {
               </Link>
             </article>
             <article className="nutshell__type">
-              <Link href="/services/digital">
+              <Link href="/skills/digital">
                 <a className="nutshell__type-link">
                   <div className="nutshell__type-icon">
                     <IconSolutionW />

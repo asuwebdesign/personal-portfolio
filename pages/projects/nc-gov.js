@@ -21,7 +21,7 @@ import ProjectLogo from '../../public/logos/logo-ncseal.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>Projects</title>
+      <title>Government of North Carolina | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>

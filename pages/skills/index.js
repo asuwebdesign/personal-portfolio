@@ -22,7 +22,7 @@ const PageServices = props => (
         <Services />
       </article>
     </main>
-    <Detour meta="Up Next" title="Branding Strategy &amp; Identity." link="/services/branding" />
+    <Detour meta="Up Next" title="Branding Strategy &amp; Identity." link="/skills/branding" />
   </Layout>
 )
 

@@ -21,7 +21,7 @@ import ProjectLogo from '../../public/logos/logo-redhat-color.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>Projects</title>
+      <title>Red Hat | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>
@@ -61,6 +61,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -72,6 +73,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
+        */}
         {/*
         <Band className="band--numbered">
           <div className="band__title-block">
@@ -108,7 +110,7 @@ const ProjectDetail = props => (
         */}
       </article>
     </main>
-    <Detour meta="Next Case Study" title="Go from being viable to valuable." link="/services" />
+    <Detour meta="Next Case Study" title="Go from being viable to valuable." link="/skills" />
   </Layout>
 )
 

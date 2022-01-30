@@ -79,7 +79,7 @@ const PageServices = props => (
         {/* Repeat band for book consult */}
       </article>
     </main>
-    <Detour meta="Up Next" title="Websites &amp; Digital Platforms." link="/services/digital" />
+    <Detour meta="Up Next" title="Websites &amp; Digital Platforms." link="/skills/digital" />
   </Layout>
 )
 
