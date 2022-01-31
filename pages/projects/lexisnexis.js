@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Head from 'next/head'
-import Vimeo from '@u-wave/react-vimeo'
 
 // Import layouts
 import Layout from '../../layouts/layout'
@@ -20,7 +19,7 @@ import ProjectLogo from '../../public/logos/logo-atlanticbt.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>Projects</title>
+      <title>LexisNexis | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>
@@ -86,9 +85,6 @@ const ProjectDetail = props => (
           </div>
         </Band>
         */}
-        <Band div>
-          <Vimeo video="361573248" responsive="true" />
-        </Band>
         <Band div>
           <Image src="/assets/projects/atlanticbt/atlanticbt-home.png" alt="" width={1920} height={7861} layout="responsive" />
         </Band>
