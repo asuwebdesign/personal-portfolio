@@ -78,7 +78,7 @@
   @include media('>=large') {
     padding: 64px;
     margin: 128px 0 0;
-    background: var(--color-carbon-900) url('/vectors/bg_abstract-shapes.svg') no-repeat 50% 100% / contain;
+    // background: var(--color-carbon-900) url('/vectors/bg_abstract-shapes.svg') no-repeat 50% 100% / contain;
     border-top-right-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
   }

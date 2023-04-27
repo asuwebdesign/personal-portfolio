@@ -67,6 +67,16 @@
       border-top: 0;
     }
 
+    &:first-child,
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      @include media('>=large') {
+        border-top: 0;
+      }
+    }
+
     &:nth-child(n+6) {
       @include media('>=large') {
         border-top: 1px solid var(--color-carbon-100);

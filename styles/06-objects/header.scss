@@ -104,16 +104,12 @@
     z-index: 1000;
 
     @include media('>=large') {
-      top: 32px;
-      left: 32px;
+      top: 0;
+      left: 0;
       width: 31vw;
-      height: calc(100vh - 64px);
-      padding: 0 128px 0 130px;
-      background:
-        linear-gradient(to bottom right, var(--color-carbon-800), var(--color-carbon-900)) padding-box,
-        linear-gradient(to bottom right, var(--color-electric-magenta), var(--color-electric-purple)) border-box;
-      border: 2px solid transparent;
-      border-radius: var(--border-radius);
+      height: 100vh;
+      padding: 0 128px 0 194px;
+      border-radius: 0;
     }
 
     &__list {

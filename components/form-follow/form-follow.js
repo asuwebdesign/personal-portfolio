@@ -31,14 +31,6 @@ const FormFollow = props => {
               <label htmlFor="form__field--last-name">Last name</label>
               <input id="form__field--last-name" type="text" name="Last name" required />
             </div>
-            <div className="form__field form__field--optional">
-              <label htmlFor="form__field--job-title">Job title <span>Optional</span></label>
-              <input id="form__field--job-title" type="text" name="Job title" />
-            </div>
-            <div className="form__field form__field--optional">
-              <label htmlFor="form__field--company">Company <span>Optional</span></label>
-              <input id="form__field--company" type="text" name="Company" />
-            </div>
             <div className="form__field">
               <label htmlFor="form__field--email">Email</label>
               <input id="form__field--email" type="email" name="Email" required />
