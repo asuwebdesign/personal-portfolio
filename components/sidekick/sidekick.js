@@ -1,15 +1,16 @@
+// ============================================================================
 // Import nodes
-import React, { useState, Fragment } from "react"
+// ============================================================================
+import { useState } from 'react'
 import Link from 'next/link'
 import Media from 'react-media'
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
 
-// Import layouts
-import Wrapper from '../../layouts/wrapper'
-
+// ============================================================================
 // Render component
+// ============================================================================
 const Hero = props => {
 
   // states

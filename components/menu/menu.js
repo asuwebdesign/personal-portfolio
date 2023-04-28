@@ -1,9 +1,16 @@
-import React, { Fragment, useState } from "react"
+// ============================================================================
+// Import packages
+// ============================================================================
+import { Fragment, useState } from 'react'
 import { Link } from "next/link"
 import { motion } from "framer-motion"
 import IconMenu from "../../../graphics/icon-menu.svg"
 
-const Menu = props => {
+
+// ============================================================================
+// Render component
+// ============================================================================
+const Menu = () => {
   const [menuActive, setMenuState] = useState(false)
 
   const motionPanel = {

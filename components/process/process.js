@@ -1,17 +1,28 @@
+// ============================================================================
 // Import nodes
+// ============================================================================
 import React from "react"
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Wrapper from '../../layouts/wrapper'
 
+
+// ============================================================================
 // Import vectors
+// ============================================================================
 // import GraphicDiscover from '../../public/vectors/process-learning.svg'
 // import GraphicPlan from '../../public/vectors/process-strategy.svg'
 // import GraphicCreate from '../../public/vectors/process-designing.svg'
 // import GraphicBuild from '../../public/vectors/process-coding.svg'
 // import GraphicMeasure from '../../public/vectors/process-metrics.svg'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const Process = props => {
   return (
     <section className="process">

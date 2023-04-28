@@ -1,22 +1,34 @@
+// ============================================================================
 // Import nodes
-import React from "react"
-import Link from 'next/link'
+// ============================================================================
 import Media from 'react-media'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Wrapper from '../../layouts/wrapper'
 
+
+// ============================================================================
 // Import elements
+// ============================================================================
 import Button from '../../elements/button'
 
+
+// ============================================================================
 // Import vectors
+// ============================================================================
 import IconSolutionB from '../../public/vectors/solution-b.svg'
 import IconSolutionC from '../../public/vectors/solution-c.svg'
 import IconSolutionR from '../../public/vectors/solution-r.svg'
 import IconSolutionW from '../../public/vectors/solution-w.svg'
 
+
+// ============================================================================
 // Render component
-const Services = props => {
+// ============================================================================
+const Services = () => {
   return (
     <div className="services">
       <Wrapper>

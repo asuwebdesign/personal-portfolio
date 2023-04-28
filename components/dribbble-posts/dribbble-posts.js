@@ -1,13 +1,21 @@
+// ============================================================================
 // Import nodes
-import React, { useState, useEffect } from 'react'
+// ============================================================================
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 const axios = require('axios')
 
+
+// ============================================================================
 // Import elements
+// ============================================================================
 import Button from '../../elements/button'
 
+
+// ============================================================================
 // Render component
-const DribbblePosts = props => {
+// ============================================================================
+const DribbblePosts = () => {
   const SHOTS_PER_PAGE = 4
 
   const [isLoading, setIsLoading] = useState(true)

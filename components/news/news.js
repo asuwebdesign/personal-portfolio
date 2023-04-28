@@ -1,17 +1,28 @@
+// ============================================================================
 // Import nodes
+// ============================================================================
 import React from 'react'
 import Image from 'next/image'
 
+
+// ============================================================================
 // Import images
+// ============================================================================
 import Story01Photo from '../../public/images/articles/article-four-simple-words.jpg'
 import Story02Photo from '../../public/images/articles/article-sapphire.png'
 import Story03Photo from '../../public/images/articles/article-disney-world.jpg'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Wrapper from '../../layouts/wrapper'
 
+
+// ============================================================================
 // Render component
-const News = props => {
+// ============================================================================
+const News = () => {
   return (
     <section className="news">
       <Wrapper>

@@ -1,20 +1,27 @@
+// ============================================================================
 // Import nodes
-import React from 'react'
+// ============================================================================
 import Image from 'next/image'
 import Link from 'next/link'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Wrapper from '../../layouts/wrapper'
 
-// Import elements
-import Button from '../../elements/button'
 
+// ============================================================================
 // Import images
+// ============================================================================
 import ProcessTeaser from '../../public/images/cards/card-process.png'
 import ManifestoTeaser from '../../public/images/cards/card-manifesto.jpg'
 
+
+// ============================================================================
 // Render component
-const HowWhy = props => {
+// ============================================================================
+const HowWhy = () => {
   return (
     <div className="how-why">
       <Wrapper>

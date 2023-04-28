@@ -1,16 +1,20 @@
+// ============================================================================
 // Import nodes
-import React from "react"
+// ============================================================================
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 
-// Import layouts
-import Wrapper from '../../layouts/wrapper'
 
+// ============================================================================
 // Import vectors
+// ============================================================================
 import IconTailRight from '../../public/vectors/icon-tail-right.svg'
 
+
+// ============================================================================
 // Import symbols
+// ============================================================================
 import SymbolSquare from '../../public/symbols/symbol-square.svg'
 import SymbolCircle from '../../public/symbols/symbol-circle.svg'
 import SymbolHalfCircle from '../../public/symbols/symbol-half-circle.svg'
@@ -20,7 +24,10 @@ import SymbolTriangleTopRight from '../../public/symbols/symbol-triangle-top-rig
 import SymbolTriangleBottomLeft from '../../public/symbols/symbol-triangle-bottom-left.svg'
 import SymbolTriangleBottomRight from '../../public/symbols/symbol-triangle-bottom-right.svg'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const ProjectCard = props => {
 
   function renderSymbol(props) {

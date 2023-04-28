@@ -1,19 +1,28 @@
+// ============================================================================
 // Import nodes
+// ============================================================================
 import React from "react"
-import Link from 'next/link'
-import Image from 'next/image'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Wrapper from '../../layouts/wrapper'
 
+
+// ============================================================================
 // Import vectors
+// ============================================================================
 import IconDribbble from '../../public/vectors/social-dribbble.svg'
 import IconLinkedIn from '../../public/vectors/social-linkedin.svg'
 import IconTwitter from '../../public/vectors/social-twitter.svg'
 import IconMedium from '../../public/vectors/social-medium.svg'
 
+
+// ============================================================================
 // Render component
-const FormFollow = props => {
+// ============================================================================
+const FormFollow = () => {
   return (
     <div className="form-follow">
       <Wrapper>
