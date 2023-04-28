@@ -1,21 +1,34 @@
+// ============================================================================
 // Import nodes
-import React from 'react'
+// ============================================================================
 import Image from 'next/image'
 import Head from 'next/head'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Layout from '../../layouts/layout'
 import Band from '../../layouts/band'
 
+
+// ============================================================================
 // Import components
+// ============================================================================
 import Cover from '../../components/cover'
 import Detour from '../../components/detour'
 
+
+// ============================================================================
 // Import images
+// ============================================================================
 import ProjectCover from '../../public/images/covers/cover-wisconsin.jpg'
 import ProjectLogo from '../../public/logos/logo-uwpharmacy.svg'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>

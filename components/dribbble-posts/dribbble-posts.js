@@ -27,7 +27,7 @@ const DribbblePosts = () => {
 
   const placeholderArr = Array.from({ length: SHOTS_PER_PAGE }, (v, i) => i)
 
-  React.useEffect(() => {
+  useEffect(() => {
     let didCancel = false
     let dribbbleRes = {}
 

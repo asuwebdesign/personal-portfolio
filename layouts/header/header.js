@@ -1,21 +1,29 @@
+// ============================================================================
 // Import nodes
-import React, { useState } from "react"
+// ============================================================================
+import { useState } from 'react'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import Media from 'react-media'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
+
+// ============================================================================
 // Import components
+// ============================================================================
 import Breadcrumb from '../../components/breadcrumb'
 
+
+// ============================================================================
 // Import elements
+// ============================================================================
 import MLogo from '../../elements/mlogo'
 import Button from '../../elements/button'
 
-// Import logos
-import LogoMarkRiggan from '../../public/logos/logo-mark-riggan.svg'
 
+// ============================================================================
 // Import vectors
+// ============================================================================
 import IconMenu from '../../public/vectors/menu.svg'
 import IconDribbble from '../../public/vectors/social-dribbble.svg'
 import IconMedium from '../../public/vectors/social-medium.svg'
@@ -24,7 +32,10 @@ import IconTwitter from '../../public/vectors/social-twitter.svg'
 import Dots from '../../public/vectors/graphic-dots.svg'
 import Circle from '../../public/vectors/circle.svg'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const Header = props => {
 
   // initial states
@@ -142,10 +153,10 @@ const Header = props => {
 
       <Media query="(min-width: 1280px)" render={() => (
         <ul className="social">
-          <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank"><IconDribbble /></a></li>
-          <li className="social__brand social__brand--medium"><a href="https://medium.com/@Asuwebdesign" target="_blank"><IconMedium /></a></li>
-          <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank"><IconLinkedIn /></a></li>
-          <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank"><IconTwitter /></a></li>
+          <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank" rel="noreferrer"><IconDribbble /></a></li>
+          <li className="social__brand social__brand--medium"><a href="https://medium.com/@Asuwebdesign" target="_blank" rel="noreferrer"><IconMedium /></a></li>
+          <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank" rel="noreferrer"><IconLinkedIn /></a></li>
+          <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank" rel="noreferrer"><IconTwitter /></a></li>
         </ul>
       )} />
 

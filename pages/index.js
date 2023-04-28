@@ -1,12 +1,19 @@
+// ============================================================================
 // Import nodes
-import React from 'react'
+// ============================================================================
 import Head from 'next/head'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Layout from '../layouts/layout'
 import Wrapper from '../layouts/wrapper'
 
+
+// ============================================================================
 // Import components
+// ============================================================================
 import Hero from '../components/hero'
 import Clients from '../components/clients'
 import Detour from '../components/detour'
@@ -14,11 +21,17 @@ import News from '../components/news'
 import WorkLatest from '../components/work-latest'
 import Nutshell from '../components/nutshell'
 
+
+// ============================================================================
 // Import elements
+// ============================================================================
 import Button from '../elements/button'
 import MetaLabel from '../elements/meta-label'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const PageHome = props => (
   <Layout {...props}>
     <Head>

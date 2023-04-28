@@ -1,21 +1,34 @@
+// ============================================================================
 // Import nodes
-import React from 'react'
+// ============================================================================
 import Head from 'next/head'
 
+
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Layout from '../../layouts/layout'
 import Wrapper from '../../layouts/wrapper'
 
+
+// ============================================================================
 // Import components
+// ============================================================================
 import Detour from '../../components/detour'
 import Sidekick from '../../components/sidekick'
 import Poster from '../../components/poster'
 import Manifesto from '../../components/manifesto'
 
+
+// ============================================================================
 // Import images
+// ============================================================================
 import PosterSrc from '../../public/posters/poster-personal-manifesto.jpg'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const PageManifesto = props => (
   <Layout {...props}>
     <Head>
