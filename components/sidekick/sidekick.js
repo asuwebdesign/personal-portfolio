@@ -2,7 +2,6 @@
 // Import nodes
 // ============================================================================
 import { useState } from 'react'
-import Link from 'next/link'
 import Media from 'react-media'
 import { motion } from 'framer-motion'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'

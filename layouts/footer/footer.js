@@ -36,9 +36,9 @@ const Footer = () => {
         </div>
         <div className="footer__secondary">
           <ul className="menu menu--legal">
-            <li><Link href="/terms"><a>Terms &amp; Conditions</a></Link></li>
-            <li><Link href="/privacy"><a>Privacy Policy</a></Link></li>
-            <li><Link href="/accessibility"><a>Accessibility</a></Link></li>
+            <li><Link href="/terms">Terms &amp; Conditions</Link></li>
+            <li><Link href="/privacy">Privacy Policy</Link></li>
+            <li><Link href="/accessibility">Accessibility</Link></li>
           </ul>
           <div className="copyright"><strong>&copy; {currentYear} Mark Riggan.</strong> All rights reserved.</div>
         </div>

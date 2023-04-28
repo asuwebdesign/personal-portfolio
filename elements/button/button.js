@@ -20,8 +20,8 @@ const Button = props => {
     )
   } else {
     return (
-      <Link href={props.href}>
-        <a className="button">{props.label} <IconTailRight /></a>
+      <Link className="button" href={props.href}>
+        {props.label} <IconTailRight />
       </Link>
     )
   }

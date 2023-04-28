@@ -60,8 +60,7 @@ const ProjectCard = props => {
     initial="hidden"
     variants={motionCard}
     transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5, delay: 0.5 }}>
-      <Link href={props.project.href}>
-        <a className="work__project-link">
+      <Link className="work__project-link" href={props.project.href}>
           <div className="work__project-poster">
 
             <Image
@@ -77,7 +76,6 @@ const ProjectCard = props => {
           </div>
           <div className="work__project-client">{props.project.client}</div>
           <h1 className="work__project-title">{props.project.title}</h1>
-        </a>
       </Link>
     </motion.article>
   )

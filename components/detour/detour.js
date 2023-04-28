@@ -10,11 +10,9 @@ import Link from 'next/link'
 const Detour = props => {
   return (
     <aside className="detour">
-      <Link href={props.link}>
-        <a className="detour__link">
-          <h1 className="detour__meta">{props.meta}</h1>
-          <div className="detour__title">{props.title}</div>
-        </a>
+      <Link className="detour__link" href={props.link}>
+        <h1 className="detour__meta">{props.meta}</h1>
+        <div className="detour__title">{props.title}</div>
       </Link>
     </aside>
   )

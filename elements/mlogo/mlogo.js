@@ -24,7 +24,7 @@ const MLogo = props => {
       return (
         <h1 id="m-logo" className="m-logo">
           <Link href="/">
-            <a><LogoMarkRiggan /></a>
+            <LogoMarkRiggan />
           </Link>
         </h1>
       )
@@ -32,7 +32,7 @@ const MLogo = props => {
       return (
         <div id="m-logo" className="m-logo">
           <Link href="/">
-            <a><LogoMarkRiggan /></a>
+            <LogoMarkRiggan />
           </Link>
         </div>
       )

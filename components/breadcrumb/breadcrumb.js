@@ -34,37 +34,37 @@ const Breadcrumb = props => {
     } else if (pathname === "/projects/atlantic-bt") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Atlantic BT</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Atlantic BT</span>
         </Fragment>
       )
     } else if (pathname === "/projects/hwy55") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Hwy 55</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Hwy 55</span>
         </Fragment>
       )
     } else if (pathname === "/projects/university-wisconsin") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>University of Wisconsin</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>University of Wisconsin</span>
         </Fragment>
       )
     } else if (pathname === "/projects/nc-courts") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Judicial Branch of NC</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Judicial Branch of NC</span>
         </Fragment>
       )
     } else if (pathname === "/projects/nc-gov") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>State of North Carolina</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>State of North Carolina</span>
         </Fragment>
       )
     } else if (pathname === "/projects/redhat") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><a><span>Projects</span></a></Link></strong> <span>Red Hat</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Red Hat</span>
         </Fragment>
       )
     } else if (pathname === "/skills") {
@@ -72,25 +72,25 @@ const Breadcrumb = props => {
     } else if (pathname === "/skills/branding") {
       return (
         <Fragment>
-          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Branding Strategy &amp; Identity</span>
+          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Branding Strategy &amp; Identity</span>
         </Fragment>
       )
     } else if (pathname === "/skills/creative") {
       return (
         <Fragment>
-          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Creative &amp; Experience Design</span>
+          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Creative &amp; Experience Design</span>
         </Fragment>
       )
     } else if (pathname === "/skills/research") {
       return (
         <Fragment>
-          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Research, Data &amp; Analytics</span>
+          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Research, Data &amp; Analytics</span>
         </Fragment>
       )
     } else if (pathname === "/skills/digital") {
       return (
         <Fragment>
-          <strong><Link href="/skills"><a><span>Skills</span></a></Link></strong> <span>Websites &amp; Digital Platforms</span>
+          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Websites &amp; Digital Platforms</span>
         </Fragment>
       )
     } else if (pathname === "/about") {
@@ -98,13 +98,13 @@ const Breadcrumb = props => {
     } else if (pathname === "/about/manifesto") {
       return (
         <Fragment>
-          <strong><Link href="/about"><a><span>About</span></a></Link></strong> <span>Manifesto</span>
+          <strong><Link href="/about"><span>About</span></Link></strong> <span>Manifesto</span>
         </Fragment>
       )
     } else if (pathname === "/about/process") {
       return (
         <Fragment>
-          <strong><Link href="/about"><a><span>About</span></a></Link></strong> <span>Process</span>
+          <strong><Link href="/about"><span>About</span></Link></strong> <span>Process</span>
         </Fragment>
       )
     } else if (pathname === "/contact") {
