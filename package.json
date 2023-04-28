@@ -31,8 +31,7 @@
     "responsive-loader": "^2.3.0",
     "sass": "^1.34.0",
     "sharp": "^0.32.0",
-    "webp-loader": "^0.6.0",
-    "webpack": "^5.51.1"
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "8.36.0",
