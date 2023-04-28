@@ -1,21 +1,16 @@
+// ============================================================================
 // Import nodes
-import React, { Fragment, useState } from 'react'
+// ============================================================================
+import { Fragment, useState } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import Media from 'react-media'
 import { motion } from "framer-motion"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
-// Import layouts
-import Wrapper from '../../layouts/wrapper'
 
-// Import vectors
-import IconSolutionB from '../../public/vectors/solution-b.svg'
-import IconSolutionC from '../../public/vectors/solution-c.svg'
-import IconSolutionR from '../../public/vectors/solution-r.svg'
-import IconSolutionW from '../../public/vectors/solution-w.svg'
-
+// ============================================================================
 // Render component
+// ============================================================================
 const Cover = props => {
 
   // states

@@ -1,10 +1,15 @@
+// ============================================================================
 // Import nodes
-import React, { useState, Fragment } from "react"
+// ============================================================================
+import { useState, Fragment } from 'react'
 import Link from 'next/link'
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 
+
+// ============================================================================
 // Render component
+// ============================================================================
 const Breadcrumb = props => {
   const { pathname } = props.router
 

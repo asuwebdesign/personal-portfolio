@@ -1,11 +1,12 @@
-// Import nodes
-import React from "react"
-import Link from 'next/link'
-
+// ============================================================================
 // Import layouts
+// ============================================================================
 import Wrapper from '../../layouts/wrapper'
 
+
+// ============================================================================
 // Import vectors
+// ============================================================================
 import LogoBCBSNC from '../../public/logos/logo-bcbsnc.svg'
 import LogoCampbell from '../../public/logos/logo-campbell.svg'
 import LogoDisney from '../../public/logos/logo-disney.svg'
@@ -17,8 +18,11 @@ import LogoOracle from '../../public/logos/logo-oracle.svg'
 import LogoRedHat from '../../public/logos/logo-redhat.svg'
 import LogoLexisNexis from '../../public/logos/logo-lexisnexis.svg'
 
+
+// ============================================================================
 // Render component
-const Clients = props => {
+// ============================================================================
+const Clients = () => {
   return (
     <section className="clients">
       <Wrapper>

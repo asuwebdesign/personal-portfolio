@@ -1,11 +1,12 @@
+// ============================================================================
 // Import nodes
-import React from "react"
+// ============================================================================
 import Link from 'next/link'
 
-// Import vectors
-import IconTailRight from "../../public/vectors/icon-tail-right.svg"
 
+// ============================================================================
 // Render component
+// ============================================================================
 const Detour = props => {
   return (
     <aside className="detour">
