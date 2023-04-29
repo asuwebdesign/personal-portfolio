@@ -103,7 +103,7 @@ const ProjectDetail = props => (
         </Band>
         */}
         <Band div>
-          <Image src="/assets/projects/nccourts/moodboard-02.jpg" alt="" width={6796} height={1600} layout="responsive" />
+          <Image src="/assets/projects/nccourts/moodboard-02.jpg" alt="" width={6796} height={1600} />
         </Band>
         {/*
         <Band className="band--split" div>

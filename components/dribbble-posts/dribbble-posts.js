@@ -94,7 +94,7 @@ const DribbblePosts = () => {
                 <Image
                   src={post.images.hidpi}
                   alt={`screenshot of ${post.title}`}
-                  layout="fill"
+                  fill
                   placeholder="blur"
                   blurDataURL={post.images.teaser}
                 />

@@ -103,7 +103,7 @@ const ProjectDetail = props => (
           <Vimeo video="361573248" responsive="true" />
         </Band>
         <Band div>
-          <Image src="/assets/projects/atlanticbt/atlanticbt-home.png" alt="" width={1920} height={7861} layout="responsive" />
+          <Image src="/assets/projects/atlanticbt/atlanticbt-home.png" alt="" width={1920} height={7861} />
         </Band>
         {/*
         <Band className="band--split" div>

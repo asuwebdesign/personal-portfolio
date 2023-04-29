@@ -60,8 +60,8 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
-            <p>Don’t let outdated and ineffective websites or mobile apps keep your brand from reaching its goals. Development is an investment, not a cost. Strong returns are earned by putting your users first. Today’s discerning customers expect engaging, friction-less solutions that work across devices and platforms.</p>
-            <Image src="/images/pictures/picture-blog-branding.jpg" alt="" width={1920} height={1080} layout="responsive" />
+            <p>Don't let outdated and ineffective websites or mobile apps keep your brand from reaching its goals. Development is an investment, not a cost. Strong returns are earned by putting your users first. Today’s discerning customers expect engaging, friction-less solutions that work across devices and platforms.</p>
+            <Image src="/images/pictures/picture-blog-branding.jpg" alt="" width={1920} height={1080} />
           </div>
         </Band>
         <Band className="band--numbered">
@@ -71,7 +71,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Code is beautiful.</h2>
-            <p>With almost two decades of development experience, I’ve had the opportunity to create hundreds of websites, applications and digital experiences. Each custom solution is purposefully built to answer the unique challenges and business needs of our clients.</p>
+            <p>With almost two decades of development experience, I've had the opportunity to create hundreds of websites, applications and digital experiences. Each custom solution is purposefully built to answer the unique challenges and business needs of our clients.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Technical Discovery</li>
               <li className="meta-list__item">Technical Architecture</li>
@@ -98,7 +98,7 @@ const PageServices = props => (
         {/* Repeat band for book consult */}
       </article>
     </main>
-    <Detour meta="Up Next – About" title="Pixels, code & tons of video games." link="/about" />
+    <Detour meta="Up Next - About" title="Pixels, code & tons of video games." link="/about" />
   </Layout>
 )
 

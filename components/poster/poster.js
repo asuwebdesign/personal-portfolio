@@ -15,7 +15,7 @@ import Wrapper from '../../layouts/wrapper'
 // Render component
 // ============================================================================
 const Poster = props => {
-  const { src, foreground, alt, className } = props
+  const { src, foreground, foregroundWidth, foregroundHeight, alt, className } = props
 
   // declared animations
   const motionPoster = {
@@ -40,16 +40,19 @@ const Poster = props => {
       <Wrapper>
         <div className="poster__photo">
         {(foreground) && (
-          <img
+          <Image
             className="poster__foreground"
             src={foreground.src}
             alt={alt}
+            width={foregroundWidth}
+            height={foregroundHeight}
+            priority="true"
           />
         )}
           <Image
             src={src.src}
             alt={alt}
-            layout="fill"
+            fill
             priority="true"
           />
         </div>

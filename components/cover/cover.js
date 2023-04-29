@@ -60,7 +60,7 @@ const Cover = props => {
                   <Image
                     src={props.image.src}
                     alt={props.alt}
-                    layout="fill"
+                    fill
                     priority
                   />
                 </div>
@@ -86,7 +86,7 @@ const Cover = props => {
                   <Image
                     src={props.image.src}
                     alt={props.alt}
-                    layout="fill"
+                    fill
                     priority
                   />
                 </div>

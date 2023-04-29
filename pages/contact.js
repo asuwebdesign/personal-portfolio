@@ -8,7 +8,6 @@ import Head from 'next/head'
 // Import layouts
 // ============================================================================
 import Layout from '../layouts/layout'
-import Wrapper from '../layouts/wrapper'
 
 
 // ============================================================================

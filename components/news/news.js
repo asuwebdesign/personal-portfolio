@@ -32,18 +32,18 @@ const News = () => {
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/four-simple-words-thatll-drive-you-to-being-a-better-creative-person-82337b07ac57" target="_blank" rel="noreferrer">
               <div className="news__story-photo">
-                <Image src={Story01Photo} alt="" layout="fill" placeholder="blur" />
+                <Image src={Story01Photo} alt="" fill placeholder="blur" />
               </div>
               <div>
                 <div className="news__story-category">Inspiration</div>
-                <h1 className="news__story-title">Four simple words that’ll drive you to being a better creative person.</h1>
+                <h1 className="news__story-title">Four simple words that'll drive you to being a better creative person.</h1>
               </div>
             </a>
           </article>
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/reimagining-digital-strategy-and-how-we-document-data-architecture-9c40f94454d8" target="_blank" rel="noreferrer">
               <div className="news__story-photo">
-                <Image src={Story02Photo} alt="" layout="fill" placeholder="blur" />
+                <Image src={Story02Photo} alt="" fill placeholder="blur" />
               </div>
               <div>
                 <div className="news__story-category">Strategy</div>
@@ -54,11 +54,11 @@ const News = () => {
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/how-good-design-shows-your-brand-is-credible-22d497e5a7ac" target="_blank" rel="noreferrer">
               <div className="news__story-photo">
-                <Image src={Story03Photo} alt="" layout="fill" placeholder="blur" />
+                <Image src={Story03Photo} alt="" fill placeholder="blur" />
               </div>
               <div>
                 <div className="news__story-category">Branding</div>
-                <h1 className="news__story-title">How your brand’s credibility starts with great visual design</h1>
+                <h1 className="news__story-title">How your brand's credibility starts with great visual design</h1>
               </div>
             </a>
           </article>

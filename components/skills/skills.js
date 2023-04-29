@@ -28,43 +28,35 @@ const Skills = () => {
       <Wrapper>
         <div className="skills__list">
           <article className="skills__type">
-            <Link href="/skills/branding">
-              <a className="skills__type-link">
-                <div className="skills__type-icon">
-                  <IconSolutionB />
-                </div>
-                <h1 className="skills__type-title">Branding Strategy<br /> &amp; Identity</h1>
-              </a>
+            <Link className="skills__type-link" href="/skills/branding">
+              <div className="skills__type-icon">
+                <IconSolutionB />
+              </div>
+              <h1 className="skills__type-title">Branding Strategy<br /> &amp; Identity</h1>
             </Link>
           </article>
           <article className="skills__type">
-            <Link href="/skills/creative">
-              <a className="skills__type-link">
-                <div className="skills__type-icon">
-                  <IconSolutionC />
-                </div>
-                <h1 className="skills__type-title">Creative &amp;<br /> Experience Design</h1>
-              </a>
+            <Link className="skills__type-link" href="/skills/creative">
+              <div className="skills__type-icon">
+                <IconSolutionC />
+              </div>
+              <h1 className="skills__type-title">Creative &amp;<br /> Experience Design</h1>
             </Link>
           </article>
           <article className="skills__type">
-            <Link href="/skills/research">
-              <a className="skills__type-link">
-                <div className="skills__type-icon">
-                  <IconSolutionR />
-                </div>
-                <h1 className="skills__type-title">Research, Data<br /> &amp; Analytics</h1>
-              </a>
+            <Link className="skills__type-link" href="/skills/research">
+              <div className="skills__type-icon">
+                <IconSolutionR />
+              </div>
+              <h1 className="skills__type-title">Research, Data<br /> &amp; Analytics</h1>
             </Link>
           </article>
           <article className="skills__type">
-            <Link href="/skills/digital">
-              <a className="skills__type-link">
-                <div className="skills__type-icon">
-                  <IconSolutionW />
-                </div>
-                <h1 className="skills__type-title">Websites &amp;<br /> Digital Platforms</h1>
-              </a>
+            <Link className="skills__type-link" href="/skills/digital">
+              <div className="skills__type-icon">
+                <IconSolutionW />
+              </div>
+              <h1 className="skills__type-title">Websites &amp;<br /> Digital Platforms</h1>
             </Link>
           </article>
         </div>

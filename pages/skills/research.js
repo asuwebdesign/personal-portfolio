@@ -61,7 +61,7 @@ const PageServices = props => (
           <div className="band__content">
             <h2>Designing the future.</h2>
             <p>By creating data systems that help businesses understand and predict patterns of consumer behavior, I enable organizations to reach users more effectively with optimized experiences and targeted content across the digital ecosystem.</p>
-            <Image src="/images/pictures/picture-sticky-notes.jpg" alt="" width={1920} height={1080} layout="responsive" />
+            <Image src="/images/pictures/picture-sticky-notes.jpg" alt="" width={1920} height={1080} />
           </div>
         </Band>
         <Band className="band--numbered">
@@ -71,7 +71,7 @@ const PageServices = props => (
           </div>
           <div className="band__content">
             <h2>Experience what your customers experience.</h2>
-            <p>Making strategic, data-informed decisions helps improve the performance of sites, products, and marketing efforts. Through data collection and interpretation, I’ll show you how to better drive and convert visitors more efficiently with your marketing budget.</p>
+            <p>Making strategic, data-informed decisions helps improve the performance of sites, products, and marketing efforts. Through data collection and interpretation, I'll show you how to better drive and convert visitors more efficiently with your marketing budget.</p>
             <ul className="meta-list">
               <li className="meta-list__item">Contextual Research</li>
               <li className="meta-list__item">Usability Testing</li>

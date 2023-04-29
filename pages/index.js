@@ -8,7 +8,6 @@ import Head from 'next/head'
 // Import layouts
 // ============================================================================
 import Layout from '../layouts/layout'
-import Wrapper from '../layouts/wrapper'
 
 
 // ============================================================================
@@ -20,13 +19,6 @@ import Detour from '../components/detour'
 import News from '../components/news'
 import WorkLatest from '../components/work-latest'
 import Nutshell from '../components/nutshell'
-
-
-// ============================================================================
-// Import elements
-// ============================================================================
-import Button from '../elements/button'
-import MetaLabel from '../elements/meta-label'
 
 
 // ============================================================================
@@ -67,7 +59,7 @@ const PageHome = props => (
         <News />
       </article>
     </main>
-    <Detour meta="Up Next – Projects" title="Selected brands &amp; digital products." link="/projects" />
+    <Detour meta="Up Next - Projects" title="Selected brands &amp; digital products." link="/projects" />
   </Layout>
 )
 

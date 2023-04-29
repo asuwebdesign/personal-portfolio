@@ -100,10 +100,10 @@ const ProjectDetail = props => (
         </Band>
         */}
         <Band div>
-          <Image src="/assets/projects/hwy55/image_processing20200428-13266-irapda.png" width={1600} height={1200} layout="responsive" alt="" />
+          <Image src="/assets/projects/hwy55/image_processing20200428-13266-irapda.png" width={1600} height={1200} alt="" />
         </Band>
         <Band div>
-          <Image src="/assets/projects/hwy55/48d8e9810d556790acaaf06ed587b944.png" width={1600} height={1200} layout="responsive" alt="" />
+          <Image src="/assets/projects/hwy55/48d8e9810d556790acaaf06ed587b944.png" width={1600} height={1200} alt="" />
         </Band>
         {/*
         <Band className="band--split" div>

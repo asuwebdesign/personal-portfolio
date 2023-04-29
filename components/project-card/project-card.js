@@ -66,7 +66,7 @@ const ProjectCard = props => {
             <Image
               src={props.project.src}
               alt={props.project.alt}
-              layout="fill"
+              fill
             />
 
             <span className="work__project-poster-symbol" position="top-left">{renderSymbol(props.project.symbol.topLeft)}</span>
