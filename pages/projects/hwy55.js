@@ -28,7 +28,7 @@ import ProjectCover from '../../public/images/covers/cover-hwy55.jpg'
 // ============================================================================
 // Import logos
 // ============================================================================
-import ProjectLogo from '../../public/logos/logo-hwy55.svg'
+import ProjectLogo from '../../public/logos/logo--hwy55--color.svg'
 
 
 // ============================================================================

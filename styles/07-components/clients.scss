@@ -58,8 +58,9 @@
 
     svg {
       max-width: 100%;
-      width: 100%;
+      width: auto;
       max-height: 64px;
+      margin: 0 auto;
     }
 
     &:first-child,
@@ -85,15 +86,35 @@
   }
 
   [data-client="bcbsnc"] svg {
-    max-height: 48px;
+    max-height: 40px;
   }
 
   [data-client="campbell"] svg {
+    max-height: 40px;
+  }
+
+  [data-client="disney"] svg {
+    max-height: 56px;
+  }
+
+  [data-client="duke"] svg {
+    max-height: 56px;
+  }
+
+  [data-client="honda"] svg {
     max-height: 48px;
   }
 
+  [data-client="lexisnexis"] svg {
+    max-height: 40px;
+  }
+
   [data-client="lulu"] svg {
-    max-height: 48px;
+    max-height: 40px;
+  }
+
+  [data-client="ncsu"] svg {
+    max-height: 56px;
   }
 
   [data-client="oracle"] svg {
