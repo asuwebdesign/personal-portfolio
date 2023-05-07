@@ -122,25 +122,26 @@
     .wrapper {
       @include media('>=large') {
         display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        // grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 24px;
       }
     }
 
-    .wrapper > *:first-child {
-      @include media('>=large') {
-        grid-column: 1 / 7;
-      }
-    }
+    // .wrapper > *:first-child {
+    //   @include media('>=large') {
+    //     grid-column: 1 / 7;
+    //   }
+    // }
 
-    .wrapper > *:last-child {
-      margin-top: 32px;
+    // .wrapper > *:last-child {
+    //   margin-top: 32px;
 
-      @include media('>=large') {
-        grid-column: 7 / 13;
-        margin-top: 0;
-      }
-    }
+    //   @include media('>=large') {
+    //     grid-column: 7 / 13;
+    //     margin-top: 0;
+    //   }
+    // }
   }
 
   // Numbered band

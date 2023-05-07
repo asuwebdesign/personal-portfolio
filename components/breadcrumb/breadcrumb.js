@@ -43,10 +43,10 @@ const Breadcrumb = props => {
           <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Hwy 55</span>
         </Fragment>
       )
-    } else if (pathname === "/projects/university-wisconsin") {
+    } else if (pathname === "/projects/training-industry") {
       return (
         <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>University of Wisconsin</span>
+          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Training Industry</span>
         </Fragment>
       )
     } else if (pathname === "/projects/nc-courts") {

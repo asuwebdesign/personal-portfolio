@@ -1,3 +1,5 @@
-img {
-  border-radius: var(--border-radius);
+img { border-radius: var(--border-radius); }
+
+.image {
+  &--framed { border: 2px solid var(--color-carbon-100); }
 }

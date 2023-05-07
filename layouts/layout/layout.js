@@ -25,7 +25,6 @@ const Layout = props => {
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="google-site-verification" property="google-site-verification" content="T9bAkAJ3wneGw02nYwl8cK-db-qFdRRg1j0Wr75qGX8" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet" />
       </Head>
       <Header {...props} />
       {props.children}

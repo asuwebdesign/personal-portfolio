@@ -84,27 +84,128 @@ const ProjectDetail = props => (
             <h2>Designing the future.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/whiteboard.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/brand-diagram.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/culture-01.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/culture-02.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/culture-03.jpg" alt="" width={1920} height={1080} />
           </div>
         </Band>
-        {/*
+        
         <Band className="band--numbered">
           <div className="band__title-block">
-            <div className="band__number">02</div>
-            <h1 className="band__title">Research</h1>
+            <div className="band__number">03</div>
+            <h1 className="band__title">Logo</h1>
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/icon-circles.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/wordmark.jpg" alt="" width={1920} height={1080} />                        
           </div>
         </Band>
-        */}
-        <Band div>
-          <Vimeo video="361573248" responsive="true" />
+        <Band className="band--split" div>
+          <Image src="/images/projects/atlantic-bt/logo-color.jpg" alt="" width={1920} height={1080} />
+          <Image src="/images/projects/atlantic-bt/logo-white.jpg" alt="" width={1920} height={1080} />          
         </Band>
-        <Band div>
-          <Image src="/assets/projects/atlanticbt/atlanticbt-home.png" alt="" width={1920} height={7861} />
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">03</div>
+            <h1 className="band__title">Brand Book</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/brand-book-01.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/brand-book-02.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/brand-book-03.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/brand-book-04.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/brand-book-05.jpg" alt="" width={1920} height={1080} />
+          </div>
         </Band>
+        <Band className="band--split" div>
+          <Image className="image image--framed" src="/images/projects/atlantic-bt/brand-book-06.jpg" alt="" width={1920} height={1080} />
+          <Image className="image image--framed" src="/images/projects/atlantic-bt/brand-book-07.jpg" alt="" width={1920} height={1080} />
+          <Image className="image image--framed" src="/images/projects/atlantic-bt/brand-book-08.jpg" alt="" width={1920} height={1080} />
+          <Image className="image image--framed" src="/images/projects/atlantic-bt/brand-book-09.jpg" alt="" width={1920} height={1080} />          
+        </Band>
+        <Band className="band--split" div>
+                    
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">03</div>
+            <h1 className="band__title">Printed</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/business-card.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/event-badge.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/posters.jpg" alt="" width={1920} height={1080} />
+          </div>
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">03</div>
+            <h1 className="band__title">Ad campaigns</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/hashtag-ad-01.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/hashtag-ad-02.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/hashtag-ad.jpg" alt="" width={1920} height={1080} />
+          </div>
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">03</div>
+            <h1 className="band__title">Apparel</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/hat.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/hoodie.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/tshirt-ad.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/atlantic-bt/tshirt-white-logo.jpg" alt="" width={1920} height={1080} />
+          </div>
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">03</div>
+            <h1 className="band__title">Brand video</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Vimeo video="361573248" responsive="true" />
+          </div>
+        </Band>
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">03</div>
+            <h1 className="band__title">Website</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/atlantic-bt/homepage.png" alt="" width={1920} height={7861} />
+          </div>
+        </Band>
+
+        
+        
+        
+        
         {/*
         <Band className="band--split" div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />

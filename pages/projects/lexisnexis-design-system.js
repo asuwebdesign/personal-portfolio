@@ -38,7 +38,7 @@ const ProjectDetail = props => (
       <article>
         <Cover
           class="cover__title--atlanticbt"
-          client="Atlantic BT"
+          client="LexisNexis Design System"
           headline="Revitalizing a digital agency's brand with an upgraded digital experience."
           image={ProjectCover}
           alt={"Description of the cover"}

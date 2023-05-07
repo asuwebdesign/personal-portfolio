@@ -86,25 +86,71 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
-        {/*
+        
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
-            <h1 className="band__title">Solution</h1>
+            <h1 className="band__title">Logo</h1>
           </div>
           <div className="band__content">
             <h2>Designing the future.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/hwy-55/hwy55-01.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-02.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-03.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-04.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-05.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-06.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-07.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-08.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-09.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-10.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-11.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-12.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-13.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-14.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-15.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-16.png" width={1600} height={1200} alt="" />            
           </div>
         </Band>
-        */}
-        <Band div>
-          <Image src="/assets/projects/hwy55/image_processing20200428-13266-irapda.png" width={1600} height={1200} alt="" />
+
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">02</div>
+            <h1 className="band__title">Color</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            
+            <Image src="/images/projects/hwy-55/hwy55-17.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-18.png" width={1600} height={1200} alt="" />
+            
+          </div>
         </Band>
-        <Band div>
-          <Image src="/assets/projects/hwy55/48d8e9810d556790acaaf06ed587b944.png" width={1600} height={1200} alt="" />
+
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">02</div>
+            <h1 className="band__title">Fonts</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            
+            <Image src="/images/projects/hwy-55/hwy55-19.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55-20.png" width={1600} height={1200} alt="" />
+            
+          </div>
         </Band>
+       
+        <Band div>
+        <Image src="/images/projects/hwy-55/hwy55-21.png" width={1600} height={1200} alt="" />
+        </Band>
+        
         {/*
         <Band className="band--split" div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" width={1920} height={1080} layout="responsive" alt="" />

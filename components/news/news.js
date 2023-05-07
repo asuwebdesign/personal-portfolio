@@ -27,7 +27,7 @@ const News = () => {
     <section className="news">
       <Wrapper>
         <div className="news__meta">News + Views</div>
-        <h1 className="news__title">Explore recent happenings, press, and perspectives.</h1>
+        <h1 className="news__title">Stories, insights, and inspiration to elevate your mind and soul.</h1>
         <div className="news__list">
           <article className="news__story">
             <a className="news__story-link" href="https://medium.com/swlh/four-simple-words-thatll-drive-you-to-being-a-better-creative-person-82337b07ac57" target="_blank" rel="noreferrer">

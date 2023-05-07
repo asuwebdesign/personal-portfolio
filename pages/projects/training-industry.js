@@ -22,8 +22,8 @@ import Detour from '../../components/detour'
 // ============================================================================
 // Import images
 // ============================================================================
-import ProjectCover from '../../public/images/covers/cover-wisconsin.jpg'
-import ProjectLogo from '../../public/logos/logo-uwpharmacy.svg'
+import ProjectCover from '../../public/images/covers/cover-training-industry.jpg'
+import ProjectLogo from '../../public/logos/logo-atlanticbt.svg'
 
 
 // ============================================================================
@@ -32,15 +32,16 @@ import ProjectLogo from '../../public/logos/logo-uwpharmacy.svg'
 const ProjectDetail = props => (
   <Layout {...props}>
     <Head>
-      <title>University of Wisconsin - School of Pharmacy | Projects | Mark Riggan</title>
+      <title>LexisNexis | Projects | Mark Riggan</title>
     </Head>
     <main>
       <article>
         <Cover
-          class="cover__title--uwpharmacy"
-          client="University of Wisconsin"
-          headline="Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin."
+          class="cover__title--atlanticbt"
+          client="Training Industry"
+          headline="Revitalizing a digital agency's brand with an upgraded digital experience."
           image={ProjectCover}
+          alt={"Description of the cover"}
         />
         <Band className="band--client" div>
           <div className="band__title-block">
@@ -48,12 +49,13 @@ const ProjectDetail = props => (
           </div>
           <div className="band__content">
             <div className="band__about">
-              <h2>About University of Wisconsin</h2>
-              <p>The University of Wisconsin–Madison is a public land-grant research university in Madison, Wisconsin.</p>
+              <h2>About Atlantic BT</h2>
+              <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
             </div>
             <div className="band__skills">
               <h2>Skills provided</h2>
               <ul className="tags">
+                <li className="tag">Branding Strategy &amp; Identity</li>
                 <li className="tag">Creative &amp; Experience Design</li>
                 <li className="tag">Research, Data &amp; Analytics</li>
                 <li className="tag">Websites &amp; Digital Platforms</li>
@@ -67,13 +69,11 @@ const ProjectDetail = props => (
             <h1 className="band__title">Challenge</h1>
           </div>
           <div className="band__content">
-            <h2>Boosting student enrollment.</h2>
-            <p>Like most higher education projects, this goal of this redesign was to boost enrollment with a new digital presence. A new website design would need to be effective at engaging prospective students, thematically consistent with the existing university web and brand standards, 508 compliant, and using the existing CMS platform.</p>
-            <p>Additionally, there needed to be a scalable content strategy that catered to personas and enabled the staff to continue creating pages.</p>
-            <p>We achieved these goals with a persona-specific content strategy, an engaging and 508 compliant design, and a new system for making web updates. The new website included enhanced features and a scalable content system that supported growth.</p>
+            <h2>No, we don't sell phones.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
-        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -85,7 +85,44 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
-        */}
+        <Band className="band--numbered">
+          <div className="band__title-block">
+            <div className="band__number">02</div>
+            <h1 className="band__title">UI Kit</h1>
+          </div>
+          <div className="band__content">
+            <h2>Designing the future.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/training-industry/ti-ui-kit-advertisements.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-animations.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-avatars.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-back-to-top.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-buttons.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-card-layout.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-colors.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-cover.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-forms.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-grid-layout.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-grids.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-heading-sizes.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-icons.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-images.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-line-heights.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-logos.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-overlays.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-thumbnails.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-titles.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-top-training.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-topics.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-typography.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-videos.jpg" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti-ui-kit-webinars.jpg" alt="" width={1920} height={1080} />
+          </div>
+        </Band>
+
+        
+
         {/*
         <Band className="band--numbered">
           <div className="band__title-block">
@@ -99,11 +136,9 @@ const ProjectDetail = props => (
           </div>
         </Band>
         */}
-        <Band div>
-          <Image src="/assets/projects/wisconsin/university-wisconsin-pharmacy-home.png" alt="" width={1920} height={7887} />
-        </Band>
+        
         {/*
-          <Band className="band--split" div>
+        <Band className="band--split" div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
         </Band>
@@ -122,7 +157,7 @@ const ProjectDetail = props => (
         */}
       </article>
     </main>
-    <Detour meta="Next Case Study" title="Judicial Branch of NC" link="/projects/nc-courts" />
+    <Detour meta="Next Case Study" title="Hwy 55" link="/projects/hwy55" />
   </Layout>
 )
 

@@ -4,7 +4,11 @@ const nextConfig = {
   },
   images: {
     minimumCacheTTL: 60,
-    domains: ['cdn.dribbble.com', 'raw.githubusercontent.com']
+    domains: [
+      'cdn.dribbble.com',
+      'raw.githubusercontent.com',
+      'images.unsplash.com'
+    ]
   },
   webpack: (config, options) => {
     config.module.rules.push({
