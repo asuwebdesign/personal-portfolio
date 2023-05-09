@@ -22,7 +22,7 @@ import Detour from '../../components/detour'
 // ============================================================================
 // Import images
 // ============================================================================
-import ProjectCover from '../../public/images/covers/cover-atlanticbt.png'
+import ProjectCover from '../../public/images/covers/cover--lexis-plus.png'
 import ProjectLogo from '../../public/logos/logo-atlanticbt.svg'
 
 
@@ -39,7 +39,7 @@ const ProjectDetail = props => (
         <Cover
           class="cover__title--atlanticbt"
           client="Lexis Plus"
-          headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+          headline="Establishing a premium experience with a new era in AI legal research tools."
           image={ProjectCover}
           alt={"Description of the cover"}
         />

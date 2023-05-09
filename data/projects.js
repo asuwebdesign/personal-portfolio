@@ -2,7 +2,7 @@ export const projects = [
   {
     href: "/projects/open-telco",
     className: "work__project--wisconsin",
-    src: "https://images.unsplash.com/photo-1682100615261-27e4c446a2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3928&q=80",
+    src: "/images/cards/card--open-telco.png",
     alt: "",
     symbol: {
       topLeft: "",
@@ -16,7 +16,7 @@ export const projects = [
   {
     href: "/projects/patternfly",
     className: "work__project--wisconsin",
-    src: "https://images.unsplash.com/photo-1507608443039-bfde4fbcd142?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80",
+    src: "/images/cards/card--patternfly.png",
     alt: "",
     symbol: {
       topLeft: "",
@@ -30,7 +30,7 @@ export const projects = [
   {
     href: "/projects/lexis-plus",
     className: "work__project--wisconsin",
-    src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3571&q=80",
+    src: "/images/cards/card--lexis-plus.png",
     alt: "",
     symbol: {
       topLeft: "",
@@ -39,7 +39,7 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "LexisNexis",
-    title: "Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin",
+    title: "Establishing a premium experience with a new era in AI legal research tools",
   },
   {
     href: "/projects/lexisnexis-design-system",
@@ -115,7 +115,7 @@ export const projects = [
   {
     href: "/projects/training-industry",
     className: "work__project--ncgov",
-    src: "/images/cards/card-nc-gov.jpg",
+    src: "/images/covers/cover-training-industry.jpg",
     alt: "",
     symbol: {
       topLeft: "",
@@ -125,33 +125,5 @@ export const projects = [
     },
     client: "Training Industry",
     title: "Crafting a more unified digital platform for government agencies in North Carolina",
-  },
-  {
-    href: "/projects/redhat",
-    className: "work__project--redhat",
-    src: "/images/cards/card-redhat.jpg",
-    alt: "",
-    symbol: {
-      topLeft: "",
-      topRight: "circle",
-      bottomLeft: "half-circle",
-      bottomRight: "half-circle-bottom",
-    },
-    client: "Experience Layer",
-    title: "Engaging Red Hat employees of career development through exploration and delight",
-  },
-  {
-    href: "/projects/learning-subscription",
-    className: "work__project--redhat",
-    src: "/images/cards/card-redhat.jpg",
-    alt: "",
-    symbol: {
-      topLeft: "",
-      topRight: "circle",
-      bottomLeft: "half-circle",
-      bottomRight: "half-circle-bottom",
-    },
-    client: "Learning Subscription",
-    title: "Engaging Red Hat employees of career development through exploration and delight",
   },
 ]
