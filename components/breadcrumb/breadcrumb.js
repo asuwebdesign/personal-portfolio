@@ -1,7 +1,7 @@
 // ============================================================================
 // Import nodes
 // ============================================================================
-import { useState, Fragment } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
@@ -28,119 +28,39 @@ const Breadcrumb = props => {
     }
   }
 
-  const renderBreadcrumbTrail = () => {
-    if (pathname === "/projects") {
-      return "Projects"
-    } else if (pathname === "/projects/atlantic-bt") {
-      return (
-        <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Atlantic BT</span>
-        </Fragment>
-      )
-    } else if (pathname === "/projects/hwy55") {
-      return (
-        <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Hwy 55</span>
-        </Fragment>
-      )
-    } else if (pathname === "/projects/training-industry") {
-      return (
-        <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Training Industry</span>
-        </Fragment>
-      )
-    } else if (pathname === "/projects/nc-courts") {
-      return (
-        <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Judicial Branch of NC</span>
-        </Fragment>
-      )
-    } else if (pathname === "/projects/nc-gov") {
-      return (
-        <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>State of North Carolina</span>
-        </Fragment>
-      )
-    } else if (pathname === "/projects/redhat") {
-      return (
-        <Fragment>
-          <strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Red Hat</span>
-        </Fragment>
-      )
-    } else if (pathname === "/skills") {
-      return "Skills"
-    } else if (pathname === "/skills/branding") {
-      return (
-        <Fragment>
-          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Branding Strategy &amp; Identity</span>
-        </Fragment>
-      )
-    } else if (pathname === "/skills/creative") {
-      return (
-        <Fragment>
-          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Creative &amp; Experience Design</span>
-        </Fragment>
-      )
-    } else if (pathname === "/skills/research") {
-      return (
-        <Fragment>
-          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Research, Data &amp; Analytics</span>
-        </Fragment>
-      )
-    } else if (pathname === "/skills/digital") {
-      return (
-        <Fragment>
-          <strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Websites &amp; Digital Platforms</span>
-        </Fragment>
-      )
-    } else if (pathname === "/about") {
-      return "About"
-    } else if (pathname === "/about/manifesto") {
-      return (
-        <Fragment>
-          <strong><Link href="/about"><span>About</span></Link></strong> <span>Manifesto</span>
-        </Fragment>
-      )
-    } else if (pathname === "/about/process") {
-      return (
-        <Fragment>
-          <strong><Link href="/about"><span>About</span></Link></strong> <span>Process</span>
-        </Fragment>
-      )
-    } else if (pathname === "/contact") {
-      return "Contact"
-    } else if (pathname === "/terms") {
-      return "Terms & Conditions"
-    } else if (pathname === "/privacy") {
-      return "Privacy Policy"
-    } else if (pathname === "/accessibility") {
-      return "Accessibility"
-    } else {
-      return (
-        <Fragment>
-          <strong>Mark Riggan</strong> <span>Designer &amp; Developer</span>
-        </Fragment>
-      )
-    }
-  }
-
   useScrollPosition(( { prevPos, currPos } ) => {
     (currPos.y <= -64) ? setHideBreadcrumb('breadcrumb--hide') : setHideBreadcrumb(false)
   }, [hideBreadcrumb])
 
   return (
-    <div
-      className={
-        `breadcrumb ${hideBreadcrumb}`
-      }
-    >
-      <motion.div
-        animate="visible"
-        initial="hidden"
-        variants={motionLabel}
-        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.2, delay: 0.1 }}
-      >
-        {renderBreadcrumbTrail()}
+    <div className={`breadcrumb ${hideBreadcrumb}`}>
+      <motion.div variants={motionLabel} initial="hidden" animate="visible" transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.2, delay: 0.1 }}>
+        
+        {pathname === '/' && <><strong>Mark Riggan</strong> <span>Designer &amp; Developer</span></>}
+        
+        {pathname === '/projects' && <>Projects</>}
+        {pathname === '/projects/open-telco' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Open Telco</span></>}
+        {pathname === '/projects/patternfly' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>PatternFly</span></>}
+        {pathname === '/projects/lexis-plus' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Lexis Plus</span></>}
+        {pathname === '/projects/lexisnexis-design-system' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>LexisNexis Design System</span></>}
+        {pathname === '/projects/klearly' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Klearly</span></>}
+        {pathname === '/projects/colorshark' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>ColorShark</span></>}
+        {pathname === '/projects/atlantic-bt' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Atlantic BT</span></>}
+        {pathname === '/projects/hwy55' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Hwy 55</span></>}
+        {pathname === '/projects/training-industry' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Training Industry</span></>}
+
+        {pathname === '/skills' && <>Skills</>}
+        {pathname === '/skills/branding' && <><strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Branding Strategy &amp; Identity</span></>}
+        {pathname === '/skills/creative' && <><strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Creative &amp; Experience Design</span></>}
+        {pathname === '/skills/research' && <><strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Research, Data &amp; Analytics</span></>}
+        {pathname === '/skills/digital' && <><strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Websites &amp; Digital Platforms</span></>}
+
+        {pathname === '/about' && <>About</>}
+        {pathname === '/about/manifesto' && <><strong><Link href="/about"><span>About</span></Link></strong> <span>Personal Manifesto</span></>}
+        {pathname === '/about/process' && <><strong><Link href="/about"><span>About</span></Link></strong> <span>Creative Process</span></>}
+
+        {pathname === '/contact' && <>Contact</>}
+      
       </motion.div>
     </div>
   )

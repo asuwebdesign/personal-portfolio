@@ -1,4 +1,3 @@
-import { Fragment } from 'react'
 import App from 'next/app'
 import NextNprogress from 'nextjs-progressbar'
 
@@ -21,10 +20,10 @@ class MyApp extends App {
   render() {
     const { Component, pageProps, router } = this.props
     return (
-      <Fragment>
+      <>
         <Component {...pageProps} router={router} />
         <NextNprogress color={`#ff007e`} startPosition={0.1} stopDelayMs={200} height={2} />
-      </Fragment>
+      </>
     )
   }
 }

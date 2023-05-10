@@ -23,7 +23,7 @@ import Detour from '../../components/detour'
 // Import images
 // ============================================================================
 import ProjectCover from '../../public/images/covers/cover-atlanticbt.png'
-import ProjectLogo from '../../public/logos/logo-atlanticbt.svg'
+import ProjectLogo from '../../public/logos/logo--colorshark--color.png'
 
 
 // ============================================================================
@@ -45,7 +45,7 @@ const ProjectDetail = props => (
         />
         <Band className="band--client" div>
           <div className="band__title-block">
-            <ProjectLogo />
+            <Image src={ProjectLogo} alt="" />
           </div>
           <div className="band__content">
             <div className="band__about">

@@ -23,7 +23,7 @@ import Detour from '../../components/detour'
 // Import images
 // ============================================================================
 import ProjectCover from '../../public/images/covers/cover-atlanticbt.png'
-import ProjectLogo from '../../public/logos/logo-atlanticbt.svg'
+import ProjectLogo from '../../public/logos/logo--lexisnexis--color.svg'
 
 
 // ============================================================================
