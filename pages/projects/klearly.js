@@ -22,7 +22,7 @@ import Detour from '../../components/detour'
 // ============================================================================
 // Import images
 // ============================================================================
-import ProjectCover from '../../public/images/covers/cover-atlanticbt.png'
+import ProjectCover from '../../public/images/covers/cover--klearly.png'
 import ProjectLogo from '../../public/logos/logo--klearly--color.svg'
 
 

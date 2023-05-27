@@ -1,7 +1,7 @@
 export const projects = [
   {
     href: "/projects/open-telco",
-    className: "work__project--wisconsin",
+    className: "work__project--open-telco",
     src: "/images/cards/card--open-telco.png",
     alt: "",
     symbol: {
@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     href: "/projects/patternfly",
-    className: "work__project--wisconsin",
+    className: "work__project--patternfly",
     src: "/images/cards/card--patternfly.png",
     alt: "",
     symbol: {
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     href: "/projects/lexis-plus",
-    className: "work__project--wisconsin",
+    className: "work__project--lexisnexis",
     src: "/images/cards/card--lexis-plus.png",
     alt: "",
     symbol: {
@@ -43,8 +43,8 @@ export const projects = [
   },
   {
     href: "/projects/lexisnexis-design-system",
-    className: "work__project--wisconsin",
-    src: "https://images.unsplash.com/photo-1561070791-36c11767b26a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80",
+    className: "work__project--lexisnexis",
+    src: "/images/cards/card--lexisnexis-design-system.png",
     alt: "",
     symbol: {
       topLeft: "",
@@ -57,8 +57,8 @@ export const projects = [
   },
   {
     href: "/projects/klearly",
-    className: "work__project--wisconsin",
-    src: "https://images.unsplash.com/photo-1626908013351-800ddd734b8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1586&q=80",
+    className: "work__project--klearly",
+    src: "/images/cards/card--klearly.png",
     alt: "",
     symbol: {
       topLeft: "",
@@ -71,8 +71,8 @@ export const projects = [
   },
   {
     href: "/projects/colorshark",
-    className: "work__project--nccourts",
-    src: "https://images.unsplash.com/photo-1593544737805-4ec50543564b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3174&q=80",
+    className: "work__project--colorshark",
+    src: "/images/cards/card--colorshark.png",
     alt: "",
     symbol: {
       topLeft: "",
@@ -114,8 +114,8 @@ export const projects = [
   },
   {
     href: "/projects/training-industry",
-    className: "work__project--ncgov",
-    src: "/images/covers/cover-training-industry.jpg",
+    className: "work__project--training-industry",
+    src: "/images/cards/card--training-industry.png",
     alt: "",
     symbol: {
       topLeft: "",

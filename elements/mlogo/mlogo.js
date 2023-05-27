@@ -7,7 +7,7 @@ import Link from 'next/link'
 // ============================================================================
 // Import vectors
 // ============================================================================
-import LogoMarkRiggan from '../../public/logos/logo-mark-riggan.svg'
+import LogoMarkRiggan from '../../public/logos/logo--mark-riggan.svg'
 
 
 // When document scrolls, if $element1.scrollTop == $element2.scrollTop

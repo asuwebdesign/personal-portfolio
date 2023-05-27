@@ -4,12 +4,12 @@
 
   a { display: block; }
 
-  path {
-    fill: var(--color-carbon-900);
-    fill: var(--color-crystal-white);
-  }
+  // path {
+  //   fill: var(--color-carbon-900);
+  //   fill: var(--color-crystal-white);
+  // }
 
-  &--inverted {
-    path { fill: var(--color-crystal-white); }
-  }
+  // &--inverted {
+  //   path { fill: var(--color-crystal-white); }
+  // }
 }

@@ -85,7 +85,6 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
-        {/*
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -95,12 +94,27 @@ const ProjectDetail = props => (
             <h2>Designing the future.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+            <Image src="/images/projects/colorshark/colorshark--default--about.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--01.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--02.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--03.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--04.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--05.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--06.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--07.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--08.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default--color-blindness--09.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--default.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--fail.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--level--aa-large.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--level--aa.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--level--aaa.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--level--fail.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--pass--background.png" alt="" width={5120} height={2722} />
+            <Image src="/images/projects/colorshark/colorshark--pass--foreground.png" alt="" width={5120} height={2722} />
           </div>
         </Band>
-        */}
-        <Band div>
-          <Image src="/assets/projects/atlanticbt/atlanticbt-home.png" alt="" width={1920} height={7861} />
-        </Band>
+
         {/*
         <Band className="band--split" div>
           <Image src="https://raw.githubusercontent.com/PaperTiger/figma-dark-ui/master/preview.jpg" alt="" width={1920} height={1080} layout="responsive" />
