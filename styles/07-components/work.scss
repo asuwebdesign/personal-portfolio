@@ -194,42 +194,52 @@
   }
 
   // Custom Brands
-  &__project--hwy55 {
+  &__project--open-telco {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-hwy55.svg') no-repeat 50% 50% / auto 32px;
+      background: url('/iconmarks/iconmark--redhat.svg') no-repeat 50% 50% / auto 32px;
     }
   }
-
-  &__project--wisconsin {
+  
+  &__project--lexisnexis {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-wisconsin.svg') no-repeat 50% 50% / auto 40px;
+      background: url('/iconmarks/iconmark--lexisnexis.svg') no-repeat 50% 50% / auto 32px;
+    }
+  }
+  
+  &__project--hwy55 {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark--hwy55.svg') no-repeat 50% 50% / auto 32px;
     }
   }
 
   &__project--atlanticbt {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-atlanticbt.svg') no-repeat 50% 50% / 64px auto;
+      background: url('/iconmarks/iconmark--atlanticbt.svg') no-repeat 50% 50% / 64px auto;
     }
   }
 
   &__project--redhat {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-redhat.svg') no-repeat 50% 50% / auto 32px;
+      background: url('/iconmarks/iconmark--redhat.svg') no-repeat 50% 50% / auto 32px;
     }
   }
 
-  &__project--ncgov {
+  &__project--training-industry {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-ncgov.svg') no-repeat 50% 50% / auto 40px;
+      background: url('/iconmarks/iconmark--training-industry.svg') no-repeat 50% 50% / auto 32px;
     }
   }
 
-  &__project--nccourts {
+  &__project--klearly {
     .work__project-poster-symbol[position='top-left'] {
-      background: url('/iconmarks/iconmark-nccourts.svg') no-repeat 50% 50% / auto 40px;
+      background: url('/iconmarks/iconmark--klearly.svg') no-repeat 50% 50% / auto 32px;
     }
-    .work__project-poster-symbol[position='top-right'] svg path,
-    .work__project-poster-symbol[position='bottom-left'] svg path { fill: #ae936c; }
+  }
+
+  &__project--colorshark {
+    .work__project-poster-symbol[position='top-left'] {
+      background: url('/iconmarks/iconmark--colorshark.png') no-repeat 50% 50% / auto 32px;
+    }
   }
 
   &--latest {

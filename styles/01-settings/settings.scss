@@ -1,41 +1,41 @@
 // =============================================================================
 // Custom Fonts
 // =============================================================================
-@font-face {
-  font-family: 'gilroy-extrabold';
-  src: url('/fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-  url('/fonts/gilroy-extrabold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'gilroy-extrabold';
+//   src: url('/fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+//   url('/fonts/gilroy-extrabold-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'gilroy-light';
-  src: url('/fonts/gilroy-light-webfont.woff2') format('woff2'),
-  url('/fonts/gilroy-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'gilroy-light';
+//   src: url('/fonts/gilroy-light-webfont.woff2') format('woff2'),
+//   url('/fonts/gilroy-light-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'gilroy-regular';
-  src: url('/fonts/gilroy-regular-webfont.woff2') format('woff2'),
-  url('/fonts/gilroy-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'gilroy-regular';
+//   src: url('/fonts/gilroy-regular-webfont.woff2') format('woff2'),
+//   url('/fonts/gilroy-regular-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'gilroy-semibold';
-  src: url('/fonts/gilroy-semibold-webfont.woff2') format('woff2'),
-  url('/fonts/gilroy-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'gilroy-semibold';
+//   src: url('/fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+//   url('/fonts/gilroy-semibold-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
 
 // =============================================================================
@@ -73,6 +73,7 @@ $breakpoints: (
 :root {
   // Font tokens
   --font-stack-extrabold: 'gilroy-extrabold', Helvetica, Arial, sans-serif;
+  --font-stack-bold: 'gilroy-bold', Helvetica, Arial, sans-serif;
   --font-stack-semibold: 'gilroy-semibold', Helvetica, Arial, sans-serif;
   --font-stack-regular: 'gilroy-regular', Helvetica, Arial, sans-serif;
   --font-stack-light: 'gilroy-light', Helvetica, Arial, sans-serif;
