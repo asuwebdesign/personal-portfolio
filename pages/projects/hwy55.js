@@ -46,6 +46,7 @@ const ProjectDetail = props => (
           client="Hwy 55"
           headline="Honoring the vintage past of Hwy 55 to build and evolve a more modern brand."
           image={ProjectCover}
+          alt="Photo of Hwy 55 restaurant"
         />
         <Band className="band--client" div>
           <div className="band__title-block">

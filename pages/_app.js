@@ -1,5 +1,36 @@
 import App from 'next/app'
 import NextNprogress from 'nextjs-progressbar'
+import localFont from 'next/font/local'
+
+const gilroy = localFont({
+  src: [
+    {
+      path: '../public/fonts/gilroy-light-webfont.woff2',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/gilroy-regular-webfont.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/gilroy-semibold-webfont.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/gilroy-bold-webfont.woff',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/gilroy-extrabold-webfont.woff2',
+      weight: '700',
+      style: 'normal',
+    }
+  ]
+})
 
 // Import styles
 import '../styles/main.scss'

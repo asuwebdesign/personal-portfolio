@@ -13,6 +13,8 @@ import IconMenu from "../../../graphics/icon-menu.svg"
 const Menu = () => {
   const [menuActive, setMenuState] = useState(false)
 
+  // If mobile, menu opens from right
+  // If desktop, menu opens from left
   const motionPanel = {
     open: { opacity: 1, x: 0, },
     closed: { opacity: 0, x: "-100%", }

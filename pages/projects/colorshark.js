@@ -40,7 +40,7 @@ const ProjectDetail = props => (
           class="cover__title--atlanticbt"
           client="ColorShark"
           headline="Revitalizing a digital agency's brand with an upgraded digital experience."
-          image={ProjectCover}
+          // image={ProjectCover}
           alt={"Description of the cover"}
         />
         <Band className="band--client" div>

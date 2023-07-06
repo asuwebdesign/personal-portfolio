@@ -57,12 +57,9 @@ const Cover = props => {
             {matches.mobile && (
               <Fragment>
                 <div className="cover__photo">
-                  <Image
-                    src={props.image.src}
-                    alt={props.alt}
-                    fill
-                    priority
-                  />
+                  {props.image && props.alt && (
+                    <Image src={props.image.src} alt={props.alt} fill priority />
+                  )}
                 </div>
                 <div className="wrapper">
                   <h1 className={`cover__title ${props.class}`} data-client={props.client}>
@@ -83,12 +80,9 @@ const Cover = props => {
             {matches.desktop && (
               <Fragment>
                 <div className="cover__photo">
-                  <Image
-                    src={props.image.src}
-                    alt={props.alt}
-                    fill
-                    priority
-                  />
+                  {props.image && props.alt && (
+                    <Image src={props.image.src} alt={props.alt} fill priority />
+                  )}
                 </div>
                 <div className="wrapper">
                   <motion.h1
