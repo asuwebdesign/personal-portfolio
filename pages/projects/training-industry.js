@@ -85,45 +85,7 @@ const ProjectDetail = props => (
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
           </div>
         </Band>
-        <Band className="band--numbered">
-          <div className="band__title-block">
-            <div className="band__number">02</div>
-            <h1 className="band__title">Wireframes</h1>
-          </div>
-          <div className="band__content">
-            <h2>Designing the future.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-            <Image src="/images/projects/training-industry/ti--wire--articles.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--blog-post.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--blog.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--glossary-term.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--glossary.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--home.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--magazine-article.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--magazine-column.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--magazine-feature.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--magazine-feature2.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--magazine.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--menu.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--news-article.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--press-release.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--press-releases.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--research-article.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--research.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--search-results.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--search.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--subscribe.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--top-training-list.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--top-training.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--topic-landing.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--topic-landing2.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--webinar.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--webinars.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--wiki-entry.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--wire--wiki.png" alt="" width={1920} height={1080} />
-          </div>
-        </Band>
+        
         <Band className="band--numbered">
           <div className="band__title-block">
             <div className="band__number">02</div>
@@ -141,27 +103,14 @@ const ProjectDetail = props => (
             <Image src="/images/projects/training-industry/ti--comp--homepage.png" alt="" width={1920} height={1080} />
             
             <Image src="/images/projects/training-industry/ti--comp--magazine-article.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--magazine-column.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--magazine-feature.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--magazine-feature2.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--magazine.png" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti--comp--magazine-article02.png" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti--comp--magazine-feature01.png" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti--comp--magazine-feature02.png" alt="" width={1920} height={1080} />
             <Image src="/images/projects/training-industry/ti--comp--menu.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--news-article.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--press-release.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--press-releases.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--research-article.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--research.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--search-results.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--search.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--subscribe.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--top-training-list.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--top-training.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--topic-landing.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--topic-landing2.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--webinar.png" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti--comp--top20.png" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti--comp--topic.png" alt="" width={1920} height={1080} />
+            <Image src="/images/projects/training-industry/ti--comp--topic02.png" alt="" width={1920} height={1080} />
             <Image src="/images/projects/training-industry/ti--comp--webinars.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--wiki-entry.png" alt="" width={1920} height={1080} />
-            <Image src="/images/projects/training-industry/ti--comp--wiki.png" alt="" width={1920} height={1080} />
           </div>
         </Band>
         <Band className="band--numbered">
