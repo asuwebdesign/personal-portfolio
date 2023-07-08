@@ -37,7 +37,7 @@ const ProjectDetail = props => (
     <main>
       <article>
         <Cover
-          class="cover__title--atlanticbt"
+          class="cover__title--patternfly"
           client="PatternFly 5"
           headline="Revitalizing a digital agency's brand with an upgraded digital experience."
           image=""

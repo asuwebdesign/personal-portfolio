@@ -68,12 +68,18 @@
 
   // Start: Unique title bar branding
   // ---------------------------------------------------------------------------
-  &__title--atlanticbt { border-left-color: #ff007e; }
-  &__title--hwy55 { border-left-color: #aF1e23; }
+  &__title--atlanticbt { border-left-color: var(--color-atlanticbt); }
+  &__title--hwy55 { border-left-color: var(--color-hwy55); }
   &__title--nccourts { border-left-color: #ae936c; }
   &__title--ncgov { border-left-color: #a83338; }
   &__title--redhat { border-left-color: #ee0000; }
   &__title--uwpharmacy { border-left-color: #c5050c; }
+  &__title--open-telco { border-left-color: var(--color-open-telco); }
+  &__title--patternfly { border-left-color: var(--color-patternfly); }
+  &__title--lexisnexis { border-left-color: var(--color-lexisnexis); }
+  &__title--klearly { border-left-color: var(--color-klearly); }
+  &__title--colorshark { border-left-color: var(--color-colorshark); }
+  &__title--trainingindustry { border-left-color: var(--color-trainingindustry); }
   // ---------------------------------------------------------------------------
   // End: Unique title bar branding
 

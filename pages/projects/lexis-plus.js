@@ -37,7 +37,7 @@ const ProjectDetail = props => (
     <main>
       <article>
         <Cover
-          class="cover__title--atlanticbt"
+          class="cover__title--lexisnexis"
           client="Lexis Plus"
           headline="Establishing a premium experience with a new era in AI legal research tools."
           image={ProjectCover}
