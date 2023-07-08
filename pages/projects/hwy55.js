@@ -172,7 +172,7 @@ const ProjectDetail = props => (
         */}
       </article>
     </main>
-    <Detour meta="Next Case Study" title="University of Wisconsin" link="/projects/university-wisconsin" />
+    <Detour meta="Next Case Study" title="Training Industry" link="/projects/training-industry" />
   </Layout>
 )
 

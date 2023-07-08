@@ -121,7 +121,7 @@ const ProjectDetail = props => (
         */}
       </article>
     </main>
-    <Detour meta="Next Case Study" title="Hwy 55" link="/projects/hwy55" />
+    <Detour meta="Next Case Study" title="Klearly" link="/projects/klearly" />
   </Layout>
 )
 

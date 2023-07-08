@@ -43,7 +43,7 @@ const PageProjects = props => (
         <DribbblePosts />
       </article>
     </main>
-    <Detour meta="Up Next – Skills" title="Go from being viable to valuable." link="/skills" />
+    <Detour meta="Up Next - Case Study" title="Open Telco" link="/projects/open-telco" />
   </Layout>
 )
 
