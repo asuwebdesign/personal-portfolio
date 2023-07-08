@@ -97,22 +97,22 @@ const ProjectDetail = props => (
             <h2>Designing the future.</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-            <Image src="/images/projects/hwy-55/hwy55-01.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-02.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-03.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-04.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-05.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-06.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-07.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-08.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-09.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-10.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-11.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-12.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-13.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-14.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-15.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-16.png" width={1600} height={1200} alt="" />            
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-01.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-02.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-03.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-04.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-05.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-06.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-07.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-08.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-09.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-10.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-11.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-12.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-13.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-14.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-15.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-16.png" width={1600} height={1200} alt="" />            
           </div>
         </Band>
 
@@ -126,8 +126,8 @@ const ProjectDetail = props => (
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
             
-            <Image src="/images/projects/hwy-55/hwy55-17.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-18.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-17.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-18.png" width={1600} height={1200} alt="" />
             
           </div>
         </Band>
@@ -142,14 +142,14 @@ const ProjectDetail = props => (
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
             
-            <Image src="/images/projects/hwy-55/hwy55-19.png" width={1600} height={1200} alt="" />
-            <Image src="/images/projects/hwy-55/hwy55-20.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-19.png" width={1600} height={1200} alt="" />
+            <Image src="/images/projects/hwy-55/hwy55--brand-book-20.png" width={1600} height={1200} alt="" />
             
           </div>
         </Band>
        
         <Band div>
-        <Image src="/images/projects/hwy-55/hwy55-21.png" width={1600} height={1200} alt="" />
+          <Image src="/images/projects/hwy-55/hwy55--brand-book-21.png" width={1600} height={1200} alt="" />
         </Band>
         
         {/*
