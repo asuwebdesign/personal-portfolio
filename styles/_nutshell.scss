@@ -1,0 +1,121 @@
+.nutshell {
+  padding: 64px 0;
+  margin-top: 64px;
+  background-color: var(--color-carbon-100);
+
+  @include media('>=large') {
+    padding: 0;
+    margin-top: 256px;
+  }
+
+  .wrapper {
+    position: relative;
+
+    @include media('>=large') {
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-128px);
+    }
+  }
+
+  &__primary {
+    @include media('>=large') {
+      width: math.percentage(math.div(506, 1248));
+    }
+  }
+
+  &__secondary {
+    margin-top: 64px;
+
+    @include media('>=large') {
+      width: math.percentage(math.div(612, 1248));
+      margin-top: 0;
+    }
+  }
+
+  &__meta {
+    margin: 0 0 32px;
+    font-size: 16px;
+    font-family: var(--font-stack-semibold);
+    color: var(--color-slate);
+    letter-spacing: normal;
+    text-transform: uppercase;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      margin: 16px 0 0;
+      background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+      border-radius: var(--border-radius);
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 32px;
+
+    @include media('>=large') {
+      font-size: 62px;
+      line-height: 1;
+    }
+  }
+
+  &__desc {
+    margin: 32px 0;
+    line-height: 1.5;
+    color: var(--color-slate-heavy);
+  }
+
+  &__list {
+    display: grid;
+    row-gap: 24px;
+
+    @include media('>=small') {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 24px;
+    }
+  }
+
+  &__type {
+    border-radius: var(--border-radius);
+    text-align: center;
+
+    &-link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      aspect-ratio: 4/3;
+      padding: 32px;
+      background-color: var(--color-crystal-white);
+      box-shadow: 0 2px 4px 0 rgba(24, 24, 32, 0.16);
+      border-radius: var(--border-radius);
+      text-decoration: none;
+      transition: box-shadow var(--animation-speed-complex) var(--animation-easing-decelerate);
+
+      &:hover, &:focus {
+        box-shadow: 0 14px 28px rgba(24, 24, 32, 0.08);
+      }
+    }
+
+    &-icon {
+      //height: 40%;
+      width: auto;
+      height: 64px;
+
+      svg {
+        height: 100%;
+      }
+    }
+
+    &-title {
+      margin: 32px 0 0;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+  }
+
+}

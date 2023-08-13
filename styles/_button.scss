@@ -1,0 +1,54 @@
+.button {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  padding: 24px 64px 24px 32px;
+  background-color: var(--color-carbon-900);
+  border-radius: 5px;
+  box-shadow: 0 0 0 0 var(--color-carbon-900);
+  color: var(--color-crystal-white);
+  font-family: var(--font-stack-semibold);
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    background-color var(--animation-speed-complex) var(--animation-easing-decelerate),
+    box-shadow var(--animation-speed-complex) var(--animation-easing-decelerate),
+    color var(--animation-speed-complex) var(--animation-easing-decelerate);
+
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+  }
+  g { stroke: var(--color-crystal-white); stroke: var(--color-crystal-white); }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 0 2px var(--color-carbon-900);
+
+    svg {
+      animation: animateArrow (calc(var(--animation-speed-complex) * 2)) var(--animation-easing-decelerate);
+    }
+  }
+
+  &--circle {
+    border-radius: 50%;
+  }
+}
+
+@keyframes animateArrow {
+  0% {
+    right: 48px;
+    opacity: 0;
+  }
+  100% {
+    right: 32px;
+    opacity: 1;
+  }
+}

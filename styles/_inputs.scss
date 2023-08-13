@@ -1,0 +1,60 @@
+input {
+  width: 100%;
+  padding: 16px 0;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--color-carbon-900);
+  color: var(--color-carbon-900);
+  transition: background var(--animation-speed-complex) var(--animation-easing-decelerate);
+
+  &:focus {
+    outline: 0;
+  }
+
+
+  &[type="submit"] {
+    width: auto;
+    padding: 24px 32px;
+    background-color: var(--color-carbon-900);
+    border-radius: 5px;
+    box-shadow: 0 0 0 0 var(--color-carbon-900);
+    color: var(--color-crystal-white);
+    font-size: 16px;
+    font-family: var(--font-stack-semibold);
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow var(--animation-speed-complex) var(--animation-easing-decelerate);
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 2px var(--color-carbon-900);
+    }
+  }
+}
+
+textarea {
+  width: 100%;
+  padding: 16px 0;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--color-carbon-900);
+  resize: vertical;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.form {
+
+  &__field {}
+
+  &__field + &__field {
+    margin-top: 64px;
+  }
+
+  &__actions {
+    margin-top: 64px;
+  }
+
+}

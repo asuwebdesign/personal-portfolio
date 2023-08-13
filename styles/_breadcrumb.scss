@@ -1,0 +1,104 @@
+.breadcrumb {
+  position: fixed;
+  top: 72px;
+  left: 160px; // 108px
+  display: block;
+  height: 32px;
+  padding-left: 140px;
+  font-family: var(--font-stack-semibold);
+  font-size: 21px;
+  color: var(--color-carbon-900);
+  transition: opacity var(--animation-speed-complex) var(--animation-easing-decelerate);
+  filter: invert(100%);
+  mix-blend-mode: difference;
+  z-index: 100;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin-top: -1px;
+    background-color: var(--color-carbon-900);
+    animation: animateBreadcrumbLine var(--animation-speed-complex) var(--animation-easing-decelerate) forwards;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    position: relative;
+    display: inline-block;
+    color: var(--color-carbon-900);
+    text-decoration: none;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 5%;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 25%;
+      background-color: var(--color-carbon-100);
+      opacity: .16;
+      transition:
+        bottom var(--animation-speed-complex) var(--animation-easing-decelerate),
+        height var(--animation-speed-complex) var(--animation-easing-decelerate);
+      z-index: 1;
+    }
+
+    span {
+      position: relative;
+      z-index: 2;
+    }
+
+    &:hover, &:focus {
+      &:before {
+        bottom: 0;
+        height: 100%;
+      }
+    }
+  }
+
+  strong {
+    display: flex;
+    align-items: center;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      margin: 0 16px;
+      background-color: var(--color-carbon-900);
+      border-radius: 50%;
+    }
+  }
+
+  span {
+    font-family: var(--font-stack-regular);
+  }
+
+  
+
+  // Hide
+  // ---------------------------------------------------------------------------
+  &--hide {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBreadcrumbLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 108px;
+  }
+}

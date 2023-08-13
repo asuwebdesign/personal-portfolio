@@ -1,0 +1,17 @@
+blockquote {
+  position: relative;
+  padding: 64px 0;
+  margin: 0;
+  text-align: center;
+
+  @media (min-width: var(--breakpoint-lg)) {
+    font-size: 32px;
+    font-family: var(--font-stack-regular);
+  }
+
+  p {
+    position: relative;
+    margin: 0;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,110 @@
+.awards {
+  margin-top: 64px;
+
+  @include media('>=large') {
+    margin-top: 128px;
+  }
+
+  &__meta {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--font-stack-semibold);
+    color: var(--color-slate);
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      margin: 16px auto 0;
+      background-color: var(--color-slate);
+      border-radius: var(--border-radius);
+    }
+  }
+
+  &__title {
+    margin: 16px 0 64px;
+    font-size: 32px;
+    font-family: var(--font-stack-extrabold);
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  &__list {
+    display: grid;    
+    grid-row-gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    @include media('>=small') {
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 24px;
+    }
+
+    @include media('>=large') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__brand {
+    display: flex;
+    width: 20%;
+    padding: 32px;
+    overflow: hidden;
+
+    svg {
+      max-width: 100%;
+      width: 100%;
+      max-height: 64px;
+    }
+
+    &:nth-child(n+6) {
+      border-top: 1px solid var(--color-carbon-300);
+    }
+  }
+}
+
+.award {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  background-color: var(--color-crystal-white);
+  border-radius: var(--border-radius);
+  text-align: center;
+
+  &__title {
+    margin: 0 0 8px;
+    font-family: var(--font-stack-semibold);
+  }
+
+  &__subtitle {
+    margin: -8px 0 0;
+    font-size: 16px;
+  }
+
+  &__meta {
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 1px solid var(--color-dust);
+  }
+
+  &__organization {
+    font-size: 16px;
+    color: var(--color-slate);
+  }
+
+  &__issued {
+    font-size: 16px;
+    font-family: var(--font-stack-regular);
+    color: var(--color-slate);
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
