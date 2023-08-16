@@ -26,19 +26,21 @@ export default function Header(props) {
     open: {
       opacity: 1,
       x: 0,
+      pointerEvents: 'auto',
       transition: {
-        type: "spring",
+        type: "tween",
         ease: "easeIn",
-        duration: 0.5
+        duration: 0.25
       }
     },
     closed: {
       opacity: 0,
-      x: "-100%",
+      x: -32,
+      pointerEvents: 'none',
       transition: {
         type: "tween",
         ease: "easeOut",
-        duration: 0.25
+        duration: 0.1
       }
     }
   }
@@ -49,9 +51,9 @@ export default function Header(props) {
       transition: {
         type: "spring",
         velocity: 50,
-        duration: 0.25,
-        staggerChildren: 0.15,
-        delayChildren: 0.15,
+        duration: 0.15,
+        staggerChildren: 0.05,
+        delayChildren: 0.05,
       }
     },
     hidden: {
@@ -66,7 +68,7 @@ export default function Header(props) {
     },
     hidden: {
       opacity: 0,
-      x: '-5%',
+      x: '-10%',
     }
   }
 
