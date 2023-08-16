@@ -53,7 +53,7 @@ export default function Page() {
             </div>
           </Band>
           <Band className="band--service-callout">
-            {/* <div className="band__callout-icon"><IconSolutionB /></div> */}
+            <div className="band__callout-icon"><IconSolutionB /></div>
             <div className="band__callout-contents">
               <div className="band__callout-meta">Branding Strategy &amp; Identity</div>
               <h1 className="band__callout-title">Anybody can make your brand look good. What about making your brand matter?</h1>
