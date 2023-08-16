@@ -29,7 +29,9 @@
         display: flex;
         align-items: center;
         color: var(--color-carbon-100);
-        font: 128px/1 var(--font-stack-extrabold);
+        font-size: 128px;
+        line-height: 1;
+        font-weight: var(--font-weight-black);
         user-select: none;
         z-index: 0;
       }
@@ -220,7 +222,7 @@
     .band__callout-meta {
       margin: 0 0 32px;
       font-size: 14px;
-      font-family: var(--font-stack-semibold);
+      font-weight: var(--font-weight-semibold);
       color: var(--color-slate);
       text-transform: uppercase;
       letter-spacing: normal;

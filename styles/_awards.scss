@@ -9,7 +9,7 @@
     position: relative;
     margin: 0;
     font-size: 16px;
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
     color: var(--color-slate);
     letter-spacing: normal;
     text-transform: uppercase;
@@ -29,7 +29,7 @@
   &__title {
     margin: 16px 0 64px;
     font-size: 32px;
-    font-family: var(--font-stack-extrabold);
+    font-weight: var(--font-weight-black);
     letter-spacing: -1px;
     text-align: center;
   }
@@ -80,7 +80,7 @@
 
   &__title {
     margin: 0 0 8px;
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
   }
 
   &__subtitle {
@@ -101,7 +101,7 @@
 
   &__issued {
     font-size: 16px;
-    font-family: var(--font-stack-regular);
+    font-weight: var(--font-weight-regular);
     color: var(--color-slate);
     letter-spacing: normal;
     text-transform: uppercase;

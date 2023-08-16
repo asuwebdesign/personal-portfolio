@@ -31,7 +31,9 @@
     display: flex;
     align-items: center;
     color: var(--color-carbon-100);
-    font: 128px/1 var(--font-stack-extrabold);
+    font-size: 128px;
+    font-weight: var(--font-weight-black);
+    line-height: 1;
     user-select: none;
     z-index: 0;
   }
@@ -122,7 +124,9 @@
     display: flex;
     align-items: center;
     color: var(--color-carbon-100);
-    font: 128px/1 var(--font-stack-extrabold);
+    font-size: 128px;
+    font-weight: var(--font-weight-black);
+    line-height: 1;
     user-select: none;
     z-index: 0;
   }
@@ -151,7 +155,7 @@
   &__listitem {
     padding: 16px 0;
     border-top: 1px solid var(--color-carbon-100);
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
     counter-increment: philosophy-counter;
 
     &:first-child {
@@ -169,7 +173,7 @@
       width: 24px;
       margin-right: 32px;
       color: var(--color-slate);
-      font-family: var(--font-stack-regular);
+      font-weight: var(--font-weight-regular);
     }
   }
 }

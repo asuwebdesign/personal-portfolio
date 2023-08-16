@@ -5,7 +5,7 @@
   display: block;
   height: 32px;
   padding-left: 140px;
-  font-family: var(--font-stack-semibold);
+  font-weight: var(--font-weight-semibold);
   font-size: 21px;
   color: var(--color-carbon-900);
   transition: opacity var(--animation-speed-complex) var(--animation-easing-decelerate);
@@ -82,7 +82,7 @@
   }
 
   span {
-    font-family: var(--font-stack-regular);
+    font-weight: var(--font-weight-regular);
   }
 
   

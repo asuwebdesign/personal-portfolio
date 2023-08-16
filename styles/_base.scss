@@ -6,7 +6,7 @@
 html, body { height: 100%; }
 
 body {
-  font: normal 19px/1.5 var(--font-stack-regular);
+  font: var(--font-weight-regular) 19px/1.5 var(--font-family-base);
   color: var(--color-carbon-900);
   background-color: var(--color-crystal-white);
   overflow-x: hidden;

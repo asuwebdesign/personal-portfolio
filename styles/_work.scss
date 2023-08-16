@@ -7,7 +7,7 @@
     position: relative;
     margin: 0 0 32px;
     font-size: 16px;
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
     color: var(--color-slate);
     letter-spacing: normal;
     text-transform: uppercase;
@@ -187,7 +187,7 @@
       margin: 16px 0 0 32px;
       color: var(--color-carbon-900);
       font-size: 24px;
-      font-family: var(--font-stack-semibold);
+      font-weight: var(--font-weight-semibold);
       line-height: 1.25;
       letter-spacing: -1px;
     }

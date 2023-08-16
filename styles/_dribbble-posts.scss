@@ -10,7 +10,7 @@
     position: relative;
     margin: 0 0 16px;
     font-size: 16px;
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
     color: var(--color-slate);
     letter-spacing: normal;
     text-transform: uppercase;
@@ -105,7 +105,7 @@
 
   &__title {
     margin: 0;
-    font-family: var(--font-stack-regular);
+    font-weight: var(--font-weight-regular);
     font-size: 14px;
     line-height: 1.25;
     letter-spacing: normal;

@@ -90,7 +90,7 @@
 
   &__title {
     margin: 0 0 32px;
-    font-family: var(--font-stack-extrabold);
+    font-weight: var(--font-weight-black);
     letter-spacing: -1px;
 
     @include media('>=large') {

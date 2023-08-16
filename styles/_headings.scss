@@ -2,14 +2,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 .5em;
   line-height: 1.13;
   // color: var(--color-carbon-900);
-  font-family: var(--font-stack-semibold);
-  font-weight: normal;
+  font-weight: var(--font-weight-semibold);
 }
 
 h1 {
   letter-spacing: -0.03em;
   font-size: 48px;
-  font-family: var(--font-stack-extrabold);
+  font-weight: var(--font-weight-black);
 }
 
 h2 {

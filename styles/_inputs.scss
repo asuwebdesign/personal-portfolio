@@ -20,7 +20,7 @@ input {
     box-shadow: 0 0 0 0 var(--color-carbon-900);
     color: var(--color-crystal-white);
     font-size: 16px;
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
     border: 0;
     cursor: pointer;
     transition: box-shadow var(--animation-speed-complex) var(--animation-easing-decelerate);

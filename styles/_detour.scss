@@ -29,7 +29,7 @@
   &__meta {
     margin: 0 0 16px;
     font-size: 14px;
-    font-family: var(--font-stack-semibold);
+    font-weight: var(--font-weight-semibold);
     color: var(--color-slate);
     text-transform: uppercase;
     letter-spacing: normal;
@@ -53,12 +53,11 @@
 
   &__title {
     margin: 0;
-    font-weight: 900;
+    font-weight: var(--font-weight-black);
     font-size: 19px;
     line-height: 1.25;
 
     @include media('>=large') {
-      font-family: var(--font-stack-extrabold);
       font-size: 48px;
       letter-spacing: -2px;
     }

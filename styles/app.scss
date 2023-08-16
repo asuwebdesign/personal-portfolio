@@ -1,5 +1,40 @@
 @use "sass:math";
 
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../public/fonts/gilroy-light-webfont.woff2');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/gilroy-regular-webfont.woff2');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/gilroy-semibold-webfont.woff2');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/gilroy-bold-webfont.woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../public/fonts/gilroy-extrabold-webfont.woff2');
+}
+
 @import 'tokens';
 
 @import 'media-queries';
