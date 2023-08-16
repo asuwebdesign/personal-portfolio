@@ -17,7 +17,7 @@ main {
   padding-bottom: 32px;
   background-color: var(--color-dust);
 
-  @media (min-width: var(--breakpoint-lg)) {
+  @include media('>=large') {
     padding-bottom: 128px;
   }
 }
