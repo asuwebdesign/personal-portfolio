@@ -6,19 +6,19 @@
   list-style: none;
 
   &__item {
-    @media (min-width: var(--breakpoint-lg)) {
+    @include media('>=large') {
       width: math.percentage(math.div(400, 824));
       padding: 16px 0;
     }
 
     &:nth-child(even) {
-      @media (min-width: var(--breakpoint-lg)) {
+      @include media('>=large') {
         margin-left: math.percentage(math.div(24, 824));
       }
     }
 
     &:nth-child(n+3) {
-      @media (min-width: var(--breakpoint-lg)) {
+      @include media('>=large') {
         border-top: 1px solid var(--color-carbon-100);
       }
     }

@@ -10,7 +10,7 @@ export default function HowWhy() {
     <div className="how-why">
       <div className="wrapper">
         <article className="teaser">
-          <Link className="teaser__link" href="/about/process">
+          <Link className="teaser__link" href="/about/creative-process">
             <h1 className="teaser__meta">Creative Process</h1>
             <div className="teaser__title">Simple. Delightful.</div>
             <p className="teaser__desc">Creating the future doesn't have to be complicated.</p>
@@ -20,7 +20,7 @@ export default function HowWhy() {
           </Link>
         </article>
         <article className="teaser">
-          <Link className="teaser__link" href="/about/manifesto">
+          <Link className="teaser__link" href="/about/personal-manifesto">
             <h1 className="teaser__meta">Personal Manifesto</h1>
             <div className="teaser__title">Design. Uncompromised.</div>
             <p className="teaser__desc">Make something people will love every day.</p>

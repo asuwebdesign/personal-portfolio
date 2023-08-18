@@ -5,7 +5,7 @@ import posterImage from '@/public/posters/poster-personal-manifesto.jpg'
 import Detour from '@/components/detour/detour'
 
 export const metadata = {
-  title: 'Manifesto - Mark Riggan',
+  title: 'Personal Manifesto - Mark Riggan',
   description: '',
 }
 

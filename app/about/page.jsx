@@ -31,7 +31,7 @@ export default function Page() {
           <Awards />
         </article>
       </main>
-      <Detour meta="Up Next - Process" title="It always starts with listening to people." link="/about/process" />
+      <Detour meta="Up Next - Process" title="It always starts with listening to people." link="/about/creative-process" />
     </>
   )
 }

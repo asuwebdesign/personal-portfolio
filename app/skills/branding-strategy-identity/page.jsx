@@ -63,7 +63,7 @@ export default function Page() {
           </Band>
         </article>
       </main>
-      <Detour meta="Up Next" title="Creative &amp; Experience Design." link="/skills/creative" />
+      <Detour meta="Up Next" title="Creative &amp; Experience Design." link="/skills/creative-experience-design" />
     </>
   )
 }

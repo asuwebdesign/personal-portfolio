@@ -5,7 +5,7 @@ import posterImage from '@/public/posters/poster-creative-process.jpg'
 import Detour from '@/components/detour/detour'
 
 export const metadata = {
-  title: 'Process - Mark Riggan',
+  title: 'Creative Process - Mark Riggan',
   description: '',
 }
 
@@ -19,7 +19,7 @@ export default function Page() {
           <Process />
         </article>
       </main>
-      <Detour meta="Up Next - Manifesto" title="Make something people love." link="/about/manifesto" />
+      <Detour meta="Up Next - Manifesto" title="Make something people love." link="/about/personal-manifesto" />
     </>
   )
 }

@@ -62,7 +62,7 @@ export default function Page() {
           </Band>
         </article>
       </main>
-      <Detour meta="Up Next" title="Research, Data &amp; Analytics." link="/skills/research" />
+      <Detour meta="Up Next" title="Research, Data &amp; Analytics." link="/skills/research-data-analytics" />
     </>
   )
 }

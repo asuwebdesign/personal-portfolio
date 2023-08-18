@@ -52,8 +52,8 @@ export default function Breadcrumb() {
         {pathname === '/skills/websites-digital-platforms' && <><strong><Link href="/skills"><span>Skills</span></Link></strong> <span>Websites &amp; Digital Platforms</span></>}
 
         {pathname === '/about' && <>About</>}
-        {pathname === '/about/manifesto' && <><strong><Link href="/about"><span>About</span></Link></strong> <span>Personal Manifesto</span></>}
-        {pathname === '/about/process' && <><strong><Link href="/about"><span>About</span></Link></strong> <span>Creative Process</span></>}
+        {pathname === '/about/personal-manifesto' && <><strong><Link href="/about"><span>About</span></Link></strong> <span>Personal Manifesto</span></>}
+        {pathname === '/about/creative-process' && <><strong><Link href="/about"><span>About</span></Link></strong> <span>Creative Process</span></>}
 
         {pathname === '/contact' && <>Contact</>}
 
