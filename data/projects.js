@@ -11,7 +11,7 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "Open Telco",
-    title: "Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin",
+    title: "Showcasing open source technologies for the telecommunications industry",
   },
   {
     href: "/projects/patternfly",
@@ -25,7 +25,7 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "PatternFly",
-    title: "Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin",
+    title: "Redefining the visual and interactive experiences of open source user interfaces",
   },
   {
     href: "/projects/lexis-plus",
@@ -53,7 +53,7 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "LexisNexis",
-    title: "Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin",
+    title: "Unifying product and marketing languages for a leading global legal provider",
   },
   {
     href: "/projects/klearly",
@@ -67,7 +67,7 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "Klearly",
-    title: "Pioneering healthcare education through a bolder brand for a pharmacy school in Wisconsin",
+    title: "Establishing a new product experience for B2B sales, marketing and customer success teams",
   },
   {
     href: "/projects/colorshark",
@@ -81,7 +81,7 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "ColorShark",
-    title: "Digitally transforming a more modern, inclusive platform for the state judicial branch",
+    title: "Empowering brand and creative teams with the ability to easily create inclusive color palettes",
   },
   {
     href: "/projects/atlantic-bt",
@@ -124,6 +124,6 @@ export const projects = [
       bottomRight: "half-circle-bottom",
     },
     client: "Training Industry",
-    title: "Crafting a more unified digital platform for government agencies in North Carolina",
+    title: "Setting a new standard for digital business training and development",
   },
 ]

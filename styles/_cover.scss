@@ -28,7 +28,7 @@
       margin: 0 0 0 -720px;
       border-left: 8px solid var(--color-crystal-white);
       font-size: 32px;
-      font-weight: 400;
+      font-weight: var(--font-weight-regular);
       transform: translateY(-50%);
     }
 
@@ -36,18 +36,23 @@
     &-client {
       display: block;
       margin: 0 0 16px;
-      font-size: 64px;
+      font-size: 18px;
+      font-weight: var(--font-weight-semibold);
       line-height: 1;
-      letter-spacing: -4px;
+      letter-spacing: normal;
 
-      @include media('>xxx-large') {
-        font-weight: var(--font-weight-semibold);
-        // font-size: 128px;
-        font-size: 32px;
-        line-height: 0.9;
-        // letter-spacing: -4px;
-        letter-spacing: normal;
+      @include media('>=large') {
+        font-size: 24px;
       }
+
+      // @include media('>xxx-large') {
+      //   font-weight: var(--font-weight-semibold);
+      //   // font-size: 128px;
+      //   font-size: 32px;
+      //   line-height: 0.9;
+      //   // letter-spacing: -4px;
+      //   letter-spacing: normal;
+      // }
     }
 
     &-headline {
@@ -56,12 +61,17 @@
       letter-spacing: normal;
       font-weight: var(--font-weight-black);
 
-      @include media('>xxx-large') {
-        // font-size: 32px;
-        font-size: 6vh;
-        line-height: 1;
+      @include media('>=large') {
+        font-size: 64px;
         letter-spacing: -2px;
       }
+
+      // @include media('>xxx-large') {
+      //   // font-size: 32px;
+      //   font-size: 6vh;
+      //   line-height: 1;
+      //   letter-spacing: -2px;
+      // }
     }
   }
 
