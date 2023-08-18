@@ -24,8 +24,8 @@ export default function Page() {
             </div>
             <div className="band__content">
               <div className="band__about">
-                <h2>About Atlantic BT</h2>
-                <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
+                <h2>About Training Industry</h2>
+                <p>Training Industry is a professional resource and research organization dedicated to providing insights, information, and tools for the corporate training and workforce development industry. Through its publications, research reports, and online resources, Training Industry serves as a platform for learning and development professionals, offering valuable information on trends, best practices, and innovations in training methodologies. It aims to help organizations enhance their training programs, improve employee performance, and drive business success by fostering a community of knowledge exchange and expertise sharing within the training and development field.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>

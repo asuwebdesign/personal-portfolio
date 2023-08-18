@@ -26,7 +26,7 @@ export default function Page() {
             <div className="band__content">
               <div className="band__about">
                 <h2>About Atlantic BT</h2>
-                <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
+                <p>Atlantic BT is a digital consulting and technology company based in Raleigh, North Carolina. With a focus on delivering innovative web solutions, digital experiences, and technology strategies, Atlantic BT collaborates with businesses to enhance their online presence, streamline operations, and drive growth. Offering services such as web development, design, e-commerce solutions, and digital marketing, Atlantic BT aims to empower organizations to navigate the digital landscape effectively and create impactful connections with their audiences.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>

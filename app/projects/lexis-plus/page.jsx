@@ -24,8 +24,8 @@ export default function Page() {
             </div>
             <div className="band__content">
               <div className="band__about">
-                <h2>About Atlantic BT</h2>
-                <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
+                <h2>About LexisNexis</h2>
+                <p>LexisNexis is a global provider of legal, regulatory, and business information solutions. With a history dating back decades, the company offers a comprehensive suite of data-driven tools and resources to legal professionals, corporations, government entities, and academic institutions. LexisNexis specializes in aggregating and analyzing vast amounts of legal and industry-specific content, providing insights that aid in legal research, compliance, risk management, and decision-making processes. Their platforms enable users to access up-to-date legal cases, statutes, regulations, news, and analytics, empowering professionals to navigate complex legal landscapes and make informed choices.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>

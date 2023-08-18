@@ -24,8 +24,8 @@ export default function Page() {
             </div>
             <div className="band__content">
               <div className="band__about">
-                <h2>About Atlantic BT</h2>
-                <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
+                <h2>About ColorShark</h2>
+                <p>ColorShark is a web application built for designers and developers to test color contrast compliance with the WCAG as set forth by the W3C.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>

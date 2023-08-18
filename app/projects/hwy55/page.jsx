@@ -25,7 +25,7 @@ export default function Page() {
             <div className="band__content">
               <div className="band__about">
                 <h2>About Hwy55</h2>
-                <p>Hwy 55 Burgers Shakes & Fries is a fast casual restaurant chain that operates primarily on the East Coast of the United States.</p>
+                <p>Hwy 55, also known as Andy's Burgers Shakes & Fries, is a fast-casual restaurant chain primarily based in the southeastern United States. Known for its retro diner aesthetic, Hwy 55 offers a menu featuring classic American comfort foods such as burgers, hot dogs, milkshakes, and fries. The chain emphasizes a nostalgic atmosphere and strives to provide a family-friendly dining experience reminiscent of the 1950s era.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>

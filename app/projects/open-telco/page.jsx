@@ -25,7 +25,7 @@ export default function Page() {
             <div className="band__content">
               <div className="band__about">
                 <h2>About Red Hat</h2>
-                <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
+                <p>Red Hat is a renowned software company recognized for its leadership in open-source solutions and technologies. Founded in 1993, the company is renowned for developing the widely used Red Hat Enterprise Linux operating system, built on open-source foundations and valued for its security and reliability. Beyond its iconic Linux distribution, Red Hat offers a diverse array of software, spanning cloud computing, containerization, middleware, and more, catering to enterprises seeking scalable and innovative solutions.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>

@@ -24,8 +24,8 @@ export default function Page() {
             </div>
             <div className="band__content">
               <div className="band__about">
-                <h2>About Atlantic BT</h2>
-                <p>Atlantic BT is one of North Carolina's largest full-service web technology firms specializing in Higher Education, local and state Government, and eCommerce industries.</p>
+                <h2>About Klearly</h2>
+                <p>Klearly transforms traditional B2B marketing, sales, and customer success teams into data-driven, optimized functions working together to generate revenue. Using machine learning and prescriptive analytics, Klearly provides a software application to empower teams with actionable, revenue-centric insights.</p>
               </div>
               <div className="band__skills">
                 <h2>Skills provided</h2>
