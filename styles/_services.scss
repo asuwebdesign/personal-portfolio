@@ -47,6 +47,16 @@
         max-height: none;
         transform: translate3d(-50%, -50%, 0);
       }
+
+      @include media('>=x-large') {
+        width: auto;
+        height: 35%;
+      }
+
+      @include media('>=xxx-large') {
+        width: 60%;
+        height: 50%;
+      }
     }
 
     .button {

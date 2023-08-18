@@ -112,6 +112,14 @@
       border-radius: 0;
     }
 
+    @include media('>=x-large') {
+      width: 40vw;
+    }
+
+    @include media('>=xxx-large') {
+      width: 31vw;
+    }
+
     &__list {
       position: relative;
       width: 100%;
@@ -170,8 +178,12 @@
           letter-spacing: -4px;
         }
 
+        @include media('>=x-large') {
+          font-size: 80px;
+        }
+
         @include media('>xxx-large') {
-          // font-size: 4.5vw;
+          font-size: 96px;
           // letter-spacing: -6px;
         }
       }
