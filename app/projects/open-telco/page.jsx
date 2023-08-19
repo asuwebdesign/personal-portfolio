@@ -14,7 +14,7 @@ export default function Page() {
           <Cover
             class="cover__title--open-telco"
             client="Open Telco"
-            headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+            headline="Showcasing open source technologies for the telecommunications industry"
             image={ProjectCover}
             alt={"Description of the cover"}
           />
@@ -27,7 +27,7 @@ export default function Page() {
                 <h2>About Red Hat</h2>
                 <p>Red Hat is a renowned software company recognized for its leadership in open-source solutions and technologies. Founded in 1993, the company is renowned for developing the widely used Red Hat Enterprise Linux operating system, built on open-source foundations and valued for its security and reliability. Beyond its iconic Linux distribution, Red Hat offers a diverse array of software, spanning cloud computing, containerization, middleware, and more, catering to enterprises seeking scalable and innovative solutions.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
@@ -35,7 +35,7 @@ export default function Page() {
                   <li className="tag">Research, Data &amp; Analytics</li>
                   <li className="tag">Websites &amp; Digital Platforms</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">

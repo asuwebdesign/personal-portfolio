@@ -14,7 +14,7 @@ export default function Page() {
           <Cover
             class="cover__title--colorshark"
             client="ColorShark"
-            headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+            headline="Empowering brand and creative teams with the ability to easily create inclusive color palettes"
             // image={ProjectCover}
             alt={"Description of the cover"}
           />
@@ -27,7 +27,7 @@ export default function Page() {
                 <h2>About ColorShark</h2>
                 <p>ColorShark is a web application built for designers and developers to test color contrast compliance with the WCAG as set forth by the W3C.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
@@ -35,7 +35,7 @@ export default function Page() {
                   <li className="tag">Research, Data &amp; Analytics</li>
                   <li className="tag">Websites &amp; Digital Platforms</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">

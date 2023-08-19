@@ -14,7 +14,7 @@ export default function Page() {
           <Cover
             class="cover__title--klearly"
             client="Klearly"
-            headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+            headline="Establishing a new product experience for B2B sales, marketing and customer success teams"
             image={ProjectCover}
             alt={"Description of the cover"}
           />
@@ -27,7 +27,7 @@ export default function Page() {
                 <h2>About Klearly</h2>
                 <p>Klearly transforms traditional B2B marketing, sales, and customer success teams into data-driven, optimized functions working together to generate revenue. Using machine learning and prescriptive analytics, Klearly provides a software application to empower teams with actionable, revenue-centric insights.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
@@ -35,7 +35,7 @@ export default function Page() {
                   <li className="tag">Research, Data &amp; Analytics</li>
                   <li className="tag">Websites &amp; Digital Platforms</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">

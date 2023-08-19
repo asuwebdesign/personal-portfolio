@@ -14,7 +14,7 @@ export default function Page() {
           <Cover
             class="cover__title--patternfly"
             client="PatternFly 5"
-            headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+            headline="Redefining the visual and interactive experiences of open source user interfaces"
             image=""
             alt={"Description of the cover"}
           />
@@ -27,7 +27,7 @@ export default function Page() {
                 <h2>About PatternFly</h2>
                 <p>PatternFly is an open-source design system and UI framework that simplifies and accelerates the creation of consistent and user-friendly web applications. Developed collaboratively by Red Hat and the open-source community, PatternFly provides a set of design patterns, components, and guidelines that ensure a cohesive visual and interactive experience across applications. It empowers designers and developers to efficiently build responsive and accessible interfaces, fostering a seamless user experience while saving time and effort in the development process.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
@@ -35,7 +35,7 @@ export default function Page() {
                   <li className="tag">Research, Data &amp; Analytics</li>
                   <li className="tag">Websites &amp; Digital Platforms</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">

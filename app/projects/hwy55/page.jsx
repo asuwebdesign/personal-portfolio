@@ -14,7 +14,7 @@ export default function Page() {
           <Cover
             class="cover__title--hwy55"
             client="Hwy 55"
-            headline="Honoring the vintage past of Hwy 55 to build and evolve a more modern brand."
+            headline="Honoring the vintage past of Hwy 55 to build and evolve a more modern brand"
             image={ProjectCover}
             alt="Photo of Hwy 55 restaurant"
           />
@@ -27,12 +27,12 @@ export default function Page() {
                 <h2>About Hwy55</h2>
                 <p>Hwy 55, also known as Andy's Burgers Shakes & Fries, is a fast-casual restaurant chain primarily based in the southeastern United States. Known for its retro diner aesthetic, Hwy 55 offers a menu featuring classic American comfort foods such as burgers, hot dogs, milkshakes, and fries. The chain emphasizes a nostalgic atmosphere and strives to provide a family-friendly dining experience reminiscent of the 1950s era.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">

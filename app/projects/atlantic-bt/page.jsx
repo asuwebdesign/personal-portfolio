@@ -15,7 +15,7 @@ export default function Page() {
           <Cover
             class="cover__title--atlanticbt"
             client="Atlantic BT"
-            headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+            headline="Revitalizing a digital agency's brand with an upgraded digital experience"
             image={ProjectCover}
             alt={"Description of the cover"}
           />
@@ -28,7 +28,7 @@ export default function Page() {
                 <h2>About Atlantic BT</h2>
                 <p>Atlantic BT is a digital consulting and technology company based in Raleigh, North Carolina. With a focus on delivering innovative web solutions, digital experiences, and technology strategies, Atlantic BT collaborates with businesses to enhance their online presence, streamline operations, and drive growth. Offering services such as web development, design, e-commerce solutions, and digital marketing, Atlantic BT aims to empower organizations to navigate the digital landscape effectively and create impactful connections with their audiences.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
@@ -36,7 +36,7 @@ export default function Page() {
                   <li className="tag">Research, Data &amp; Analytics</li>
                   <li className="tag">Websites &amp; Digital Platforms</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">

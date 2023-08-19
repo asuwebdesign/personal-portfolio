@@ -5,6 +5,10 @@ import Image from 'next/image'
 import Media from 'react-media'
 import { motion } from "framer-motion"
 import { useScrollPosition } from '@n8tb1t/use-scroll-position'
+import IconSolutionB from '@/public/vectors/solution-b.svg'
+import IconSolutionC from '@/public/vectors/solution-c.svg'
+import IconSolutionR from '@/public/vectors/solution-r.svg'
+import IconSolutionW from '@/public/vectors/solution-w.svg'
 
 export default function Cover(props) {
   // states
@@ -90,6 +94,12 @@ export default function Cover(props) {
                     <span className="cover__title-client">{props.client}</span>
                     <span className="cover__title-headline">{props.headline}</span>
                   </motion.h1>
+                  <ul className="cover__services">
+                    <li><IconSolutionB /> Branding Strategy &amp; Identity</li>
+                    <li><IconSolutionC /> Creative &amp;<br /> Experience Design</li>
+                    <li><IconSolutionR /> Research, Data<br /> &amp; Analytics</li>
+                    <li><IconSolutionW /> Websites &amp;<br /> Digital Platforms</li>
+                  </ul>
                 </div>
                 <motion.div
                   className="cover__dots"

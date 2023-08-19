@@ -14,7 +14,7 @@ export default function Page() {
           <Cover
             class="cover__title--trainingindustry"
             client="Training Industry"
-            headline="Revitalizing a digital agency's brand with an upgraded digital experience."
+            headline="Setting a new standard for digital business training and development"
             image={ProjectCover}
             alt={"Description of the cover"}
           />
@@ -27,7 +27,7 @@ export default function Page() {
                 <h2>About Training Industry</h2>
                 <p>Training Industry is a professional resource and research organization dedicated to providing insights, information, and tools for the corporate training and workforce development industry. Through its publications, research reports, and online resources, Training Industry serves as a platform for learning and development professionals, offering valuable information on trends, best practices, and innovations in training methodologies. It aims to help organizations enhance their training programs, improve employee performance, and drive business success by fostering a community of knowledge exchange and expertise sharing within the training and development field.</p>
               </div>
-              <div className="band__skills">
+              {/* <div className="band__skills">
                 <h2>Skills provided</h2>
                 <ul className="tags">
                   <li className="tag">Branding Strategy &amp; Identity</li>
@@ -35,7 +35,7 @@ export default function Page() {
                   <li className="tag">Research, Data &amp; Analytics</li>
                   <li className="tag">Websites &amp; Digital Platforms</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Band>
           <Band className="band--numbered">
