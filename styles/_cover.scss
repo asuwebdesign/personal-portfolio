@@ -1,36 +1,57 @@
 .cover {
   position: relative;
+  height: 100vh;
   padding: 0;
   background-color: rgb(29, 29, 29);
   color: var(--color-crystal-white);
 
   @include media('>=large') {
-    height: 100vh;
     overflow: hidden;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: var(--color-crystal-white);
   }
 
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 64px 1fr 64px;
+    height: 100%;
+
+    @include media('>=large') {
+      grid-template-rows: 128px 1fr 128px;
+    }
+  }
+
+
+  // Cover title
+  // --------------------------------------------------------------------------
   &__title {
     position: relative;
-    padding: 32px 0;
+    grid-area: 2 / 1 / 3 / 2;
+    align-self: center;
+    padding: 0;
     margin: 0;
     z-index: 2;
 
-    @include media('>=large') {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 1440px;
-      padding: 0 0 0 64px;
-      margin: 0 0 0 -720px;
-      border-left: 8px solid var(--color-crystal-white);
-      font-size: 32px;
-      font-weight: var(--font-weight-regular);
-      transform: translateY(-50%);
-    }
+    // @include media('>=large') {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   width: 1440px;
+    //   padding: 0 0 0 64px;
+    //   margin: 0 0 0 -720px;
+    //   border-left: 8px solid var(--color-crystal-white);
+    //   font-size: 32px;
+    //   font-weight: var(--font-weight-regular);
+    //   transform: translateY(-50%);
+    // }
 
 
     &-client {
@@ -86,37 +107,68 @@
 
   // Start: Unique title bar branding
   // ---------------------------------------------------------------------------
-  &__title--atlanticbt { border-left-color: var(--color-atlanticbt); }
-  &__title--hwy55 { border-left-color: var(--color-hwy55); }
-  &__title--open-telco { border-left-color: var(--color-open-telco); }
-  &__title--patternfly { border-left-color: var(--color-patternfly); }
-  &__title--lexisnexis { border-left-color: var(--color-lexisnexis); }
-  &__title--klearly { border-left-color: var(--color-klearly); }
-  &__title--colorshark { border-left-color: var(--color-colorshark); }
-  &__title--trainingindustry { border-left-color: var(--color-trainingindustry); }
+  &__title--atlanticbt {
+    border-left-color: var(--color-atlanticbt);
+  }
+
+  &__title--hwy55 {
+    border-left-color: var(--color-hwy55);
+  }
+
+  &__title--open-telco {
+    border-left-color: var(--color-open-telco);
+  }
+
+  &__title--patternfly {
+    border-left-color: var(--color-patternfly);
+  }
+
+  &__title--lexisnexis {
+    border-left-color: var(--color-lexisnexis);
+  }
+
+  &__title--klearly {
+    border-left-color: var(--color-klearly);
+  }
+
+  &__title--colorshark {
+    border-left-color: var(--color-colorshark);
+  }
+
+  &__title--trainingindustry {
+    border-left-color: var(--color-trainingindustry);
+  }
+
   // ---------------------------------------------------------------------------
   // End: Unique title bar branding
 
+  // Cover services
+  // --------------------------------------------------------------------------
   &__services {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    grid-area: 3 / 1 / 4 / 2;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     list-style: none;
     z-index: 2;
 
-    @include media('>=xxx-large') {
-      left: 50%;
-      bottom: 32px;
-      gap: 24px;
-      width: 1440px;
-      padding: 24px 0 0;
-      margin: 0;
-      border-top: 1px solid rgba(255, 255, 255, .15);
-      transform: translateX(-50%);
+    @include media('>=large') {
+      align-self: center;
     }
+
+    // @include media('>=xxx-large') {
+    //   left: 50%;
+    //   bottom: 32px;
+    //   gap: 24px;
+    //   width: 1440px;
+    //   padding: 24px 0 0;
+    //   margin: 0;
+    //   border-top: 1px solid rgba(255, 255, 255, .15);
+    //   transform: translateX(-50%);
+    // }
 
     li {
       display: flex;
@@ -136,6 +188,8 @@
     }
   }
 
+  // Cover dots
+  // --------------------------------------------------------------------------
   &__dots {
     display: none;
 
@@ -161,10 +215,14 @@
     }
   }
 
+  // Cover photo
+  // --------------------------------------------------------------------------
   &__photo {
-    position: relative;
-    width: 100%;
-    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: 1;
 
     @include media('>=large') {

@@ -83,7 +83,7 @@ export default function Cover(props) {
                   )}
                 </div>
                 <div className="wrapper">
-                  <motion.h1
+                  <h1
                     className={`cover__title ${props.class}`}
                     data-client={props.client}
                     animate="visible"
@@ -93,7 +93,7 @@ export default function Cover(props) {
                   >
                     <span className="cover__title-client">{props.client}</span>
                     <span className="cover__title-headline">{props.headline}</span>
-                  </motion.h1>
+                  </h1>
                   <ul className="cover__services">
                     <li><IconSolutionB /> Branding Strategy &amp; Identity</li>
                     <li><IconSolutionC /> Creative &amp;<br /> Experience Design</li>

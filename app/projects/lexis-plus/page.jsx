@@ -74,7 +74,7 @@ export default function Page() {
         </Band>
         */}
           <Band div>
-            <Image src="/assets/projects/atlanticbt/atlanticbt-home.png" alt="" width={1920} height={7861} />
+            <Image src="/images/projects/lexis-plus/lexisplus--home.png" alt="" width={1920} height={1080} />
           </Band>
           {/*
         <Band className="band--split" div>
