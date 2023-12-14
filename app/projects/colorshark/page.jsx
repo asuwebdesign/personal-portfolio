@@ -38,7 +38,7 @@ export default function Page() {
               </div> */}
             </div>
           </Band>
-          <Band className="band--numbered">
+          {/* <Band className="band--numbered">
             <div className="band__title-block">
               <div className="band__number">01</div>
               <h1 className="band__title">Challenge</h1>
@@ -59,7 +59,7 @@ export default function Page() {
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
               <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
             </div>
-          </Band>
+          </Band> */}
           <Band className="band--numbered">
             <div className="band__title-block">
               <div className="band__number">02</div>

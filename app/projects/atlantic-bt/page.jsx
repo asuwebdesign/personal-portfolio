@@ -39,7 +39,7 @@ export default function Page() {
               </div> */}
             </div>
           </Band>
-          <Band className="band--numbered">
+          {/* <Band className="band--numbered">
             <div className="band__title-block">
               <div className="band__number">01</div>
               <h1 className="band__title">Challenge</h1>
@@ -65,7 +65,7 @@ export default function Page() {
               <Image src="/images/projects/atlantic-bt/atlantic-bt--culture-02.jpg" alt="" width={1920} height={1080} />
               <Image src="/images/projects/atlantic-bt/atlantic-bt--culture-03.jpg" alt="" width={1920} height={1080} />
             </div>
-          </Band>
+          </Band> */}
 
           <Band className="band--numbered">
             <div className="band__title-block">
