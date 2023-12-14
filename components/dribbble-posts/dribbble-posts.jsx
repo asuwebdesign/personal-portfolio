@@ -87,6 +87,7 @@ export default function DribbblePosts() {
                     fill
                     placeholder="blur"
                     blurDataURL={post.images.teaser}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </figure>
                 <div className="shot__overlay">

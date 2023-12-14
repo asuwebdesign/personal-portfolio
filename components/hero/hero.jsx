@@ -139,7 +139,7 @@ export default function Hero() {
                     <source src="/videos/dark-matter.webm" type="video/webm" />
                     <source src="/videos/dark-matter.ogv" type="video/ogg" />
                     <source src="/videos/dark-matter.mp4" />
-                    <Image src="/videos/dark-matter.png" alt="Dark matter" width={1920} height={1080} />
+                    <Image src="/videos/dark-matter.png" alt="Dark matter" width={1920} height={1080} sizes="100vw" />
                   </video>
                 </>
               )}

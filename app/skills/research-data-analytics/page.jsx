@@ -27,7 +27,7 @@ export default function Page() {
             <div className="band__content">
               <h2>Designing the future.</h2>
               <p>By creating data systems that help businesses understand and predict patterns of consumer behavior, I enable organizations to reach users more effectively with optimized experiences and targeted content across the digital ecosystem.</p>
-              <Image src="/images/pictures/picture-sticky-notes.jpg" alt="" width={1920} height={1080} />
+              <Image src="/images/pictures/picture-sticky-notes.jpg" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
             </div>
           </Band>
           <Band className="band--numbered">

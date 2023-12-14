@@ -22,6 +22,7 @@ input {
     font-size: 16px;
     font-weight: var(--font-weight-semibold);
     border: 0;
+    border-radius: 100px;
     cursor: pointer;
     transition: box-shadow var(--animation-speed-complex) var(--animation-easing-decelerate);
 

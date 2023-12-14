@@ -27,7 +27,7 @@ export default function Page() {
             <div className="band__content">
               <h2>Why branding matters.</h2>
               <p>{`In today's digitally-driven world, brands must recognize their customers as users, not just passive consumers of media. As a result, I extend the traditional brand framework of mission, vision and beliefs to include a brand's capability: what the brand must enable users to achieve and also the problem the brand solves for people.`}</p>
-              <Image src="/images/pictures/picture-branding.jpg" alt="" width={1920} height={1080} />
+              <Image src="/images/pictures/picture-branding.jpg" alt="" width={1920} height={1080} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
             </div>
           </Band>
           <Band className="band--numbered">

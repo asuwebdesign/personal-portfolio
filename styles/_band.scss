@@ -106,6 +106,8 @@
     .band__content {
       @include media('>=large') {
         grid-column: 5 / 13;
+        display: flex;
+        align-items: center;
       }
 
       h2 {

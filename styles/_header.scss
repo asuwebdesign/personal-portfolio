@@ -170,6 +170,7 @@
         text-decoration: none;
         font-weight: var(--font-weight-bold);
         font-size: 48px;
+        font-size: 10vw;
         line-height: 1;
         transition:
           color var(--animation-speed-complex) var(--animation-easing-decelerate),
@@ -177,15 +178,18 @@
 
         @include media('>=large') {
           font-size: 96px;
+          font-size: 8vw;
           letter-spacing: -4px;
         }
 
         @include media('>=x-large') {
           font-size: 80px;
+          font-size: 6vw;
         }
 
         @include media('>xxx-large') {
           font-size: 96px;
+          font-size: 4vw;
           // letter-spacing: -6px;
         }
       }

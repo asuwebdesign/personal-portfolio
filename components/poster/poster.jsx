@@ -36,6 +36,7 @@ export default function Poster(props) {
               width={foregroundWidth}
               height={foregroundHeight}
               priority="true"
+              sizes="100vw"
             />
           )}
           <Image
@@ -43,6 +44,7 @@ export default function Poster(props) {
             alt={alt}
             fill
             priority="true"
+            sizes="100vw"
           />
         </div>
       </div>
