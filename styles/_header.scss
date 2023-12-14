@@ -104,29 +104,31 @@
     z-index: 1000;
 
     @include media('>=large') {
-      top: 0;
-      left: 0;
-      width: 31vw;
-      height: 100vh;
+      top: 24px;
+      left: 24px;
+      width: 64vw;
+      height: calc(100vh - 48px);
       padding: 0 128px 0 194px;
-      border-radius: 0;
+      border-radius: 16px;
     }
 
     @include media('>=x-large') {
-      width: 40vw;
+      width: 48vw;
     }
 
     @include media('>=xxx-large') {
-      width: 31vw;
+      width: 32vw;
     }
 
     &__list {
       position: relative;
       width: 100%;
+      text-align: center;
       z-index: 2;
 
       @include media('>=large') {
         width: 50vw;
+        text-align: left;
       }
 
       h1 {

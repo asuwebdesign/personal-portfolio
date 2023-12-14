@@ -35,7 +35,7 @@ export default function Header(props) {
     },
     closed: {
       opacity: 0,
-      x: -32,
+      x: '-8px',
       pointerEvents: 'none',
       transition: {
         type: "tween",
