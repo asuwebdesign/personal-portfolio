@@ -1,11 +1,15 @@
 .hero {
   position: relative;
-  padding: 96px 0 32px;
+  padding: 128px 0 64px;
   background-color: rgb(29, 29, 29); // blend with the video clip
   color: var(--color-crystal-white);
   overflow: hidden;
 
-  @include media('>=large') {
+  @include media('>=medium') {
+    padding: 192px 0 96px;
+  }
+
+  @include media('>=xx-large') {
     min-height: 100vh;
     padding: 128px 0;
   }
@@ -16,30 +20,37 @@
 
   &__title {
     margin: 0;
-    font-size: 32px;
-    font-weight: var(--font-weight-regular);
-    font-weight: normal;
+    font-size: 28px;
+    font-weight: var(--font-weight-semibold);
     z-index: 2;
 
-    @include media('>=x-large') {
+    @include media('>=xx-large') {
       position: absolute;
       top: 50%;
       left: 50%;
       width: 1440px;
       margin-left: -720px;
+      font-weight: var(--font-weight-regular);
       transform: translateY(-50%);
     }
 
+    // handcrafted digital experiences
     span {
       position: relative;
-      left: -8px;
       display: inline-block;
-      margin-top: 16px;
+      margin-top: 24px;
       font-size: 60px;
       font-weight: var(--font-weight-black);
       line-height: 1;
+      letter-spacing: -2px;
+
+      @include media('>=medium') {
+        font-size: 96px;
+        letter-spacing: -3px;
+      }
 
       @include media('>=large') {
+        left: -8px;
         font-size: 128px;
         line-height: 0.9;
         letter-spacing: -4px;
@@ -56,27 +67,27 @@
   &__highlights {
     position: relative;
     display: grid;
-    row-gap: 32px;
-    margin: 64px 0 0;
+    row-gap: 48px;
+    margin: 96px 0 0;
     font-size: 16px;
     z-index: 2;
 
-    @include media('>=small') {
+    @include media('>=medium') {
       grid-template-columns: repeat(3, 1fr);
       column-gap: 32px;
     }
 
     // TEMP
-    @include media('>=medium') {
-      display: none;
-    }
+    // @include media('>=medium') {
+    //   display: none;
+    // }
     // TEMP
 
     @include media('>=x-large') {
       position: absolute;
       bottom: 64px;
       left: 50%;
-      display: grid;
+      row-gap: 32px;
       width: 1440px;
       margin-left: -720px;
       font-size: 19px;
@@ -88,12 +99,21 @@
       &:before {
         content: '';
         display: block;
-        width: 64px;
+        width: 32px;
         height: 2px;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
         background-color: var(--color-crystal-white);
         background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
         border-radius: var(--border-radius);
+
+        @include media('>=medium') {
+          width: 48px;
+        }
+
+        @include media('>=large') {
+          width: 64px;
+          margin-bottom: 32px;
+        }
       }
     }
 

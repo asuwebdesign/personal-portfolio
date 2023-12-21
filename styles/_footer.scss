@@ -12,22 +12,24 @@
   // ---------------------------------------------------------------------------
   &__primary {
     display: grid;
-    grid-template-columns: 32px 1fr;
+    grid-template-columns: 64px 1fr;
     gap: 24px;
-    font-size: 28px;
+    align-items: center;
     line-height: 1.25;
+    font-weight: var(--font-weight-regular);
 
     @include media('>=large') {
       grid-template-columns: 96px 1fr;
       align-items: center;  
       gap: 32px;
+      font-size: 28px;
     }
 
     // footer logo
     .m-logo {
-      display: block;      
-      width: 32px;
-      height: 32px;
+      display: block;
+      width: 64px;
+      height: 64px;
       border: 1px dashed var(--color-carbon-600);
       border-radius: 100%;
 
