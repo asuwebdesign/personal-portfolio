@@ -14,18 +14,18 @@
     "@u-wave/react-vimeo": "^0.9.10",
     "axios": "^1.4.0",
     "element-overlap": "^1.0.1",
-    "eslint-config-next": "13.4.12",
-    "eslint": "8.46.0",
-    "framer-motion": "^10.15.0",
-    "next": "13.4.12",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "framer-motion": "^10.16.16",
+    "next": "^14.0.4",
     "nextjs-progressbar": "^0.0.16",
     "postcss-pxtorem": "^6.0.0",
+    "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-intersection-observer": "^9.5.2",
     "react-media": "^1.10.0",
-    "react": "18.2.0",
     "sass": "^1.64.2",
-    "sharp": "^0.32.4"
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "postcss": "^8.4.27"

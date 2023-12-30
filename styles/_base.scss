@@ -3,13 +3,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body { height: 100%; }
+html, body {
+  // height: 100%;
+  overflow-x: hidden;
+}
 
 body {
   font: var(--font-weight-regular) 19px/1.5 var(--font-family-base);
   color: var(--color-carbon-900);
   background-color: var(--color-crystal-white);
-  overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }
 

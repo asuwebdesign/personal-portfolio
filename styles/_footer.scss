@@ -12,11 +12,15 @@
   // ---------------------------------------------------------------------------
   &__primary {
     display: grid;
-    grid-template-columns: 64px 1fr;
+    
     gap: 24px;
     align-items: center;
     line-height: 1.25;
     font-weight: var(--font-weight-regular);
+
+    @include media('>=x-small') {
+      grid-template-columns: 64px 1fr;
+    }
 
     @include media('>=large') {
       grid-template-columns: 96px 1fr;

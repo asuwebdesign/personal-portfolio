@@ -102,9 +102,7 @@ export default function Header(props) {
     <header className="layout layout--header">
       <MLogo primary />
 
-      <Media query="(min-width: 1280px)" render={() => (
-        <Breadcrumb />
-      )} />
+      <Breadcrumb />
 
       <button
         className={`menu-toggle ${menuActive ? "menu-toggle--active" : ""}`}
@@ -130,33 +128,26 @@ export default function Header(props) {
         </nav>
       </motion.div>
 
-      <Media query="(min-width: 1280px)" render={() => (
-        <ul className="social">
-          <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank" rel="noreferrer"><IconDribbble /></a></li>
-          <li className="social__brand social__brand--medium"><a href="https://medium.com/@Asuwebdesign" target="_blank" rel="noreferrer"><IconMedium /></a></li>
-          <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank" rel="noreferrer"><IconLinkedIn /></a></li>
-          <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank" rel="noreferrer"><IconTwitter /></a></li>
-        </ul>
-      )} />
+      <ul className="social">
+        <li className="social__brand social__brand--dribbble"><a href="https://dribbble.com/markr" target="_blank" rel="noreferrer"><IconDribbble /></a></li>
+        <li className="social__brand social__brand--medium"><a href="https://medium.com/@Asuwebdesign" target="_blank" rel="noreferrer"><IconMedium /></a></li>
+        <li className="social__brand social__brand--linkedin"><a href="https://www.linkedin.com/in/markriggan" target="_blank" rel="noreferrer"><IconLinkedIn /></a></li>
+        <li className="social__brand social__brand--twitter"><a href="https://twitter.com/asuwebdesign" target="_blank" rel="noreferrer"><IconTwitter /></a></li>
+      </ul>
 
-      <Media query="(min-width: 1280px)" render={() => (
-        <div className="actions">
-          <Button href="/contact" label="Get in Touch" />
-        </div>
-      )} />
+      <div className="actions">
+        <Button href="/contact" label="Get in Touch" />
+      </div>
 
-      <Media query="(min-width: 1280px)" render={() => (
-        <motion.div
-          className="scroll-indicator"
-          animate={showScrollTop ? "visible" : "hidden"}
-          initial="visible"
-          variants={motionScrollTop}
-          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
-        >
-          <span>Scroll Down</span>
-        </motion.div>
-      )} />
-
+      <motion.div
+        className="scroll-indicator"
+        animate={showScrollTop ? "visible" : "hidden"}
+        initial="visible"
+        variants={motionScrollTop}
+        transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
+      >
+        <span>Scroll Down</span>
+      </motion.div>
     </header>
   )
 }
