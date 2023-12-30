@@ -104,23 +104,12 @@ export default function Hero() {
           transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.5 }}
         ></motion.div>
 
-        <motion.video
-          className="hero__video"
-          poster="/videos/dark-matter.png"
-          autoPlay
-          loop
-          muted
-          playsInline
-          aria-hidden="true"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 3, delay: 1 }}
-        >
+        <video className="hero__video" poster="/videos/dark-matter.png" autoPlay loop muted playsInline aria-hidden="true">
           <source src="/videos/dark-matter.webm" type="video/webm" />
           <source src="/videos/dark-matter.ogv" type="video/ogg" />
           <source src="/videos/dark-matter.mp4" />
           <Image src="/videos/dark-matter.png" alt="Dark matter" width={1920} height={1080} sizes="100vw" />
-        </motion.video>
+        </video>
       </div>
     </header>
   )
