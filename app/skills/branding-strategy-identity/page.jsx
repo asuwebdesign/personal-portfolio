@@ -17,7 +17,7 @@ export default function Page() {
     <>
       <main>
         <article>
-          <Sidekick title="Branding Strategy &amp; Identity." subtitle="Strengthen your position in the market and emotionally connect with your audience." />
+          <Sidekick title="Create a brand as bold as your vision." />
           <Poster src={PosterSrc} alt="Sample text for the photo." />
           <Band className="band--numbered">
             <div className="band__title-block">

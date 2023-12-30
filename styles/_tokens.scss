@@ -10,6 +10,18 @@ $breakpoints: (
 );
 
 :root {
+  --animation-speed-simple: 100ms;
+  --animation-speed-complex: 200ms;
+  --animation-speed-dramatic: 1s;
+
+  --animation-easing-standard: cubic-bezier(.4, 0, .2, 1);
+  --animation-easing-decelerate: cubic-bezier(0, 0, .2, 1);
+  --animation-easing-accelerate: cubic-bezier(.4, 0, 1, 1);
+  --animation-easing-bounce: cubic-bezier(.7, 0, .3, 1);
+  --animation-easing-quart: cubic-bezier(.77, 0, .175, 1);
+
+  --border-radius: 16px;
+
   --breakpoint-2xs: 480px;
   --breakpoint-xs: 600px;
   --breakpoint-sm: 840px;
@@ -17,13 +29,6 @@ $breakpoints: (
   --breakpoint-lg: 1280px;
   --breakpoint-2xl: 1440px;
   --breakpoint-3xl: 1920px;
-
-  --font-family-base: 'Gilroy', Helvetica, Arial, sans-serif;
-  --font-weight-light: 300;
-  --font-weight-regular: 400;
-  --font-weight-semibold: 500;
-  --font-weight-bold: 700;
-  --font-weight-black: 900;
 
   --color-carbon-900: #1b1b1c;
   --color-carbon-800: #282728;
@@ -56,15 +61,10 @@ $breakpoints: (
   --color-hwy55: #af1e23;
   --color-trainingindustry: #00558c;
 
-  --border-radius: 16px;
-
-  --animation-speed-simple: 100ms;
-  --animation-speed-complex: 200ms;
-  --animation-speed-dramatic: 1s;
-
-  --animation-easing-standard: cubic-bezier(.4, 0, .2, 1);
-  --animation-easing-decelerate: cubic-bezier(0, 0, .2, 1);
-  --animation-easing-accelerate: cubic-bezier(.4, 0, 1, 1);
-  --animation-easing-bounce: cubic-bezier(.7, 0, .3, 1);
-  --animation-easing-quart: cubic-bezier(.77, 0, .175, 1);
+  --font-family-base: 'Gilroy', Helvetica, Arial, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 }

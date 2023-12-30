@@ -225,16 +225,21 @@
   }
 
   .social {
-    position: fixed;
-    left: 74px;
-    bottom: 64px;
-    padding: 0;
-    margin: 0;
-    border-radius: 48px;
-    list-style: none;
-    z-index: 100;
-    filter: invert(100%);
-    mix-blend-mode: difference;
+    display: none;
+
+    @include media('>=large') {
+      position: fixed;
+      left: 74px;
+      bottom: 64px;
+      display: block;
+      padding: 0;
+      margin: 0;
+      border-radius: 48px;
+      list-style: none;
+      z-index: 100;
+      filter: invert(100%);
+      mix-blend-mode: difference;
+    }
 
     &__brand {
       width: 48px;
@@ -290,13 +295,18 @@
   }
 
   .scroll-indicator {
-    position: fixed;
-    right: 64px;
-    bottom: 0;
-    font-weight: var(--font-weight-semibold);
-    filter: invert(100%);
-    mix-blend-mode: difference;
-    z-index: 100;
+    display: block;
+
+    @include media('>=large') {
+      position: fixed;
+      right: 64px;
+      bottom: 0;
+      display: block;
+      font-weight: var(--font-weight-semibold);
+      filter: invert(100%);
+      mix-blend-mode: difference;
+      z-index: 100;
+    }
 
     span {
       display: flex;

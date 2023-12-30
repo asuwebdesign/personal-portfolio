@@ -12,7 +12,7 @@ export default function Page() {
     <>
       <main>
         <article>
-          <Sidekick meta="Projects" title="Selected brands &amp; digital products." section />
+          <Sidekick meta="Projects" title="Digital canvas of pixels and passion." section />
           <Projects />
           <DribbblePosts />
         </article>

@@ -12,7 +12,7 @@ export default function Page() {
     <>
       <main>
         <article>
-          <Sidekick meta="Terms &amp; Conditions" title="Terms &amp; Conditions." section />
+          <Sidekick meta="Terms &amp; Conditions" title="Know your usage rights and restrictions." section />
           <Band>
             <p>These terms and conditions ("Terms") govern your use of Mark Riggan's Personal Portfolio Website (referred to as the "Website"). By accessing and using the Website, you agree to abide by these Terms. If you do not agree with these Terms, please refrain from using the Website.</p>
 

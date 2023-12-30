@@ -10,7 +10,7 @@ export default function Sidekick(props) {
   const [showDots, setDots] = useState(true)
 
   useScrollPosition(({ prevPos, currPos }) => {
-    (currPos.y <= -128) ? setDots(false) : setDots(true)
+    (currPos.y <= -64) ? setDots(false) : setDots(true)
   }, [showDots])
 
   // declared animations
@@ -29,12 +29,14 @@ export default function Sidekick(props) {
     visible: {
       opacity: 1,
       x: '0%',
-      y: '-50%'
+      y: '-50%',
+      scale: 1,
     },
     hidden: {
       opacity: 0,
-      x: '25%',
-      y: '-50%'
+      x: '0%',
+      y: '-50%',
+      scale: 0.95,
     }
   }
 

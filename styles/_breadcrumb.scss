@@ -1,17 +1,21 @@
 .breadcrumb {
-  position: fixed;
-  top: 72px;
-  left: 160px; // 108px
-  display: block;
-  height: 32px;
-  padding-left: 140px;
-  font-weight: var(--font-weight-semibold);
-  font-size: 21px;
-  color: var(--color-carbon-900);
-  transition: opacity var(--animation-speed-complex) var(--animation-easing-decelerate);
-  filter: invert(100%);
-  mix-blend-mode: difference;
-  z-index: 100;
+  display: none;
+
+  @include media('>=large') {
+    position: fixed;
+    top: 72px;
+    left: 160px; // 108px
+    display: block;
+    height: 32px;
+    padding-left: 140px;
+    font-weight: var(--font-weight-semibold);
+    font-size: 21px;
+    color: var(--color-carbon-900);
+    transition: opacity var(--animation-speed-complex) var(--animation-easing-decelerate);
+    filter: invert(100%);
+    mix-blend-mode: difference;
+    z-index: 100; 
+  }
 
   &:before {
     content: '';

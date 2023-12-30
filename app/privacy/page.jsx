@@ -12,7 +12,7 @@ export default function Page() {
     <>
       <main>
         <article>
-          <Sidekick meta="Privacy Policy" title="Your info is secure because I'll never sell." section />
+          <Sidekick meta="Privacy Policy" title="Know how we collect and use data." section />
           <Band>
             <h3>Effective Date: August 18, 2023</h3>
             <p>Welcome to Mark Riggan's personal portfolio website. Your privacy is important to us. This Privacy Policy outlines the types of personal information we collect, how we use and protect it, and your choices regarding your information. By using this website, you consent to the practices described in this policy.</p>

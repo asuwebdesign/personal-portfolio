@@ -95,7 +95,7 @@ export default function Header(props) {
   }
 
   useScrollPosition(({ prevPos, currPos }) => {
-    (currPos.y <= -128) ? setShowScrollTop(false) : setShowScrollTop(true)
+    (currPos.y <= -64) ? setShowScrollTop(false) : setShowScrollTop(true)
   }, [showScrollTop])
 
   return (

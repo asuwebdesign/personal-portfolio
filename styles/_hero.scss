@@ -1,4 +1,6 @@
 .hero {
+  // --motion-hero-title__visible:
+
   position: relative;
   padding: 128px 0 64px;
   background-color: rgb(29, 29, 29); // blend with the video clip
@@ -77,12 +79,6 @@
       column-gap: 32px;
     }
 
-    // TEMP
-    // @include media('>=medium') {
-    //   display: none;
-    // }
-    // TEMP
-
     @include media('>=x-large') {
       position: absolute;
       bottom: 64px;
@@ -159,12 +155,17 @@
   }
 
   &__video {
-    position: absolute;
-    top: 50%;
-    right: -15%;
-    max-width: 80%;
-    mix-blend-mode: lighten;
-    transform: translateY(-50%);
-    z-index: 1;
+    display: none;
+
+    @include media('>=large') {
+      position: absolute;
+      top: 50%;
+      right: -15%;
+      display: block;
+      max-width: 80%;
+      mix-blend-mode: lighten;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
   }
 }

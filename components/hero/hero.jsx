@@ -49,17 +49,19 @@ export default function Hero() {
     visible: {
       opacity: 1,
       x: '0%',
-      y: '-50%'
+      y: '-50%',
+      scale: 1,
     },
     hidden: {
       opacity: 0,
-      x: '25%',
-      y: '-50%'
+      x: '0%',
+      y: '-50%',
+      scale: 0.95,
     }
   }
 
   useScrollPosition(({ prevPos, currPos }) => {
-    (currPos.y <= -128) ? setDots(false) : setDots(true)
+    (currPos.y <= -64) ? setDots(false) : setDots(true)
   }, [showDots])
 
   return (
