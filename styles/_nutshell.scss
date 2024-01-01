@@ -1,7 +1,7 @@
 .nutshell {
   padding: 64px 0;
   margin-top: 64px;
-  background-color: var(--color-carbon-100);
+  background-color: var(--color-cool-gray-20);
 
   @include media('>=large') {
     padding: 0;
@@ -47,7 +47,7 @@
       width: 32px;
       height: 2px;
       margin: 16px 0 0;
-      background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+      background: linear-gradient(to right, var(--color-magenta-60), var(--color-purple-60));;
       border-radius: var(--border-radius);
     }
   }

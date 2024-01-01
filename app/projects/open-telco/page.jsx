@@ -54,7 +54,7 @@ export default function Page() {
           <Band div>
             <Image src="/images/projects/open-telco/opentelco--dashboard--preloading.png" alt="" width={1920} height={1080} />
           </Band>
-          <Band div>
+          <Band className="band--theme--carbon-900" div>
             <Image src="/images/projects/open-telco/opentelco--dashboard.png" alt="" width={1920} height={1080} />
           </Band>
           <Band className="band--split" div>

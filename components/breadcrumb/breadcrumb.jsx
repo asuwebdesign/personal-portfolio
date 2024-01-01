@@ -32,7 +32,7 @@ export default function Breadcrumb() {
     <div className={`breadcrumb ${hideBreadcrumb}`}>
       <motion.div variants={motionLabel} initial="hidden" animate="visible" transition={{ ease: [0.860, 0.000, 0.070, 1], duration: 0.2, delay: 0.1 }}>
 
-        {pathname === '/' && <><strong>Mark Riggan</strong> <span>Designer &amp; Developer</span></>}
+        {pathname === '/' && <><strong>Mark Riggan</strong> <span>Unicorn Designer &amp; Developer</span></>}
 
         {pathname === '/projects' && <>Projects</>}
         {pathname === '/projects/open-telco' && <><strong><Link href="/projects"><span>Projects</span></Link></strong> <span>Open Telco</span></>}

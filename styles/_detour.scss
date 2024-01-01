@@ -50,7 +50,7 @@
       width: 32px;
       height: 2px;
       margin: 16px auto 0;
-      background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+      background: linear-gradient(to right, var(--color-magenta-60), var(--color-purple-60));;
       border-radius: var(--border-radius);
       transition: width var(--animation-speed-complex) var(--animation-easing-decelerate);
     }

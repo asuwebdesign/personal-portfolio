@@ -10,7 +10,7 @@ html, body {
 
 body {
   font: var(--font-weight-regular) 19px/1.5 var(--font-family-base);
-  color: var(--color-carbon-900);
+  color: var(--color-cool-gray-100);
   background-color: var(--color-crystal-white);
   text-rendering: optimizeLegibility;
 }
@@ -25,7 +25,7 @@ main {
 }
 
 ::selection {
-  background-color: var(--color-electric-magenta);
+  background-color: var(--color-magenta-60);
   color: var(--color-crystal-white);
 }
 

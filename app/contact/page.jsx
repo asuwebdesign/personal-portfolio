@@ -11,7 +11,7 @@ export default function Page() {
     <>
       <main>
         <article>
-          <Sidekick meta="Contact" title="Let's create something together." section />
+          <Sidekick meta="Contact" title="Say hello. What's on your mind today?" section />
           <FormFollow />
         </article>
       </main>

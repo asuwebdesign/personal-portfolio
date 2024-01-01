@@ -3,9 +3,9 @@
   display: inline-block;
   width: auto;
   padding: 24px 64px 24px 32px;
-  background-color: var(--color-carbon-900);
+  background-color: var(--color-cool-gray-100);
   border-radius: 100px;
-  box-shadow: 0 0 0 0 var(--color-carbon-900);
+  box-shadow: 0 0 0 0 var(--color-cool-gray-100);
   color: var(--color-crystal-white);
   font-weight: var(--font-weight-semibold);
   font-size: 16px;
@@ -30,7 +30,7 @@
 
   &:hover,
   &:focus {
-    box-shadow: 0 0 0 2px var(--color-carbon-900);
+    box-shadow: 0 0 0 2px var(--color-cool-gray-100);
 
     svg {
       animation: animateArrow (calc(var(--animation-speed-complex) * 2)) var(--animation-easing-decelerate);

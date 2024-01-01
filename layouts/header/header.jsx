@@ -136,7 +136,7 @@ export default function Header(props) {
       </ul>
 
       <div className="actions">
-        <Button href="/contact" label="Get in Touch" />
+        <Button href="/contact" label="Say hello" />
       </div>
 
       <motion.div

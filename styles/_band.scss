@@ -5,6 +5,19 @@
     margin-top: 128px;
   }
 
+
+  // Themes
+  // ---------------------------------------------------------------------------
+  &--theme--carbon-900 {
+    padding: 32px 0;
+    background-color: var(--color-carbon-900);
+  
+    @include media('>=large') {
+      padding: 128px 0;
+    }
+  }
+
+
   // Numbered band
   // ---------------------------------------------------------------------------
   &--numbered {
@@ -30,11 +43,12 @@
         left: 0;
         display: flex;
         align-items: center;
-        color: var(--color-carbon-100);
+        color: var(--color-cool-gray-100);
         font-size: 128px;
         line-height: 1;
         font-weight: var(--font-weight-black);
         user-select: none;
+        opacity: .05;
         z-index: 0;
       }
     }
@@ -243,7 +257,7 @@
         width: 32px;
         height: 2px;
         margin: 16px 0 0;
-        background: linear-gradient(90deg, var(--color-electric-magenta), var(--color-electric-purple));
+        background: linear-gradient(to right, var(--color-magenta-60), var(--color-purple-60));;
         border-radius: var(--border-radius);
       }
     }

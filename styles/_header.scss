@@ -99,7 +99,9 @@
     width: 100vw;
     height: 100vh;
     padding: 0 32px;
-    background: var(--color-carbon-800);
+    // background: var(--color-carbon-800);
+    background-color: var(--color-cool-gray-90);
+    background: linear-gradient(to top right, var(--color-cool-gray-100), var(--color-cool-gray-90));
     overflow: hidden;
     z-index: 1000;
 
@@ -195,7 +197,7 @@
       }
 
       a:hover, a:focus {
-        color: var(--color-carbon-900);
+        color: var(--color-cool-gray-90);
         -webkit-text-stroke: 0.025em var(--color-crystal-white);
         text-stroke: 0.025em var(--color-crystal-white);
 
@@ -284,13 +286,13 @@
     .button {
       background-color: transparent;
       backdrop-filter: blur(64px);
-      border: 2px solid var(--color-carbon-900);
-      color: var(--color-carbon-900);
+      border: 2px solid var(--color-cool-gray-100);
+      color: var(--color-cool-gray-100);
     }
-    .button g { stroke: var(--color-carbon-900); }
+    .button g { stroke: var(--color-cool-gray-100); }
 
     .button:hover, .button:focus {
-      box-shadow: 0 0 0 2px var(--color-carbon-900);
+      box-shadow: 0 0 0 2px var(--color-cool-gray-100);
     }
   }
 

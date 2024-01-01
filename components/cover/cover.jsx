@@ -64,12 +64,12 @@ export default function Cover(props) {
           <span className="cover__title-client">{props.client}</span>
           <span className="cover__title-headline">{props.headline}</span>
         </h1>
-        <ul className="cover__services">
+        {/* <ul className="cover__services">
           <li><IconSolutionB /> Branding Strategy &amp; Identity</li>
           <li><IconSolutionC /> Creative &amp;<br /> Experience Design</li>
           <li><IconSolutionR /> Research, Data<br /> &amp; Analytics</li>
           <li><IconSolutionW /> Websites &amp;<br /> Digital Platforms</li>
-        </ul>
+        </ul> */}
       </div>
       <motion.div
         className="cover__dots"

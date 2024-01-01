@@ -80,7 +80,7 @@ export default function Page() {
               <Image src="/images/projects/atlantic-bt/atlantic-bt--wordmark.jpg" alt="" width={1920} height={1080} />
             </div>
           </Band>
-          <Band className="band--split" div>
+          <Band className="band--split band--theme--carbon-900" div>
             <Image src="/images/projects/atlantic-bt/atlantic-bt--logo-color.jpg" alt="" width={1920} height={1080} />
             <Image src="/images/projects/atlantic-bt/atlantic-bt--logo-white.jpg" alt="" width={1920} height={1080} />
           </Band>
