@@ -272,4 +272,33 @@
     }
 
   }
+
+
+  // Service Callout band
+  // ---------------------------------------------------------------------------
+  &--legal {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 32px;
+      background-color: var(--color-white);
+      border-radius: var(--border-radius);
+
+      @include media('>=large') {
+        padding: 64px;
+      }
+
+      h3 { margin: 0; }
+      p { margin: 0; }
+      ul { margin: 0; }
+    }
+  
+    + .band--legal {
+      @include media('>=large') {
+        margin-top: 64px;
+      }
+    }
+  }
+
 }
